@@ -89,13 +89,6 @@ static msg_t Thread1(void *arg) {
  */
 int main(void) {
 
-  /*
-   * System initializations.
-   * - HAL initialization, this also initializes the configured device drivers
-   *   and performs the board-specific initializations.
-   * - Kernel initialization, the main() function becomes a thread and the
-   *   RTOS is active.
-   */
   halInit();
   chSysInit();
   palSetPad(GPIOD, GPIOD_X_5V_EN);
@@ -117,8 +110,6 @@ int main(void) {
   serial_init();
 
   can_commInit();
-
-  //serial_init();
 
   /*
    * Creates the example thread.

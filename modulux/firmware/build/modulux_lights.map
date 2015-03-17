@@ -2492,7 +2492,7 @@ OUTPUT(build/modulux_lights.elf elf32-littlearm)
  .debug_ranges  0x000013e8       0xa8 build/obj/ds18b20.o
  .debug_ranges  0x00001490       0x30 build/obj/main.o
 
-.debug_line     0x00000000     0x641a
+.debug_line     0x00000000     0x6418
  .debug_line    0x00000000      0x176 build/obj/crt0.o
  .debug_line    0x00000176       0xee build/obj/vectors.o
  .debug_line    0x00000264      0x22e build/obj/chcore_v7m.o
@@ -2525,7 +2525,7 @@ OUTPUT(build/modulux_lights.elf elf32-littlearm)
  .debug_line    0x000056ae      0x189 build/obj/board.o
  .debug_line    0x00005837      0x32b build/obj/can_comm.o
  .debug_line    0x00005b62      0x4b8 build/obj/ds18b20.o
- .debug_line    0x0000601a      0x400 build/obj/main.o
+ .debug_line    0x0000601a      0x3fe build/obj/main.o
 
 .debug_str      0x00000000     0x2c42
  .debug_str     0x00000000      0x212 build/obj/crt0.o
