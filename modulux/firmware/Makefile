@@ -68,7 +68,7 @@ endif
 PROJECT = modulux_lights
 
 # Imported source files and paths
-CHIBIOS = ../../../../Chibios
+CHIBIOS = ../../Chibios
 include os/board/board.mk
 include $(CHIBIOS)/os/hal/platforms/STM32F4xx/platform.mk
 include $(CHIBIOS)/os/hal/hal.mk

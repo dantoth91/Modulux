@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccUMVZpi.s 			page 1
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\cc1uHdGt.s 			page 1
 
 
    1              		.syntax unified
@@ -27,14 +27,14 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccUMVZpi.s 			page 1
   24              		.type	port_halt, %function
   25              	port_halt:
   26              	.LFB7:
-  27              		.file 1 "../../../../Chibios/os/ports/GCC/ARMCMx/chcore.c"
+  27              		.file 1 "../../Chibios/os/ports/GCC/ARMCMx/chcore.c"
   28              		.loc 1 46 0
   29              		.cfi_startproc
   30              		@ args = 0, pretend = 0, frame = 0
   31              		@ frame_needed = 0, uses_anonymous_args = 0
   32              		@ link register save eliminated.
   33              		.loc 1 48 0
-  34              	@ 48 "../../../../Chibios/os/ports/GCC/ARMCMx/chcore.c" 1
+  34              	@ 48 "../../Chibios/os/ports/GCC/ARMCMx/chcore.c" 1
   35 0000 72B6     		cpsid   i
   36              	@ 0 "" 2
   37              		.thumb
@@ -54,11 +54,11 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccUMVZpi.s 			page 1
   49 0006 00000000 		.4byte	.Ldebug_abbrev0
   50 000a 04       		.byte	0x4
   51 000b 01       		.uleb128 0x1
-  52 000c 1B000000 		.4byte	.LASF12
+  52 000c 46000000 		.4byte	.LASF12
   53 0010 01       		.byte	0x1
-  54 0011 64000000 		.4byte	.LASF13
-  55 0015 D1000000 		.4byte	.LASF14
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccUMVZpi.s 			page 2
+  54 0011 1B000000 		.4byte	.LASF13
+  55 0015 C6000000 		.4byte	.LASF14
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\cc1uHdGt.s 			page 2
 
 
   56 0019 00000000 		.4byte	.Ldebug_ranges0+0
@@ -76,27 +76,27 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccUMVZpi.s 			page 1
   68 0037 03       		.uleb128 0x3
   69 0038 01       		.byte	0x1
   70 0039 06       		.byte	0x6
-  71 003a 31010000 		.4byte	.LASF1
+  71 003a 1B010000 		.4byte	.LASF1
   72 003e 03       		.uleb128 0x3
   73 003f 01       		.byte	0x1
   74 0040 08       		.byte	0x8
-  75 0041 BE000000 		.4byte	.LASF2
+  75 0041 B8000000 		.4byte	.LASF2
   76 0045 03       		.uleb128 0x3
   77 0046 02       		.byte	0x2
   78 0047 05       		.byte	0x5
-  79 0048 47010000 		.4byte	.LASF3
+  79 0048 31010000 		.4byte	.LASF3
   80 004c 03       		.uleb128 0x3
   81 004d 02       		.byte	0x2
   82 004e 07       		.byte	0x7
-  83 004f 1E010000 		.4byte	.LASF4
+  83 004f 08010000 		.4byte	.LASF4
   84 0053 03       		.uleb128 0x3
   85 0054 04       		.byte	0x4
   86 0055 05       		.byte	0x5
-  87 0056 0F010000 		.4byte	.LASF5
+  87 0056 F9000000 		.4byte	.LASF5
   88 005a 03       		.uleb128 0x3
   89 005b 04       		.byte	0x4
   90 005c 07       		.byte	0x7
-  91 005d 95000000 		.4byte	.LASF6
+  91 005d 8F000000 		.4byte	.LASF6
   92 0061 03       		.uleb128 0x3
   93 0062 08       		.byte	0x8
   94 0063 05       		.byte	0x5
@@ -104,25 +104,25 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccUMVZpi.s 			page 1
   96 0068 03       		.uleb128 0x3
   97 0069 08       		.byte	0x8
   98 006a 07       		.byte	0x7
-  99 006b A7000000 		.4byte	.LASF8
+  99 006b A1000000 		.4byte	.LASF8
  100 006f 03       		.uleb128 0x3
  101 0070 01       		.byte	0x1
  102 0071 02       		.byte	0x2
- 103 0072 18010000 		.4byte	.LASF9
+ 103 0072 02010000 		.4byte	.LASF9
  104 0076 03       		.uleb128 0x3
  105 0077 04       		.byte	0x4
  106 0078 07       		.byte	0x7
- 107 0079 51010000 		.4byte	.LASF10
+ 107 0079 3B010000 		.4byte	.LASF10
  108 007d 03       		.uleb128 0x3
  109 007e 01       		.byte	0x1
  110 007f 08       		.byte	0x8
- 111 0080 CC000000 		.4byte	.LASF11
+ 111 0080 F4000000 		.4byte	.LASF11
  112 0084 04       		.uleb128 0x4
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccUMVZpi.s 			page 3
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\cc1uHdGt.s 			page 3
 
 
  113 0085 01       		.byte	0x1
- 114 0086 3D010000 		.4byte	.LASF15
+ 114 0086 27010000 		.4byte	.LASF15
  115 008a 01       		.byte	0x1
  116 008b 2E       		.byte	0x2e
  117 008c 01       		.byte	0x1
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccUMVZpi.s 			page 1
  167 0028 0E       		.uleb128 0xe
  168 0029 00       		.byte	0
  169 002a 00       		.byte	0
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccUMVZpi.s 			page 4
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\cc1uHdGt.s 			page 4
 
 
  170 002b 04       		.uleb128 0x4
@@ -225,8 +225,8 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccUMVZpi.s 			page 1
  211 000c 00000000 		.4byte	0
  212              		.section	.debug_line,"",%progbits
  213              	.Ldebug_line0:
- 214 0000 5D000000 		.section	.debug_str,"MS",%progbits,1
- 214      02004700 
+ 214 0000 57000000 		.section	.debug_str,"MS",%progbits,1
+ 214      02004100 
  214      00000201 
  214      FB0E0D00 
  214      01010101 
@@ -238,98 +238,95 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccUMVZpi.s 			page 1
  217              	.LASF0:
  218 000e 756E7369 		.ascii	"unsigned int\000"
  218      676E6564 
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccUMVZpi.s 			page 5
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\cc1uHdGt.s 			page 5
 
 
  218      20696E74 
  218      00
- 219              	.LASF12:
- 220 001b 474E5520 		.ascii	"GNU C 4.7.4 20140401 (release) [ARM/embedded-4_7-br"
- 220      4320342E 
- 220      372E3420 
- 220      32303134 
- 220      30343031 
- 221 004e 616E6368 		.ascii	"anch revision 209195]\000"
- 221      20726576 
- 221      6973696F 
- 221      6E203230 
- 221      39313935 
- 222              	.LASF13:
- 223 0064 2E2E2F2E 		.ascii	"../../../../Chibios/os/ports/GCC/ARMCMx/chcore.c\000"
- 223      2E2F2E2E 
- 223      2F2E2E2F 
- 223      43686962 
- 223      696F732F 
+ 219              	.LASF13:
+ 220 001b 2E2E2F2E 		.ascii	"../../Chibios/os/ports/GCC/ARMCMx/chcore.c\000"
+ 220      2E2F4368 
+ 220      6962696F 
+ 220      732F6F73 
+ 220      2F706F72 
+ 221              	.LASF12:
+ 222 0046 474E5520 		.ascii	"GNU C 4.7.4 20140401 (release) [ARM/embedded-4_7-br"
+ 222      4320342E 
+ 222      372E3420 
+ 222      32303134 
+ 222      30343031 
+ 223 0079 616E6368 		.ascii	"anch revision 209195]\000"
+ 223      20726576 
+ 223      6973696F 
+ 223      6E203230 
+ 223      39313935 
  224              	.LASF6:
- 225 0095 6C6F6E67 		.ascii	"long unsigned int\000"
+ 225 008f 6C6F6E67 		.ascii	"long unsigned int\000"
  225      20756E73 
  225      69676E65 
  225      6420696E 
  225      7400
  226              	.LASF8:
- 227 00a7 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 227 00a1 6C6F6E67 		.ascii	"long long unsigned int\000"
  227      206C6F6E 
  227      6720756E 
  227      7369676E 
  227      65642069 
  228              	.LASF2:
- 229 00be 756E7369 		.ascii	"unsigned char\000"
+ 229 00b8 756E7369 		.ascii	"unsigned char\000"
  229      676E6564 
  229      20636861 
  229      7200
- 230              	.LASF11:
- 231 00cc 63686172 		.ascii	"char\000"
- 231      00
- 232              	.LASF14:
- 233 00d1 433A5C43 		.ascii	"C:\\ChibiStudio\\workspace26\\Modulux_v0_Lights\\mo"
- 233      68696269 
- 233      53747564 
- 233      696F5C77 
- 233      6F726B73 
- 234 0100 64756C75 		.ascii	"dulux\\firmware\000"
- 234      785C6669 
- 234      726D7761 
- 234      726500
+ 230              	.LASF14:
+ 231 00c6 433A5C55 		.ascii	"C:\\Users\\Rich\341rd\\git\\Modulux\\modulux\\firmw"
+ 231      73657273 
+ 231      5C526963 
+ 231      68E17264 
+ 231      5C676974 
+ 232 00f0 61726500 		.ascii	"are\000"
+ 233              	.LASF11:
+ 234 00f4 63686172 		.ascii	"char\000"
+ 234      00
  235              	.LASF5:
- 236 010f 6C6F6E67 		.ascii	"long int\000"
+ 236 00f9 6C6F6E67 		.ascii	"long int\000"
  236      20696E74 
  236      00
  237              	.LASF9:
- 238 0118 5F426F6F 		.ascii	"_Bool\000"
+ 238 0102 5F426F6F 		.ascii	"_Bool\000"
  238      6C00
  239              	.LASF4:
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccUMVZpi.s 			page 6
-
-
- 240 011e 73686F72 		.ascii	"short unsigned int\000"
+ 240 0108 73686F72 		.ascii	"short unsigned int\000"
  240      7420756E 
  240      7369676E 
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\cc1uHdGt.s 			page 6
+
+
  240      65642069 
  240      6E7400
  241              	.LASF1:
- 242 0131 7369676E 		.ascii	"signed char\000"
+ 242 011b 7369676E 		.ascii	"signed char\000"
  242      65642063 
  242      68617200 
  243              	.LASF15:
- 244 013d 706F7274 		.ascii	"port_halt\000"
+ 244 0127 706F7274 		.ascii	"port_halt\000"
  244      5F68616C 
  244      7400
  245              	.LASF3:
- 246 0147 73686F72 		.ascii	"short int\000"
+ 246 0131 73686F72 		.ascii	"short int\000"
  246      7420696E 
  246      7400
  247              	.LASF10:
- 248 0151 73697A65 		.ascii	"sizetype\000"
+ 248 013b 73697A65 		.ascii	"sizetype\000"
  248      74797065 
  248      00
  249              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.7.4 20140401 (release) [ARM/embedded-4_7-br
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccUMVZpi.s 			page 7
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\cc1uHdGt.s 			page 7
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 chcore.c
-C:\Users\RICHRD~1\AppData\Local\Temp\ccUMVZpi.s:19     .text.port_halt:00000000 $t
-C:\Users\RICHRD~1\AppData\Local\Temp\ccUMVZpi.s:25     .text.port_halt:00000000 port_halt
+C:\Users\RICHRD~1\AppData\Local\Temp\cc1uHdGt.s:19     .text.port_halt:00000000 $t
+C:\Users\RICHRD~1\AppData\Local\Temp\cc1uHdGt.s:25     .text.port_halt:00000000 port_halt
                      .debug_frame:00000010 $d
 
 NO UNDEFINED SYMBOLS

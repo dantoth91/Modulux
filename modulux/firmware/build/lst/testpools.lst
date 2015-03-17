@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccCxLUFy.s 			page 1
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccrr2blr.s 			page 1
 
 
    1              		.syntax unified
@@ -26,7 +26,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccCxLUFy.s 			page 1
   23              		.type	null_provider, %function
   24              	null_provider:
   25              	.LFB7:
-  26              		.file 1 "../../../../Chibios/test/testpools.c"
+  26              		.file 1 "../../Chibios/test/testpools.c"
   27              		.loc 1 60 0
   28              		.cfi_startproc
   29              		@ args = 0, pretend = 0, frame = 0
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccCxLUFy.s 			page 1
   53              		.loc 1 68 0
   54 0000 40F20000 		movw	r0, #:lower16:.LANCHOR0
   55 0004 C0F20000 		movt	r0, #:upper16:.LANCHOR0
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccCxLUFy.s 			page 2
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccrr2blr.s 			page 2
 
 
   56 0008 4FF4A871 		mov	r1, #336
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccCxLUFy.s 			page 1
  107              	.LVL7:
  108 002e 011C     		adds	r1, r0, #0
  109 0030 18BF     		it	ne
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccCxLUFy.s 			page 3
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccrr2blr.s 			page 3
 
 
  110 0032 0121     		movne	r1, #1
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccCxLUFy.s 			page 1
  164 0096 51D1     		bne	.L3
  165              	.LBB4:
  166              	.LBB5:
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccCxLUFy.s 			page 4
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccrr2blr.s 			page 4
 
 
  167              		.loc 1 86 0
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccCxLUFy.s 			page 1
  221 00fc F0B9     		cbnz	r0, .L3
  222              	.LVL34:
  223 00fe 1948     		ldr	r0, .L9+4
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccCxLUFy.s 			page 5
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccrr2blr.s 			page 5
 
 
  224 0100 FFF7FEFF 		bl	chPoolAlloc
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccCxLUFy.s 			page 1
  278 0158 BDE83840 		pop	{r3, r4, r5, lr}
  279              	.LBB7:
  280              	.LBB6:
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccCxLUFy.s 			page 6
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccrr2blr.s 			page 6
 
 
  281              		.loc 1 97 0
@@ -353,12 +353,12 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccCxLUFy.s 			page 1
  326              		.text
  327              	.Letext0:
  328              		.file 2 "c:\\chibistudio\\tools\\gnu tools arm embedded\\4.7 2014q2\\bin\\../lib/gcc/arm-none-eabi
- 329              		.file 3 "../../../../Chibios/os/ports/GCC/ARMCMx/chtypes.h"
- 330              		.file 4 "../../../../Chibios/os/kernel/include/chmemcore.h"
- 331              		.file 5 "../../../../Chibios/os/kernel/include/chmempools.h"
- 332              		.file 6 "../../../../Chibios/test/test.h"
+ 329              		.file 3 "../../Chibios/os/ports/GCC/ARMCMx/chtypes.h"
+ 330              		.file 4 "../../Chibios/os/kernel/include/chmemcore.h"
+ 331              		.file 5 "../../Chibios/os/kernel/include/chmempools.h"
+ 332              		.file 6 "../../Chibios/test/test.h"
  333              		.section	.debug_info,"",%progbits
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccCxLUFy.s 			page 7
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccrr2blr.s 			page 7
 
 
  334              	.Ldebug_info0:
@@ -367,10 +367,10 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccCxLUFy.s 			page 1
  337 0006 00000000 		.4byte	.Ldebug_abbrev0
  338 000a 04       		.byte	0x4
  339 000b 01       		.uleb128 0x1
- 340 000c BA000000 		.4byte	.LASF32
+ 340 000c CC000000 		.4byte	.LASF32
  341 0010 01       		.byte	0x1
- 342 0011 16020000 		.4byte	.LASF33
- 343 0015 03010000 		.4byte	.LASF34
+ 342 0011 07000000 		.4byte	.LASF33
+ 343 0015 15010000 		.4byte	.LASF34
  344 0019 30000000 		.4byte	.Ldebug_ranges0+0x30
  345 001d 00000000 		.4byte	0
  346 0021 00000000 		.4byte	0
@@ -387,59 +387,59 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccCxLUFy.s 			page 1
  357 003b 04       		.uleb128 0x4
  358 003c 04       		.byte	0x4
  359 003d 07       		.byte	0x7
- 360 003e 70010000 		.4byte	.LASF0
+ 360 003e 72010000 		.4byte	.LASF0
  361 0042 04       		.uleb128 0x4
  362 0043 01       		.byte	0x1
  363 0044 06       		.byte	0x6
- 364 0045 02020000 		.4byte	.LASF1
+ 364 0045 04020000 		.4byte	.LASF1
  365 0049 04       		.uleb128 0x4
  366 004a 01       		.byte	0x1
  367 004b 08       		.byte	0x8
- 368 004c 62010000 		.4byte	.LASF2
+ 368 004c 64010000 		.4byte	.LASF2
  369 0050 04       		.uleb128 0x4
  370 0051 02       		.byte	0x2
  371 0052 05       		.byte	0x5
- 372 0053 DE010000 		.4byte	.LASF3
+ 372 0053 E0010000 		.4byte	.LASF3
  373 0057 04       		.uleb128 0x4
  374 0058 02       		.byte	0x2
  375 0059 07       		.byte	0x7
- 376 005a 99000000 		.4byte	.LASF4
+ 376 005a AB000000 		.4byte	.LASF4
  377 005e 04       		.uleb128 0x4
  378 005f 04       		.byte	0x4
  379 0060 05       		.byte	0x5
- 380 0061 F4010000 		.4byte	.LASF5
+ 380 0061 F6010000 		.4byte	.LASF5
  381 0065 04       		.uleb128 0x4
  382 0066 04       		.byte	0x4
  383 0067 07       		.byte	0x7
- 384 0068 7E000000 		.4byte	.LASF6
+ 384 0068 90000000 		.4byte	.LASF6
  385 006c 04       		.uleb128 0x4
  386 006d 08       		.byte	0x8
  387 006e 05       		.byte	0x5
- 388 006f B2010000 		.4byte	.LASF7
+ 388 006f B4010000 		.4byte	.LASF7
  389 0073 04       		.uleb128 0x4
  390 0074 08       		.byte	0x8
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccCxLUFy.s 			page 8
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccrr2blr.s 			page 8
 
 
  391 0075 07       		.byte	0x7
- 392 0076 7D010000 		.4byte	.LASF8
+ 392 0076 7F010000 		.4byte	.LASF8
  393 007a 03       		.uleb128 0x3
- 394 007b 3E000000 		.4byte	.LASF10
+ 394 007b 50000000 		.4byte	.LASF10
  395 007f 03       		.byte	0x3
  396 0080 2B       		.byte	0x2b
  397 0081 85000000 		.4byte	0x85
  398 0085 04       		.uleb128 0x4
  399 0086 01       		.byte	0x1
  400 0087 02       		.byte	0x2
- 401 0088 3B020000 		.4byte	.LASF11
+ 401 0088 25020000 		.4byte	.LASF11
  402 008c 05       		.uleb128 0x5
  403 008d 04       		.byte	0x4
  404 008e 04       		.uleb128 0x4
  405 008f 04       		.byte	0x4
  406 0090 07       		.byte	0x7
- 407 0091 A9010000 		.4byte	.LASF12
+ 407 0091 AB010000 		.4byte	.LASF12
  408 0095 03       		.uleb128 0x3
- 409 0096 C5010000 		.4byte	.LASF13
+ 409 0096 C7010000 		.4byte	.LASF13
  410 009a 04       		.byte	0x4
  411 009b 2C       		.byte	0x2c
  412 009c A0000000 		.4byte	0xa0
@@ -454,13 +454,13 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccCxLUFy.s 			page 1
  421 00b1 30000000 		.4byte	0x30
  422 00b5 00       		.byte	0
  423 00b6 09       		.uleb128 0x9
- 424 00b7 4E000000 		.4byte	.LASF20
+ 424 00b7 60000000 		.4byte	.LASF20
  425 00bb 04       		.byte	0x4
  426 00bc 05       		.byte	0x5
  427 00bd 2C       		.byte	0x2c
  428 00be D1000000 		.4byte	0xd1
  429 00c2 0A       		.uleb128 0xa
- 430 00c3 94010000 		.4byte	.LASF14
+ 430 00c3 96010000 		.4byte	.LASF14
  431 00c7 05       		.byte	0x5
  432 00c8 2D       		.byte	0x2d
  433 00c9 D1000000 		.4byte	0xd1
@@ -477,8 +477,8 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccCxLUFy.s 			page 1
  444 00da 34       		.byte	0x34
  445 00db 0A010000 		.4byte	0x10a
  446 00df 0A       		.uleb128 0xa
- 447 00e0 0E020000 		.4byte	.LASF15
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccCxLUFy.s 			page 9
+ 447 00e0 10020000 		.4byte	.LASF15
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccrr2blr.s 			page 9
 
 
  448 00e4 05       		.byte	0x5
@@ -488,7 +488,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccCxLUFy.s 			page 1
  452 00eb 23       		.byte	0x23
  453 00ec 00       		.uleb128 0
  454 00ed 0A       		.uleb128 0xa
- 455 00ee 1A000000 		.4byte	.LASF16
+ 455 00ee 2C000000 		.4byte	.LASF16
  456 00f2 05       		.byte	0x5
  457 00f3 36       		.byte	0x36
  458 00f4 30000000 		.4byte	0x30
@@ -496,7 +496,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccCxLUFy.s 			page 1
  460 00f9 23       		.byte	0x23
  461 00fa 04       		.uleb128 0x4
  462 00fb 0A       		.uleb128 0xa
- 463 00fc D2010000 		.4byte	.LASF17
+ 463 00fc D4010000 		.4byte	.LASF17
  464 0100 05       		.byte	0x5
  465 0101 38       		.byte	0x38
  466 0102 95000000 		.4byte	0x95
@@ -505,7 +505,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccCxLUFy.s 			page 1
  469 0108 08       		.uleb128 0x8
  470 0109 00       		.byte	0
  471 010a 03       		.uleb128 0x3
- 472 010b 4C010000 		.4byte	.LASF18
+ 472 010b 4E010000 		.4byte	.LASF18
  473 010f 05       		.byte	0x5
  474 0110 3A       		.byte	0x3a
  475 0111 D7000000 		.4byte	0xd7
@@ -517,15 +517,15 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccCxLUFy.s 			page 1
  481 0120 04       		.uleb128 0x4
  482 0121 01       		.byte	0x1
  483 0122 08       		.byte	0x8
- 484 0123 FD010000 		.4byte	.LASF19
+ 484 0123 FF010000 		.4byte	.LASF19
  485 0127 09       		.uleb128 0x9
- 486 0128 45000000 		.4byte	.LASF21
+ 486 0128 57000000 		.4byte	.LASF21
  487 012c 10       		.byte	0x10
  488 012d 06       		.byte	0x6
  489 012e 3B       		.byte	0x3b
  490 012f 6C010000 		.4byte	0x16c
  491 0133 0A       		.uleb128 0xa
- 492 0134 C0010000 		.4byte	.LASF22
+ 492 0134 C2010000 		.4byte	.LASF22
  493 0138 06       		.byte	0x6
  494 0139 3C       		.byte	0x3c
  495 013a 15010000 		.4byte	0x115
@@ -533,18 +533,18 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccCxLUFy.s 			page 1
  497 013f 23       		.byte	0x23
  498 0140 00       		.uleb128 0
  499 0141 0A       		.uleb128 0xa
- 500 0142 14000000 		.4byte	.LASF23
+ 500 0142 26000000 		.4byte	.LASF23
  501 0146 06       		.byte	0x6
  502 0147 3D       		.byte	0x3d
  503 0148 6E010000 		.4byte	0x16e
  504 014c 02       		.byte	0x2
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccCxLUFy.s 			page 10
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccrr2blr.s 			page 10
 
 
  505 014d 23       		.byte	0x23
  506 014e 04       		.uleb128 0x4
  507 014f 0A       		.uleb128 0xa
- 508 0150 90000000 		.4byte	.LASF24
+ 508 0150 A2000000 		.4byte	.LASF24
  509 0154 06       		.byte	0x6
  510 0155 3E       		.byte	0x3e
  511 0156 6E010000 		.4byte	0x16e
@@ -552,7 +552,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccCxLUFy.s 			page 1
  513 015b 23       		.byte	0x23
  514 015c 08       		.uleb128 0x8
  515 015d 0A       		.uleb128 0xa
- 516 015e 36000000 		.4byte	.LASF25
+ 516 015e 48000000 		.4byte	.LASF25
  517 0162 06       		.byte	0x6
  518 0163 3F       		.byte	0x3f
  519 0164 6E010000 		.4byte	0x16e
@@ -566,7 +566,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccCxLUFy.s 			page 1
  527 016f 04       		.byte	0x4
  528 0170 6C010000 		.4byte	0x16c
  529 0174 0E       		.uleb128 0xe
- 530 0175 5A000000 		.4byte	.LASF35
+ 530 0175 6C000000 		.4byte	.LASF35
  531 0179 01       		.byte	0x1
  532 017a 47       		.byte	0x47
  533 017b 01       		.byte	0x1
@@ -579,7 +579,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccCxLUFy.s 			page 1
  540 0186 29000000 		.4byte	0x29
  541 018a 00       		.byte	0
  542 018b 10       		.uleb128 0x10
- 543 018c AC000000 		.4byte	.LASF36
+ 543 018c BE000000 		.4byte	.LASF36
  544 0190 01       		.byte	0x1
  545 0191 3C       		.byte	0x3c
  546 0192 01       		.byte	0x1
@@ -592,17 +592,17 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccCxLUFy.s 			page 1
  553 01a2 01       		.byte	0x1
  554 01a3 B7010000 		.4byte	0x1b7
  555 01a7 11       		.uleb128 0x11
- 556 01a8 79000000 		.4byte	.LASF37
+ 556 01a8 8B000000 		.4byte	.LASF37
  557 01ac 01       		.byte	0x1
  558 01ad 3C       		.byte	0x3c
  559 01ae 30000000 		.4byte	0x30
  560 01b2 00000000 		.4byte	.LLST0
  561 01b6 00       		.byte	0
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccCxLUFy.s 			page 11
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccrr2blr.s 			page 11
 
 
  562 01b7 12       		.uleb128 0x12
- 563 01b8 07000000 		.4byte	.LASF38
+ 563 01b8 3B000000 		.4byte	.LASF38
  564 01bc 01       		.byte	0x1
  565 01bd 42       		.byte	0x42
  566 01be 01       		.byte	0x1
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccCxLUFy.s 			page 1
  616 0227 16       		.uleb128 0x16
  617 0228 81010000 		.4byte	0x181
  618 022c 9D000000 		.4byte	.LLST3
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccCxLUFy.s 			page 12
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccrr2blr.s 			page 12
 
 
  619 0230 19       		.uleb128 0x19
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccCxLUFy.s 			page 1
  673 028a B8000000 		.4byte	.LVL24
  674 028e BF050000 		.4byte	0x5bf
  675 0292 A7020000 		.4byte	0x2a7
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccCxLUFy.s 			page 13
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccrr2blr.s 			page 13
 
 
  676 0296 14       		.uleb128 0x14
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccCxLUFy.s 			page 1
  730 02f0 DC000000 		.4byte	.LVL29
  731 02f4 D8050000 		.4byte	0x5d8
  732 02f8 06030000 		.4byte	0x306
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccCxLUFy.s 			page 14
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccrr2blr.s 			page 14
 
 
  733 02fc 14       		.uleb128 0x14
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccCxLUFy.s 			page 1
  787 0368 01       		.byte	0x1
  788 0369 50       		.byte	0x50
  789 036a 01       		.byte	0x1
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccCxLUFy.s 			page 15
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccrr2blr.s 			page 15
 
 
  790 036b 33       		.byte	0x33
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccCxLUFy.s 			page 1
  844 03d7 14       		.uleb128 0x14
  845 03d8 01       		.byte	0x1
  846 03d9 51       		.byte	0x51
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccCxLUFy.s 			page 16
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccrr2blr.s 			page 16
 
 
  847 03da 01       		.byte	0x1
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccCxLUFy.s 			page 1
  901 0431 19       		.uleb128 0x19
  902 0432 16000000 		.4byte	.LVL4
  903 0436 D8050000 		.4byte	0x5d8
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccCxLUFy.s 			page 17
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccrr2blr.s 			page 17
 
 
  904 043a 48040000 		.4byte	0x448
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccCxLUFy.s 			page 1
  958 04a9 14       		.uleb128 0x14
  959 04aa 01       		.byte	0x1
  960 04ab 50       		.byte	0x50
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccCxLUFy.s 			page 18
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccrr2blr.s 			page 18
 
 
  961 04ac 01       		.byte	0x1
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccCxLUFy.s 			page 1
  1015 0515 00000000 		.4byte	.LANCHOR0
  1016 0519 00       		.byte	0
  1017 051a 1A       		.uleb128 0x1a
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccCxLUFy.s 			page 19
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccrr2blr.s 			page 19
 
 
  1018 051b 94000000 		.4byte	.LVL20
@@ -1113,7 +1113,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccCxLUFy.s 			page 1
  1047 0552 0C       		.uleb128 0xc
  1048 0553 3B050000 		.4byte	0x53b
  1049 0557 1F       		.uleb128 0x1f
- 1050 0558 57010000 		.4byte	.LASF26
+ 1050 0558 59010000 		.4byte	.LASF26
  1051 055c 01       		.byte	0x1
  1052 055d 64       		.byte	0x64
  1053 055e 69050000 		.4byte	0x569
@@ -1134,11 +1134,11 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccCxLUFy.s 			page 1
  1068 057f 04       		.byte	0x4
  1069 0580 69050000 		.4byte	0x569
  1070 0584 1F       		.uleb128 0x1f
- 1071 0585 29000000 		.4byte	.LASF27
+ 1071 0585 18020000 		.4byte	.LASF27
  1072 0589 01       		.byte	0x1
  1073 058a 70       		.byte	0x70
  1074 058b 96050000 		.4byte	0x596
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccCxLUFy.s 			page 20
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccrr2blr.s 			page 20
 
 
  1075 058f 01       		.byte	0x1
@@ -1149,7 +1149,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccCxLUFy.s 			page 1
  1080 0597 6E050000 		.4byte	0x56e
  1081 059b 21       		.uleb128 0x21
  1082 059c 01       		.byte	0x1
- 1083 059d 41020000 		.4byte	.LASF28
+ 1083 059d 2B020000 		.4byte	.LASF28
  1084 05a1 05       		.byte	0x5
  1085 05a2 7F       		.byte	0x7f
  1086 05a3 01       		.byte	0x1
@@ -1167,7 +1167,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccCxLUFy.s 			page 1
  1098 05bb 0A010000 		.4byte	0x10a
  1099 05bf 21       		.uleb128 0x21
  1100 05c0 01       		.byte	0x1
- 1101 05c1 41010000 		.4byte	.LASF29
+ 1101 05c1 43010000 		.4byte	.LASF29
  1102 05c5 05       		.byte	0x5
  1103 05c6 84       		.byte	0x84
  1104 05c7 01       		.byte	0x1
@@ -1180,7 +1180,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccCxLUFy.s 			page 1
  1111 05d7 00       		.byte	0
  1112 05d8 22       		.uleb128 0x22
  1113 05d9 01       		.byte	0x1
- 1114 05da E8010000 		.4byte	.LASF30
+ 1114 05da EA010000 		.4byte	.LASF30
  1115 05de 05       		.byte	0x5
  1116 05df 82       		.byte	0x82
  1117 05e0 01       		.byte	0x1
@@ -1192,13 +1192,13 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccCxLUFy.s 			page 1
  1123 05ef 00       		.byte	0
  1124 05f0 22       		.uleb128 0x22
  1125 05f1 01       		.byte	0x1
- 1126 05f2 9C010000 		.4byte	.LASF31
+ 1126 05f2 9E010000 		.4byte	.LASF31
  1127 05f6 06       		.byte	0x6
  1128 05f7 58       		.byte	0x58
  1129 05f8 01       		.byte	0x1
  1130 05f9 7A000000 		.4byte	0x7a
  1131 05fd 01       		.byte	0x1
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccCxLUFy.s 			page 21
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccrr2blr.s 			page 21
 
 
  1132 05fe 0D060000 		.4byte	0x60d
@@ -1209,7 +1209,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccCxLUFy.s 			page 1
  1137 060c 00       		.byte	0
  1138 060d 23       		.uleb128 0x23
  1139 060e 01       		.byte	0x1
- 1140 060f 69000000 		.4byte	.LASF39
+ 1140 060f 7B000000 		.4byte	.LASF39
  1141 0613 05       		.byte	0x5
  1142 0614 80       		.byte	0x80
  1143 0615 01       		.byte	0x1
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccCxLUFy.s 			page 1
  1186 001f 00       		.byte	0
  1187 0020 03       		.uleb128 0x3
  1188 0021 16       		.uleb128 0x16
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccCxLUFy.s 			page 22
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccrr2blr.s 			page 22
 
 
  1189 0022 00       		.byte	0
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccCxLUFy.s 			page 1
  1243 0058 00       		.byte	0
  1244 0059 00       		.byte	0
  1245 005a 09       		.uleb128 0x9
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccCxLUFy.s 			page 23
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccrr2blr.s 			page 23
 
 
  1246 005b 13       		.uleb128 0x13
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccCxLUFy.s 			page 1
  1300 0091 00       		.byte	0
  1301 0092 00       		.byte	0
  1302 0093 0E       		.uleb128 0xe
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccCxLUFy.s 			page 24
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccrr2blr.s 			page 24
 
 
  1303 0094 2E       		.uleb128 0x2e
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccCxLUFy.s 			page 1
  1357 00cb 11       		.uleb128 0x11
  1358 00cc 05       		.uleb128 0x5
  1359 00cd 00       		.byte	0
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccCxLUFy.s 			page 25
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccrr2blr.s 			page 25
 
 
  1360 00ce 03       		.uleb128 0x3
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccCxLUFy.s 			page 1
  1414 010b 00       		.byte	0
  1415 010c 15       		.uleb128 0x15
  1416 010d 2E       		.uleb128 0x2e
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccCxLUFy.s 			page 26
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccrr2blr.s 			page 26
 
 
  1417 010e 01       		.byte	0x1
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccCxLUFy.s 			page 1
  1471 0147 13       		.uleb128 0x13
  1472 0148 01       		.uleb128 0x1
  1473 0149 13       		.uleb128 0x13
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccCxLUFy.s 			page 27
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccrr2blr.s 			page 27
 
 
  1474 014a 00       		.byte	0
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccCxLUFy.s 			page 1
  1528 0182 0C       		.uleb128 0xc
  1529 0183 00       		.byte	0
  1530 0184 00       		.byte	0
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccCxLUFy.s 			page 28
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccrr2blr.s 			page 28
 
 
  1531 0185 1F       		.uleb128 0x1f
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccCxLUFy.s 			page 1
  1585 01bb 3B       		.uleb128 0x3b
  1586 01bc 0B       		.uleb128 0xb
  1587 01bd 27       		.uleb128 0x27
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccCxLUFy.s 			page 29
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccrr2blr.s 			page 29
 
 
  1588 01be 0C       		.uleb128 0xc
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccCxLUFy.s 			page 1
  1642 0039 00000000 		.4byte	0
  1643 003d 00000000 		.4byte	0
  1644              	.LLST2:
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccCxLUFy.s 			page 30
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccrr2blr.s 			page 30
 
 
  1645 0041 10000000 		.4byte	.LVL3
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccCxLUFy.s 			page 1
  1699 00c5 C0000000 		.4byte	.LVL25
  1700 00c9 0200     		.2byte	0x2
  1701 00cb 34       		.byte	0x34
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccCxLUFy.s 			page 31
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccrr2blr.s 			page 31
 
 
  1702 00cc 9F       		.byte	0x9f
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccCxLUFy.s 			page 1
  1756              		.section	.debug_ranges,"",%progbits
  1757              	.Ldebug_ranges0:
  1758 0000 98000000 		.4byte	.LBB4
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccCxLUFy.s 			page 32
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccrr2blr.s 			page 32
 
 
  1759 0004 58010000 		.4byte	.LBE4
@@ -1882,225 +1882,222 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccCxLUFy.s 			page 1
  1777 004c 00000000 		.4byte	0
  1778              		.section	.debug_line,"",%progbits
  1779              	.Ldebug_line0:
- 1780 0000 75010000 		.section	.debug_str,"MS",%progbits,1
- 1780      02002D01 
+ 1780 0000 63010000 		.section	.debug_str,"MS",%progbits,1
+ 1780      02001B01 
  1780      00000201 
  1780      FB0E0D00 
  1780      01010101 
  1781              	.LASF9:
  1782 0000 73697A65 		.ascii	"size_t\000"
  1782      5F7400
- 1783              	.LASF38:
- 1784 0007 706F6F6C 		.ascii	"pools1_setup\000"
- 1784      73315F73 
- 1784      65747570 
- 1784      00
+ 1783              	.LASF33:
+ 1784 0007 2E2E2F2E 		.ascii	"../../Chibios/test/testpools.c\000"
+ 1784      2E2F4368 
+ 1784      6962696F 
+ 1784      732F7465 
+ 1784      73742F74 
  1785              	.LASF23:
- 1786 0014 73657475 		.ascii	"setup\000"
+ 1786 0026 73657475 		.ascii	"setup\000"
  1786      7000
  1787              	.LASF16:
- 1788 001a 6D705F6F 		.ascii	"mp_object_size\000"
+ 1788 002c 6D705F6F 		.ascii	"mp_object_size\000"
  1788      626A6563 
  1788      745F7369 
  1788      7A6500
- 1789              	.LASF27:
- 1790 0029 70617474 		.ascii	"patternpools\000"
- 1790      65726E70 
- 1790      6F6F6C73 
+ 1789              	.LASF38:
+ 1790 003b 706F6F6C 		.ascii	"pools1_setup\000"
+ 1790      73315F73 
+ 1790      65747570 
  1790      00
  1791              	.LASF25:
- 1792 0036 65786563 		.ascii	"execute\000"
+ 1792 0048 65786563 		.ascii	"execute\000"
  1792      75746500 
  1793              	.LASF10:
- 1794 003e 626F6F6C 		.ascii	"bool_t\000"
+ 1794 0050 626F6F6C 		.ascii	"bool_t\000"
  1794      5F7400
  1795              	.LASF21:
- 1796 0045 74657374 		.ascii	"testcase\000"
+ 1796 0057 74657374 		.ascii	"testcase\000"
  1796      63617365 
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccrr2blr.s 			page 33
+
+
  1796      00
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccCxLUFy.s 			page 33
-
-
  1797              	.LASF20:
- 1798 004e 706F6F6C 		.ascii	"pool_header\000"
+ 1798 0060 706F6F6C 		.ascii	"pool_header\000"
  1798      5F686561 
  1798      64657200 
  1799              	.LASF35:
- 1800 005a 706F6F6C 		.ascii	"pools1_execute\000"
+ 1800 006c 706F6F6C 		.ascii	"pools1_execute\000"
  1800      73315F65 
  1800      78656375 
  1800      746500
  1801              	.LASF39:
- 1802 0069 6368506F 		.ascii	"chPoolLoadArray\000"
+ 1802 007b 6368506F 		.ascii	"chPoolLoadArray\000"
  1802      6F6C4C6F 
  1802      61644172 
  1802      72617900 
  1803              	.LASF37:
- 1804 0079 73697A65 		.ascii	"size\000"
+ 1804 008b 73697A65 		.ascii	"size\000"
  1804      00
  1805              	.LASF6:
- 1806 007e 6C6F6E67 		.ascii	"long unsigned int\000"
+ 1806 0090 6C6F6E67 		.ascii	"long unsigned int\000"
  1806      20756E73 
  1806      69676E65 
  1806      6420696E 
  1806      7400
  1807              	.LASF24:
- 1808 0090 74656172 		.ascii	"teardown\000"
+ 1808 00a2 74656172 		.ascii	"teardown\000"
  1808      646F776E 
  1808      00
  1809              	.LASF4:
- 1810 0099 73686F72 		.ascii	"short unsigned int\000"
+ 1810 00ab 73686F72 		.ascii	"short unsigned int\000"
  1810      7420756E 
  1810      7369676E 
  1810      65642069 
  1810      6E7400
  1811              	.LASF36:
- 1812 00ac 6E756C6C 		.ascii	"null_provider\000"
+ 1812 00be 6E756C6C 		.ascii	"null_provider\000"
  1812      5F70726F 
  1812      76696465 
  1812      7200
  1813              	.LASF32:
- 1814 00ba 474E5520 		.ascii	"GNU C 4.7.4 20140401 (release) [ARM/embedded-4_7-br"
+ 1814 00cc 474E5520 		.ascii	"GNU C 4.7.4 20140401 (release) [ARM/embedded-4_7-br"
  1814      4320342E 
  1814      372E3420 
  1814      32303134 
  1814      30343031 
- 1815 00ed 616E6368 		.ascii	"anch revision 209195]\000"
+ 1815 00ff 616E6368 		.ascii	"anch revision 209195]\000"
  1815      20726576 
  1815      6973696F 
  1815      6E203230 
  1815      39313935 
  1816              	.LASF34:
- 1817 0103 433A5C43 		.ascii	"C:\\ChibiStudio\\workspace26\\Modulux_v0_Lights\\mo"
- 1817      68696269 
- 1817      53747564 
- 1817      696F5C77 
- 1817      6F726B73 
- 1818 0132 64756C75 		.ascii	"dulux\\firmware\000"
- 1818      785C6669 
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccCxLUFy.s 			page 34
+ 1817 0115 433A5C55 		.ascii	"C:\\Users\\Rich\341rd\\git\\Modulux\\modulux\\firmw"
+ 1817      73657273 
+ 1817      5C526963 
+ 1817      68E17264 
+ 1817      5C676974 
+ 1818 013f 61726500 		.ascii	"are\000"
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccrr2blr.s 			page 34
 
 
- 1818      726D7761 
- 1818      726500
  1819              	.LASF29:
- 1820 0141 6368506F 		.ascii	"chPoolFree\000"
+ 1820 0143 6368506F 		.ascii	"chPoolFree\000"
  1820      6F6C4672 
  1820      656500
  1821              	.LASF18:
- 1822 014c 4D656D6F 		.ascii	"MemoryPool\000"
+ 1822 014e 4D656D6F 		.ascii	"MemoryPool\000"
  1822      7279506F 
  1822      6F6C00
  1823              	.LASF26:
- 1824 0157 74657374 		.ascii	"testpools1\000"
+ 1824 0159 74657374 		.ascii	"testpools1\000"
  1824      706F6F6C 
  1824      733100
  1825              	.LASF2:
- 1826 0162 756E7369 		.ascii	"unsigned char\000"
+ 1826 0164 756E7369 		.ascii	"unsigned char\000"
  1826      676E6564 
  1826      20636861 
  1826      7200
  1827              	.LASF0:
- 1828 0170 756E7369 		.ascii	"unsigned int\000"
+ 1828 0172 756E7369 		.ascii	"unsigned int\000"
  1828      676E6564 
  1828      20696E74 
  1828      00
  1829              	.LASF8:
- 1830 017d 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 1830 017f 6C6F6E67 		.ascii	"long long unsigned int\000"
  1830      206C6F6E 
  1830      6720756E 
  1830      7369676E 
  1830      65642069 
  1831              	.LASF14:
- 1832 0194 70685F6E 		.ascii	"ph_next\000"
+ 1832 0196 70685F6E 		.ascii	"ph_next\000"
  1832      65787400 
  1833              	.LASF31:
- 1834 019c 5F746573 		.ascii	"_test_assert\000"
+ 1834 019e 5F746573 		.ascii	"_test_assert\000"
  1834      745F6173 
  1834      73657274 
  1834      00
  1835              	.LASF12:
- 1836 01a9 73697A65 		.ascii	"sizetype\000"
+ 1836 01ab 73697A65 		.ascii	"sizetype\000"
  1836      74797065 
  1836      00
  1837              	.LASF7:
- 1838 01b2 6C6F6E67 		.ascii	"long long int\000"
+ 1838 01b4 6C6F6E67 		.ascii	"long long int\000"
  1838      206C6F6E 
  1838      6720696E 
  1838      7400
  1839              	.LASF22:
- 1840 01c0 6E616D65 		.ascii	"name\000"
+ 1840 01c2 6E616D65 		.ascii	"name\000"
  1840      00
  1841              	.LASF13:
- 1842 01c5 6D656D67 		.ascii	"memgetfunc_t\000"
+ 1842 01c7 6D656D67 		.ascii	"memgetfunc_t\000"
  1842      65746675 
  1842      6E635F74 
  1842      00
  1843              	.LASF17:
- 1844 01d2 6D705F70 		.ascii	"mp_provider\000"
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccCxLUFy.s 			page 35
-
-
+ 1844 01d4 6D705F70 		.ascii	"mp_provider\000"
  1844      726F7669 
  1844      64657200 
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccrr2blr.s 			page 35
+
+
  1845              	.LASF3:
- 1846 01de 73686F72 		.ascii	"short int\000"
+ 1846 01e0 73686F72 		.ascii	"short int\000"
  1846      7420696E 
  1846      7400
  1847              	.LASF30:
- 1848 01e8 6368506F 		.ascii	"chPoolAlloc\000"
+ 1848 01ea 6368506F 		.ascii	"chPoolAlloc\000"
  1848      6F6C416C 
  1848      6C6F6300 
  1849              	.LASF5:
- 1850 01f4 6C6F6E67 		.ascii	"long int\000"
+ 1850 01f6 6C6F6E67 		.ascii	"long int\000"
  1850      20696E74 
  1850      00
  1851              	.LASF19:
- 1852 01fd 63686172 		.ascii	"char\000"
+ 1852 01ff 63686172 		.ascii	"char\000"
  1852      00
  1853              	.LASF1:
- 1854 0202 7369676E 		.ascii	"signed char\000"
+ 1854 0204 7369676E 		.ascii	"signed char\000"
  1854      65642063 
  1854      68617200 
  1855              	.LASF15:
- 1856 020e 6D705F6E 		.ascii	"mp_next\000"
+ 1856 0210 6D705F6E 		.ascii	"mp_next\000"
  1856      65787400 
- 1857              	.LASF33:
- 1858 0216 2E2E2F2E 		.ascii	"../../../../Chibios/test/testpools.c\000"
- 1858      2E2F2E2E 
- 1858      2F2E2E2F 
- 1858      43686962 
- 1858      696F732F 
+ 1857              	.LASF27:
+ 1858 0218 70617474 		.ascii	"patternpools\000"
+ 1858      65726E70 
+ 1858      6F6F6C73 
+ 1858      00
  1859              	.LASF11:
- 1860 023b 5F426F6F 		.ascii	"_Bool\000"
+ 1860 0225 5F426F6F 		.ascii	"_Bool\000"
  1860      6C00
  1861              	.LASF28:
- 1862 0241 6368506F 		.ascii	"chPoolInit\000"
+ 1862 022b 6368506F 		.ascii	"chPoolInit\000"
  1862      6F6C496E 
  1862      697400
  1863              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.7.4 20140401 (release) [ARM/embedded-4_7-br
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccCxLUFy.s 			page 36
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccrr2blr.s 			page 36
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 testpools.c
-C:\Users\RICHRD~1\AppData\Local\Temp\ccCxLUFy.s:19     .text.null_provider:00000000 $t
-C:\Users\RICHRD~1\AppData\Local\Temp\ccCxLUFy.s:24     .text.null_provider:00000000 null_provider
-C:\Users\RICHRD~1\AppData\Local\Temp\ccCxLUFy.s:41     .text.pools1_setup:00000000 $t
-C:\Users\RICHRD~1\AppData\Local\Temp\ccCxLUFy.s:46     .text.pools1_setup:00000000 pools1_setup
-C:\Users\RICHRD~1\AppData\Local\Temp\ccCxLUFy.s:310    .data.mp1:00000000 .LANCHOR0
-C:\Users\RICHRD~1\AppData\Local\Temp\ccCxLUFy.s:66     .text.pools1_execute:00000000 $t
-C:\Users\RICHRD~1\AppData\Local\Temp\ccCxLUFy.s:71     .text.pools1_execute:00000000 pools1_execute
-C:\Users\RICHRD~1\AppData\Local\Temp\ccCxLUFy.s:287    .text.pools1_execute:00000160 $d
-C:\Users\RICHRD~1\AppData\Local\Temp\ccCxLUFy.s:305    .rodata.patternpools:00000000 patternpools
-C:\Users\RICHRD~1\AppData\Local\Temp\ccCxLUFy.s:321    .rodata.testpools1:00000000 testpools1
-C:\Users\RICHRD~1\AppData\Local\Temp\ccCxLUFy.s:298    .rodata.str1.4:00000000 $d
-C:\Users\RICHRD~1\AppData\Local\Temp\ccCxLUFy.s:302    .rodata.patternpools:00000000 $d
-C:\Users\RICHRD~1\AppData\Local\Temp\ccCxLUFy.s:309    .data.mp1:00000000 $d
-C:\Users\RICHRD~1\AppData\Local\Temp\ccCxLUFy.s:313    .data.mp1:00000000 mp1
-C:\Users\RICHRD~1\AppData\Local\Temp\ccCxLUFy.s:318    .rodata.testpools1:00000000 $d
+C:\Users\RICHRD~1\AppData\Local\Temp\ccrr2blr.s:19     .text.null_provider:00000000 $t
+C:\Users\RICHRD~1\AppData\Local\Temp\ccrr2blr.s:24     .text.null_provider:00000000 null_provider
+C:\Users\RICHRD~1\AppData\Local\Temp\ccrr2blr.s:41     .text.pools1_setup:00000000 $t
+C:\Users\RICHRD~1\AppData\Local\Temp\ccrr2blr.s:46     .text.pools1_setup:00000000 pools1_setup
+C:\Users\RICHRD~1\AppData\Local\Temp\ccrr2blr.s:310    .data.mp1:00000000 .LANCHOR0
+C:\Users\RICHRD~1\AppData\Local\Temp\ccrr2blr.s:66     .text.pools1_execute:00000000 $t
+C:\Users\RICHRD~1\AppData\Local\Temp\ccrr2blr.s:71     .text.pools1_execute:00000000 pools1_execute
+C:\Users\RICHRD~1\AppData\Local\Temp\ccrr2blr.s:287    .text.pools1_execute:00000160 $d
+C:\Users\RICHRD~1\AppData\Local\Temp\ccrr2blr.s:305    .rodata.patternpools:00000000 patternpools
+C:\Users\RICHRD~1\AppData\Local\Temp\ccrr2blr.s:321    .rodata.testpools1:00000000 testpools1
+C:\Users\RICHRD~1\AppData\Local\Temp\ccrr2blr.s:298    .rodata.str1.4:00000000 $d
+C:\Users\RICHRD~1\AppData\Local\Temp\ccrr2blr.s:302    .rodata.patternpools:00000000 $d
+C:\Users\RICHRD~1\AppData\Local\Temp\ccrr2blr.s:309    .data.mp1:00000000 $d
+C:\Users\RICHRD~1\AppData\Local\Temp\ccrr2blr.s:313    .data.mp1:00000000 mp1
+C:\Users\RICHRD~1\AppData\Local\Temp\ccrr2blr.s:318    .rodata.testpools1:00000000 $d
                      .debug_frame:00000010 $d
-C:\Users\RICHRD~1\AppData\Local\Temp\ccCxLUFy.s:297    .text.pools1_execute:0000016c $t
+C:\Users\RICHRD~1\AppData\Local\Temp\ccrr2blr.s:297    .text.pools1_execute:0000016c $t
 
 UNDEFINED SYMBOLS
 chPoolInit

@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s 			page 1
 
 
    1              		.syntax unified
@@ -26,7 +26,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
   23              		.type	evt3_setup, %function
   24              	evt3_setup:
   25              	.LFB16:
-  26              		.file 1 "../../../../Chibios/test/testevt.c"
+  26              		.file 1 "../../Chibios/test/testevt.c"
   27              		.loc 1 249 0
   28              		.cfi_startproc
   29              		@ args = 0, pretend = 0, frame = 0
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
   54              		.loc 1 130 0
   55 0000 4FF0FF30 		mov	r0, #-1
   56              		.loc 1 131 0
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 2
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s 			page 2
 
 
   57              		.loc 1 130 0
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  109              		.loc 1 149 0
  110 0006 8BB0     		sub	sp, sp, #44
  111              	.LCFI1:
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 3
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s 			page 3
 
 
  112              		.cfi_def_cfa_offset 72
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  166              	.LVL14:
  167              		.loc 1 165 0
  168 0068 D0F10101 		rsbs	r1, r0, #1
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 4
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s 			page 4
 
 
  169 006c 38BF     		it	cc
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  223 00c2 B9F10102 		subs	r2, r9, #1
  224 00c6 5342     		rsbs	r3, r2, #0
  225 00c8 53EB0201 		adcs	r1, r3, r2
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 5
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s 			page 5
 
 
  226 00cc FFF7FEFF 		bl	_test_assert
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  280 0132 FFF7FEFF 		bl	test_wait_tick
  281              	.LVL37:
  282              		.loc 1 195 0
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 6
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s 			page 6
 
 
  283 0136 D8F81840 		ldr	r4, [r8, #24]
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  337 019c 0028     		cmp	r0, #0
  338 019e 7FF443AF 		bne	.L4
  339              		.loc 1 207 0
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 7
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s 			page 7
 
 
  340 01a2 DFF8D490 		ldr	r9, .L9+32
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  394 01fa 0028     		cmp	r0, #0
  395 01fc 7FF414AF 		bne	.L4
  396              		.loc 1 217 0
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 8
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s 			page 8
 
 
  397 0200 4FF0FF30 		mov	r0, #-1
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  451 0270 00000000 		.word	thread2
  452 0274 00000000 		.word	rlist
  453 0278 00000000 		.word	.LANCHOR0
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 9
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s 			page 9
 
 
  454              		.cfi_endproc
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  507              	.LFB13:
  508              		.loc 1 133 0
  509              		.cfi_startproc
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 10
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s 			page 10
 
 
  510              		@ args = 0, pretend = 0, frame = 0
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  562 000a 6946     		mov	r1, sp
  563              		.loc 1 91 0
  564 000c 2460     		str	r4, [r4, #0]
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 11
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s 			page 11
 
 
  565              		.loc 1 92 0
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  619 0064 0721     		movs	r1, #7
  620 0066 0548     		ldr	r0, .L17+4
  621 0068 FFF7FEFF 		bl	chEvtDispatch
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 12
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s 			page 12
 
 
  622              	.LVL84:
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  672              		@ link register save eliminated.
  673              	.LVL89:
  674              		.loc 1 81 0
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 13
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s 			page 13
 
 
  675 0000 4220     		movs	r0, #66
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  725              	.LVL95:
  726              		.loc 1 261 0
  727 000c D0F10101 		rsbs	r1, r0, #1
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 14
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s 			page 14
 
 
  728 0010 38BF     		it	cc
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  782              	.LVL106:
  783 006e 0028     		cmp	r0, #0
  784 0070 D4D1     		bne	.L22
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 15
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s 			page 15
 
 
  785              		.loc 1 268 0
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  838              		.section	.rodata.testevt2,"a",%progbits
  839              		.align	2
  840              		.type	testevt2, %object
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 16
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s 			page 16
 
 
  841              		.size	testevt2, 16
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  883              		.size	testevt3, 16
  884              	testevt3:
  885 0000 08000000 		.word	.LC2
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 17
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s 			page 17
 
 
  886 0004 00000000 		.word	evt3_setup
@@ -982,15 +982,15 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  904              	.Letext0:
  905              		.file 2 "c:\\chibistudio\\tools\\gnu tools arm embedded\\4.7 2014q2\\bin\\../lib/gcc/arm-none-eabi
  906              		.file 3 "c:\\chibistudio\\tools\\gnu tools arm embedded\\4.7 2014q2\\bin\\../lib/gcc/arm-none-eabi
- 907              		.file 4 "../../../../Chibios/os/ports/GCC/ARMCMx/chtypes.h"
- 908              		.file 5 "../../../../Chibios/os/kernel/include/chlists.h"
- 909              		.file 6 "../../../../Chibios/os/kernel/include/chthreads.h"
- 910              		.file 7 "../../../../Chibios/os/ports/GCC/ARMCMx/chcore_v7m.h"
- 911              		.file 8 "../../../../Chibios/os/kernel/include/chvt.h"
- 912              		.file 9 "../../../../Chibios/os/kernel/include/chschd.h"
- 913              		.file 10 "../../../../Chibios/os/kernel/include/chmtx.h"
- 914              		.file 11 "../../../../Chibios/os/kernel/include/chevents.h"
- 915              		.file 12 "../../../../Chibios/test/test.h"
+ 907              		.file 4 "../../Chibios/os/ports/GCC/ARMCMx/chtypes.h"
+ 908              		.file 5 "../../Chibios/os/kernel/include/chlists.h"
+ 909              		.file 6 "../../Chibios/os/kernel/include/chthreads.h"
+ 910              		.file 7 "../../Chibios/os/ports/GCC/ARMCMx/chcore_v7m.h"
+ 911              		.file 8 "../../Chibios/os/kernel/include/chvt.h"
+ 912              		.file 9 "../../Chibios/os/kernel/include/chschd.h"
+ 913              		.file 10 "../../Chibios/os/kernel/include/chmtx.h"
+ 914              		.file 11 "../../Chibios/os/kernel/include/chevents.h"
+ 915              		.file 12 "../../Chibios/test/test.h"
  916              		.section	.debug_info,"",%progbits
  917              	.Ldebug_info0:
  918 0000 A3110000 		.4byte	0x11a3
@@ -998,10 +998,10 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  920 0006 00000000 		.4byte	.Ldebug_abbrev0
  921 000a 04       		.byte	0x4
  922 000b 01       		.uleb128 0x1
- 923 000c B4020000 		.4byte	.LASF125
+ 923 000c D1020000 		.4byte	.LASF125
  924 0010 01       		.byte	0x1
- 925 0011 69040000 		.4byte	.LASF126
- 926 0015 C8040000 		.4byte	.LASF127
+ 925 0011 91010000 		.4byte	.LASF126
+ 926 0015 93050000 		.4byte	.LASF127
  927 0019 30000000 		.4byte	.Ldebug_ranges0+0x30
  928 001d 00000000 		.4byte	0
  929 0021 00000000 		.4byte	0
@@ -1018,33 +1018,33 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  940 003b 04       		.uleb128 0x4
  941 003c 04       		.byte	0x4
  942 003d 07       		.byte	0x7
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 18
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s 			page 18
 
 
- 943 003e 9D010000 		.4byte	.LASF0
+ 943 003e BA010000 		.4byte	.LASF0
  944 0042 04       		.uleb128 0x4
  945 0043 01       		.byte	0x1
  946 0044 06       		.byte	0x6
  947 0045 9F000000 		.4byte	.LASF1
  948 0049 03       		.uleb128 0x3
- 949 004a 54050000 		.4byte	.LASF3
+ 949 004a 10050000 		.4byte	.LASF3
  950 004e 03       		.byte	0x3
  951 004f 2A       		.byte	0x2a
  952 0050 54000000 		.4byte	0x54
  953 0054 04       		.uleb128 0x4
  954 0055 01       		.byte	0x1
  955 0056 08       		.byte	0x8
- 956 0057 98030000 		.4byte	.LASF4
+ 956 0057 B5030000 		.4byte	.LASF4
  957 005b 04       		.uleb128 0x4
  958 005c 02       		.byte	0x2
  959 005d 05       		.byte	0x5
- 960 005e DF030000 		.4byte	.LASF5
+ 960 005e FC030000 		.4byte	.LASF5
  961 0062 04       		.uleb128 0x4
  962 0063 02       		.byte	0x2
  963 0064 07       		.byte	0x7
- 964 0065 FC010000 		.4byte	.LASF6
+ 964 0065 19020000 		.4byte	.LASF6
  965 0069 03       		.uleb128 0x3
- 966 006a 90030000 		.4byte	.LASF7
+ 966 006a AD030000 		.4byte	.LASF7
  967 006e 03       		.byte	0x3
  968 006f 4F       		.byte	0x4f
  969 0070 74000000 		.4byte	0x74
@@ -1053,14 +1053,14 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  972 0076 05       		.byte	0x5
  973 0077 F0000000 		.4byte	.LASF8
  974 007b 03       		.uleb128 0x3
- 975 007c 4B040000 		.4byte	.LASF9
+ 975 007c 68040000 		.4byte	.LASF9
  976 0080 03       		.byte	0x3
  977 0081 50       		.byte	0x50
  978 0082 86000000 		.4byte	0x86
  979 0086 04       		.uleb128 0x4
  980 0087 04       		.byte	0x4
  981 0088 07       		.byte	0x7
- 982 0089 B2010000 		.4byte	.LASF10
+ 982 0089 CF010000 		.4byte	.LASF10
  983 008d 04       		.uleb128 0x4
  984 008e 08       		.byte	0x8
  985 008f 05       		.byte	0x5
@@ -1077,12 +1077,12 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  996 00a6 04       		.uleb128 0x4
  997 00a7 01       		.byte	0x1
  998 00a8 02       		.byte	0x2
- 999 00a9 8A030000 		.4byte	.LASF14
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 19
+ 999 00a9 A7030000 		.4byte	.LASF14
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s 			page 19
 
 
  1000 00ad 03       		.uleb128 0x3
- 1001 00ae 3F020000 		.4byte	.LASF15
+ 1001 00ae 5C020000 		.4byte	.LASF15
  1002 00b2 04       		.byte	0x4
  1003 00b3 2C       		.byte	0x2c
  1004 00b4 49000000 		.4byte	0x49
@@ -1092,7 +1092,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  1008 00be 2D       		.byte	0x2d
  1009 00bf 49000000 		.4byte	0x49
  1010 00c3 03       		.uleb128 0x3
- 1011 00c4 6B030000 		.4byte	.LASF17
+ 1011 00c4 88030000 		.4byte	.LASF17
  1012 00c8 04       		.byte	0x4
  1013 00c9 2E       		.byte	0x2e
  1014 00ca 49000000 		.4byte	0x49
@@ -1102,12 +1102,12 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  1018 00d4 2F       		.byte	0x2f
  1019 00d5 49000000 		.4byte	0x49
  1020 00d9 03       		.uleb128 0x3
- 1021 00da 82030000 		.4byte	.LASF19
+ 1021 00da 9F030000 		.4byte	.LASF19
  1022 00de 04       		.byte	0x4
  1023 00df 30       		.byte	0x30
  1024 00e0 7B000000 		.4byte	0x7b
  1025 00e4 03       		.uleb128 0x3
- 1026 00e5 21020000 		.4byte	.LASF20
+ 1026 00e5 3E020000 		.4byte	.LASF20
  1027 00e9 04       		.byte	0x4
  1028 00ea 31       		.byte	0x31
  1029 00eb 69000000 		.4byte	0x69
@@ -1117,28 +1117,28 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  1033 00f5 32       		.byte	0x32
  1034 00f6 69000000 		.4byte	0x69
  1035 00fa 03       		.uleb128 0x3
- 1036 00fb 53020000 		.4byte	.LASF22
+ 1036 00fb 70020000 		.4byte	.LASF22
  1037 00ff 04       		.byte	0x4
  1038 0100 33       		.byte	0x33
  1039 0101 7B000000 		.4byte	0x7b
  1040 0105 03       		.uleb128 0x3
- 1041 0106 26050000 		.4byte	.LASF23
+ 1041 0106 E2040000 		.4byte	.LASF23
  1042 010a 04       		.byte	0x4
  1043 010b 34       		.byte	0x34
  1044 010c 7B000000 		.4byte	0x7b
  1045 0110 03       		.uleb128 0x3
- 1046 0111 AA040000 		.4byte	.LASF24
+ 1046 0111 A4040000 		.4byte	.LASF24
  1047 0115 04       		.byte	0x4
  1048 0116 35       		.byte	0x35
  1049 0117 7B000000 		.4byte	0x7b
  1050 011b 03       		.uleb128 0x3
- 1051 011c 20040000 		.4byte	.LASF25
+ 1051 011c 3D040000 		.4byte	.LASF25
  1052 0120 05       		.byte	0x5
  1053 0121 2A       		.byte	0x2a
  1054 0122 26010000 		.4byte	0x126
  1055 0126 05       		.uleb128 0x5
- 1056 0127 20040000 		.4byte	.LASF25
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 20
+ 1056 0127 3D040000 		.4byte	.LASF25
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s 			page 20
 
 
  1057 012b 48       		.byte	0x48
@@ -1146,7 +1146,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  1059 012d 5E       		.byte	0x5e
  1060 012e 4B020000 		.4byte	0x24b
  1061 0132 06       		.uleb128 0x6
- 1062 0133 11040000 		.4byte	.LASF26
+ 1062 0133 2E040000 		.4byte	.LASF26
  1063 0137 06       		.byte	0x6
  1064 0138 5F       		.byte	0x5f
  1065 0139 70020000 		.4byte	0x270
@@ -1154,7 +1154,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  1067 013e 23       		.byte	0x23
  1068 013f 00       		.uleb128 0
  1069 0140 06       		.uleb128 0x6
- 1070 0141 73030000 		.4byte	.LASF27
+ 1070 0141 90030000 		.4byte	.LASF27
  1071 0145 06       		.byte	0x6
  1072 0146 61       		.byte	0x61
  1073 0147 70020000 		.4byte	0x270
@@ -1170,7 +1170,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  1083 015a 23       		.byte	0x23
  1084 015b 08       		.uleb128 0x8
  1085 015c 06       		.uleb128 0x6
- 1086 015d D7050000 		.4byte	.LASF29
+ 1086 015d C1050000 		.4byte	.LASF29
  1087 0161 06       		.byte	0x6
  1088 0162 64       		.byte	0x64
  1089 0163 3E030000 		.4byte	0x33e
@@ -1186,7 +1186,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  1099 0176 23       		.byte	0x23
  1100 0177 10       		.uleb128 0x10
  1101 0178 06       		.uleb128 0x6
- 1102 0179 FD020000 		.4byte	.LASF31
+ 1102 0179 1A030000 		.4byte	.LASF31
  1103 017d 06       		.byte	0x6
  1104 017e 67       		.byte	0x67
  1105 017f 70020000 		.4byte	0x270
@@ -1194,18 +1194,18 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  1107 0184 23       		.byte	0x23
  1108 0185 14       		.uleb128 0x14
  1109 0186 06       		.uleb128 0x6
- 1110 0187 85050000 		.4byte	.LASF32
+ 1110 0187 41050000 		.4byte	.LASF32
  1111 018b 06       		.byte	0x6
  1112 018c 6E       		.byte	0x6e
  1113 018d B8050000 		.4byte	0x5b8
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 21
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s 			page 21
 
 
  1114 0191 02       		.byte	0x2
  1115 0192 23       		.byte	0x23
  1116 0193 18       		.uleb128 0x18
  1117 0194 06       		.uleb128 0x6
- 1118 0195 E9030000 		.4byte	.LASF33
+ 1118 0195 06040000 		.4byte	.LASF33
  1119 0199 06       		.byte	0x6
  1120 019a 79       		.byte	0x79
  1121 019b B8000000 		.4byte	0xb8
@@ -1213,7 +1213,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  1123 01a0 23       		.byte	0x23
  1124 01a1 1C       		.uleb128 0x1c
  1125 01a2 06       		.uleb128 0x6
- 1126 01a3 18040000 		.4byte	.LASF34
+ 1126 01a3 35040000 		.4byte	.LASF34
  1127 01a7 06       		.byte	0x6
  1128 01a8 7D       		.byte	0x7d
  1129 01a9 AD000000 		.4byte	0xad
@@ -1221,7 +1221,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  1131 01ae 23       		.byte	0x23
  1132 01af 1D       		.uleb128 0x1d
  1133 01b0 06       		.uleb128 0x6
- 1134 01b1 3D050000 		.4byte	.LASF35
+ 1134 01b1 F9040000 		.4byte	.LASF35
  1135 01b5 06       		.byte	0x6
  1136 01b6 82       		.byte	0x82
  1137 01b7 C3000000 		.4byte	0xc3
@@ -1229,7 +1229,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  1139 01bc 23       		.byte	0x23
  1140 01bd 1E       		.uleb128 0x1e
  1141 01be 06       		.uleb128 0x6
- 1142 01bf F1030000 		.4byte	.LASF36
+ 1142 01bf 0E040000 		.4byte	.LASF36
  1143 01c3 06       		.byte	0x6
  1144 01c4 88       		.byte	0x88
  1145 01c5 CE000000 		.4byte	0xce
@@ -1237,7 +1237,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  1147 01ca 23       		.byte	0x23
  1148 01cb 1F       		.uleb128 0x1f
  1149 01cc 06       		.uleb128 0x6
- 1150 01cd 06050000 		.4byte	.LASF37
+ 1150 01cd C2040000 		.4byte	.LASF37
  1151 01d1 06       		.byte	0x6
  1152 01d2 8F       		.byte	0x8f
  1153 01d3 2A040000 		.4byte	0x42a
@@ -1253,18 +1253,18 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  1163 01e6 23       		.byte	0x23
  1164 01e7 24       		.uleb128 0x24
  1165 01e8 06       		.uleb128 0x6
- 1166 01e9 DD050000 		.4byte	.LASF38
+ 1166 01e9 C7050000 		.4byte	.LASF38
  1167 01ed 06       		.byte	0x6
  1168 01ee B9       		.byte	0xb9
  1169 01ef 98020000 		.4byte	0x298
  1170 01f3 02       		.byte	0x2
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 22
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s 			page 22
 
 
  1171 01f4 23       		.byte	0x23
  1172 01f5 28       		.uleb128 0x28
  1173 01f6 06       		.uleb128 0x6
- 1174 01f7 14050000 		.4byte	.LASF39
+ 1174 01f7 D0040000 		.4byte	.LASF39
  1175 01fb 06       		.byte	0x6
  1176 01fc BF       		.byte	0xbf
  1177 01fd 76020000 		.4byte	0x276
@@ -1280,7 +1280,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  1187 0210 23       		.byte	0x23
  1188 0211 34       		.uleb128 0x34
  1189 0212 06       		.uleb128 0x6
- 1190 0213 30040000 		.4byte	.LASF41
+ 1190 0213 4D040000 		.4byte	.LASF41
  1191 0217 06       		.byte	0x6
  1192 0218 C9       		.byte	0xc9
  1193 0219 FA000000 		.4byte	0xfa
@@ -1288,7 +1288,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  1195 021e 23       		.byte	0x23
  1196 021f 38       		.uleb128 0x38
  1197 0220 06       		.uleb128 0x6
- 1198 0221 D5030000 		.4byte	.LASF42
+ 1198 0221 F2030000 		.4byte	.LASF42
  1199 0225 06       		.byte	0x6
  1200 0226 D0       		.byte	0xd0
  1201 0227 CA050000 		.4byte	0x5ca
@@ -1296,7 +1296,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  1203 022c 23       		.byte	0x23
  1204 022d 3C       		.uleb128 0x3c
  1205 022e 06       		.uleb128 0x6
- 1206 022f B4040000 		.4byte	.LASF43
+ 1206 022f AE040000 		.4byte	.LASF43
  1207 0233 06       		.byte	0x6
  1208 0234 D4       		.byte	0xd4
  1209 0235 D9000000 		.4byte	0xd9
@@ -1318,10 +1318,10 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  1225 024e 61       		.byte	0x61
  1226 024f 70020000 		.4byte	0x270
  1227 0253 06       		.uleb128 0x6
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 23
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s 			page 23
 
 
- 1228 0254 11040000 		.4byte	.LASF26
+ 1228 0254 2E040000 		.4byte	.LASF26
  1229 0258 05       		.byte	0x5
  1230 0259 62       		.byte	0x62
  1231 025a 70020000 		.4byte	0x270
@@ -1329,7 +1329,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  1233 025f 23       		.byte	0x23
  1234 0260 00       		.uleb128 0
  1235 0261 06       		.uleb128 0x6
- 1236 0262 73030000 		.4byte	.LASF27
+ 1236 0262 90030000 		.4byte	.LASF27
  1237 0266 05       		.byte	0x5
  1238 0267 64       		.byte	0x64
  1239 0268 70020000 		.4byte	0x270
@@ -1341,7 +1341,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  1245 0271 04       		.byte	0x4
  1246 0272 1B010000 		.4byte	0x11b
  1247 0276 03       		.uleb128 0x3
- 1248 0277 1B030000 		.4byte	.LASF45
+ 1248 0277 38030000 		.4byte	.LASF45
  1249 027b 05       		.byte	0x5
  1250 027c 66       		.byte	0x66
  1251 027d 4B020000 		.4byte	0x24b
@@ -1351,7 +1351,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  1255 0284 6B       		.byte	0x6b
  1256 0285 98020000 		.4byte	0x298
  1257 0289 06       		.uleb128 0x6
- 1258 028a 11040000 		.4byte	.LASF26
+ 1258 028a 2E040000 		.4byte	.LASF26
  1259 028e 05       		.byte	0x5
  1260 028f 6D       		.byte	0x6d
  1261 0290 70020000 		.4byte	0x270
@@ -1360,7 +1360,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  1264 0296 00       		.uleb128 0
  1265 0297 00       		.byte	0
  1266 0298 03       		.uleb128 0x3
- 1267 0299 47020000 		.4byte	.LASF46
+ 1267 0299 64020000 		.4byte	.LASF46
  1268 029d 05       		.byte	0x5
  1269 029e 70       		.byte	0x70
  1270 029f 81020000 		.4byte	0x281
@@ -1372,13 +1372,13 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  1276 02ae 0A       		.uleb128 0xa
  1277 02af 04       		.byte	0x4
  1278 02b0 0B       		.uleb128 0xb
- 1279 02b1 0D050000 		.4byte	.LASF48
+ 1279 02b1 C9040000 		.4byte	.LASF48
  1280 02b5 24       		.byte	0x24
  1281 02b6 07       		.byte	0x7
  1282 02b7 0C01     		.2byte	0x10c
  1283 02b9 3E030000 		.4byte	0x33e
  1284 02bd 0C       		.uleb128 0xc
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 24
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s 			page 24
 
 
  1285 02be 723400   		.ascii	"r4\000"
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  1339 031f 18       		.uleb128 0x18
  1340 0320 0C       		.uleb128 0xc
  1341 0321 72313100 		.ascii	"r11\000"
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 25
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s 			page 25
 
 
  1342 0325 07       		.byte	0x7
@@ -1457,7 +1457,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  1355 033c 20       		.uleb128 0x20
  1356 033d 00       		.byte	0
  1357 033e 0B       		.uleb128 0xb
- 1358 033f F4010000 		.4byte	.LASF49
+ 1358 033f 11020000 		.4byte	.LASF49
  1359 0343 04       		.byte	0x4
  1360 0344 07       		.byte	0x7
  1361 0345 3101     		.2byte	0x131
@@ -1477,9 +1477,9 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  1375 0361 04       		.uleb128 0x4
  1376 0362 04       		.byte	0x4
  1377 0363 07       		.byte	0x7
- 1378 0364 8A020000 		.4byte	.LASF50
+ 1378 0364 A7020000 		.4byte	.LASF50
  1379 0368 03       		.uleb128 0x3
- 1380 0369 BF040000 		.4byte	.LASF51
+ 1380 0369 B9040000 		.4byte	.LASF51
  1381 036d 08       		.byte	0x8
  1382 036e 58       		.byte	0x58
  1383 036f 73030000 		.4byte	0x373
@@ -1493,21 +1493,21 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  1391 0380 AE020000 		.4byte	0x2ae
  1392 0384 00       		.byte	0
  1393 0385 03       		.uleb128 0x3
- 1394 0386 5C040000 		.4byte	.LASF52
+ 1394 0386 79040000 		.4byte	.LASF52
  1395 038a 08       		.byte	0x8
  1396 038b 5D       		.byte	0x5d
  1397 038c 90030000 		.4byte	0x390
  1398 0390 05       		.uleb128 0x5
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 26
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s 			page 26
 
 
- 1399 0391 5C040000 		.4byte	.LASF52
+ 1399 0391 79040000 		.4byte	.LASF52
  1400 0395 14       		.byte	0x14
  1401 0396 08       		.byte	0x8
  1402 0397 64       		.byte	0x64
  1403 0398 E3030000 		.4byte	0x3e3
  1404 039c 06       		.uleb128 0x6
- 1405 039d AA010000 		.4byte	.LASF53
+ 1405 039d C7010000 		.4byte	.LASF53
  1406 03a1 08       		.byte	0x8
  1407 03a2 65       		.byte	0x65
  1408 03a3 E3030000 		.4byte	0x3e3
@@ -1523,7 +1523,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  1418 03b6 23       		.byte	0x23
  1419 03b7 04       		.uleb128 0x4
  1420 03b8 06       		.uleb128 0x6
- 1421 03b9 77020000 		.4byte	.LASF55
+ 1421 03b9 94020000 		.4byte	.LASF55
  1422 03bd 08       		.byte	0x8
  1423 03be 69       		.byte	0x69
  1424 03bf 10010000 		.4byte	0x110
@@ -1531,7 +1531,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  1426 03c4 23       		.byte	0x23
  1427 03c5 08       		.uleb128 0x8
  1428 03c6 06       		.uleb128 0x6
- 1429 03c7 93020000 		.4byte	.LASF56
+ 1429 03c7 B0020000 		.4byte	.LASF56
  1430 03cb 08       		.byte	0x8
  1431 03cc 6A       		.byte	0x6a
  1432 03cd 68030000 		.4byte	0x368
@@ -1539,7 +1539,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  1434 03d2 23       		.byte	0x23
  1435 03d3 0C       		.uleb128 0xc
  1436 03d4 06       		.uleb128 0x6
- 1437 03d5 1F050000 		.4byte	.LASF57
+ 1437 03d5 DB040000 		.4byte	.LASF57
  1438 03d9 08       		.byte	0x8
  1439 03da 6C       		.byte	0x6c
  1440 03db AE020000 		.4byte	0x2ae
@@ -1556,9 +1556,9 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  1451 03ec 76       		.byte	0x76
  1452 03ed 2A040000 		.4byte	0x42a
  1453 03f1 06       		.uleb128 0x6
- 1454 03f2 AA010000 		.4byte	.LASF53
+ 1454 03f2 C7010000 		.4byte	.LASF53
  1455 03f6 08       		.byte	0x8
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 27
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s 			page 27
 
 
  1456 03f7 77       		.byte	0x77
@@ -1575,7 +1575,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  1467 040b 23       		.byte	0x23
  1468 040c 04       		.uleb128 0x4
  1469 040d 06       		.uleb128 0x6
- 1470 040e 77020000 		.4byte	.LASF55
+ 1470 040e 94020000 		.4byte	.LASF55
  1471 0412 08       		.byte	0x8
  1472 0413 7B       		.byte	0x7b
  1473 0414 10010000 		.4byte	0x110
@@ -1583,7 +1583,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  1475 0419 23       		.byte	0x23
  1476 041a 08       		.uleb128 0x8
  1477 041b 06       		.uleb128 0x6
- 1478 041c 99050000 		.4byte	.LASF58
+ 1478 041c 55050000 		.4byte	.LASF58
  1479 0420 08       		.byte	0x8
  1480 0421 7C       		.byte	0x7c
  1481 0422 2A040000 		.4byte	0x42a
@@ -1594,7 +1594,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  1486 042a 0F       		.uleb128 0xf
  1487 042b 10010000 		.4byte	0x110
  1488 042f 03       		.uleb128 0x3
- 1489 0430 AC050000 		.4byte	.LASF59
+ 1489 0430 68050000 		.4byte	.LASF59
  1490 0434 08       		.byte	0x8
  1491 0435 7D       		.byte	0x7d
  1492 0436 E9030000 		.4byte	0x3e9
@@ -1604,7 +1604,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  1496 043d 5E       		.byte	0x5e
  1497 043e 97040000 		.4byte	0x497
  1498 0442 06       		.uleb128 0x6
- 1499 0443 54040000 		.4byte	.LASF60
+ 1499 0443 71040000 		.4byte	.LASF60
  1500 0447 09       		.byte	0x9
  1501 0448 5F       		.byte	0x5f
  1502 0449 76020000 		.4byte	0x276
@@ -1612,18 +1612,18 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  1504 044e 23       		.byte	0x23
  1505 044f 00       		.uleb128 0
  1506 0450 06       		.uleb128 0x6
- 1507 0451 03040000 		.4byte	.LASF61
+ 1507 0451 20040000 		.4byte	.LASF61
  1508 0455 09       		.byte	0x9
  1509 0456 60       		.byte	0x60
  1510 0457 D9000000 		.4byte	0xd9
  1511 045b 02       		.byte	0x2
  1512 045c 23       		.byte	0x23
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 28
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s 			page 28
 
 
  1513 045d 08       		.uleb128 0x8
  1514 045e 06       		.uleb128 0x6
- 1515 045f 15030000 		.4byte	.LASF62
+ 1515 045f 32030000 		.4byte	.LASF62
  1516 0463 09       		.byte	0x9
  1517 0464 62       		.byte	0x62
  1518 0465 3E030000 		.4byte	0x33e
@@ -1639,7 +1639,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  1528 0478 23       		.byte	0x23
  1529 0479 10       		.uleb128 0x10
  1530 047a 06       		.uleb128 0x6
- 1531 047b 5B030000 		.4byte	.LASF64
+ 1531 047b 78030000 		.4byte	.LASF64
  1532 047f 09       		.byte	0x9
  1533 0480 66       		.byte	0x66
  1534 0481 70020000 		.4byte	0x270
@@ -1647,7 +1647,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  1536 0486 23       		.byte	0x23
  1537 0487 14       		.uleb128 0x14
  1538 0488 06       		.uleb128 0x6
- 1539 0489 51030000 		.4byte	.LASF65
+ 1539 0489 6E030000 		.4byte	.LASF65
  1540 048d 09       		.byte	0x9
  1541 048e 69       		.byte	0x69
  1542 048f 70020000 		.4byte	0x270
@@ -1656,12 +1656,12 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  1545 0495 18       		.uleb128 0x18
  1546 0496 00       		.byte	0
  1547 0497 03       		.uleb128 0x3
- 1548 0498 44050000 		.4byte	.LASF66
+ 1548 0498 00050000 		.4byte	.LASF66
  1549 049c 09       		.byte	0x9
  1550 049d 6B       		.byte	0x6b
  1551 049e 3A040000 		.4byte	0x43a
  1552 04a2 05       		.uleb128 0x5
- 1553 04a3 5F020000 		.4byte	.LASF67
+ 1553 04a3 7C020000 		.4byte	.LASF67
  1554 04a7 10       		.byte	0x10
  1555 04a8 0A       		.byte	0xa
  1556 04a9 2C       		.byte	0x2c
@@ -1675,10 +1675,10 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  1564 04ba 23       		.byte	0x23
  1565 04bb 00       		.uleb128 0
  1566 04bc 06       		.uleb128 0x6
- 1567 04bd B3050000 		.4byte	.LASF69
+ 1567 04bd 6F050000 		.4byte	.LASF69
  1568 04c1 0A       		.byte	0xa
  1569 04c2 2F       		.byte	0x2f
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 29
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s 			page 29
 
 
  1570 04c3 70020000 		.4byte	0x270
@@ -1686,7 +1686,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  1572 04c8 23       		.byte	0x23
  1573 04c9 08       		.uleb128 0x8
  1574 04ca 06       		.uleb128 0x6
- 1575 04cb A3040000 		.4byte	.LASF70
+ 1575 04cb 9D040000 		.4byte	.LASF70
  1576 04cf 0A       		.byte	0xa
  1577 04d0 31       		.byte	0x31
  1578 04d1 D9040000 		.4byte	0x4d9
@@ -1698,23 +1698,23 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  1584 04da 04       		.byte	0x4
  1585 04db A2040000 		.4byte	0x4a2
  1586 04df 03       		.uleb128 0x3
- 1587 04e0 5F020000 		.4byte	.LASF67
+ 1587 04e0 7C020000 		.4byte	.LASF67
  1588 04e4 0A       		.byte	0xa
  1589 04e5 33       		.byte	0x33
  1590 04e6 A2040000 		.4byte	0x4a2
  1591 04ea 03       		.uleb128 0x3
- 1592 04eb 5C050000 		.4byte	.LASF71
+ 1592 04eb 18050000 		.4byte	.LASF71
  1593 04ef 0B       		.byte	0xb
  1594 04f0 2C       		.byte	0x2c
  1595 04f1 F5040000 		.4byte	0x4f5
  1596 04f5 05       		.uleb128 0x5
- 1597 04f6 5C050000 		.4byte	.LASF71
+ 1597 04f6 18050000 		.4byte	.LASF71
  1598 04fa 10       		.byte	0x10
  1599 04fb 0B       		.byte	0xb
  1600 04fc 31       		.byte	0x31
  1601 04fd 3A050000 		.4byte	0x53a
  1602 0501 06       		.uleb128 0x6
- 1603 0502 27020000 		.4byte	.LASF72
+ 1603 0502 44020000 		.4byte	.LASF72
  1604 0506 0B       		.byte	0xb
  1605 0507 32       		.byte	0x32
  1606 0508 3A050000 		.4byte	0x53a
@@ -1722,7 +1722,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  1608 050d 23       		.byte	0x23
  1609 050e 00       		.uleb128 0
  1610 050f 06       		.uleb128 0x6
- 1611 0510 B3030000 		.4byte	.LASF73
+ 1611 0510 D0030000 		.4byte	.LASF73
  1612 0514 0B       		.byte	0xb
  1613 0515 35       		.byte	0x35
  1614 0516 70020000 		.4byte	0x270
@@ -1730,7 +1730,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  1616 051b 23       		.byte	0x23
  1617 051c 04       		.uleb128 0x4
  1618 051d 06       		.uleb128 0x6
- 1619 051e 63030000 		.4byte	.LASF74
+ 1619 051e 80030000 		.4byte	.LASF74
  1620 0522 0B       		.byte	0xb
  1621 0523 37       		.byte	0x37
  1622 0524 FA000000 		.4byte	0xfa
@@ -1738,10 +1738,10 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  1624 0529 23       		.byte	0x23
  1625 052a 08       		.uleb128 0x8
  1626 052b 06       		.uleb128 0x6
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 30
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s 			page 30
 
 
- 1627 052c CC030000 		.4byte	.LASF75
+ 1627 052c E9030000 		.4byte	.LASF75
  1628 0530 0B       		.byte	0xb
  1629 0531 3A       		.byte	0x3a
  1630 0532 05010000 		.4byte	0x105
@@ -1759,7 +1759,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  1642 0547 41       		.byte	0x41
  1643 0548 5B050000 		.4byte	0x55b
  1644 054c 06       		.uleb128 0x6
- 1645 054d A4050000 		.4byte	.LASF77
+ 1645 054d 60050000 		.4byte	.LASF77
  1646 0551 0B       		.byte	0xb
  1647 0552 42       		.byte	0x42
  1648 0553 3A050000 		.4byte	0x53a
@@ -1773,7 +1773,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  1656 0561 45       		.byte	0x45
  1657 0562 40050000 		.4byte	0x540
  1658 0566 03       		.uleb128 0x3
- 1659 0567 91010000 		.4byte	.LASF78
+ 1659 0567 AE010000 		.4byte	.LASF78
  1660 056b 0B       		.byte	0xb
  1661 056c 4A       		.byte	0x4a
  1662 056d 71050000 		.4byte	0x571
@@ -1798,19 +1798,19 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  1681 0592 E4000000 		.4byte	0xe4
  1682 0596 11       		.uleb128 0x11
  1683 0597 60000000 		.4byte	.LASF80
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 31
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s 			page 31
 
 
  1684 059b 06       		.byte	0x6
  1685 059c A4       		.byte	0xa4
  1686 059d E4000000 		.4byte	0xe4
  1687 05a1 11       		.uleb128 0x11
- 1688 05a2 7E050000 		.4byte	.LASF81
+ 1688 05a2 3A050000 		.4byte	.LASF81
  1689 05a6 06       		.byte	0x6
  1690 05a7 AB       		.byte	0xab
  1691 05a8 AE020000 		.4byte	0x2ae
  1692 05ac 11       		.uleb128 0x11
- 1693 05ad 0A040000 		.4byte	.LASF82
+ 1693 05ad 27040000 		.4byte	.LASF82
  1694 05b1 06       		.byte	0x6
  1695 05b2 B2       		.byte	0xb2
  1696 05b3 FA000000 		.4byte	0xfa
@@ -1823,7 +1823,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  1703 05c3 04       		.uleb128 0x4
  1704 05c4 01       		.byte	0x1
  1705 05c5 08       		.byte	0x8
- 1706 05c6 8C040000 		.4byte	.LASF83
+ 1706 05c6 86040000 		.4byte	.LASF83
  1707 05ca 09       		.uleb128 0x9
  1708 05cb 04       		.byte	0x4
  1709 05cc DF040000 		.4byte	0x4df
@@ -1843,13 +1843,13 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  1723 05ec AE020000 		.4byte	0x2ae
  1724 05f0 00       		.byte	0
  1725 05f1 05       		.uleb128 0x5
- 1726 05f2 27040000 		.4byte	.LASF85
+ 1726 05f2 44040000 		.4byte	.LASF85
  1727 05f6 10       		.byte	0x10
  1728 05f7 0C       		.byte	0xc
  1729 05f8 3B       		.byte	0x3b
  1730 05f9 36060000 		.4byte	0x636
  1731 05fd 06       		.uleb128 0x6
- 1732 05fe EF010000 		.4byte	.LASF86
+ 1732 05fe 0C020000 		.4byte	.LASF86
  1733 0602 0C       		.byte	0xc
  1734 0603 3C       		.byte	0x3c
  1735 0604 B8050000 		.4byte	0x5b8
@@ -1857,8 +1857,8 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  1737 0609 23       		.byte	0x23
  1738 060a 00       		.uleb128 0
  1739 060b 06       		.uleb128 0x6
- 1740 060c 28030000 		.4byte	.LASF87
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 32
+ 1740 060c 45030000 		.4byte	.LASF87
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s 			page 32
 
 
  1741 0610 0C       		.byte	0xc
@@ -1868,7 +1868,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  1745 0617 23       		.byte	0x23
  1746 0618 04       		.uleb128 0x4
  1747 0619 06       		.uleb128 0x6
- 1748 061a DB010000 		.4byte	.LASF88
+ 1748 061a F8010000 		.4byte	.LASF88
  1749 061e 0C       		.byte	0xc
  1750 061f 3E       		.byte	0x3e
  1751 0620 38060000 		.4byte	0x638
@@ -1876,7 +1876,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  1753 0625 23       		.byte	0x23
  1754 0626 08       		.uleb128 0x8
  1755 0627 06       		.uleb128 0x6
- 1756 0628 7A030000 		.4byte	.LASF89
+ 1756 0628 97030000 		.4byte	.LASF89
  1757 062c 0C       		.byte	0xc
  1758 062d 3F       		.byte	0x3f
  1759 062e 38060000 		.4byte	0x638
@@ -1890,7 +1890,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  1767 0639 04       		.byte	0x4
  1768 063a 36060000 		.4byte	0x636
  1769 063e 15       		.uleb128 0x15
- 1770 063f BF030000 		.4byte	.LASF128
+ 1770 063f DC030000 		.4byte	.LASF128
  1771 0643 01       		.byte	0x1
  1772 0644 FE       		.byte	0xfe
  1773 0645 01       		.byte	0x1
@@ -1903,7 +1903,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  1780 0650 FA000000 		.4byte	0xfa
  1781 0654 00       		.byte	0
  1782 0655 17       		.uleb128 0x17
- 1783 0656 A9020000 		.4byte	.LASF90
+ 1783 0656 C6020000 		.4byte	.LASF90
  1784 065a 01       		.byte	0x1
  1785 065b F9       		.byte	0xf9
  1786 065c 01       		.byte	0x1
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  1795 066e 08000000 		.4byte	.LVL0
  1796 0672 01       		.byte	0x1
  1797 0673 780F0000 		.4byte	0xf78
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 33
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s 			page 33
 
 
  1798 0677 19       		.uleb128 0x19
@@ -1954,7 +1954,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  1828 06a7 00       		.byte	0
  1829 06a8 00       		.byte	0
  1830 06a9 17       		.uleb128 0x17
- 1831 06aa 7F020000 		.4byte	.LASF92
+ 1831 06aa 9C020000 		.4byte	.LASF92
  1832 06ae 01       		.byte	0x1
  1833 06af 4B       		.byte	0x4b
  1834 06b0 01       		.byte	0x1
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  1852 06d1 00       		.byte	0
  1853 06d2 00       		.byte	0
  1854 06d3 1A       		.uleb128 0x1a
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 34
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s 			page 34
 
 
  1855 06d4 84000000 		.4byte	.LASF93
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  1909 0747 02       		.byte	0x2
  1910 0748 09       		.byte	0x9
  1911 0749 FF       		.byte	0xff
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 35
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s 			page 35
 
 
  1912 074a 00       		.byte	0
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  1966 07ad 68000000 		.4byte	.LVL14
  1967 07b1 780F0000 		.4byte	0xf78
  1968 07b5 C0070000 		.4byte	0x7c0
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 36
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s 			page 36
 
 
  1969 07b9 19       		.uleb128 0x19
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  2023 0814 1E       		.uleb128 0x1e
  2024 0815 BC000000 		.4byte	.LVL24
  2025 0819 18100000 		.4byte	0x1018
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 37
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s 			page 37
 
 
  2026 081d 33080000 		.4byte	0x833
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  2080 0871 50       		.byte	0x50
  2081 0872 01       		.byte	0x1
  2082 0873 37       		.byte	0x37
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 38
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s 			page 38
 
 
  2083 0874 00       		.byte	0
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  2137 08dd 39       		.byte	0x39
  2138 08de 00       		.byte	0
  2139 08df 1F       		.uleb128 0x1f
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 39
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s 			page 39
 
 
  2140 08e0 36010000 		.4byte	.LVL37
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  2194 093b 50       		.byte	0x50
  2195 093c 01       		.byte	0x1
  2196 093d 3A       		.byte	0x3a
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 40
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s 			page 40
 
 
  2197 093e 00       		.byte	0
@@ -2398,7 +2398,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  2251 099e 51       		.byte	0x51
  2252 099f 02       		.byte	0x2
  2253 09a0 91       		.byte	0x91
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 41
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s 			page 41
 
 
  2254 09a1 40       		.sleb128 -64
@@ -2458,7 +2458,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  2308 09f3 00       		.sleb128 0
  2309 09f4 19       		.uleb128 0x19
  2310 09f5 02       		.byte	0x2
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 42
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s 			page 42
 
 
  2311 09f6 7D       		.byte	0x7d
@@ -2518,7 +2518,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  2365 0a53 01       		.byte	0x1
  2366 0a54 50       		.byte	0x50
  2367 0a55 01       		.byte	0x1
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 43
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s 			page 43
 
 
  2368 0a56 3E       		.byte	0x3e
@@ -2578,13 +2578,13 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  2422 0ab3 50       		.byte	0x50
  2423 0ab4 01       		.byte	0x1
  2424 0ab5 40       		.byte	0x40
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 44
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s 			page 44
 
 
  2425 0ab6 00       		.byte	0
  2426 0ab7 00       		.byte	0
  2427 0ab8 21       		.uleb128 0x21
- 2428 0ab9 0D030000 		.4byte	.LASF95
+ 2428 0ab9 2A030000 		.4byte	.LASF95
  2429 0abd 01       		.byte	0x1
  2430 0abe 8C       		.byte	0x8c
  2431 0abf 01       		.byte	0x1
@@ -2638,7 +2638,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  2479 0b20 19       		.uleb128 0x19
  2480 0b21 01       		.byte	0x1
  2481 0b22 50       		.byte	0x50
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 45
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s 			page 45
 
 
  2482 0b23 05       		.byte	0x5
@@ -2647,7 +2647,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  2485 0b29 00       		.byte	0
  2486 0b2a 00       		.byte	0
  2487 0b2b 21       		.uleb128 0x21
- 2488 0b2c 05030000 		.4byte	.LASF96
+ 2488 0b2c 22030000 		.4byte	.LASF96
  2489 0b30 01       		.byte	0x1
  2490 0b31 85       		.byte	0x85
  2491 0b32 01       		.byte	0x1
@@ -2691,14 +2691,14 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  2529 0b7d 00       		.byte	0
  2530 0b7e 00       		.byte	0
  2531 0b7f 1A       		.uleb128 0x1a
- 2532 0b80 CA050000 		.4byte	.LASF97
+ 2532 0b80 86050000 		.4byte	.LASF97
  2533 0b84 01       		.byte	0x1
  2534 0b85 55       		.byte	0x55
  2535 0b86 01       		.byte	0x1
  2536 0b87 00000000 		.4byte	.LFB11
  2537 0b8b 84000000 		.4byte	.LFE11
  2538 0b8f EE010000 		.4byte	.LLST7
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 46
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s 			page 46
 
 
  2539 0b93 01       		.byte	0x1
@@ -2758,7 +2758,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  2593 0bea 68       		.sleb128 -24
  2594 0beb 19       		.uleb128 0x19
  2595 0bec 01       		.byte	0x1
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 47
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s 			page 47
 
 
  2596 0bed 50       		.byte	0x50
@@ -2818,7 +2818,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  2650 0c47 50       		.byte	0x50
  2651 0c48 02       		.byte	0x2
  2652 0c49 74       		.byte	0x74
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 48
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s 			page 48
 
 
  2653 0c4a 00       		.sleb128 0
@@ -2878,7 +2878,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  2707 0ca6 01       		.byte	0x1
  2708 0ca7 CB0C0000 		.4byte	0xccb
  2709 0cab 22       		.uleb128 0x22
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 49
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s 			page 49
 
 
  2710 0cac 696400   		.ascii	"id\000"
@@ -2938,7 +2938,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  2764 0d11 02       		.byte	0x2
  2765 0d12 7D       		.byte	0x7d
  2766 0d13 00       		.sleb128 0
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 50
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s 			page 50
 
 
  2767 0d14 01       		.byte	0x1
@@ -2998,7 +2998,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  2821 0d8e 02       		.byte	0x2
  2822 0d8f 09       		.byte	0x9
  2823 0d90 FF       		.byte	0xff
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 51
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s 			page 51
 
 
  2824 0d91 00       		.byte	0
@@ -3058,7 +3058,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  2878 0deb AA000000 		.4byte	.LVL112
  2879 0def 01       		.byte	0x1
  2880 0df0 C00F0000 		.4byte	0xfc0
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 52
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s 			page 52
 
 
  2881 0df4 19       		.uleb128 0x19
@@ -3118,7 +3118,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  2935 0e4e 00       		.byte	0
  2936 0e4f 1E       		.uleb128 0x1e
  2937 0e50 44000000 		.4byte	.LVL101
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 53
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s 			page 53
 
 
  2938 0e54 8D110000 		.4byte	0x118d
@@ -3164,7 +3164,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  2978 0ea3 02       		.byte	0x2
  2979 0ea4 00       		.byte	0
  2980 0ea5 2A       		.uleb128 0x2a
- 2981 0ea6 44040000 		.4byte	.LASF98
+ 2981 0ea6 61040000 		.4byte	.LASF98
  2982 0eaa 01       		.byte	0x1
  2983 0eab 53       		.byte	0x53
  2984 0eac B60E0000 		.4byte	0xeb6
@@ -3178,13 +3178,13 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  2992 0ec0 08       		.byte	0x8
  2993 0ec1 F5       		.byte	0xf5
  2994 0ec2 2F040000 		.4byte	0x42f
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 54
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s 			page 54
 
 
  2995 0ec6 01       		.byte	0x1
  2996 0ec7 01       		.byte	0x1
  2997 0ec8 2B       		.uleb128 0x2b
- 2998 0ec9 4E050000 		.4byte	.LASF100
+ 2998 0ec9 0A050000 		.4byte	.LASF100
  2999 0ecd 09       		.byte	0x9
  3000 0ece 6F       		.byte	0x6f
  3001 0ecf 97040000 		.4byte	0x497
@@ -3198,7 +3198,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  3009 0ee3 04       		.byte	0x4
  3010 0ee4 00       		.byte	0
  3011 0ee5 2B       		.uleb128 0x2b
- 3012 0ee6 FB030000 		.4byte	.LASF101
+ 3012 0ee6 18040000 		.4byte	.LASF101
  3013 0eea 0C       		.byte	0xc
  3014 0eeb A5       		.byte	0xa5
  3015 0eec D50E0000 		.4byte	0xed5
@@ -3219,7 +3219,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  3030 0f09 12       		.uleb128 0x12
  3031 0f0a F20E0000 		.4byte	0xef2
  3032 0f0e 2E       		.uleb128 0x2e
- 3033 0f0f 3B040000 		.4byte	.LASF102
+ 3033 0f0f 58040000 		.4byte	.LASF102
  3034 0f13 01       		.byte	0x1
  3035 0f14 6B       		.byte	0x6b
  3036 0f15 200F0000 		.4byte	0xf20
@@ -3238,7 +3238,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  3049 0f31 05       		.byte	0x5
  3050 0f32 03       		.byte	0x3
  3051 0f33 00000000 		.4byte	testevt2
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 55
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s 			page 55
 
 
  3052 0f37 2F       		.uleb128 0x2f
@@ -3261,7 +3261,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  3069 0f5b 04       		.byte	0x4
  3070 0f5c 200F0000 		.4byte	0xf20
  3071 0f60 2F       		.uleb128 0x2f
- 3072 0f61 E4010000 		.4byte	.LASF105
+ 3072 0f61 01020000 		.4byte	.LASF105
  3073 0f65 01       		.byte	0x1
  3074 0f66 1D01     		.2byte	0x11d
  3075 0f68 730F0000 		.4byte	0xf73
@@ -3273,7 +3273,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  3081 0f74 4A0F0000 		.4byte	0xf4a
  3082 0f78 30       		.uleb128 0x30
  3083 0f79 01       		.byte	0x1
- 3084 0f7a C4010000 		.4byte	.LASF106
+ 3084 0f7a E1010000 		.4byte	.LASF106
  3085 0f7e 0B       		.byte	0xb
  3086 0f7f B3       		.byte	0xb3
  3087 0f80 01       		.byte	0x1
@@ -3297,8 +3297,8 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  3105 0fa7 00       		.byte	0
  3106 0fa8 30       		.uleb128 0x30
  3107 0fa9 01       		.byte	0x1
- 3108 0faa A6030000 		.4byte	.LASF108
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 56
+ 3108 0faa C3030000 		.4byte	.LASF108
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s 			page 56
 
 
  3109 0fae 0B       		.byte	0xb
@@ -3312,7 +3312,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  3117 0fbf 00       		.byte	0
  3118 0fc0 30       		.uleb128 0x30
  3119 0fc1 01       		.byte	0x1
- 3120 0fc2 8C050000 		.4byte	.LASF109
+ 3120 0fc2 48050000 		.4byte	.LASF109
  3121 0fc6 0C       		.byte	0xc
  3122 0fc7 58       		.byte	0x58
  3123 0fc8 01       		.byte	0x1
@@ -3326,7 +3326,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  3131 0fdc 00       		.byte	0
  3132 0fdd 31       		.uleb128 0x31
  3133 0fde 01       		.byte	0x1
- 3134 0fdf BB050000 		.4byte	.LASF129
+ 3134 0fdf 77050000 		.4byte	.LASF129
  3135 0fe3 0C       		.byte	0xc
  3136 0fe4 5D       		.byte	0x5d
  3137 0fe5 01       		.byte	0x1
@@ -3334,7 +3334,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  3139 0fea 01       		.byte	0x1
  3140 0feb 32       		.uleb128 0x32
  3141 0fec 01       		.byte	0x1
- 3142 0fed 65020000 		.4byte	.LASF110
+ 3142 0fed 82020000 		.4byte	.LASF110
  3143 0ff1 06       		.byte	0x6
  3144 0ff2 7001     		.2byte	0x170
  3145 0ff4 01       		.byte	0x1
@@ -3358,7 +3358,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  3163 101e 0C       		.byte	0xc
  3164 101f 5A       		.byte	0x5a
  3165 1020 01       		.byte	0x1
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 57
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s 			page 57
 
 
  3166 1021 9B000000 		.4byte	0x9b
@@ -3373,7 +3373,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  3175 1039 00       		.byte	0
  3176 103a 33       		.uleb128 0x33
  3177 103b 01       		.byte	0x1
- 3178 103c 91040000 		.4byte	.LASF130
+ 3178 103c 8B040000 		.4byte	.LASF130
  3179 1040 0C       		.byte	0xc
  3180 1041 5C       		.byte	0x5c
  3181 1042 01       		.byte	0x1
@@ -3392,7 +3392,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  3194 105b 00       		.byte	0
  3195 105c 34       		.uleb128 0x34
  3196 105d 01       		.byte	0x1
- 3197 105e 0F020000 		.4byte	.LASF114
+ 3197 105e 2C020000 		.4byte	.LASF114
  3198 1062 0B       		.byte	0xb
  3199 1063 AF       		.byte	0xaf
  3200 1064 01       		.byte	0x1
@@ -3410,7 +3410,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  3212 107c 5B050000 		.4byte	0x55b
  3213 1080 30       		.uleb128 0x30
  3214 1081 01       		.byte	0x1
- 3215 1082 44030000 		.4byte	.LASF113
+ 3215 1082 61030000 		.4byte	.LASF113
  3216 1086 0B       		.byte	0xb
  3217 1087 BF       		.byte	0xbf
  3218 1088 01       		.byte	0x1
@@ -3418,14 +3418,14 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  3220 108d 01       		.byte	0x1
  3221 108e 98100000 		.4byte	0x1098
  3222 1092 0E       		.uleb128 0xe
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 58
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s 			page 58
 
 
  3223 1093 FA000000 		.4byte	0xfa
  3224 1097 00       		.byte	0
  3225 1098 34       		.uleb128 0x34
  3226 1099 01       		.byte	0x1
- 3227 109a 2F020000 		.4byte	.LASF115
+ 3227 109a 4C020000 		.4byte	.LASF115
  3228 109e 0B       		.byte	0xb
  3229 109f B2       		.byte	0xb2
  3230 10a0 01       		.byte	0x1
@@ -3451,7 +3451,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  3250 10c9 00       		.byte	0
  3251 10ca 35       		.uleb128 0x35
  3252 10cb 01       		.byte	0x1
- 3253 10cc 32050000 		.4byte	.LASF117
+ 3253 10cc EE040000 		.4byte	.LASF117
  3254 10d0 06       		.byte	0x6
  3255 10d1 7501     		.2byte	0x175
  3256 10d3 01       		.byte	0x1
@@ -3475,10 +3475,10 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  3274 10f7 00       		.byte	0
  3275 10f8 34       		.uleb128 0x34
  3276 10f9 01       		.byte	0x1
- 3277 10fa 9B020000 		.4byte	.LASF119
+ 3277 10fa B8020000 		.4byte	.LASF119
  3278 10fe 0B       		.byte	0xb
  3279 10ff BB       		.byte	0xbb
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 59
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s 			page 59
 
 
  3280 1100 01       		.byte	0x1
@@ -3496,7 +3496,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  3292 1118 66050000 		.4byte	0x566
  3293 111c 30       		.uleb128 0x30
  3294 111d 01       		.byte	0x1
- 3295 111e 2E030000 		.4byte	.LASF120
+ 3295 111e 4B030000 		.4byte	.LASF120
  3296 1122 0C       		.byte	0xc
  3297 1123 59       		.byte	0x59
  3298 1124 01       		.byte	0x1
@@ -3524,7 +3524,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  3320 1152 00       		.byte	0
  3321 1153 30       		.uleb128 0x30
  3322 1154 01       		.byte	0x1
- 3323 1155 6A050000 		.4byte	.LASF122
+ 3323 1155 26050000 		.4byte	.LASF122
  3324 1159 0B       		.byte	0xb
  3325 115a C2       		.byte	0xc2
  3326 115b 01       		.byte	0x1
@@ -3538,7 +3538,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  3334 116f 00       		.byte	0
  3335 1170 30       		.uleb128 0x30
  3336 1171 01       		.byte	0x1
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 60
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s 			page 60
 
 
  3337 1172 69000000 		.4byte	.LASF123
@@ -3598,7 +3598,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  3391 001a 3E       		.uleb128 0x3e
  3392 001b 0B       		.uleb128 0xb
  3393 001c 03       		.uleb128 0x3
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 61
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s 			page 61
 
 
  3394 001d 08       		.uleb128 0x8
@@ -3658,7 +3658,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  3448 0053 0A       		.uleb128 0xa
  3449 0054 00       		.byte	0
  3450 0055 00       		.byte	0
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 62
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s 			page 62
 
 
  3451 0056 07       		.uleb128 0x7
@@ -3718,7 +3718,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  3505 008c 05       		.uleb128 0x5
  3506 008d 01       		.uleb128 0x1
  3507 008e 13       		.uleb128 0x13
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 63
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s 			page 63
 
 
  3508 008f 00       		.byte	0
@@ -3778,7 +3778,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  3562 00c5 0D       		.uleb128 0xd
  3563 00c6 00       		.byte	0
  3564 00c7 03       		.uleb128 0x3
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 64
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s 			page 64
 
 
  3565 00c8 0E       		.uleb128 0xe
@@ -3838,7 +3838,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  3619 00fe 03       		.uleb128 0x3
  3620 00ff 08       		.uleb128 0x8
  3621 0100 3A       		.uleb128 0x3a
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 65
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s 			page 65
 
 
  3622 0101 0B       		.uleb128 0xb
@@ -3898,7 +3898,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  3676 013e 0E       		.uleb128 0xe
  3677 013f 3A       		.uleb128 0x3a
  3678 0140 0B       		.uleb128 0xb
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 66
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s 			page 66
 
 
  3679 0141 3B       		.uleb128 0x3b
@@ -3958,7 +3958,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  3733 0178 0B       		.uleb128 0xb
  3734 0179 49       		.uleb128 0x49
  3735 017a 13       		.uleb128 0x13
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 67
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s 			page 67
 
 
  3736 017b 02       		.uleb128 0x2
@@ -4018,7 +4018,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  3790 01b8 01       		.uleb128 0x1
  3791 01b9 13       		.uleb128 0x13
  3792 01ba 00       		.byte	0
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 68
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s 			page 68
 
 
  3793 01bb 00       		.byte	0
@@ -4078,7 +4078,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  3847 01f3 00       		.byte	0
  3848 01f4 00       		.byte	0
  3849 01f5 25       		.uleb128 0x25
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 69
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s 			page 69
 
 
  3850 01f6 34       		.uleb128 0x34
@@ -4138,7 +4138,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  3904 022c 0E       		.uleb128 0xe
  3905 022d 3A       		.uleb128 0x3a
  3906 022e 0B       		.uleb128 0xb
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 70
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s 			page 70
 
 
  3907 022f 3B       		.uleb128 0x3b
@@ -4198,7 +4198,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  3961 0265 3B       		.uleb128 0x3b
  3962 0266 0B       		.uleb128 0xb
  3963 0267 49       		.uleb128 0x49
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 71
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s 			page 71
 
 
  3964 0268 13       		.uleb128 0x13
@@ -4258,7 +4258,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  4018 029e 3B       		.uleb128 0x3b
  4019 029f 0B       		.uleb128 0xb
  4020 02a0 27       		.uleb128 0x27
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 72
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s 			page 72
 
 
  4021 02a1 0C       		.uleb128 0xc
@@ -4318,7 +4318,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  4075 02d7 3B       		.uleb128 0x3b
  4076 02d8 0B       		.uleb128 0xb
  4077 02d9 27       		.uleb128 0x27
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 73
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s 			page 73
 
 
  4078 02da 0C       		.uleb128 0xc
@@ -4378,7 +4378,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  4132 000c 04000000 		.4byte	.LCFI0
  4133 0010 08000000 		.4byte	.LCFI1
  4134 0014 0200     		.2byte	0x2
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 74
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s 			page 74
 
 
  4135 0016 7D       		.byte	0x7d
@@ -4438,7 +4438,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  4189 009e 0100     		.2byte	0x1
  4190 00a0 50       		.byte	0x50
  4191 00a1 00010000 		.4byte	.LVL31
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 75
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s 			page 75
 
 
  4192 00a5 0E010000 		.4byte	.LVL32
@@ -4498,7 +4498,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  4246 012a 5C010000 		.4byte	.LVL42
  4247 012e 67010000 		.4byte	.LVL45-1
  4248 0132 0100     		.2byte	0x1
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 76
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s 			page 76
 
 
  4249 0134 51       		.byte	0x51
@@ -4558,7 +4558,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  4303 01b4 02000000 		.4byte	.LCFI3
  4304 01b8 0200     		.2byte	0x2
  4305 01ba 7D       		.byte	0x7d
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 77
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s 			page 77
 
 
  4306 01bb 00       		.sleb128 0
@@ -4618,7 +4618,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  4360 0243 0100     		.2byte	0x1
  4361 0245 50       		.byte	0x50
  4362 0246 02000000 		.4byte	.LVL90
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 78
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s 			page 78
 
 
  4363 024a 06000000 		.4byte	.LFE9
@@ -4678,7 +4678,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  4417 02d0 50       		.byte	0x50
  4418 02d1 7C000000 		.4byte	.LVL107
  4419 02d5 86000000 		.4byte	.LVL108
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 79
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s 			page 79
 
 
  4420 02d9 0100     		.2byte	0x1
@@ -4738,7 +4738,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  4474 0030 00000000 		.4byte	.LFB16
  4475 0034 08000000 		.4byte	.LFE16
  4476 0038 00000000 		.4byte	.LFB12
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 80
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s 			page 80
 
 
  4477 003c 08000000 		.4byte	.LFE12
@@ -4764,8 +4764,8 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  4497 008c 00000000 		.4byte	0
  4498              		.section	.debug_line,"",%progbits
  4499              	.Ldebug_line0:
- 4500 0000 26030000 		.section	.debug_str,"MS",%progbits,1
- 4500      0200EF01 
+ 4500 0000 14030000 		.section	.debug_str,"MS",%progbits,1
+ 4500      0200DD01 
  4500      00000201 
  4500      FB0E0D00 
  4500      01010101 
@@ -4798,7 +4798,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  4516      6720756E 
  4516      7369676E 
  4516      65642069 
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 81
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s 			page 81
 
 
  4517              	.LASF107:
@@ -4858,7 +4858,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  4542      6365735F 
  4542      7400
  4543              	.LASF8:
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 82
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s 			page 82
 
 
  4544 00f0 6C6F6E67 		.ascii	"long int\000"
@@ -4918,460 +4918,457 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 1
  4570 0185 4576656E 		.ascii	"EventSource\000"
  4570      74536F75 
  4570      72636500 
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 83
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s 			page 83
 
 
- 4571              	.LASF78:
- 4572 0191 65766861 		.ascii	"evhandler_t\000"
- 4572      6E646C65 
- 4572      725F7400 
- 4573              	.LASF0:
- 4574 019d 756E7369 		.ascii	"unsigned int\000"
- 4574      676E6564 
- 4574      20696E74 
- 4574      00
- 4575              	.LASF53:
- 4576 01aa 76745F6E 		.ascii	"vt_next\000"
- 4576      65787400 
- 4577              	.LASF10:
- 4578 01b2 6C6F6E67 		.ascii	"long unsigned int\000"
- 4578      20756E73 
- 4578      69676E65 
- 4578      6420696E 
- 4578      7400
- 4579              	.LASF106:
- 4580 01c4 63684576 		.ascii	"chEvtGetAndClearEvents\000"
- 4580      74476574 
- 4580      416E6443 
- 4580      6C656172 
- 4580      4576656E 
- 4581              	.LASF88:
- 4582 01db 74656172 		.ascii	"teardown\000"
- 4582      646F776E 
- 4582      00
- 4583              	.LASF105:
- 4584 01e4 70617474 		.ascii	"patternevt\000"
- 4584      65726E65 
- 4584      767400
- 4585              	.LASF86:
- 4586 01ef 6E616D65 		.ascii	"name\000"
- 4586      00
- 4587              	.LASF49:
- 4588 01f4 636F6E74 		.ascii	"context\000"
- 4588      65787400 
- 4589              	.LASF6:
- 4590 01fc 73686F72 		.ascii	"short unsigned int\000"
- 4590      7420756E 
- 4590      7369676E 
- 4590      65642069 
- 4590      6E7400
- 4591              	.LASF114:
- 4592 020f 63684576 		.ascii	"chEvtRegisterMask\000"
- 4592      74526567 
- 4592      69737465 
- 4592      724D6173 
- 4592      6B00
- 4593              	.LASF20:
- 4594 0221 6D73675F 		.ascii	"msg_t\000"
- 4594      7400
- 4595              	.LASF72:
- 4596 0227 656C5F6E 		.ascii	"el_next\000"
- 4596      65787400 
- 4597              	.LASF115:
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 84
+ 4571              	.LASF126:
+ 4572 0191 2E2E2F2E 		.ascii	"../../Chibios/test/testevt.c\000"
+ 4572      2E2F4368 
+ 4572      6962696F 
+ 4572      732F7465 
+ 4572      73742F74 
+ 4573              	.LASF78:
+ 4574 01ae 65766861 		.ascii	"evhandler_t\000"
+ 4574      6E646C65 
+ 4574      725F7400 
+ 4575              	.LASF0:
+ 4576 01ba 756E7369 		.ascii	"unsigned int\000"
+ 4576      676E6564 
+ 4576      20696E74 
+ 4576      00
+ 4577              	.LASF53:
+ 4578 01c7 76745F6E 		.ascii	"vt_next\000"
+ 4578      65787400 
+ 4579              	.LASF10:
+ 4580 01cf 6C6F6E67 		.ascii	"long unsigned int\000"
+ 4580      20756E73 
+ 4580      69676E65 
+ 4580      6420696E 
+ 4580      7400
+ 4581              	.LASF106:
+ 4582 01e1 63684576 		.ascii	"chEvtGetAndClearEvents\000"
+ 4582      74476574 
+ 4582      416E6443 
+ 4582      6C656172 
+ 4582      4576656E 
+ 4583              	.LASF88:
+ 4584 01f8 74656172 		.ascii	"teardown\000"
+ 4584      646F776E 
+ 4584      00
+ 4585              	.LASF105:
+ 4586 0201 70617474 		.ascii	"patternevt\000"
+ 4586      65726E65 
+ 4586      767400
+ 4587              	.LASF86:
+ 4588 020c 6E616D65 		.ascii	"name\000"
+ 4588      00
+ 4589              	.LASF49:
+ 4590 0211 636F6E74 		.ascii	"context\000"
+ 4590      65787400 
+ 4591              	.LASF6:
+ 4592 0219 73686F72 		.ascii	"short unsigned int\000"
+ 4592      7420756E 
+ 4592      7369676E 
+ 4592      65642069 
+ 4592      6E7400
+ 4593              	.LASF114:
+ 4594 022c 63684576 		.ascii	"chEvtRegisterMask\000"
+ 4594      74526567 
+ 4594      69737465 
+ 4594      724D6173 
+ 4594      6B00
+ 4595              	.LASF20:
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s 			page 84
 
 
- 4598 022f 63684576 		.ascii	"chEvtUnregister\000"
- 4598      74556E72 
- 4598      65676973 
- 4598      74657200 
- 4599              	.LASF15:
- 4600 023f 746D6F64 		.ascii	"tmode_t\000"
- 4600      655F7400 
- 4601              	.LASF46:
- 4602 0247 54687265 		.ascii	"ThreadsList\000"
- 4602      6164734C 
- 4602      69737400 
- 4603              	.LASF22:
- 4604 0253 6576656E 		.ascii	"eventmask_t\000"
- 4604      746D6173 
- 4604      6B5F7400 
- 4605              	.LASF67:
- 4606 025f 4D757465 		.ascii	"Mutex\000"
- 4606      7800
- 4607              	.LASF110:
- 4608 0265 63685468 		.ascii	"chThdCreateStatic\000"
- 4608      64437265 
- 4608      61746553 
- 4608      74617469 
- 4608      6300
- 4609              	.LASF55:
- 4610 0277 76745F74 		.ascii	"vt_time\000"
- 4610      696D6500 
- 4611              	.LASF92:
- 4612 027f 65767431 		.ascii	"evt1_setup\000"
- 4612      5F736574 
- 4612      757000
- 4613              	.LASF50:
- 4614 028a 73697A65 		.ascii	"sizetype\000"
- 4614      74797065 
- 4614      00
- 4615              	.LASF56:
- 4616 0293 76745F66 		.ascii	"vt_func\000"
- 4616      756E6300 
- 4617              	.LASF119:
- 4618 029b 63684576 		.ascii	"chEvtDispatch\000"
- 4618      74446973 
- 4618      70617463 
- 4618      6800
- 4619              	.LASF90:
- 4620 02a9 65767433 		.ascii	"evt3_setup\000"
- 4620      5F736574 
- 4620      757000
- 4621              	.LASF125:
- 4622 02b4 474E5520 		.ascii	"GNU C 4.7.4 20140401 (release) [ARM/embedded-4_7-br"
- 4622      4320342E 
- 4622      372E3420 
- 4622      32303134 
- 4622      30343031 
- 4623 02e7 616E6368 		.ascii	"anch revision 209195]\000"
- 4623      20726576 
- 4623      6973696F 
- 4623      6E203230 
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 85
+ 4596 023e 6D73675F 		.ascii	"msg_t\000"
+ 4596      7400
+ 4597              	.LASF72:
+ 4598 0244 656C5F6E 		.ascii	"el_next\000"
+ 4598      65787400 
+ 4599              	.LASF115:
+ 4600 024c 63684576 		.ascii	"chEvtUnregister\000"
+ 4600      74556E72 
+ 4600      65676973 
+ 4600      74657200 
+ 4601              	.LASF15:
+ 4602 025c 746D6F64 		.ascii	"tmode_t\000"
+ 4602      655F7400 
+ 4603              	.LASF46:
+ 4604 0264 54687265 		.ascii	"ThreadsList\000"
+ 4604      6164734C 
+ 4604      69737400 
+ 4605              	.LASF22:
+ 4606 0270 6576656E 		.ascii	"eventmask_t\000"
+ 4606      746D6173 
+ 4606      6B5F7400 
+ 4607              	.LASF67:
+ 4608 027c 4D757465 		.ascii	"Mutex\000"
+ 4608      7800
+ 4609              	.LASF110:
+ 4610 0282 63685468 		.ascii	"chThdCreateStatic\000"
+ 4610      64437265 
+ 4610      61746553 
+ 4610      74617469 
+ 4610      6300
+ 4611              	.LASF55:
+ 4612 0294 76745F74 		.ascii	"vt_time\000"
+ 4612      696D6500 
+ 4613              	.LASF92:
+ 4614 029c 65767431 		.ascii	"evt1_setup\000"
+ 4614      5F736574 
+ 4614      757000
+ 4615              	.LASF50:
+ 4616 02a7 73697A65 		.ascii	"sizetype\000"
+ 4616      74797065 
+ 4616      00
+ 4617              	.LASF56:
+ 4618 02b0 76745F66 		.ascii	"vt_func\000"
+ 4618      756E6300 
+ 4619              	.LASF119:
+ 4620 02b8 63684576 		.ascii	"chEvtDispatch\000"
+ 4620      74446973 
+ 4620      70617463 
+ 4620      6800
+ 4621              	.LASF90:
+ 4622 02c6 65767433 		.ascii	"evt3_setup\000"
+ 4622      5F736574 
+ 4622      757000
+ 4623              	.LASF125:
+ 4624 02d1 474E5520 		.ascii	"GNU C 4.7.4 20140401 (release) [ARM/embedded-4_7-br"
+ 4624      4320342E 
+ 4624      372E3420 
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s 			page 85
 
 
- 4623      39313935 
- 4624              	.LASF31:
- 4625 02fd 705F6F6C 		.ascii	"p_older\000"
- 4625      64657200 
- 4626              	.LASF96:
- 4627 0305 74687265 		.ascii	"thread1\000"
- 4627      61643100 
- 4628              	.LASF95:
- 4629 030d 74687265 		.ascii	"thread2\000"
- 4629      61643200 
- 4630              	.LASF62:
- 4631 0315 725F6374 		.ascii	"r_ctx\000"
- 4631      7800
- 4632              	.LASF45:
- 4633 031b 54687265 		.ascii	"ThreadsQueue\000"
- 4633      61647351 
- 4633      75657565 
- 4633      00
- 4634              	.LASF87:
- 4635 0328 73657475 		.ascii	"setup\000"
- 4635      7000
- 4636              	.LASF120:
- 4637 032e 5F746573 		.ascii	"_test_assert_sequence\000"
- 4637      745F6173 
- 4637      73657274 
- 4637      5F736571 
- 4637      75656E63 
- 4638              	.LASF113:
- 4639 0344 63684576 		.ascii	"chEvtWaitAll\000"
- 4639      74576169 
- 4639      74416C6C 
- 4639      00
- 4640              	.LASF65:
- 4641 0351 725F6375 		.ascii	"r_current\000"
- 4641      7272656E 
- 4641      7400
- 4642              	.LASF64:
- 4643 035b 725F6F6C 		.ascii	"r_older\000"
- 4643      64657200 
- 4644              	.LASF74:
- 4645 0363 656C5F6D 		.ascii	"el_mask\000"
- 4645      61736B00 
- 4646              	.LASF17:
- 4647 036b 74726566 		.ascii	"trefs_t\000"
- 4647      735F7400 
- 4648              	.LASF27:
- 4649 0373 705F7072 		.ascii	"p_prev\000"
- 4649      657600
- 4650              	.LASF89:
- 4651 037a 65786563 		.ascii	"execute\000"
- 4651      75746500 
- 4652              	.LASF19:
- 4653 0382 74707269 		.ascii	"tprio_t\000"
- 4653      6F5F7400 
- 4654              	.LASF14:
- 4655 038a 5F426F6F 		.ascii	"_Bool\000"
- 4655      6C00
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 86
+ 4624      32303134 
+ 4624      30343031 
+ 4625 0304 616E6368 		.ascii	"anch revision 209195]\000"
+ 4625      20726576 
+ 4625      6973696F 
+ 4625      6E203230 
+ 4625      39313935 
+ 4626              	.LASF31:
+ 4627 031a 705F6F6C 		.ascii	"p_older\000"
+ 4627      64657200 
+ 4628              	.LASF96:
+ 4629 0322 74687265 		.ascii	"thread1\000"
+ 4629      61643100 
+ 4630              	.LASF95:
+ 4631 032a 74687265 		.ascii	"thread2\000"
+ 4631      61643200 
+ 4632              	.LASF62:
+ 4633 0332 725F6374 		.ascii	"r_ctx\000"
+ 4633      7800
+ 4634              	.LASF45:
+ 4635 0338 54687265 		.ascii	"ThreadsQueue\000"
+ 4635      61647351 
+ 4635      75657565 
+ 4635      00
+ 4636              	.LASF87:
+ 4637 0345 73657475 		.ascii	"setup\000"
+ 4637      7000
+ 4638              	.LASF120:
+ 4639 034b 5F746573 		.ascii	"_test_assert_sequence\000"
+ 4639      745F6173 
+ 4639      73657274 
+ 4639      5F736571 
+ 4639      75656E63 
+ 4640              	.LASF113:
+ 4641 0361 63684576 		.ascii	"chEvtWaitAll\000"
+ 4641      74576169 
+ 4641      74416C6C 
+ 4641      00
+ 4642              	.LASF65:
+ 4643 036e 725F6375 		.ascii	"r_current\000"
+ 4643      7272656E 
+ 4643      7400
+ 4644              	.LASF64:
+ 4645 0378 725F6F6C 		.ascii	"r_older\000"
+ 4645      64657200 
+ 4646              	.LASF74:
+ 4647 0380 656C5F6D 		.ascii	"el_mask\000"
+ 4647      61736B00 
+ 4648              	.LASF17:
+ 4649 0388 74726566 		.ascii	"trefs_t\000"
+ 4649      735F7400 
+ 4650              	.LASF27:
+ 4651 0390 705F7072 		.ascii	"p_prev\000"
+ 4651      657600
+ 4652              	.LASF89:
+ 4653 0397 65786563 		.ascii	"execute\000"
+ 4653      75746500 
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s 			page 86
 
 
- 4656              	.LASF7:
- 4657 0390 696E7433 		.ascii	"int32_t\000"
- 4657      325F7400 
- 4658              	.LASF4:
- 4659 0398 756E7369 		.ascii	"unsigned char\000"
- 4659      676E6564 
- 4659      20636861 
- 4659      7200
- 4660              	.LASF108:
- 4661 03a6 63684576 		.ascii	"chEvtWaitOne\000"
- 4661      74576169 
- 4661      744F6E65 
- 4661      00
- 4662              	.LASF73:
- 4663 03b3 656C5F6C 		.ascii	"el_listener\000"
- 4663      69737465 
- 4663      6E657200 
- 4664              	.LASF128:
- 4665 03bf 65767433 		.ascii	"evt3_execute\000"
- 4665      5F657865 
- 4665      63757465 
- 4665      00
- 4666              	.LASF75:
- 4667 03cc 656C5F66 		.ascii	"el_flags\000"
- 4667      6C616773 
+ 4654              	.LASF19:
+ 4655 039f 74707269 		.ascii	"tprio_t\000"
+ 4655      6F5F7400 
+ 4656              	.LASF14:
+ 4657 03a7 5F426F6F 		.ascii	"_Bool\000"
+ 4657      6C00
+ 4658              	.LASF7:
+ 4659 03ad 696E7433 		.ascii	"int32_t\000"
+ 4659      325F7400 
+ 4660              	.LASF4:
+ 4661 03b5 756E7369 		.ascii	"unsigned char\000"
+ 4661      676E6564 
+ 4661      20636861 
+ 4661      7200
+ 4662              	.LASF108:
+ 4663 03c3 63684576 		.ascii	"chEvtWaitOne\000"
+ 4663      74576169 
+ 4663      744F6E65 
+ 4663      00
+ 4664              	.LASF73:
+ 4665 03d0 656C5F6C 		.ascii	"el_listener\000"
+ 4665      69737465 
+ 4665      6E657200 
+ 4666              	.LASF128:
+ 4667 03dc 65767433 		.ascii	"evt3_execute\000"
+ 4667      5F657865 
+ 4667      63757465 
  4667      00
- 4668              	.LASF42:
- 4669 03d5 705F6D74 		.ascii	"p_mtxlist\000"
- 4669      786C6973 
- 4669      7400
- 4670              	.LASF5:
- 4671 03df 73686F72 		.ascii	"short int\000"
- 4671      7420696E 
+ 4668              	.LASF75:
+ 4669 03e9 656C5F66 		.ascii	"el_flags\000"
+ 4669      6C616773 
+ 4669      00
+ 4670              	.LASF42:
+ 4671 03f2 705F6D74 		.ascii	"p_mtxlist\000"
+ 4671      786C6973 
  4671      7400
- 4672              	.LASF33:
- 4673 03e9 705F7374 		.ascii	"p_state\000"
- 4673      61746500 
- 4674              	.LASF36:
- 4675 03f1 705F7072 		.ascii	"p_preempt\000"
- 4675      65656D70 
- 4675      7400
- 4676              	.LASF101:
- 4677 03fb 74687265 		.ascii	"threads\000"
- 4677      61647300 
- 4678              	.LASF61:
- 4679 0403 725F7072 		.ascii	"r_prio\000"
- 4679      696F00
- 4680              	.LASF82:
- 4681 040a 65776D61 		.ascii	"ewmask\000"
- 4681      736B00
- 4682              	.LASF26:
- 4683 0411 705F6E65 		.ascii	"p_next\000"
- 4683      787400
- 4684              	.LASF34:
- 4685 0418 705F666C 		.ascii	"p_flags\000"
- 4685      61677300 
- 4686              	.LASF25:
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 87
+ 4672              	.LASF5:
+ 4673 03fc 73686F72 		.ascii	"short int\000"
+ 4673      7420696E 
+ 4673      7400
+ 4674              	.LASF33:
+ 4675 0406 705F7374 		.ascii	"p_state\000"
+ 4675      61746500 
+ 4676              	.LASF36:
+ 4677 040e 705F7072 		.ascii	"p_preempt\000"
+ 4677      65656D70 
+ 4677      7400
+ 4678              	.LASF101:
+ 4679 0418 74687265 		.ascii	"threads\000"
+ 4679      61647300 
+ 4680              	.LASF61:
+ 4681 0420 725F7072 		.ascii	"r_prio\000"
+ 4681      696F00
+ 4682              	.LASF82:
+ 4683 0427 65776D61 		.ascii	"ewmask\000"
+ 4683      736B00
+ 4684              	.LASF26:
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s 			page 87
 
 
- 4687 0420 54687265 		.ascii	"Thread\000"
- 4687      616400
- 4688              	.LASF85:
- 4689 0427 74657374 		.ascii	"testcase\000"
- 4689      63617365 
- 4689      00
- 4690              	.LASF41:
- 4691 0430 705F6570 		.ascii	"p_epending\000"
- 4691      656E6469 
- 4691      6E6700
- 4692              	.LASF102:
- 4693 043b 74657374 		.ascii	"testevt1\000"
- 4693      65767431 
- 4693      00
- 4694              	.LASF98:
- 4695 0444 6576686E 		.ascii	"evhndl\000"
- 4695      646C00
- 4696              	.LASF9:
- 4697 044b 75696E74 		.ascii	"uint32_t\000"
- 4697      33325F74 
- 4697      00
- 4698              	.LASF60:
- 4699 0454 725F7175 		.ascii	"r_queue\000"
- 4699      65756500 
- 4700              	.LASF52:
- 4701 045c 56697274 		.ascii	"VirtualTimer\000"
- 4701      75616C54 
- 4701      696D6572 
- 4701      00
- 4702              	.LASF126:
- 4703 0469 2E2E2F2E 		.ascii	"../../../../Chibios/test/testevt.c\000"
- 4703      2E2F2E2E 
- 4703      2F2E2E2F 
- 4703      43686962 
- 4703      696F732F 
+ 4685 042e 705F6E65 		.ascii	"p_next\000"
+ 4685      787400
+ 4686              	.LASF34:
+ 4687 0435 705F666C 		.ascii	"p_flags\000"
+ 4687      61677300 
+ 4688              	.LASF25:
+ 4689 043d 54687265 		.ascii	"Thread\000"
+ 4689      616400
+ 4690              	.LASF85:
+ 4691 0444 74657374 		.ascii	"testcase\000"
+ 4691      63617365 
+ 4691      00
+ 4692              	.LASF41:
+ 4693 044d 705F6570 		.ascii	"p_epending\000"
+ 4693      656E6469 
+ 4693      6E6700
+ 4694              	.LASF102:
+ 4695 0458 74657374 		.ascii	"testevt1\000"
+ 4695      65767431 
+ 4695      00
+ 4696              	.LASF98:
+ 4697 0461 6576686E 		.ascii	"evhndl\000"
+ 4697      646C00
+ 4698              	.LASF9:
+ 4699 0468 75696E74 		.ascii	"uint32_t\000"
+ 4699      33325F74 
+ 4699      00
+ 4700              	.LASF60:
+ 4701 0471 725F7175 		.ascii	"r_queue\000"
+ 4701      65756500 
+ 4702              	.LASF52:
+ 4703 0479 56697274 		.ascii	"VirtualTimer\000"
+ 4703      75616C54 
+ 4703      696D6572 
+ 4703      00
  4704              	.LASF83:
- 4705 048c 63686172 		.ascii	"char\000"
+ 4705 0486 63686172 		.ascii	"char\000"
  4705      00
  4706              	.LASF130:
- 4707 0491 74657374 		.ascii	"test_wait_threads\000"
+ 4707 048b 74657374 		.ascii	"test_wait_threads\000"
  4707      5F776169 
  4707      745F7468 
  4707      72656164 
  4707      7300
  4708              	.LASF70:
- 4709 04a3 6D5F6E65 		.ascii	"m_next\000"
+ 4709 049d 6D5F6E65 		.ascii	"m_next\000"
  4709      787400
  4710              	.LASF24:
- 4711 04aa 73797374 		.ascii	"systime_t\000"
+ 4711 04a4 73797374 		.ascii	"systime_t\000"
  4711      696D655F 
  4711      7400
  4712              	.LASF43:
- 4713 04b4 705F7265 		.ascii	"p_realprio\000"
+ 4713 04ae 705F7265 		.ascii	"p_realprio\000"
  4713      616C7072 
  4713      696F00
  4714              	.LASF51:
- 4715 04bf 76746675 		.ascii	"vtfunc_t\000"
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 88
+ 4715 04b9 76746675 		.ascii	"vtfunc_t\000"
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s 			page 88
 
 
  4715      6E635F74 
  4715      00
- 4716              	.LASF127:
- 4717 04c8 433A5C43 		.ascii	"C:\\ChibiStudio\\workspace26\\Modulux_v0_Lights\\mo"
- 4717      68696269 
- 4717      53747564 
- 4717      696F5C77 
- 4717      6F726B73 
- 4718 04f7 64756C75 		.ascii	"dulux\\firmware\000"
- 4718      785C6669 
- 4718      726D7761 
- 4718      726500
- 4719              	.LASF37:
- 4720 0506 705F7469 		.ascii	"p_time\000"
- 4720      6D6500
- 4721              	.LASF48:
- 4722 050d 696E7463 		.ascii	"intctx\000"
- 4722      747800
- 4723              	.LASF39:
- 4724 0514 705F6D73 		.ascii	"p_msgqueue\000"
- 4724      67717565 
- 4724      756500
- 4725              	.LASF57:
- 4726 051f 76745F70 		.ascii	"vt_par\000"
- 4726      617200
- 4727              	.LASF23:
- 4728 0526 666C6167 		.ascii	"flagsmask_t\000"
- 4728      736D6173 
- 4728      6B5F7400 
- 4729              	.LASF117:
- 4730 0532 63685468 		.ascii	"chThdSleep\000"
- 4730      64536C65 
- 4730      657000
- 4731              	.LASF35:
- 4732 053d 705F7265 		.ascii	"p_refs\000"
- 4732      667300
- 4733              	.LASF66:
- 4734 0544 52656164 		.ascii	"ReadyList\000"
- 4734      794C6973 
- 4734      7400
- 4735              	.LASF100:
- 4736 054e 726C6973 		.ascii	"rlist\000"
- 4736      7400
- 4737              	.LASF3:
- 4738 0554 75696E74 		.ascii	"uint8_t\000"
- 4738      385F7400 
- 4739              	.LASF71:
- 4740 055c 4576656E 		.ascii	"EventListener\000"
- 4740      744C6973 
- 4740      74656E65 
- 4740      7200
- 4741              	.LASF122:
- 4742 056a 63684576 		.ascii	"chEvtWaitOneTimeout\000"
- 4742      74576169 
- 4742      744F6E65 
- 4742      54696D65 
- 4742      6F757400 
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 89
+ 4716              	.LASF37:
+ 4717 04c2 705F7469 		.ascii	"p_time\000"
+ 4717      6D6500
+ 4718              	.LASF48:
+ 4719 04c9 696E7463 		.ascii	"intctx\000"
+ 4719      747800
+ 4720              	.LASF39:
+ 4721 04d0 705F6D73 		.ascii	"p_msgqueue\000"
+ 4721      67717565 
+ 4721      756500
+ 4722              	.LASF57:
+ 4723 04db 76745F70 		.ascii	"vt_par\000"
+ 4723      617200
+ 4724              	.LASF23:
+ 4725 04e2 666C6167 		.ascii	"flagsmask_t\000"
+ 4725      736D6173 
+ 4725      6B5F7400 
+ 4726              	.LASF117:
+ 4727 04ee 63685468 		.ascii	"chThdSleep\000"
+ 4727      64536C65 
+ 4727      657000
+ 4728              	.LASF35:
+ 4729 04f9 705F7265 		.ascii	"p_refs\000"
+ 4729      667300
+ 4730              	.LASF66:
+ 4731 0500 52656164 		.ascii	"ReadyList\000"
+ 4731      794C6973 
+ 4731      7400
+ 4732              	.LASF100:
+ 4733 050a 726C6973 		.ascii	"rlist\000"
+ 4733      7400
+ 4734              	.LASF3:
+ 4735 0510 75696E74 		.ascii	"uint8_t\000"
+ 4735      385F7400 
+ 4736              	.LASF71:
+ 4737 0518 4576656E 		.ascii	"EventListener\000"
+ 4737      744C6973 
+ 4737      74656E65 
+ 4737      7200
+ 4738              	.LASF122:
+ 4739 0526 63684576 		.ascii	"chEvtWaitOneTimeout\000"
+ 4739      74576169 
+ 4739      744F6E65 
+ 4739      54696D65 
+ 4739      6F757400 
+ 4740              	.LASF81:
+ 4741 053a 77746F62 		.ascii	"wtobjp\000"
+ 4741      6A7000
+ 4742              	.LASF32:
+ 4743 0541 705F6E61 		.ascii	"p_name\000"
+ 4743      6D6500
+ 4744              	.LASF109:
+ 4745 0548 5F746573 		.ascii	"_test_assert\000"
+ 4745      745F6173 
+ 4745      73657274 
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s 			page 89
 
 
- 4743              	.LASF81:
- 4744 057e 77746F62 		.ascii	"wtobjp\000"
- 4744      6A7000
- 4745              	.LASF32:
- 4746 0585 705F6E61 		.ascii	"p_name\000"
- 4746      6D6500
- 4747              	.LASF109:
- 4748 058c 5F746573 		.ascii	"_test_assert\000"
- 4748      745F6173 
- 4748      73657274 
- 4748      00
- 4749              	.LASF58:
- 4750 0599 76745F73 		.ascii	"vt_systime\000"
- 4750      79737469 
- 4750      6D6500
- 4751              	.LASF77:
- 4752 05a4 65735F6E 		.ascii	"es_next\000"
- 4752      65787400 
- 4753              	.LASF59:
- 4754 05ac 56544C69 		.ascii	"VTList\000"
- 4754      737400
- 4755              	.LASF69:
- 4756 05b3 6D5F6F77 		.ascii	"m_owner\000"
- 4756      6E657200 
- 4757              	.LASF129:
- 4758 05bb 74657374 		.ascii	"test_wait_tick\000"
- 4758      5F776169 
- 4758      745F7469 
- 4758      636B00
- 4759              	.LASF97:
- 4760 05ca 65767431 		.ascii	"evt1_execute\000"
- 4760      5F657865 
- 4760      63757465 
- 4760      00
+ 4745      00
+ 4746              	.LASF58:
+ 4747 0555 76745F73 		.ascii	"vt_systime\000"
+ 4747      79737469 
+ 4747      6D6500
+ 4748              	.LASF77:
+ 4749 0560 65735F6E 		.ascii	"es_next\000"
+ 4749      65787400 
+ 4750              	.LASF59:
+ 4751 0568 56544C69 		.ascii	"VTList\000"
+ 4751      737400
+ 4752              	.LASF69:
+ 4753 056f 6D5F6F77 		.ascii	"m_owner\000"
+ 4753      6E657200 
+ 4754              	.LASF129:
+ 4755 0577 74657374 		.ascii	"test_wait_tick\000"
+ 4755      5F776169 
+ 4755      745F7469 
+ 4755      636B00
+ 4756              	.LASF97:
+ 4757 0586 65767431 		.ascii	"evt1_execute\000"
+ 4757      5F657865 
+ 4757      63757465 
+ 4757      00
+ 4758              	.LASF127:
+ 4759 0593 433A5C55 		.ascii	"C:\\Users\\Rich\341rd\\git\\Modulux\\modulux\\firmw"
+ 4759      73657273 
+ 4759      5C526963 
+ 4759      68E17264 
+ 4759      5C676974 
+ 4760 05bd 61726500 		.ascii	"are\000"
  4761              	.LASF29:
- 4762 05d7 705F6374 		.ascii	"p_ctx\000"
+ 4762 05c1 705F6374 		.ascii	"p_ctx\000"
  4762      7800
  4763              	.LASF38:
- 4764 05dd 705F7761 		.ascii	"p_waiting\000"
+ 4764 05c7 705F7761 		.ascii	"p_waiting\000"
  4764      6974696E 
  4764      6700
  4765              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.7.4 20140401 (release) [ARM/embedded-4_7-br
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 90
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s 			page 90
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 testevt.c
-C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s:19     .text.evt3_setup:00000000 $t
-C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s:24     .text.evt3_setup:00000000 evt3_setup
-C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s:42     .text.evt2_setup:00000000 $t
-C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s:47     .text.evt2_setup:00000000 evt2_setup
-C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s:64     .text.evt1_setup:00000000 $t
-C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s:69     .text.evt1_setup:00000000 evt1_setup
-C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s:86     .text.evt2_execute:00000000 $t
-C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s:91     .text.evt2_execute:00000000 evt2_execute
-C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s:445    .text.evt2_execute:00000258 $d
-C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s:506    .text.thread1:00000000 thread1
-C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s:463    .text.thread2:00000000 thread2
-C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s:458    .text.thread2:00000000 $t
-C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s:891    .data.es1:00000000 .LANCHOR0
-C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s:898    .data.es2:00000000 .LANCHOR1
-C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s:501    .text.thread1:00000000 $t
-C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s:537    .text.evt1_execute:00000000 $t
-C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s:542    .text.evt1_execute:00000000 evt1_execute
-C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s:632    .text.evt1_execute:00000078 $d
-C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s:639    .text.h3:00000000 $t
-C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s:644    .text.h3:00000000 h3
-C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s:661    .text.h2:00000000 $t
-C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s:666    .text.h2:00000000 h2
-C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s:683    .text.h1:00000000 $t
-C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s:688    .text.h1:00000000 h1
-C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s:705    .text.evt3_execute:00000000 $t
-C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s:710    .text.evt3_execute:00000000 evt3_execute
-C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s:833    .rodata.patternevt:00000000 patternevt
-C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s:884    .rodata.testevt3:00000000 testevt3
-C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s:842    .rodata.testevt2:00000000 testevt2
-C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s:866    .rodata.testevt1:00000000 testevt1
-C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s:830    .rodata.patternevt:00000000 $d
-C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s:839    .rodata.testevt2:00000000 $d
-C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s:848    .rodata.str1.4:00000000 $d
-C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s:863    .rodata.testevt1:00000000 $d
-C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s:872    .rodata.evhndl:00000000 $d
-C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s:876    .rodata.evhndl:00000000 evhndl
-C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s:881    .rodata.testevt3:00000000 $d
-C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s:890    .data.es1:00000000 $d
-C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s:894    .data.es1:00000000 es1
-C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s:897    .data.es2:00000000 $d
-C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s:901    .data.es2:00000000 es2
+C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s:19     .text.evt3_setup:00000000 $t
+C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s:24     .text.evt3_setup:00000000 evt3_setup
+C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s:42     .text.evt2_setup:00000000 $t
+C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s:47     .text.evt2_setup:00000000 evt2_setup
+C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s:64     .text.evt1_setup:00000000 $t
+C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s:69     .text.evt1_setup:00000000 evt1_setup
+C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s:86     .text.evt2_execute:00000000 $t
+C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s:91     .text.evt2_execute:00000000 evt2_execute
+C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s:445    .text.evt2_execute:00000258 $d
+C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s:506    .text.thread1:00000000 thread1
+C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s:463    .text.thread2:00000000 thread2
+C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s:458    .text.thread2:00000000 $t
+C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s:891    .data.es1:00000000 .LANCHOR0
+C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s:898    .data.es2:00000000 .LANCHOR1
+C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s:501    .text.thread1:00000000 $t
+C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s:537    .text.evt1_execute:00000000 $t
+C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s:542    .text.evt1_execute:00000000 evt1_execute
+C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s:632    .text.evt1_execute:00000078 $d
+C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s:639    .text.h3:00000000 $t
+C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s:644    .text.h3:00000000 h3
+C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s:661    .text.h2:00000000 $t
+C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s:666    .text.h2:00000000 h2
+C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s:683    .text.h1:00000000 $t
+C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s:688    .text.h1:00000000 h1
+C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s:705    .text.evt3_execute:00000000 $t
+C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s:710    .text.evt3_execute:00000000 evt3_execute
+C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s:833    .rodata.patternevt:00000000 patternevt
+C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s:884    .rodata.testevt3:00000000 testevt3
+C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s:842    .rodata.testevt2:00000000 testevt2
+C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s:866    .rodata.testevt1:00000000 testevt1
+C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s:830    .rodata.patternevt:00000000 $d
+C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s:839    .rodata.testevt2:00000000 $d
+C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s:848    .rodata.str1.4:00000000 $d
+C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s:863    .rodata.testevt1:00000000 $d
+C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s:872    .rodata.evhndl:00000000 $d
+C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s:876    .rodata.evhndl:00000000 evhndl
+C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s:881    .rodata.testevt3:00000000 $d
+C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s:890    .data.es1:00000000 $d
+C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s:894    .data.es1:00000000 es1
+C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s:897    .data.es2:00000000 $d
+C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s:901    .data.es2:00000000 es2
                      .debug_frame:00000010 $d
-C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s:457    .text.evt2_execute:0000027c $t
-C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s:638    .text.evt1_execute:00000084 $t
+C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s:457    .text.evt2_execute:0000027c $t
+C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s:638    .text.evt1_execute:00000084 $t
 
 UNDEFINED SYMBOLS
 chEvtGetAndClearEvents
@@ -5383,7 +5380,7 @@ chThdCreateStatic
 _test_assert_time_window
 test_wait_threads
 chEvtWaitAny
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccN1prs9.s 			page 91
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccAEGAi1.s 			page 91
 
 
 chEvtRegisterMask

@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccCw0jBG.s 			page 1
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccSYnGm6.s 			page 1
 
 
    1              		.syntax unified
@@ -20,7 +20,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccCw0jBG.s 			page 1
   17              		.cfi_sections	.debug_frame
   18              	.Letext0:
   19              		.file 1 "c:\\chibistudio\\tools\\gnu tools arm embedded\\4.7 2014q2\\bin\\../lib/gcc/arm-none-eabi
-  20              		.file 2 "../../../../Chibios/os/ports/common/ARMCMx/CMSIS/include/core_cm4.h"
+  20              		.file 2 "../../Chibios/os/ports/common/ARMCMx/CMSIS/include/core_cm4.h"
   21              		.section	.debug_info,"",%progbits
   22              	.Ldebug_info0:
   23 0000 93000000 		.4byte	0x93
@@ -30,8 +30,8 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccCw0jBG.s 			page 1
   27 000b 01       		.uleb128 0x1
   28 000c 2E000000 		.4byte	.LASF12
   29 0010 01       		.byte	0x1
-  30 0011 A0000000 		.4byte	.LASF13
-  31 0015 EE000000 		.4byte	.LASF14
+  30 0011 EA000000 		.4byte	.LASF13
+  31 0015 AE000000 		.4byte	.LASF14
   32 0019 00000000 		.4byte	.Ldebug_line0
   33 001d 02       		.uleb128 0x2
   34 001e 04       		.byte	0x4
@@ -44,31 +44,31 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccCw0jBG.s 			page 1
   41 002b 03       		.uleb128 0x3
   42 002c 01       		.byte	0x1
   43 002d 06       		.byte	0x6
-  44 002e 48010000 		.4byte	.LASF1
+  44 002e 32010000 		.4byte	.LASF1
   45 0032 03       		.uleb128 0x3
   46 0033 01       		.byte	0x1
   47 0034 08       		.byte	0x8
-  48 0035 DB000000 		.4byte	.LASF2
+  48 0035 A0000000 		.4byte	.LASF2
   49 0039 03       		.uleb128 0x3
   50 003a 02       		.byte	0x2
   51 003b 05       		.byte	0x5
-  52 003c 54010000 		.4byte	.LASF3
+  52 003c 3E010000 		.4byte	.LASF3
   53 0040 03       		.uleb128 0x3
   54 0041 02       		.byte	0x2
   55 0042 07       		.byte	0x7
   56 0043 0E000000 		.4byte	.LASF4
   57 0047 04       		.uleb128 0x4
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccCw0jBG.s 			page 2
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccSYnGm6.s 			page 2
 
 
-  58 0048 5E010000 		.4byte	.LASF15
+  58 0048 48010000 		.4byte	.LASF15
   59 004c 01       		.byte	0x1
   60 004d 4F       		.byte	0x4f
   61 004e 52000000 		.4byte	0x52
   62 0052 03       		.uleb128 0x3
   63 0053 04       		.byte	0x4
   64 0054 05       		.byte	0x5
-  65 0055 2C010000 		.4byte	.LASF5
+  65 0055 E1000000 		.4byte	.LASF5
   66 0059 03       		.uleb128 0x3
   67 005a 04       		.byte	0x4
   68 005b 07       		.byte	0x7
@@ -84,19 +84,19 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccCw0jBG.s 			page 1
   78 006e 03       		.uleb128 0x3
   79 006f 01       		.byte	0x1
   80 0070 02       		.byte	0x2
-  81 0071 35010000 		.4byte	.LASF9
+  81 0071 1F010000 		.4byte	.LASF9
   82 0075 03       		.uleb128 0x3
   83 0076 04       		.byte	0x4
   84 0077 07       		.byte	0x7
-  85 0078 66010000 		.4byte	.LASF10
+  85 0078 50010000 		.4byte	.LASF10
   86 007c 03       		.uleb128 0x3
   87 007d 01       		.byte	0x1
   88 007e 08       		.byte	0x8
-  89 007f E9000000 		.4byte	.LASF11
+  89 007f DC000000 		.4byte	.LASF11
   90 0083 05       		.uleb128 0x5
   91 0084 47000000 		.4byte	0x47
   92 0088 06       		.uleb128 0x6
-  93 0089 3B010000 		.4byte	.LASF16
+  93 0089 25010000 		.4byte	.LASF16
   94 008d 02       		.byte	0x2
   95 008e 9806     		.2byte	0x698
   96 0090 83000000 		.4byte	0x83
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccCw0jBG.s 			page 1
  112 000a 0E       		.uleb128 0xe
  113 000b 10       		.uleb128 0x10
  114 000c 06       		.uleb128 0x6
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccCw0jBG.s 			page 3
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccSYnGm6.s 			page 3
 
 
  115 000d 00       		.byte	0
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccCw0jBG.s 			page 1
  169 0043 13       		.uleb128 0x13
  170 0044 3F       		.uleb128 0x3f
  171 0045 0C       		.uleb128 0xc
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccCw0jBG.s 			page 4
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccSYnGm6.s 			page 4
 
 
  172 0046 3C       		.uleb128 0x3c
@@ -198,8 +198,8 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccCw0jBG.s 			page 1
  186 0014 00000000 		.4byte	0
  187              		.section	.debug_line,"",%progbits
  188              	.Ldebug_line0:
- 189 0000 E8000000 		.section	.debug_str,"MS",%progbits,1
- 189      0200E200 
+ 189 0000 E2000000 		.section	.debug_str,"MS",%progbits,1
+ 189      0200DC00 
  189      00000201 
  189      FB0E0D00 
  189      01010101 
@@ -238,71 +238,64 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccCw0jBG.s 			page 1
  200      7400
  201              	.LASF8:
  202 0089 6C6F6E67 		.ascii	"long long unsigned int\000"
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccCw0jBG.s 			page 5
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccSYnGm6.s 			page 5
 
 
  202      206C6F6E 
  202      6720756E 
  202      7369676E 
  202      65642069 
- 203              	.LASF13:
- 204 00a0 2E2E2F2E 		.ascii	"../../../../Chibios/os/hal/platforms/STM32/TIMv1/gp"
- 204      2E2F2E2E 
- 204      2F2E2E2F 
- 204      43686962 
- 204      696F732F 
- 205 00d3 745F6C6C 		.ascii	"t_lld.c\000"
- 205      642E6300 
- 206              	.LASF2:
- 207 00db 756E7369 		.ascii	"unsigned char\000"
- 207      676E6564 
- 207      20636861 
- 207      7200
+ 203              	.LASF2:
+ 204 00a0 756E7369 		.ascii	"unsigned char\000"
+ 204      676E6564 
+ 204      20636861 
+ 204      7200
+ 205              	.LASF14:
+ 206 00ae 433A5C55 		.ascii	"C:\\Users\\Rich\341rd\\git\\Modulux\\modulux\\firmw"
+ 206      73657273 
+ 206      5C526963 
+ 206      68E17264 
+ 206      5C676974 
+ 207 00d8 61726500 		.ascii	"are\000"
  208              	.LASF11:
- 209 00e9 63686172 		.ascii	"char\000"
+ 209 00dc 63686172 		.ascii	"char\000"
  209      00
- 210              	.LASF14:
- 211 00ee 433A5C43 		.ascii	"C:\\ChibiStudio\\workspace26\\Modulux_v0_Lights\\mo"
- 211      68696269 
- 211      53747564 
- 211      696F5C77 
- 211      6F726B73 
- 212 011d 64756C75 		.ascii	"dulux\\firmware\000"
- 212      785C6669 
- 212      726D7761 
- 212      726500
- 213              	.LASF5:
- 214 012c 6C6F6E67 		.ascii	"long int\000"
- 214      20696E74 
- 214      00
+ 210              	.LASF5:
+ 211 00e1 6C6F6E67 		.ascii	"long int\000"
+ 211      20696E74 
+ 211      00
+ 212              	.LASF13:
+ 213 00ea 2E2E2F2E 		.ascii	"../../Chibios/os/hal/platforms/STM32/TIMv1/gpt_lld."
+ 213      2E2F4368 
+ 213      6962696F 
+ 213      732F6F73 
+ 213      2F68616C 
+ 214 011d 6300     		.ascii	"c\000"
  215              	.LASF9:
- 216 0135 5F426F6F 		.ascii	"_Bool\000"
+ 216 011f 5F426F6F 		.ascii	"_Bool\000"
  216      6C00
  217              	.LASF16:
- 218 013b 49544D5F 		.ascii	"ITM_RxBuffer\000"
+ 218 0125 49544D5F 		.ascii	"ITM_RxBuffer\000"
  218      52784275 
  218      66666572 
  218      00
  219              	.LASF1:
- 220 0148 7369676E 		.ascii	"signed char\000"
+ 220 0132 7369676E 		.ascii	"signed char\000"
  220      65642063 
  220      68617200 
  221              	.LASF3:
- 222 0154 73686F72 		.ascii	"short int\000"
+ 222 013e 73686F72 		.ascii	"short int\000"
  222      7420696E 
  222      7400
  223              	.LASF15:
- 224 015e 696E7433 		.ascii	"int32_t\000"
+ 224 0148 696E7433 		.ascii	"int32_t\000"
  224      325F7400 
  225              	.LASF10:
- 226 0166 73697A65 		.ascii	"sizetype\000"
+ 226 0150 73697A65 		.ascii	"sizetype\000"
  226      74797065 
  226      00
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccCw0jBG.s 			page 6
-
-
  227              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.7.4 20140401 (release) [ARM/embedded-4_7-br
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccCw0jBG.s 			page 7
+ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccSYnGm6.s 			page 6
 
 
 DEFINED SYMBOLS
