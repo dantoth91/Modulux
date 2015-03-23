@@ -10,7 +10,7 @@
 
 static msg_t can_tx(void * p);
 static msg_t can_rx(void *p);
-static msg_t Villog();
+//static msg_t Villog();
 void can_commInit(void);
 
 

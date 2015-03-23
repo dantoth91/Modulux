@@ -205,7 +205,7 @@
 #define VAL_GPIOE_MODER             (PIN_MODE_OUTPUT(GPIOE_LD1)             | \
                                      PIN_MODE_OUTPUT(GPIOE_LD2)             | \
                                      PIN_MODE_OUTPUT(GPIOE_PO1)             | \
-                                     PIN_MODE_OUTPUT(GPIOE_PO2)             | \
+                                     PIN_MODE_ALTERNATE(GPIOE_PO2)             | \
                                      PIN_MODE_OUTPUT(GPIOE_PO3)             | \
                                      PIN_MODE_OUTPUT(GPIOE_PO4))
 #define VAL_GPIOE_OTYPER            0x00000000
@@ -213,7 +213,7 @@
 #define VAL_GPIOE_PUPDR             0xFFFFFFFF
 #define VAL_GPIOE_ODR               0xFFFFFFFF
 #define VAL_GPIOE_AFRL              0x00000000
-#define VAL_GPIOE_AFRH              0x00000000
+#define VAL_GPIOE_AFRH             (PIN_AFIO_AF(GPIOE_PO2, 1 ))
 
 /*
  * Port F setup.

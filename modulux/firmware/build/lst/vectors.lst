@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s 			page 1
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s 			page 1
 
 
    1              		.syntax unified
@@ -27,7 +27,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s 			page 1
   24              		.type	_unhandled_exception, %function
   25              	_unhandled_exception:
   26              	.LFB7:
-  27              		.file 1 "../../Chibios/os/ports/GCC/ARMCMx/STM32F4xx/vectors.c"
+  27              		.file 1 "../../../Chibios/os/ports/GCC/ARMCMx/STM32F4xx/vectors.c"
   28              		.loc 1 226 0
   29              		.cfi_startproc
   30              		@ Naked Function: prologue and epilogue provided by programmer.
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s 			page 1
   55              		.weak	SVCallVector
   56              		.thumb_set SVCallVector,_unhandled_exception
   57              		.weak	DebugMonitorVector
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s 			page 2
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s 			page 2
 
 
   58              		.thumb_set DebugMonitorVector,_unhandled_exception
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s 			page 1
  112              		.thumb_set Vector9C,_unhandled_exception
  113              		.weak	VectorA0
  114              		.thumb_set VectorA0,_unhandled_exception
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s 			page 3
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s 			page 3
 
 
  115              		.weak	VectorA4
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s 			page 1
  169              		.weak	Vector110
  170              		.thumb_set Vector110,_unhandled_exception
  171              		.weak	Vector114
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s 			page 4
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s 			page 4
 
 
  172              		.thumb_set Vector114,_unhandled_exception
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s 			page 1
  226              		.thumb_set Vector180,_unhandled_exception
  227              		.weak	Vector184
  228              		.thumb_set Vector184,_unhandled_exception
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s 			page 5
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s 			page 5
 
 
  229              		.weak	Vector188
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s 			page 1
  283 0070 00000000 		.word	Vector70
  284 0074 00000000 		.word	Vector74
  285 0078 00000000 		.word	Vector78
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s 			page 6
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s 			page 6
 
 
  286 007c 00000000 		.word	Vector7C
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s 			page 1
  340 0154 00000000 		.word	Vector154
  341 0158 00000000 		.word	Vector158
  342 015c 00000000 		.word	Vector15C
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s 			page 7
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s 			page 7
 
 
  343 0160 00000000 		.word	Vector160
@@ -390,10 +390,10 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s 			page 1
  369 0006 00000000 		.4byte	.Ldebug_abbrev0
  370 000a 04       		.byte	0x4
  371 000b 01       		.uleb128 0x1
- 372 000c AA000000 		.4byte	.LASF34
+ 372 000c 74000000 		.4byte	.LASF34
  373 0010 01       		.byte	0x1
- 374 0011 16000000 		.4byte	.LASF35
- 375 0015 FC000000 		.4byte	.LASF36
+ 374 0011 41010000 		.4byte	.LASF35
+ 375 0015 C6000000 		.4byte	.LASF36
  376 0019 00000000 		.4byte	.Ldebug_ranges0+0
  377 001d 00000000 		.4byte	0
  378 0021 00000000 		.4byte	0
@@ -405,59 +405,59 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s 			page 1
  384 0030 03       		.uleb128 0x3
  385 0031 04       		.byte	0x4
  386 0032 07       		.byte	0x7
- 387 0033 39010000 		.4byte	.LASF0
+ 387 0033 02010000 		.4byte	.LASF0
  388 0037 03       		.uleb128 0x3
  389 0038 01       		.byte	0x1
  390 0039 06       		.byte	0x6
- 391 003a 2F020000 		.4byte	.LASF1
+ 391 003a 31020000 		.4byte	.LASF1
  392 003e 03       		.uleb128 0x3
  393 003f 01       		.byte	0x1
  394 0040 08       		.byte	0x8
- 395 0041 77000000 		.4byte	.LASF2
+ 395 0041 41000000 		.4byte	.LASF2
  396 0045 03       		.uleb128 0x3
  397 0046 02       		.byte	0x2
  398 0047 05       		.byte	0x5
- 399 0048 06020000 		.4byte	.LASF3
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s 			page 8
+ 399 0048 08020000 		.4byte	.LASF3
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s 			page 8
 
 
  400 004c 03       		.uleb128 0x3
  401 004d 02       		.byte	0x2
  402 004e 07       		.byte	0x7
- 403 004f 97000000 		.4byte	.LASF4
+ 403 004f 61000000 		.4byte	.LASF4
  404 0053 03       		.uleb128 0x3
  405 0054 04       		.byte	0x4
  406 0055 05       		.byte	0x5
- 407 0056 26020000 		.4byte	.LASF5
+ 407 0056 28020000 		.4byte	.LASF5
  408 005a 04       		.uleb128 0x4
- 409 005b 1D020000 		.4byte	.LASF12
+ 409 005b 1F020000 		.4byte	.LASF12
  410 005f 02       		.byte	0x2
  411 0060 50       		.byte	0x50
  412 0061 65000000 		.4byte	0x65
  413 0065 03       		.uleb128 0x3
  414 0066 04       		.byte	0x4
  415 0067 07       		.byte	0x7
- 416 0068 85000000 		.4byte	.LASF6
+ 416 0068 4F000000 		.4byte	.LASF6
  417 006c 03       		.uleb128 0x3
  418 006d 08       		.byte	0x8
  419 006e 05       		.byte	0x5
- 420 006f C5010000 		.4byte	.LASF7
+ 420 006f C7010000 		.4byte	.LASF7
  421 0073 03       		.uleb128 0x3
  422 0074 08       		.byte	0x8
  423 0075 07       		.byte	0x7
- 424 0076 51010000 		.4byte	.LASF8
+ 424 0076 1A010000 		.4byte	.LASF8
  425 007a 03       		.uleb128 0x3
  426 007b 01       		.byte	0x1
  427 007c 02       		.byte	0x2
- 428 007d 58020000 		.4byte	.LASF9
+ 428 007d 5A020000 		.4byte	.LASF9
  429 0081 03       		.uleb128 0x3
  430 0082 04       		.byte	0x4
  431 0083 07       		.byte	0x7
- 432 0084 9D010000 		.4byte	.LASF10
+ 432 0084 9F010000 		.4byte	.LASF10
  433 0088 03       		.uleb128 0x3
  434 0089 01       		.byte	0x1
  435 008a 08       		.byte	0x8
- 436 008b D3010000 		.4byte	.LASF11
+ 436 008b D5010000 		.4byte	.LASF11
  437 008f 04       		.uleb128 0x4
  438 0090 09000000 		.4byte	.LASF13
  439 0094 01       		.byte	0x1
@@ -474,18 +474,18 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s 			page 1
  450 00a6 30       		.byte	0x30
  451 00a7 9A010000 		.4byte	0x19a
  452 00ab 08       		.uleb128 0x8
- 453 00ac 5E000000 		.4byte	.LASF14
+ 453 00ac 28000000 		.4byte	.LASF14
  454 00b0 01       		.byte	0x1
  455 00b1 31       		.byte	0x31
  456 00b2 9A010000 		.4byte	0x19a
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s 			page 9
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s 			page 9
 
 
  457 00b6 02       		.byte	0x2
  458 00b7 23       		.byte	0x23
  459 00b8 00       		.uleb128 0
  460 00b9 08       		.uleb128 0x8
- 461 00ba 10020000 		.4byte	.LASF15
+ 461 00ba 12020000 		.4byte	.LASF15
  462 00be 01       		.byte	0x1
  463 00bf 32       		.byte	0x32
  464 00c0 8F000000 		.4byte	0x8f
@@ -493,7 +493,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s 			page 1
  466 00c5 23       		.byte	0x23
  467 00c6 04       		.uleb128 0x4
  468 00c7 08       		.uleb128 0x8
- 469 00c8 46010000 		.4byte	.LASF16
+ 469 00c8 0F010000 		.4byte	.LASF16
  470 00cc 01       		.byte	0x1
  471 00cd 33       		.byte	0x33
  472 00ce 8F000000 		.4byte	0x8f
@@ -501,7 +501,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s 			page 1
  474 00d3 23       		.byte	0x23
  475 00d4 08       		.uleb128 0x8
  476 00d5 08       		.uleb128 0x8
- 477 00d6 B4010000 		.4byte	.LASF17
+ 477 00d6 B6010000 		.4byte	.LASF17
  478 00da 01       		.byte	0x1
  479 00db 34       		.byte	0x34
  480 00dc 8F000000 		.4byte	0x8f
@@ -509,7 +509,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s 			page 1
  482 00e1 23       		.byte	0x23
  483 00e2 0C       		.uleb128 0xc
  484 00e3 08       		.uleb128 0x8
- 485 00e4 D8010000 		.4byte	.LASF18
+ 485 00e4 DA010000 		.4byte	.LASF18
  486 00e8 01       		.byte	0x1
  487 00e9 35       		.byte	0x35
  488 00ea 8F000000 		.4byte	0x8f
@@ -517,7 +517,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s 			page 1
  490 00ef 23       		.byte	0x23
  491 00f0 10       		.uleb128 0x10
  492 00f1 08       		.uleb128 0x8
- 493 00f2 68010000 		.4byte	.LASF19
+ 493 00f2 31010000 		.4byte	.LASF19
  494 00f6 01       		.byte	0x1
  495 00f7 36       		.byte	0x36
  496 00f8 8F000000 		.4byte	0x8f
@@ -525,7 +525,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s 			page 1
  498 00fd 23       		.byte	0x23
  499 00fe 14       		.uleb128 0x14
  500 00ff 08       		.uleb128 0x8
- 501 0100 81010000 		.4byte	.LASF20
+ 501 0100 83010000 		.4byte	.LASF20
  502 0104 01       		.byte	0x1
  503 0105 37       		.byte	0x37
  504 0106 8F000000 		.4byte	0x8f
@@ -533,18 +533,18 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s 			page 1
  506 010b 23       		.byte	0x23
  507 010c 18       		.uleb128 0x18
  508 010d 08       		.uleb128 0x8
- 509 010e F3000000 		.4byte	.LASF21
+ 509 010e BD000000 		.4byte	.LASF21
  510 0112 01       		.byte	0x1
  511 0113 38       		.byte	0x38
  512 0114 8F000000 		.4byte	0x8f
  513 0118 02       		.byte	0x2
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s 			page 10
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s 			page 10
 
 
  514 0119 23       		.byte	0x23
  515 011a 1C       		.uleb128 0x1c
  516 011b 08       		.uleb128 0x8
- 517 011c 4F020000 		.4byte	.LASF22
+ 517 011c 51020000 		.4byte	.LASF22
  518 0120 01       		.byte	0x1
  519 0121 39       		.byte	0x39
  520 0122 8F000000 		.4byte	0x8f
@@ -560,7 +560,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s 			page 1
  530 0135 23       		.byte	0x23
  531 0136 24       		.uleb128 0x24
  532 0137 08       		.uleb128 0x8
- 533 0138 78010000 		.4byte	.LASF24
+ 533 0138 7A010000 		.4byte	.LASF24
  534 013c 01       		.byte	0x1
  535 013d 3B       		.byte	0x3b
  536 013e 8F000000 		.4byte	0x8f
@@ -568,7 +568,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s 			page 1
  538 0143 23       		.byte	0x23
  539 0144 28       		.uleb128 0x28
  540 0145 08       		.uleb128 0x8
- 541 0146 69000000 		.4byte	.LASF25
+ 541 0146 33000000 		.4byte	.LASF25
  542 014a 01       		.byte	0x1
  543 014b 3C       		.byte	0x3c
  544 014c 8F000000 		.4byte	0x8f
@@ -576,7 +576,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s 			page 1
  546 0151 23       		.byte	0x23
  547 0152 2C       		.uleb128 0x2c
  548 0153 08       		.uleb128 0x8
- 549 0154 3B020000 		.4byte	.LASF26
+ 549 0154 3D020000 		.4byte	.LASF26
  550 0158 01       		.byte	0x1
  551 0159 3D       		.byte	0x3d
  552 015a 8F000000 		.4byte	0x8f
@@ -584,7 +584,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s 			page 1
  554 015f 23       		.byte	0x23
  555 0160 30       		.uleb128 0x30
  556 0161 08       		.uleb128 0x8
- 557 0162 4C000000 		.4byte	.LASF27
+ 557 0162 16000000 		.4byte	.LASF27
  558 0166 01       		.byte	0x1
  559 0167 3E       		.byte	0x3e
  560 0168 8F000000 		.4byte	0x8f
@@ -592,18 +592,18 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s 			page 1
  562 016d 23       		.byte	0x23
  563 016e 34       		.uleb128 0x34
  564 016f 08       		.uleb128 0x8
- 565 0170 A6010000 		.4byte	.LASF28
+ 565 0170 A8010000 		.4byte	.LASF28
  566 0174 01       		.byte	0x1
  567 0175 3F       		.byte	0x3f
  568 0176 8F000000 		.4byte	0x8f
  569 017a 02       		.byte	0x2
  570 017b 23       		.byte	0x23
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s 			page 11
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s 			page 11
 
 
  571 017c 38       		.uleb128 0x38
  572 017d 08       		.uleb128 0x8
- 573 017e 2A010000 		.4byte	.LASF29
+ 573 017e F3000000 		.4byte	.LASF29
  574 0182 01       		.byte	0x1
  575 0183 40       		.byte	0x40
  576 0184 8F000000 		.4byte	0x8f
@@ -611,7 +611,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s 			page 1
  578 0189 23       		.byte	0x23
  579 018a 3C       		.uleb128 0x3c
  580 018b 08       		.uleb128 0x8
- 581 018c FE010000 		.4byte	.LASF30
+ 581 018c 00020000 		.4byte	.LASF30
  582 0190 01       		.byte	0x1
  583 0191 41       		.byte	0x41
  584 0192 A0010000 		.4byte	0x1a0
@@ -630,13 +630,13 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s 			page 1
  597 01ae 5A       		.byte	0x5a
  598 01af 00       		.byte	0
  599 01b0 04       		.uleb128 0x4
- 600 01b1 93010000 		.4byte	.LASF31
+ 600 01b1 95010000 		.4byte	.LASF31
  601 01b5 01       		.byte	0x1
  602 01b6 42       		.byte	0x42
  603 01b7 A2000000 		.4byte	0xa2
  604 01bb 0B       		.uleb128 0xb
  605 01bc 01       		.byte	0x1
- 606 01bd E9010000 		.4byte	.LASF37
+ 606 01bd EB010000 		.4byte	.LASF37
  607 01c1 01       		.byte	0x1
  608 01c2 E2       		.byte	0xe2
  609 01c3 01       		.byte	0x1
@@ -647,18 +647,18 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s 			page 1
  614 01ce 00       		.sleb128 0
  615 01cf 01       		.byte	0x1
  616 01d0 0C       		.uleb128 0xc
- 617 01d1 5E020000 		.4byte	.LASF32
+ 617 01d1 60020000 		.4byte	.LASF32
  618 01d5 01       		.byte	0x1
  619 01d6 45       		.byte	0x45
  620 01d7 5A000000 		.4byte	0x5a
  621 01db 01       		.byte	0x1
  622 01dc 01       		.byte	0x1
  623 01dd 0D       		.uleb128 0xd
- 624 01de 55000000 		.4byte	.LASF33
+ 624 01de 1F000000 		.4byte	.LASF33
  625 01e2 01       		.byte	0x1
  626 01e3 B8       		.byte	0xb8
  627 01e4 B0010000 		.4byte	0x1b0
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s 			page 12
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s 			page 12
 
 
  628 01e8 01       		.byte	0x1
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s 			page 1
  682 002f 0E       		.uleb128 0xe
  683 0030 3A       		.uleb128 0x3a
  684 0031 0B       		.uleb128 0xb
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s 			page 13
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s 			page 13
 
 
  685 0032 3B       		.uleb128 0x3b
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s 			page 1
  739 0068 13       		.uleb128 0x13
  740 0069 01       		.uleb128 0x1
  741 006a 13       		.uleb128 0x13
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s 			page 14
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s 			page 14
 
 
  742 006b 00       		.byte	0
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s 			page 1
  796 00a2 03       		.uleb128 0x3
  797 00a3 0E       		.uleb128 0xe
  798 00a4 3A       		.uleb128 0x3a
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s 			page 15
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s 			page 15
 
 
  799 00a5 0B       		.uleb128 0xb
@@ -873,8 +873,8 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s 			page 1
  828 000c 00000000 		.4byte	0
  829              		.section	.debug_line,"",%progbits
  830              	.Ldebug_line0:
- 831 0000 EA000000 		.section	.debug_str,"MS",%progbits,1
- 831      0200D400 
+ 831 0000 ED000000 		.section	.debug_str,"MS",%progbits,1
+ 831      0200D700 
  831      00000201 
  831      FB0E0D00 
  831      01010101 
@@ -887,317 +887,321 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s 			page 1
  835      76656374 
  835      6F725F74 
  835      00
- 836              	.LASF35:
- 837 0016 2E2E2F2E 		.ascii	"../../Chibios/os/ports/GCC/ARMCMx/STM32F4xx/vectors"
- 837      2E2F4368 
- 837      6962696F 
- 837      732F6F73 
- 837      2F706F72 
- 838 0049 2E6300   		.ascii	".c\000"
- 839              	.LASF27:
- 840 004c 76656374 		.ascii	"vector34\000"
- 840      6F723334 
- 840      00
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s 			page 16
+ 836              	.LASF27:
+ 837 0016 76656374 		.ascii	"vector34\000"
+ 837      6F723334 
+ 837      00
+ 838              	.LASF33:
+ 839 001f 5F766563 		.ascii	"_vectors\000"
+ 839      746F7273 
+ 839      00
+ 840              	.LASF14:
+ 841 0028 696E6974 		.ascii	"init_stack\000"
+ 841      5F737461 
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s 			page 16
 
 
- 841              	.LASF33:
- 842 0055 5F766563 		.ascii	"_vectors\000"
- 842      746F7273 
- 842      00
- 843              	.LASF14:
- 844 005e 696E6974 		.ascii	"init_stack\000"
- 844      5F737461 
- 844      636B00
- 845              	.LASF25:
- 846 0069 73766361 		.ascii	"svcall_vector\000"
- 846      6C6C5F76 
- 846      6563746F 
- 846      7200
- 847              	.LASF2:
- 848 0077 756E7369 		.ascii	"unsigned char\000"
- 848      676E6564 
- 848      20636861 
- 848      7200
- 849              	.LASF6:
- 850 0085 6C6F6E67 		.ascii	"long unsigned int\000"
- 850      20756E73 
- 850      69676E65 
- 850      6420696E 
- 850      7400
- 851              	.LASF4:
- 852 0097 73686F72 		.ascii	"short unsigned int\000"
- 852      7420756E 
- 852      7369676E 
- 852      65642069 
- 852      6E7400
- 853              	.LASF34:
- 854 00aa 474E5520 		.ascii	"GNU C 4.7.4 20140401 (release) [ARM/embedded-4_7-br"
- 854      4320342E 
- 854      372E3420 
- 854      32303134 
- 854      30343031 
- 855 00dd 616E6368 		.ascii	"anch revision 209195]\000"
- 855      20726576 
- 855      6973696F 
- 855      6E203230 
- 855      39313935 
- 856              	.LASF21:
- 857 00f3 76656374 		.ascii	"vector1c\000"
- 857      6F723163 
- 857      00
- 858              	.LASF36:
- 859 00fc 433A5C55 		.ascii	"C:\\Users\\Rich\341rd\\git\\Modulux\\modulux\\firmw"
- 859      73657273 
- 859      5C526963 
- 859      68E17264 
- 859      5C676974 
- 860 0126 61726500 		.ascii	"are\000"
- 861              	.LASF29:
- 862 012a 73797374 		.ascii	"systick_vector\000"
- 862      69636B5F 
- 862      76656374 
- 862      6F7200
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s 			page 17
+ 841      636B00
+ 842              	.LASF25:
+ 843 0033 73766361 		.ascii	"svcall_vector\000"
+ 843      6C6C5F76 
+ 843      6563746F 
+ 843      7200
+ 844              	.LASF2:
+ 845 0041 756E7369 		.ascii	"unsigned char\000"
+ 845      676E6564 
+ 845      20636861 
+ 845      7200
+ 846              	.LASF6:
+ 847 004f 6C6F6E67 		.ascii	"long unsigned int\000"
+ 847      20756E73 
+ 847      69676E65 
+ 847      6420696E 
+ 847      7400
+ 848              	.LASF4:
+ 849 0061 73686F72 		.ascii	"short unsigned int\000"
+ 849      7420756E 
+ 849      7369676E 
+ 849      65642069 
+ 849      6E7400
+ 850              	.LASF34:
+ 851 0074 474E5520 		.ascii	"GNU C 4.7.4 20140401 (release) [ARM/embedded-4_7-br"
+ 851      4320342E 
+ 851      372E3420 
+ 851      32303134 
+ 851      30343031 
+ 852 00a7 616E6368 		.ascii	"anch revision 209195]\000"
+ 852      20726576 
+ 852      6973696F 
+ 852      6E203230 
+ 852      39313935 
+ 853              	.LASF21:
+ 854 00bd 76656374 		.ascii	"vector1c\000"
+ 854      6F723163 
+ 854      00
+ 855              	.LASF36:
+ 856 00c6 433A5C55 		.ascii	"C:\\Users\\D\341niel\\git\\Modulux\\modulux\\firmwa"
+ 856      73657273 
+ 856      5C44E16E 
+ 856      69656C5C 
+ 856      6769745C 
+ 857 00f0 726500   		.ascii	"re\000"
+ 858              	.LASF29:
+ 859 00f3 73797374 		.ascii	"systick_vector\000"
+ 859      69636B5F 
+ 859      76656374 
+ 859      6F7200
+ 860              	.LASF0:
+ 861 0102 756E7369 		.ascii	"unsigned int\000"
+ 861      676E6564 
+ 861      20696E74 
+ 861      00
+ 862              	.LASF16:
+ 863 010f 6E6D695F 		.ascii	"nmi_vector\000"
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s 			page 17
 
 
- 863              	.LASF0:
- 864 0139 756E7369 		.ascii	"unsigned int\000"
- 864      676E6564 
- 864      20696E74 
- 864      00
- 865              	.LASF16:
- 866 0146 6E6D695F 		.ascii	"nmi_vector\000"
- 866      76656374 
- 866      6F7200
- 867              	.LASF8:
- 868 0151 6C6F6E67 		.ascii	"long long unsigned int\000"
- 868      206C6F6E 
- 868      6720756E 
- 868      7369676E 
- 868      65642069 
- 869              	.LASF19:
- 870 0168 62757366 		.ascii	"busfault_vector\000"
- 870      61756C74 
- 870      5F766563 
- 870      746F7200 
+ 863      76656374 
+ 863      6F7200
+ 864              	.LASF8:
+ 865 011a 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 865      206C6F6E 
+ 865      6720756E 
+ 865      7369676E 
+ 865      65642069 
+ 866              	.LASF19:
+ 867 0131 62757366 		.ascii	"busfault_vector\000"
+ 867      61756C74 
+ 867      5F766563 
+ 867      746F7200 
+ 868              	.LASF35:
+ 869 0141 2E2E2F2E 		.ascii	"../../../Chibios/os/ports/GCC/ARMCMx/STM32F4xx/vect"
+ 869      2E2F2E2E 
+ 869      2F436869 
+ 869      62696F73 
+ 869      2F6F732F 
+ 870 0174 6F72732E 		.ascii	"ors.c\000"
+ 870      6300
  871              	.LASF24:
- 872 0178 76656374 		.ascii	"vector28\000"
+ 872 017a 76656374 		.ascii	"vector28\000"
  872      6F723238 
  872      00
  873              	.LASF20:
- 874 0181 75736167 		.ascii	"usagefault_vector\000"
+ 874 0183 75736167 		.ascii	"usagefault_vector\000"
  874      65666175 
  874      6C745F76 
  874      6563746F 
  874      7200
  875              	.LASF31:
- 876 0193 76656374 		.ascii	"vectors_t\000"
+ 876 0195 76656374 		.ascii	"vectors_t\000"
  876      6F72735F 
  876      7400
  877              	.LASF10:
- 878 019d 73697A65 		.ascii	"sizetype\000"
+ 878 019f 73697A65 		.ascii	"sizetype\000"
  878      74797065 
  878      00
  879              	.LASF28:
- 880 01a6 70656E64 		.ascii	"pendsv_vector\000"
+ 880 01a8 70656E64 		.ascii	"pendsv_vector\000"
  880      73765F76 
  880      6563746F 
  880      7200
  881              	.LASF17:
- 882 01b4 68617264 		.ascii	"hardfault_vector\000"
+ 882 01b6 68617264 		.ascii	"hardfault_vector\000"
  882      6661756C 
  882      745F7665 
  882      63746F72 
  882      00
  883              	.LASF7:
- 884 01c5 6C6F6E67 		.ascii	"long long int\000"
+ 884 01c7 6C6F6E67 		.ascii	"long long int\000"
  884      206C6F6E 
  884      6720696E 
  884      7400
  885              	.LASF11:
- 886 01d3 63686172 		.ascii	"char\000"
+ 886 01d5 63686172 		.ascii	"char\000"
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s 			page 18
+
+
  886      00
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s 			page 18
-
-
  887              	.LASF18:
- 888 01d8 6D656D6D 		.ascii	"memmanage_vector\000"
+ 888 01da 6D656D6D 		.ascii	"memmanage_vector\000"
  888      616E6167 
  888      655F7665 
  888      63746F72 
  888      00
  889              	.LASF37:
- 890 01e9 5F756E68 		.ascii	"_unhandled_exception\000"
+ 890 01eb 5F756E68 		.ascii	"_unhandled_exception\000"
  890      616E646C 
  890      65645F65 
  890      78636570 
  890      74696F6E 
  891              	.LASF30:
- 892 01fe 76656374 		.ascii	"vectors\000"
+ 892 0200 76656374 		.ascii	"vectors\000"
  892      6F727300 
  893              	.LASF3:
- 894 0206 73686F72 		.ascii	"short int\000"
+ 894 0208 73686F72 		.ascii	"short int\000"
  894      7420696E 
  894      7400
  895              	.LASF15:
- 896 0210 72657365 		.ascii	"reset_vector\000"
+ 896 0212 72657365 		.ascii	"reset_vector\000"
  896      745F7665 
  896      63746F72 
  896      00
  897              	.LASF12:
- 898 021d 75696E74 		.ascii	"uint32_t\000"
+ 898 021f 75696E74 		.ascii	"uint32_t\000"
  898      33325F74 
  898      00
  899              	.LASF5:
- 900 0226 6C6F6E67 		.ascii	"long int\000"
+ 900 0228 6C6F6E67 		.ascii	"long int\000"
  900      20696E74 
  900      00
  901              	.LASF1:
- 902 022f 7369676E 		.ascii	"signed char\000"
+ 902 0231 7369676E 		.ascii	"signed char\000"
  902      65642063 
  902      68617200 
  903              	.LASF26:
- 904 023b 64656275 		.ascii	"debugmonitor_vector\000"
+ 904 023d 64656275 		.ascii	"debugmonitor_vector\000"
  904      676D6F6E 
  904      69746F72 
  904      5F766563 
  904      746F7200 
  905              	.LASF22:
- 906 024f 76656374 		.ascii	"vector20\000"
+ 906 0251 76656374 		.ascii	"vector20\000"
  906      6F723230 
  906      00
  907              	.LASF9:
- 908 0258 5F426F6F 		.ascii	"_Bool\000"
+ 908 025a 5F426F6F 		.ascii	"_Bool\000"
  908      6C00
  909              	.LASF32:
- 910 025e 5F5F6D61 		.ascii	"__main_stack_end__\000"
+ 910 0260 5F5F6D61 		.ascii	"__main_stack_end__\000"
  910      696E5F73 
  910      7461636B 
  910      5F656E64 
  910      5F5F00
  911              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.7.4 20140401 (release) [ARM/embedded-4_7-br
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s 			page 19
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s 			page 19
+
+
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s 			page 20
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 vectors.c
-C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s:19     .text._unhandled_exception:00000000 $t
-C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s:25     .text._unhandled_exception:00000000 _unhandled_exception
-C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s:25     .text._unhandled_exception:00000000 HardFaultVector
-C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s:25     .text._unhandled_exception:00000000 MemManageVector
-C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s:25     .text._unhandled_exception:00000000 BusFaultVector
-C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s:25     .text._unhandled_exception:00000000 UsageFaultVector
-C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s:25     .text._unhandled_exception:00000000 Vector1C
-C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s:25     .text._unhandled_exception:00000000 Vector20
-C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s:25     .text._unhandled_exception:00000000 Vector24
-C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s:25     .text._unhandled_exception:00000000 Vector28
-C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s:25     .text._unhandled_exception:00000000 SVCallVector
-C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s:25     .text._unhandled_exception:00000000 DebugMonitorVector
-C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s:25     .text._unhandled_exception:00000000 Vector34
-C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s:25     .text._unhandled_exception:00000000 PendSVVector
-C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s:25     .text._unhandled_exception:00000000 SysTickVector
-C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s:25     .text._unhandled_exception:00000000 Vector40
-C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s:25     .text._unhandled_exception:00000000 Vector44
-C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s:25     .text._unhandled_exception:00000000 Vector48
-C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s:25     .text._unhandled_exception:00000000 Vector4C
-C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s:25     .text._unhandled_exception:00000000 Vector50
-C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s:25     .text._unhandled_exception:00000000 Vector54
-C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s:25     .text._unhandled_exception:00000000 Vector58
-C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s:25     .text._unhandled_exception:00000000 Vector5C
-C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s:25     .text._unhandled_exception:00000000 Vector60
-C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s:25     .text._unhandled_exception:00000000 Vector64
-C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s:25     .text._unhandled_exception:00000000 Vector68
-C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s:25     .text._unhandled_exception:00000000 Vector6C
-C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s:25     .text._unhandled_exception:00000000 Vector70
-C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s:25     .text._unhandled_exception:00000000 Vector74
-C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s:25     .text._unhandled_exception:00000000 Vector78
-C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s:25     .text._unhandled_exception:00000000 Vector7C
-C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s:25     .text._unhandled_exception:00000000 Vector80
-C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s:25     .text._unhandled_exception:00000000 Vector84
-C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s:25     .text._unhandled_exception:00000000 Vector88
-C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s:25     .text._unhandled_exception:00000000 Vector8C
-C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s:25     .text._unhandled_exception:00000000 Vector90
-C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s:25     .text._unhandled_exception:00000000 Vector94
-C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s:25     .text._unhandled_exception:00000000 Vector98
-C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s:25     .text._unhandled_exception:00000000 Vector9C
-C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s:25     .text._unhandled_exception:00000000 VectorA0
-C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s:25     .text._unhandled_exception:00000000 VectorA4
-C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s:25     .text._unhandled_exception:00000000 VectorA8
-C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s:25     .text._unhandled_exception:00000000 VectorAC
-C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s:25     .text._unhandled_exception:00000000 VectorB0
-C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s:25     .text._unhandled_exception:00000000 VectorB4
-C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s:25     .text._unhandled_exception:00000000 VectorB8
-C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s:25     .text._unhandled_exception:00000000 VectorBC
-C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s:25     .text._unhandled_exception:00000000 VectorC0
-C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s:25     .text._unhandled_exception:00000000 VectorC4
-C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s:25     .text._unhandled_exception:00000000 VectorC8
-C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s:25     .text._unhandled_exception:00000000 VectorCC
-C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s:25     .text._unhandled_exception:00000000 VectorD0
-C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s:25     .text._unhandled_exception:00000000 VectorD4
-C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s:25     .text._unhandled_exception:00000000 VectorD8
-C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s:25     .text._unhandled_exception:00000000 VectorDC
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s 			page 20
+C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s:19     .text._unhandled_exception:00000000 $t
+C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s:25     .text._unhandled_exception:00000000 _unhandled_exception
+C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s:25     .text._unhandled_exception:00000000 HardFaultVector
+C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s:25     .text._unhandled_exception:00000000 MemManageVector
+C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s:25     .text._unhandled_exception:00000000 BusFaultVector
+C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s:25     .text._unhandled_exception:00000000 UsageFaultVector
+C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s:25     .text._unhandled_exception:00000000 Vector1C
+C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s:25     .text._unhandled_exception:00000000 Vector20
+C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s:25     .text._unhandled_exception:00000000 Vector24
+C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s:25     .text._unhandled_exception:00000000 Vector28
+C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s:25     .text._unhandled_exception:00000000 SVCallVector
+C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s:25     .text._unhandled_exception:00000000 DebugMonitorVector
+C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s:25     .text._unhandled_exception:00000000 Vector34
+C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s:25     .text._unhandled_exception:00000000 PendSVVector
+C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s:25     .text._unhandled_exception:00000000 SysTickVector
+C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s:25     .text._unhandled_exception:00000000 Vector40
+C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s:25     .text._unhandled_exception:00000000 Vector44
+C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s:25     .text._unhandled_exception:00000000 Vector48
+C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s:25     .text._unhandled_exception:00000000 Vector4C
+C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s:25     .text._unhandled_exception:00000000 Vector50
+C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s:25     .text._unhandled_exception:00000000 Vector54
+C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s:25     .text._unhandled_exception:00000000 Vector58
+C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s:25     .text._unhandled_exception:00000000 Vector5C
+C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s:25     .text._unhandled_exception:00000000 Vector60
+C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s:25     .text._unhandled_exception:00000000 Vector64
+C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s:25     .text._unhandled_exception:00000000 Vector68
+C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s:25     .text._unhandled_exception:00000000 Vector6C
+C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s:25     .text._unhandled_exception:00000000 Vector70
+C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s:25     .text._unhandled_exception:00000000 Vector74
+C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s:25     .text._unhandled_exception:00000000 Vector78
+C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s:25     .text._unhandled_exception:00000000 Vector7C
+C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s:25     .text._unhandled_exception:00000000 Vector80
+C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s:25     .text._unhandled_exception:00000000 Vector84
+C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s:25     .text._unhandled_exception:00000000 Vector88
+C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s:25     .text._unhandled_exception:00000000 Vector8C
+C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s:25     .text._unhandled_exception:00000000 Vector90
+C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s:25     .text._unhandled_exception:00000000 Vector94
+C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s:25     .text._unhandled_exception:00000000 Vector98
+C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s:25     .text._unhandled_exception:00000000 Vector9C
+C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s:25     .text._unhandled_exception:00000000 VectorA0
+C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s:25     .text._unhandled_exception:00000000 VectorA4
+C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s:25     .text._unhandled_exception:00000000 VectorA8
+C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s:25     .text._unhandled_exception:00000000 VectorAC
+C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s:25     .text._unhandled_exception:00000000 VectorB0
+C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s:25     .text._unhandled_exception:00000000 VectorB4
+C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s:25     .text._unhandled_exception:00000000 VectorB8
+C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s:25     .text._unhandled_exception:00000000 VectorBC
+C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s:25     .text._unhandled_exception:00000000 VectorC0
+C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s:25     .text._unhandled_exception:00000000 VectorC4
+C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s:25     .text._unhandled_exception:00000000 VectorC8
+C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s:25     .text._unhandled_exception:00000000 VectorCC
+C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s:25     .text._unhandled_exception:00000000 VectorD0
+C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s:25     .text._unhandled_exception:00000000 VectorD4
+C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s:25     .text._unhandled_exception:00000000 VectorD8
+C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s:25     .text._unhandled_exception:00000000 VectorDC
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s 			page 21
 
 
-C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s:25     .text._unhandled_exception:00000000 VectorE0
-C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s:25     .text._unhandled_exception:00000000 VectorE4
-C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s:25     .text._unhandled_exception:00000000 VectorE8
-C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s:25     .text._unhandled_exception:00000000 VectorEC
-C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s:25     .text._unhandled_exception:00000000 VectorF0
-C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s:25     .text._unhandled_exception:00000000 VectorF4
-C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s:25     .text._unhandled_exception:00000000 VectorF8
-C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s:25     .text._unhandled_exception:00000000 VectorFC
-C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s:25     .text._unhandled_exception:00000000 Vector100
-C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s:25     .text._unhandled_exception:00000000 Vector104
-C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s:25     .text._unhandled_exception:00000000 Vector108
-C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s:25     .text._unhandled_exception:00000000 Vector10C
-C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s:25     .text._unhandled_exception:00000000 Vector110
-C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s:25     .text._unhandled_exception:00000000 Vector114
-C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s:25     .text._unhandled_exception:00000000 Vector118
-C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s:25     .text._unhandled_exception:00000000 Vector11C
-C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s:25     .text._unhandled_exception:00000000 Vector120
-C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s:25     .text._unhandled_exception:00000000 Vector124
-C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s:25     .text._unhandled_exception:00000000 Vector128
-C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s:25     .text._unhandled_exception:00000000 Vector12C
-C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s:25     .text._unhandled_exception:00000000 Vector130
-C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s:25     .text._unhandled_exception:00000000 Vector134
-C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s:25     .text._unhandled_exception:00000000 Vector138
-C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s:25     .text._unhandled_exception:00000000 Vector13C
-C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s:25     .text._unhandled_exception:00000000 Vector140
-C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s:25     .text._unhandled_exception:00000000 Vector144
-C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s:25     .text._unhandled_exception:00000000 Vector148
-C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s:25     .text._unhandled_exception:00000000 Vector14C
-C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s:25     .text._unhandled_exception:00000000 Vector150
-C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s:25     .text._unhandled_exception:00000000 Vector154
-C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s:25     .text._unhandled_exception:00000000 Vector158
-C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s:25     .text._unhandled_exception:00000000 Vector15C
-C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s:25     .text._unhandled_exception:00000000 Vector160
-C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s:25     .text._unhandled_exception:00000000 Vector164
-C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s:25     .text._unhandled_exception:00000000 Vector168
-C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s:25     .text._unhandled_exception:00000000 Vector16C
-C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s:25     .text._unhandled_exception:00000000 Vector170
-C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s:25     .text._unhandled_exception:00000000 Vector174
-C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s:25     .text._unhandled_exception:00000000 Vector178
-C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s:25     .text._unhandled_exception:00000000 Vector17C
-C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s:25     .text._unhandled_exception:00000000 Vector180
-C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s:25     .text._unhandled_exception:00000000 Vector184
-C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s:25     .text._unhandled_exception:00000000 Vector188
-C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s:25     .text._unhandled_exception:00000000 Vector18C
-C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s:25     .text._unhandled_exception:00000000 Vector190
-C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s:25     .text._unhandled_exception:00000000 Vector194
-C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s:25     .text._unhandled_exception:00000000 Vector198
-C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s:25     .text._unhandled_exception:00000000 Vector19C
-C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s:25     .text._unhandled_exception:00000000 Vector1A0
-C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s:25     .text._unhandled_exception:00000000 Vector1A4
-C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s:25     .text._unhandled_exception:00000000 Vector1A8
-C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s:25     .text._unhandled_exception:00000000 NMIVector
-C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s:254    vectors:00000000 _vectors
-C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s:251    vectors:00000000 $d
+C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s:25     .text._unhandled_exception:00000000 VectorE0
+C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s:25     .text._unhandled_exception:00000000 VectorE4
+C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s:25     .text._unhandled_exception:00000000 VectorE8
+C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s:25     .text._unhandled_exception:00000000 VectorEC
+C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s:25     .text._unhandled_exception:00000000 VectorF0
+C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s:25     .text._unhandled_exception:00000000 VectorF4
+C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s:25     .text._unhandled_exception:00000000 VectorF8
+C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s:25     .text._unhandled_exception:00000000 VectorFC
+C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s:25     .text._unhandled_exception:00000000 Vector100
+C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s:25     .text._unhandled_exception:00000000 Vector104
+C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s:25     .text._unhandled_exception:00000000 Vector108
+C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s:25     .text._unhandled_exception:00000000 Vector10C
+C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s:25     .text._unhandled_exception:00000000 Vector110
+C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s:25     .text._unhandled_exception:00000000 Vector114
+C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s:25     .text._unhandled_exception:00000000 Vector118
+C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s:25     .text._unhandled_exception:00000000 Vector11C
+C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s:25     .text._unhandled_exception:00000000 Vector120
+C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s:25     .text._unhandled_exception:00000000 Vector124
+C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s:25     .text._unhandled_exception:00000000 Vector128
+C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s:25     .text._unhandled_exception:00000000 Vector12C
+C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s:25     .text._unhandled_exception:00000000 Vector130
+C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s:25     .text._unhandled_exception:00000000 Vector134
+C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s:25     .text._unhandled_exception:00000000 Vector138
+C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s:25     .text._unhandled_exception:00000000 Vector13C
+C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s:25     .text._unhandled_exception:00000000 Vector140
+C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s:25     .text._unhandled_exception:00000000 Vector144
+C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s:25     .text._unhandled_exception:00000000 Vector148
+C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s:25     .text._unhandled_exception:00000000 Vector14C
+C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s:25     .text._unhandled_exception:00000000 Vector150
+C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s:25     .text._unhandled_exception:00000000 Vector154
+C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s:25     .text._unhandled_exception:00000000 Vector158
+C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s:25     .text._unhandled_exception:00000000 Vector15C
+C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s:25     .text._unhandled_exception:00000000 Vector160
+C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s:25     .text._unhandled_exception:00000000 Vector164
+C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s:25     .text._unhandled_exception:00000000 Vector168
+C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s:25     .text._unhandled_exception:00000000 Vector16C
+C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s:25     .text._unhandled_exception:00000000 Vector170
+C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s:25     .text._unhandled_exception:00000000 Vector174
+C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s:25     .text._unhandled_exception:00000000 Vector178
+C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s:25     .text._unhandled_exception:00000000 Vector17C
+C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s:25     .text._unhandled_exception:00000000 Vector180
+C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s:25     .text._unhandled_exception:00000000 Vector184
+C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s:25     .text._unhandled_exception:00000000 Vector188
+C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s:25     .text._unhandled_exception:00000000 Vector18C
+C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s:25     .text._unhandled_exception:00000000 Vector190
+C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s:25     .text._unhandled_exception:00000000 Vector194
+C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s:25     .text._unhandled_exception:00000000 Vector198
+C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s:25     .text._unhandled_exception:00000000 Vector19C
+C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s:25     .text._unhandled_exception:00000000 Vector1A0
+C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s:25     .text._unhandled_exception:00000000 Vector1A4
+C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s:25     .text._unhandled_exception:00000000 Vector1A8
+C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s:25     .text._unhandled_exception:00000000 NMIVector
+C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s:254    vectors:00000000 _vectors
+C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s:251    vectors:00000000 $d
                      .debug_frame:00000010 $d
 
 UNDEFINED SYMBOLS
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\cctNXUBt.s 			page 21
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccmXgOzf.s 			page 22
 
 
 __main_stack_end__

@@ -9,6 +9,7 @@
 #include "ch.h"
 #include "hal.h"
 #include "can_comm.h"
+#include "light.h"
 
 enum canState
 {
@@ -37,12 +38,14 @@ struct can_instance {
 };
 
 
-static WORKING_AREA(wa_villog, 128);
-static msg_t Villog() {
-    palSetPad(GPIOE, GPIOE_PO1);
-    chThdSleepMilliseconds(400);
-    palClearPad(GPIOE, GPIOE_PO1);
-    return 0;
+
+
+static WORKING_AREA(wa_index, 128);
+static msg_t Index() {
+  pwmEnableChannel(&PWMD1, 0, PWM_PERCENTAGE_TO_WIDTH(&PWMD1, 10000));
+       chThdSleepMilliseconds(400);
+       pwmDisableChannel(&PWMD1, 0);
+       return 0;
 }
 
 
@@ -52,6 +55,7 @@ static WORKING_AREA(can_rx_wa, 256);
 static msg_t can_rx(void *p) {
   EventListener el;
   int i;
+  int z;
 
   (void)p;
   chRegSetThreadName("receiver");
@@ -61,15 +65,13 @@ static msg_t can_rx(void *p) {
       continue;
     while (canReceive(&CAND1, CAN_ANY_MAILBOX, &rxmsg, TIME_IMMEDIATE) == RDY_OK) {
 
-      //Villog();
-      if(rxmsg.EID == 0x01234567)
+      //villan();
+    if(rxmsg.EID == 0x01234567)
       {
 
-        chThdCreateStatic(wa_villog, sizeof(wa_villog), NORMALPRIO, Villog, NULL);
+       allapot=LIGHT_JOBBINDEX;
       }
-
-
-
+    else allapot=LIGHT_BALINDEX;
 
     }
   }

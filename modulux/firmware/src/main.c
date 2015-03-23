@@ -19,6 +19,7 @@
 #include "test.h"
 #include "ds18b20.h"
 #include "can_comm.h"
+#include "light.h"
 
 static SerialConfig uartCfg =
 {
@@ -71,11 +72,11 @@ static msg_t Thread1(void *arg) {
   (void)arg;
   chRegSetThreadName("blinker");
   while (TRUE) {
-    palSetPad(GPIOE, 2);       /* Orange.  */
+   // palSetPad(GPIOE, 2);       /* Orange.  */
 
     palClearPad(GPIOD, 12);     //LS1
     chThdSleepMilliseconds(100);
-    palClearPad(GPIOE, 2);     /* Orange.  */
+    //palClearPad(GPIOE, 2);     /* Orange.  */
 
     palSetPad(GPIOD, 12);     //LS1
     chThdSleepMilliseconds(100);
@@ -84,6 +85,25 @@ static msg_t Thread1(void *arg) {
   }
 }
 
+
+static WORKING_AREA(watask20ms, 256);
+static msg_t task20ms(void *arg) {
+  systime_t time;
+
+  (void)arg;
+  chRegSetThreadName("task20ms");
+  time = chTimeNow();
+  while (TRUE) {
+    time += MS2ST(200);
+
+    lightCalc();
+
+
+
+    chThdSleepUntil(time);
+  }
+  return 0; /* Never executed.*/
+}
 /*
  * Application entry point.
  */
@@ -111,9 +131,13 @@ int main(void) {
 
   can_commInit();
 
+  lightInit();
+
   /*
    * Creates the example thread.
    */
+  chThdCreateStatic(watask20ms, sizeof(watask20ms), NORMALPRIO, task20ms, NULL);
+
   chThdCreateStatic(waThread1, sizeof(waThread1), NORMALPRIO, Thread1, NULL);
   chThdCreateStatic(wa_ds18b20_polling, sizeof(wa_ds18b20_polling), NORMALPRIO, ds18b20_polling_thread, NULL);
 

@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 1
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccjOZ2xx.s 			page 1
 
 
    1              		.syntax unified
@@ -27,7 +27,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 1
   24              		.type	_heap_init, %function
   25              	_heap_init:
   26              	.LFB7:
-  27              		.file 1 "../../Chibios/os/kernel/src/chheap.c"
+  27              		.file 1 "../../../Chibios/os/kernel/src/chheap.c"
   28              		.loc 1 75 0
   29              		.cfi_startproc
   30              		@ args = 0, pretend = 0, frame = 0
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 1
   55              		.size	_heap_init, .-_heap_init
   56              		.section	.text.chHeapInit,"ax",%progbits
   57              		.align	2
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 2
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccjOZ2xx.s 			page 2
 
 
   58              		.p2align 4,,15
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 1
  110 0000 F8B5     		push	{r3, r4, r5, r6, r7, lr}
  111              	.LCFI0:
  112              		.cfi_def_cfa_offset 24
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 3
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccjOZ2xx.s 			page 3
 
 
  113              		.cfi_offset 3, -24
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 1
  167 0040 8218     		adds	r2, r0, r2
  168              		.loc 1 154 0
  169 0042 1868     		ldr	r0, [r3, #0]
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 4
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccjOZ2xx.s 			page 4
 
 
  170              		.loc 1 155 0
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 1
  224 0080 0024     		movs	r4, #0
  225              	.LVL25:
  226 0082 EAE7     		b	.L8
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 5
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccjOZ2xx.s 			page 5
 
 
  227              	.L21:
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 1
  280 001c 01D0     		beq	.L23
  281              		.loc 1 210 0 is_stmt 0 discriminator 2
  282 001e A342     		cmp	r3, r4
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 6
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccjOZ2xx.s 			page 6
 
 
  283 0020 02D2     		bcs	.L26
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 1
  337 006e 1918     		adds	r1, r3, r0
  338 0070 8C42     		cmp	r4, r1
  339 0072 EDD1     		bne	.L28
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 7
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccjOZ2xx.s 			page 7
 
 
  340              	.L34:
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 1
  392 001a 1446     		mov	r4, r2
  393              	.LVL40:
  394              	.L38:
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 8
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccjOZ2xx.s 			page 8
 
 
  395              		.loc 1 261 0 discriminator 2
@@ -475,16 +475,16 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 1
  442              	.Letext0:
  443              		.file 2 "c:\\chibistudio\\tools\\gnu tools arm embedded\\4.7 2014q2\\bin\\../lib/gcc/arm-none-eabi
  444              		.file 3 "c:\\chibistudio\\tools\\gnu tools arm embedded\\4.7 2014q2\\bin\\../lib/gcc/arm-none-eabi
- 445              		.file 4 "../../Chibios/os/ports/GCC/ARMCMx/chtypes.h"
- 446              		.file 5 "../../Chibios/os/kernel/include/chlists.h"
- 447              		.file 6 "../../Chibios/os/kernel/include/chthreads.h"
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 9
+ 445              		.file 4 "../../../Chibios/os/ports/GCC/ARMCMx/chtypes.h"
+ 446              		.file 5 "../../../Chibios/os/kernel/include/chlists.h"
+ 447              		.file 6 "../../../Chibios/os/kernel/include/chthreads.h"
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccjOZ2xx.s 			page 9
 
 
- 448              		.file 7 "../../Chibios/os/ports/GCC/ARMCMx/chcore_v7m.h"
- 449              		.file 8 "../../Chibios/os/kernel/include/chmtx.h"
- 450              		.file 9 "../../Chibios/os/kernel/include/chmemcore.h"
- 451              		.file 10 "../../Chibios/os/kernel/include/chheap.h"
+ 448              		.file 7 "../../../Chibios/os/ports/GCC/ARMCMx/chcore_v7m.h"
+ 449              		.file 8 "../../../Chibios/os/kernel/include/chmtx.h"
+ 450              		.file 9 "../../../Chibios/os/kernel/include/chmemcore.h"
+ 451              		.file 10 "../../../Chibios/os/kernel/include/chheap.h"
  452              		.section	.debug_info,"",%progbits
  453              	.Ldebug_info0:
  454 0000 35070000 		.4byte	0x735
@@ -492,10 +492,10 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 1
  456 0006 00000000 		.4byte	.Ldebug_abbrev0
  457 000a 04       		.byte	0x4
  458 000b 01       		.uleb128 0x1
- 459 000c 71010000 		.4byte	.LASF79
+ 459 000c 9E010000 		.4byte	.LASF79
  460 0010 01       		.byte	0x1
- 461 0011 F9020000 		.4byte	.LASF80
- 462 0015 45030000 		.4byte	.LASF81
+ 461 0011 17030000 		.4byte	.LASF80
+ 462 0015 D9000000 		.4byte	.LASF81
  463 0019 00000000 		.4byte	.Ldebug_ranges0+0
  464 001d 00000000 		.4byte	0
  465 0021 00000000 		.4byte	0
@@ -512,33 +512,33 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 1
  476 003b 04       		.uleb128 0x4
  477 003c 04       		.byte	0x4
  478 003d 07       		.byte	0x7
- 479 003e E8000000 		.4byte	.LASF0
+ 479 003e 15010000 		.4byte	.LASF0
  480 0042 04       		.uleb128 0x4
  481 0043 01       		.byte	0x1
  482 0044 06       		.byte	0x6
  483 0045 88000000 		.4byte	.LASF1
  484 0049 03       		.uleb128 0x3
- 485 004a F1020000 		.4byte	.LASF3
+ 485 004a 46030000 		.4byte	.LASF3
  486 004e 03       		.byte	0x3
  487 004f 2A       		.byte	0x2a
  488 0050 54000000 		.4byte	0x54
  489 0054 04       		.uleb128 0x4
  490 0055 01       		.byte	0x1
  491 0056 08       		.byte	0x8
- 492 0057 FF010000 		.4byte	.LASF4
+ 492 0057 2C020000 		.4byte	.LASF4
  493 005b 04       		.uleb128 0x4
  494 005c 02       		.byte	0x2
  495 005d 05       		.byte	0x5
- 496 005e 22020000 		.4byte	.LASF5
+ 496 005e 4F020000 		.4byte	.LASF5
  497 0062 04       		.uleb128 0x4
  498 0063 02       		.byte	0x2
  499 0064 07       		.byte	0x7
- 500 0065 14010000 		.4byte	.LASF6
+ 500 0065 41010000 		.4byte	.LASF6
  501 0069 03       		.uleb128 0x3
- 502 006a F7010000 		.4byte	.LASF7
+ 502 006a 24020000 		.4byte	.LASF7
  503 006e 03       		.byte	0x3
  504 006f 4F       		.byte	0x4f
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 10
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccjOZ2xx.s 			page 10
 
 
  505 0070 74000000 		.4byte	0x74
@@ -547,14 +547,14 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 1
  508 0076 05       		.byte	0x5
  509 0077 BF000000 		.4byte	.LASF8
  510 007b 03       		.uleb128 0x3
- 511 007c 7E020000 		.4byte	.LASF9
+ 511 007c AB020000 		.4byte	.LASF9
  512 0080 03       		.byte	0x3
  513 0081 50       		.byte	0x50
  514 0082 86000000 		.4byte	0x86
  515 0086 04       		.uleb128 0x4
  516 0087 04       		.byte	0x4
  517 0088 07       		.byte	0x7
- 518 0089 F5000000 		.4byte	.LASF10
+ 518 0089 22010000 		.4byte	.LASF10
  519 008d 04       		.uleb128 0x4
  520 008e 08       		.byte	0x8
  521 008f 05       		.byte	0x5
@@ -571,9 +571,9 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 1
  532 00a6 04       		.uleb128 0x4
  533 00a7 01       		.byte	0x1
  534 00a8 02       		.byte	0x2
- 535 00a9 F1010000 		.4byte	.LASF14
+ 535 00a9 1E020000 		.4byte	.LASF14
  536 00ad 03       		.uleb128 0x3
- 537 00ae 2D010000 		.4byte	.LASF15
+ 537 00ae 5A010000 		.4byte	.LASF15
  538 00b2 04       		.byte	0x4
  539 00b3 2C       		.byte	0x2c
  540 00b4 49000000 		.4byte	0x49
@@ -583,7 +583,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 1
  544 00be 2D       		.byte	0x2d
  545 00bf 49000000 		.4byte	0x49
  546 00c3 03       		.uleb128 0x3
- 547 00c4 DA010000 		.4byte	.LASF17
+ 547 00c4 07020000 		.4byte	.LASF17
  548 00c8 04       		.byte	0x4
  549 00c9 2E       		.byte	0x2e
  550 00ca 49000000 		.4byte	0x49
@@ -593,41 +593,41 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 1
  554 00d4 2F       		.byte	0x2f
  555 00d5 49000000 		.4byte	0x49
  556 00d9 03       		.uleb128 0x3
- 557 00da E9010000 		.4byte	.LASF19
+ 557 00da 16020000 		.4byte	.LASF19
  558 00de 04       		.byte	0x4
  559 00df 30       		.byte	0x30
  560 00e0 7B000000 		.4byte	0x7b
  561 00e4 03       		.uleb128 0x3
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 11
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccjOZ2xx.s 			page 11
 
 
- 562 00e5 27010000 		.4byte	.LASF20
+ 562 00e5 54010000 		.4byte	.LASF20
  563 00e9 04       		.byte	0x4
  564 00ea 31       		.byte	0x31
  565 00eb 69000000 		.4byte	0x69
  566 00ef 03       		.uleb128 0x3
- 567 00f0 41010000 		.4byte	.LASF21
+ 567 00f0 6E010000 		.4byte	.LASF21
  568 00f4 04       		.byte	0x4
  569 00f5 33       		.byte	0x33
  570 00f6 7B000000 		.4byte	0x7b
  571 00fa 03       		.uleb128 0x3
- 572 00fb B2020000 		.4byte	.LASF22
+ 572 00fb DF020000 		.4byte	.LASF22
  573 00ff 04       		.byte	0x4
  574 0100 35       		.byte	0x35
  575 0101 7B000000 		.4byte	0x7b
  576 0105 03       		.uleb128 0x3
- 577 0106 60020000 		.4byte	.LASF23
+ 577 0106 8D020000 		.4byte	.LASF23
  578 010a 05       		.byte	0x5
  579 010b 2A       		.byte	0x2a
  580 010c 10010000 		.4byte	0x110
  581 0110 05       		.uleb128 0x5
- 582 0111 60020000 		.4byte	.LASF23
+ 582 0111 8D020000 		.4byte	.LASF23
  583 0115 48       		.byte	0x48
  584 0116 06       		.byte	0x6
  585 0117 5E       		.byte	0x5e
  586 0118 35020000 		.4byte	0x235
  587 011c 06       		.uleb128 0x6
- 588 011d 51020000 		.4byte	.LASF24
+ 588 011d 7E020000 		.4byte	.LASF24
  589 0121 06       		.byte	0x6
  590 0122 5F       		.byte	0x5f
  591 0123 5A020000 		.4byte	0x25a
@@ -635,7 +635,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 1
  593 0128 23       		.byte	0x23
  594 0129 00       		.uleb128 0
  595 012a 06       		.uleb128 0x6
- 596 012b E2010000 		.4byte	.LASF25
+ 596 012b 0F020000 		.4byte	.LASF25
  597 012f 06       		.byte	0x6
  598 0130 61       		.byte	0x61
  599 0131 5A020000 		.4byte	0x25a
@@ -651,14 +651,14 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 1
  609 0144 23       		.byte	0x23
  610 0145 08       		.uleb128 0x8
  611 0146 06       		.uleb128 0x6
- 612 0147 73030000 		.4byte	.LASF27
+ 612 0147 75030000 		.4byte	.LASF27
  613 014b 06       		.byte	0x6
  614 014c 64       		.byte	0x64
  615 014d 33030000 		.4byte	0x333
  616 0151 02       		.byte	0x2
  617 0152 23       		.byte	0x23
  618 0153 0C       		.uleb128 0xc
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 12
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccjOZ2xx.s 			page 12
 
 
  619 0154 06       		.uleb128 0x6
@@ -670,7 +670,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 1
  625 0160 23       		.byte	0x23
  626 0161 10       		.uleb128 0x10
  627 0162 06       		.uleb128 0x6
- 628 0163 BA010000 		.4byte	.LASF29
+ 628 0163 E7010000 		.4byte	.LASF29
  629 0167 06       		.byte	0x6
  630 0168 67       		.byte	0x67
  631 0169 5A020000 		.4byte	0x25a
@@ -678,7 +678,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 1
  633 016e 23       		.byte	0x23
  634 016f 14       		.uleb128 0x14
  635 0170 06       		.uleb128 0x6
- 636 0171 2B030000 		.4byte	.LASF30
+ 636 0171 5B030000 		.4byte	.LASF30
  637 0175 06       		.byte	0x6
  638 0176 6E       		.byte	0x6e
  639 0177 B1040000 		.4byte	0x4b1
@@ -686,7 +686,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 1
  641 017c 23       		.byte	0x23
  642 017d 18       		.uleb128 0x18
  643 017e 06       		.uleb128 0x6
- 644 017f 2C020000 		.4byte	.LASF31
+ 644 017f 59020000 		.4byte	.LASF31
  645 0183 06       		.byte	0x6
  646 0184 79       		.byte	0x79
  647 0185 B8000000 		.4byte	0xb8
@@ -694,7 +694,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 1
  649 018a 23       		.byte	0x23
  650 018b 1C       		.uleb128 0x1c
  651 018c 06       		.uleb128 0x6
- 652 018d 58020000 		.4byte	.LASF32
+ 652 018d 85020000 		.4byte	.LASF32
  653 0191 06       		.byte	0x6
  654 0192 7D       		.byte	0x7d
  655 0193 AD000000 		.4byte	0xad
@@ -702,7 +702,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 1
  657 0198 23       		.byte	0x23
  658 0199 1D       		.uleb128 0x1d
  659 019a 06       		.uleb128 0x6
- 660 019b EA020000 		.4byte	.LASF33
+ 660 019b 3F030000 		.4byte	.LASF33
  661 019f 06       		.byte	0x6
  662 01a0 82       		.byte	0x82
  663 01a1 C3000000 		.4byte	0xc3
@@ -710,7 +710,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 1
  665 01a6 23       		.byte	0x23
  666 01a7 1E       		.uleb128 0x1e
  667 01a8 06       		.uleb128 0x6
- 668 01a9 34020000 		.4byte	.LASF34
+ 668 01a9 61020000 		.4byte	.LASF34
  669 01ad 06       		.byte	0x6
  670 01ae 88       		.byte	0x88
  671 01af CE000000 		.4byte	0xce
@@ -718,10 +718,10 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 1
  673 01b4 23       		.byte	0x23
  674 01b5 1F       		.uleb128 0x1f
  675 01b6 06       		.uleb128 0x6
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 13
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccjOZ2xx.s 			page 13
 
 
- 676 01b7 C7020000 		.4byte	.LASF35
+ 676 01b7 F4020000 		.4byte	.LASF35
  677 01bb 06       		.byte	0x6
  678 01bc 8F       		.byte	0x8f
  679 01bd 5D030000 		.4byte	0x35d
@@ -737,7 +737,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 1
  689 01d0 23       		.byte	0x23
  690 01d1 24       		.uleb128 0x24
  691 01d2 06       		.uleb128 0x6
- 692 01d3 79030000 		.4byte	.LASF36
+ 692 01d3 7B030000 		.4byte	.LASF36
  693 01d7 06       		.byte	0x6
  694 01d8 B9       		.byte	0xb9
  695 01d9 82020000 		.4byte	0x282
@@ -745,7 +745,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 1
  697 01de 23       		.byte	0x23
  698 01df 28       		.uleb128 0x28
  699 01e0 06       		.uleb128 0x6
- 700 01e1 D5020000 		.4byte	.LASF37
+ 700 01e1 02030000 		.4byte	.LASF37
  701 01e5 06       		.byte	0x6
  702 01e6 BF       		.byte	0xbf
  703 01e7 60020000 		.4byte	0x260
@@ -761,7 +761,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 1
  713 01fa 23       		.byte	0x23
  714 01fb 34       		.uleb128 0x34
  715 01fc 06       		.uleb128 0x6
- 716 01fd 73020000 		.4byte	.LASF39
+ 716 01fd A0020000 		.4byte	.LASF39
  717 0201 06       		.byte	0x6
  718 0202 C9       		.byte	0xc9
  719 0203 EF000000 		.4byte	0xef
@@ -769,7 +769,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 1
  721 0208 23       		.byte	0x23
  722 0209 38       		.uleb128 0x38
  723 020a 06       		.uleb128 0x6
- 724 020b 18020000 		.4byte	.LASF40
+ 724 020b 45020000 		.4byte	.LASF40
  725 020f 06       		.byte	0x6
  726 0210 D0       		.byte	0xd0
  727 0211 C3040000 		.4byte	0x4c3
@@ -777,8 +777,8 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 1
  729 0216 23       		.byte	0x23
  730 0217 3C       		.uleb128 0x3c
  731 0218 06       		.uleb128 0x6
- 732 0219 BC020000 		.4byte	.LASF41
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 14
+ 732 0219 E9020000 		.4byte	.LASF41
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccjOZ2xx.s 			page 14
 
 
  733 021d 06       		.byte	0x6
@@ -802,7 +802,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 1
  751 0238 61       		.byte	0x61
  752 0239 5A020000 		.4byte	0x25a
  753 023d 06       		.uleb128 0x6
- 754 023e 51020000 		.4byte	.LASF24
+ 754 023e 7E020000 		.4byte	.LASF24
  755 0242 05       		.byte	0x5
  756 0243 62       		.byte	0x62
  757 0244 5A020000 		.4byte	0x25a
@@ -810,7 +810,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 1
  759 0249 23       		.byte	0x23
  760 024a 00       		.uleb128 0
  761 024b 06       		.uleb128 0x6
- 762 024c E2010000 		.4byte	.LASF25
+ 762 024c 0F020000 		.4byte	.LASF25
  763 0250 05       		.byte	0x5
  764 0251 64       		.byte	0x64
  765 0252 5A020000 		.4byte	0x25a
@@ -822,7 +822,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 1
  771 025b 04       		.byte	0x4
  772 025c 05010000 		.4byte	0x105
  773 0260 03       		.uleb128 0x3
- 774 0261 C2010000 		.4byte	.LASF43
+ 774 0261 EF010000 		.4byte	.LASF43
  775 0265 05       		.byte	0x5
  776 0266 66       		.byte	0x66
  777 0267 35020000 		.4byte	0x235
@@ -832,36 +832,36 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 1
  781 026e 6B       		.byte	0x6b
  782 026f 82020000 		.4byte	0x282
  783 0273 06       		.uleb128 0x6
- 784 0274 51020000 		.4byte	.LASF24
+ 784 0274 7E020000 		.4byte	.LASF24
  785 0278 05       		.byte	0x5
  786 0279 6D       		.byte	0x6d
  787 027a 5A020000 		.4byte	0x25a
  788 027e 02       		.byte	0x2
  789 027f 23       		.byte	0x23
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 15
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccjOZ2xx.s 			page 15
 
 
  790 0280 00       		.uleb128 0
  791 0281 00       		.byte	0
  792 0282 03       		.uleb128 0x3
- 793 0283 35010000 		.4byte	.LASF44
+ 793 0283 62010000 		.4byte	.LASF44
  794 0287 05       		.byte	0x5
  795 0288 70       		.byte	0x70
  796 0289 6B020000 		.4byte	0x26b
  797 028d 03       		.uleb128 0x3
- 798 028e D9000000 		.4byte	.LASF45
+ 798 028e 06010000 		.4byte	.LASF45
  799 0292 07       		.byte	0x7
  800 0293 E5       		.byte	0xe5
  801 0294 98020000 		.4byte	0x298
  802 0298 0A       		.uleb128 0xa
  803 0299 04       		.byte	0x4
  804 029a 03       		.uleb128 0x3
- 805 029b 53010000 		.4byte	.LASF46
+ 805 029b 80010000 		.4byte	.LASF46
  806 029f 07       		.byte	0x7
  807 02a0 EB       		.byte	0xeb
  808 02a1 94000000 		.4byte	0x94
  809 02a5 0B       		.uleb128 0xb
- 810 02a6 CE020000 		.4byte	.LASF47
+ 810 02a6 FB020000 		.4byte	.LASF47
  811 02aa 24       		.byte	0x24
  812 02ab 07       		.byte	0x7
  813 02ac 0C01     		.2byte	0x10c
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 1
  844 02e7 02       		.byte	0x2
  845 02e8 23       		.byte	0x23
  846 02e9 0C       		.uleb128 0xc
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 16
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccjOZ2xx.s 			page 16
 
 
  847 02ea 0C       		.uleb128 0xc
@@ -943,7 +943,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 1
  886 0331 20       		.uleb128 0x20
  887 0332 00       		.byte	0
  888 0333 0B       		.uleb128 0xb
- 889 0334 07010000 		.4byte	.LASF48
+ 889 0334 34010000 		.4byte	.LASF48
  890 0338 04       		.byte	0x4
  891 0339 07       		.byte	0x7
  892 033a 3101     		.2byte	0x131
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 1
  901 034e 00       		.uleb128 0
  902 034f 00       		.byte	0
  903 0350 09       		.uleb128 0x9
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 17
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccjOZ2xx.s 			page 17
 
 
  904 0351 04       		.byte	0x4
@@ -966,11 +966,11 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 1
  906 0356 04       		.uleb128 0x4
  907 0357 04       		.byte	0x4
  908 0358 07       		.byte	0x7
- 909 0359 5E010000 		.4byte	.LASF49
+ 909 0359 8B010000 		.4byte	.LASF49
  910 035d 0D       		.uleb128 0xd
  911 035e FA000000 		.4byte	0xfa
  912 0362 05       		.uleb128 0x5
- 913 0363 4D010000 		.4byte	.LASF50
+ 913 0363 7A010000 		.4byte	.LASF50
  914 0367 10       		.byte	0x10
  915 0368 08       		.byte	0x8
  916 0369 2C       		.byte	0x2c
@@ -984,7 +984,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 1
  924 037a 23       		.byte	0x23
  925 037b 00       		.uleb128 0
  926 037c 06       		.uleb128 0x6
- 927 037d 3D030000 		.4byte	.LASF52
+ 927 037d 6D030000 		.4byte	.LASF52
  928 0381 08       		.byte	0x8
  929 0382 2F       		.byte	0x2f
  930 0383 5A020000 		.4byte	0x25a
@@ -992,7 +992,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 1
  932 0388 23       		.byte	0x23
  933 0389 08       		.uleb128 0x8
  934 038a 06       		.uleb128 0x6
- 935 038b AB020000 		.4byte	.LASF53
+ 935 038b D8020000 		.4byte	.LASF53
  936 038f 08       		.byte	0x8
  937 0390 31       		.byte	0x31
  938 0391 99030000 		.4byte	0x399
@@ -1004,7 +1004,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 1
  944 039a 04       		.byte	0x4
  945 039b 62030000 		.4byte	0x362
  946 039f 03       		.uleb128 0x3
- 947 03a0 4D010000 		.4byte	.LASF50
+ 947 03a0 7A010000 		.4byte	.LASF50
  948 03a4 08       		.byte	0x8
  949 03a5 33       		.byte	0x33
  950 03a6 62030000 		.4byte	0x362
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 1
  958 03b7 BB030000 		.4byte	0x3bb
  959 03bb 0E       		.uleb128 0xe
  960 03bc 01       		.byte	0x1
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 18
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccjOZ2xx.s 			page 18
 
 
  961 03bd 98020000 		.4byte	0x298
@@ -1027,18 +1027,18 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 1
  964 03c6 30000000 		.4byte	0x30
  965 03ca 00       		.byte	0
  966 03cb 03       		.uleb128 0x3
- 967 03cc CF010000 		.4byte	.LASF55
+ 967 03cc FC010000 		.4byte	.LASF55
  968 03d0 0A       		.byte	0xa
  969 03d1 34       		.byte	0x34
  970 03d2 D6030000 		.4byte	0x3d6
  971 03d6 05       		.uleb128 0x5
- 972 03d7 83030000 		.4byte	.LASF56
+ 972 03d7 85030000 		.4byte	.LASF56
  973 03db 20       		.byte	0x20
  974 03dc 0A       		.byte	0xa
  975 03dd 47       		.byte	0x47
  976 03de 0D040000 		.4byte	0x40d
  977 03e2 06       		.uleb128 0x6
- 978 03e3 0D020000 		.4byte	.LASF57
+ 978 03e3 3A020000 		.4byte	.LASF57
  979 03e7 0A       		.byte	0xa
  980 03e8 48       		.byte	0x48
  981 03e9 AA030000 		.4byte	0x3aa
@@ -1073,22 +1073,22 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 1
  1010 041b 3D       		.byte	0x3d
  1011 041c 4D040000 		.4byte	0x44d
  1012 0420 11       		.uleb128 0x11
- 1013 0421 87020000 		.4byte	.LASF61
+ 1013 0421 B4020000 		.4byte	.LASF61
  1014 0425 0A       		.byte	0xa
  1015 0426 3E       		.byte	0x3e
  1016 0427 53040000 		.4byte	0x453
  1017 042b 00       		.byte	0
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 19
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccjOZ2xx.s 			page 19
 
 
  1018 042c 12       		.uleb128 0x12
- 1019 042d 3E020000 		.4byte	.LASF82
+ 1019 042d 6B020000 		.4byte	.LASF82
  1020 0431 08       		.byte	0x8
  1021 0432 0A       		.byte	0xa
  1022 0433 39       		.byte	0x39
  1023 0434 4D040000 		.4byte	0x44d
  1024 0438 11       		.uleb128 0x11
- 1025 0439 E2000000 		.4byte	.LASF62
+ 1025 0439 0F010000 		.4byte	.LASF62
  1026 043d 0A       		.byte	0xa
  1027 043e 3A       		.byte	0x3a
  1028 043f 9A020000 		.4byte	0x29a
@@ -1118,7 +1118,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 1
  1052 046b 23       		.byte	0x23
  1053 046c 00       		.uleb128 0
  1054 046d 06       		.uleb128 0x6
- 1055 046e 0F010000 		.4byte	.LASF63
+ 1055 046e 3C010000 		.4byte	.LASF63
  1056 0472 0A       		.byte	0xa
  1057 0473 40       		.byte	0x40
  1058 0474 30000000 		.4byte	0x30
@@ -1138,19 +1138,19 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 1
  1072 048b E4000000 		.4byte	0xe4
  1073 048f 11       		.uleb128 0x11
  1074 0490 41000000 		.4byte	.LASF65
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 20
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccjOZ2xx.s 			page 20
 
 
  1075 0494 06       		.byte	0x6
  1076 0495 A4       		.byte	0xa4
  1077 0496 E4000000 		.4byte	0xe4
  1078 049a 11       		.uleb128 0x11
- 1079 049b 1E030000 		.4byte	.LASF66
+ 1079 049b 4E030000 		.4byte	.LASF66
  1080 049f 06       		.byte	0x6
  1081 04a0 AB       		.byte	0xab
  1082 04a1 98020000 		.4byte	0x298
  1083 04a5 11       		.uleb128 0x11
- 1084 04a6 4A020000 		.4byte	.LASF67
+ 1084 04a6 77020000 		.4byte	.LASF67
  1085 04aa 06       		.byte	0x6
  1086 04ab B2       		.byte	0xb2
  1087 04ac EF000000 		.4byte	0xef
@@ -1163,13 +1163,13 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 1
  1094 04bc 04       		.uleb128 0x4
  1095 04bd 01       		.byte	0x1
  1096 04be 08       		.byte	0x8
- 1097 04bf 99020000 		.4byte	.LASF68
+ 1097 04bf C6020000 		.4byte	.LASF68
  1098 04c3 09       		.uleb128 0x9
  1099 04c4 04       		.byte	0x4
  1100 04c5 9F030000 		.4byte	0x39f
  1101 04c9 15       		.uleb128 0x15
  1102 04ca 01       		.byte	0x1
- 1103 04cb 32030000 		.4byte	.LASF69
+ 1103 04cb 62030000 		.4byte	.LASF69
  1104 04cf 01       		.byte	0x1
  1105 04d0 4B       		.byte	0x4b
  1106 04d1 01       		.byte	0x1
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 1
  1129 04fd 01       		.byte	0x1
  1130 04fe 63       		.byte	0x63
  1131 04ff 01       		.byte	0x1
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 21
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccjOZ2xx.s 			page 21
 
 
  1132 0500 00000000 		.4byte	.LFB8
@@ -1221,7 +1221,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 1
  1149 0526 98020000 		.4byte	0x298
  1150 052a 2E000000 		.4byte	.LLST1
  1151 052e 18       		.uleb128 0x18
- 1152 052f 0F010000 		.4byte	.LASF63
+ 1152 052f 3C010000 		.4byte	.LASF63
  1153 0533 01       		.byte	0x1
  1154 0534 63       		.byte	0x63
  1155 0535 30000000 		.4byte	0x30
@@ -1249,7 +1249,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 1
  1177 055f 00       		.byte	0
  1178 0560 1B       		.uleb128 0x1b
  1179 0561 01       		.byte	0x1
- 1180 0562 67020000 		.4byte	.LASF73
+ 1180 0562 94020000 		.4byte	.LASF73
  1181 0566 01       		.byte	0x1
  1182 0567 84       		.byte	0x84
  1183 0568 01       		.byte	0x1
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 1
  1186 0571 88000000 		.4byte	.LFE9
  1187 0575 9E000000 		.4byte	.LLST4
  1188 0579 01       		.byte	0x1
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 22
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccjOZ2xx.s 			page 22
 
 
  1189 057a F9050000 		.4byte	0x5f9
@@ -1269,7 +1269,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 1
  1194 0585 53040000 		.4byte	0x453
  1195 0589 BE000000 		.4byte	.LLST5
  1196 058d 18       		.uleb128 0x18
- 1197 058e 0F010000 		.4byte	.LASF63
+ 1197 058e 3C010000 		.4byte	.LASF63
  1198 0592 01       		.byte	0x1
  1199 0593 84       		.byte	0x84
  1200 0594 30000000 		.4byte	0x30
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 1
  1243 05f5 75       		.byte	0x75
  1244 05f6 08       		.sleb128 8
  1245 05f7 00       		.byte	0
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 23
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccjOZ2xx.s 			page 23
 
 
  1246 05f8 00       		.byte	0
@@ -1376,9 +1376,9 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 1
  1298 0667 00       		.byte	0
  1299 0668 1B       		.uleb128 0x1b
  1300 0669 01       		.byte	0x1
- 1301 066a 9E020000 		.4byte	.LASF74
+ 1301 066a CB020000 		.4byte	.LASF74
  1302 066e 01       		.byte	0x1
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 24
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccjOZ2xx.s 			page 24
 
 
  1303 066f FA       		.byte	0xfa
@@ -1396,7 +1396,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 1
  1315 068d 53040000 		.4byte	0x453
  1316 0691 5B020000 		.4byte	.LLST15
  1317 0695 18       		.uleb128 0x18
- 1318 0696 25030000 		.4byte	.LASF75
+ 1318 0696 55030000 		.4byte	.LASF75
  1319 069a 01       		.byte	0x1
  1320 069b FA       		.byte	0xfa
  1321 069c EB060000 		.4byte	0x6eb
@@ -1438,10 +1438,10 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 1
  1357 06ec 04       		.byte	0x4
  1358 06ed 30000000 		.4byte	0x30
  1359 06f1 23       		.uleb128 0x23
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 25
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccjOZ2xx.s 			page 25
 
 
- 1360 06f2 8C020000 		.4byte	.LASF76
+ 1360 06f2 B9020000 		.4byte	.LASF76
  1361 06f6 01       		.byte	0x1
  1362 06f7 44       		.byte	0x44
  1363 06f8 CB030000 		.4byte	0x3cb
@@ -1450,7 +1450,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 1
  1366 06fe 00000000 		.4byte	default_heap
  1367 0702 24       		.uleb128 0x24
  1368 0703 01       		.byte	0x1
- 1369 0704 E0020000 		.4byte	.LASF77
+ 1369 0704 0D030000 		.4byte	.LASF77
  1370 0708 08       		.byte	0x8
  1371 0709 38       		.byte	0x38
  1372 070a 01       		.byte	0x1
@@ -1461,7 +1461,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 1
  1377 0715 00       		.byte	0
  1378 0716 24       		.uleb128 0x24
  1379 0717 01       		.byte	0x1
- 1380 0718 67010000 		.4byte	.LASF78
+ 1380 0718 94010000 		.4byte	.LASF78
  1381 071c 08       		.byte	0x8
  1382 071d 39       		.byte	0x39
  1383 071e 01       		.byte	0x1
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 1
  1414 000e 01       		.uleb128 0x1
  1415 000f 52       		.uleb128 0x52
  1416 0010 01       		.uleb128 0x1
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 26
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccjOZ2xx.s 			page 26
 
 
  1417 0011 10       		.uleb128 0x10
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 1
  1471 0047 06       		.uleb128 0x6
  1472 0048 0D       		.uleb128 0xd
  1473 0049 00       		.byte	0
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 27
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccjOZ2xx.s 			page 27
 
 
  1474 004a 03       		.uleb128 0x3
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 1
  1528 0080 00       		.byte	0
  1529 0081 00       		.byte	0
  1530 0082 0B       		.uleb128 0xb
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 28
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccjOZ2xx.s 			page 28
 
 
  1531 0083 13       		.uleb128 0x13
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 1
  1585 00b9 10       		.uleb128 0x10
  1586 00ba 17       		.uleb128 0x17
  1587 00bb 01       		.byte	0x1
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 29
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccjOZ2xx.s 			page 29
 
 
  1588 00bc 0B       		.uleb128 0xb
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 1
  1642 00f2 49       		.uleb128 0x49
  1643 00f3 13       		.uleb128 0x13
  1644 00f4 00       		.byte	0
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 30
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccjOZ2xx.s 			page 30
 
 
  1645 00f5 00       		.byte	0
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 1
  1699 0132 0B       		.uleb128 0xb
  1700 0133 49       		.uleb128 0x49
  1701 0134 13       		.uleb128 0x13
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 31
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccjOZ2xx.s 			page 31
 
 
  1702 0135 02       		.uleb128 0x2
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 1
  1756 016b 06       		.uleb128 0x6
  1757 016c 9742     		.uleb128 0x2117
  1758 016e 0C       		.uleb128 0xc
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 32
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccjOZ2xx.s 			page 32
 
 
  1759 016f 01       		.uleb128 0x1
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 1
  1813 01ac 00       		.byte	0
  1814 01ad 00       		.byte	0
  1815 01ae 20       		.uleb128 0x20
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 33
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccjOZ2xx.s 			page 33
 
 
  1816 01af 34       		.uleb128 0x34
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 1
  1870 01e8 00       		.byte	0
  1871 01e9 24       		.uleb128 0x24
  1872 01ea 2E       		.uleb128 0x2e
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 34
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccjOZ2xx.s 			page 34
 
 
  1873 01eb 01       		.byte	0x1
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 1
  1927 0023 01       		.uleb128 0x1
  1928 0024 50       		.byte	0x50
  1929 0025 9F       		.byte	0x9f
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 35
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccjOZ2xx.s 			page 35
 
 
  1930 0026 00000000 		.4byte	0
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 1
  1984 00a8 7D       		.byte	0x7d
  1985 00a9 00       		.sleb128 0
  1986 00aa 02000000 		.4byte	.LCFI0
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 36
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccjOZ2xx.s 			page 36
 
 
  1987 00ae 88000000 		.4byte	.LFE9
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 1
  2041 0137 20000000 		.4byte	.LVL13
  2042 013b 0100     		.2byte	0x1
  2043 013d 53       		.byte	0x53
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 37
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccjOZ2xx.s 			page 37
 
 
  2044 013e 22000000 		.4byte	.LVL14
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 1
  2098 01cc 00000000 		.4byte	0
  2099              	.LLST12:
  2100 01d0 10000000 		.4byte	.LVL29
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 38
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccjOZ2xx.s 			page 38
 
 
  2101 01d4 18000000 		.4byte	.LVL32
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 1
  2155 025f 0E000000 		.4byte	.LVL38
  2156 0263 0100     		.2byte	0x1
  2157 0265 50       		.byte	0x50
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 39
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccjOZ2xx.s 			page 39
 
 
  2158 0266 0E000000 		.4byte	.LVL38
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 1
  2212 02e3 30       		.byte	0x30
  2213 02e4 9F       		.byte	0x9f
  2214 02e5 00000000 		.4byte	0
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 40
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccjOZ2xx.s 			page 40
 
 
  2215 02e9 00000000 		.4byte	0
@@ -2395,10 +2395,10 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 1
  2266 002c 00000000 		.4byte	0
  2267              		.section	.debug_line,"",%progbits
  2268              	.Ldebug_line0:
- 2269 0000 B9020000 		.section	.debug_str,"MS",%progbits,1
- 2269      0200D201 
+ 2269 0000 C2020000 		.section	.debug_str,"MS",%progbits,1
+ 2269      0200DB01 
  2269      00000201 
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 41
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccjOZ2xx.s 			page 41
 
 
  2269      FB0E0D00 
@@ -2458,7 +2458,7 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 1
  2297      7400
  2298              	.LASF1:
  2299 0088 7369676E 		.ascii	"signed char\000"
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 42
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccjOZ2xx.s 			page 42
 
 
  2299      65642063 
@@ -2491,277 +2491,277 @@ ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 1
  2314              	.LASF28:
  2315 00d1 705F6E65 		.ascii	"p_newer\000"
  2315      77657200 
- 2316              	.LASF45:
- 2317 00d9 72656761 		.ascii	"regarm_t\000"
- 2317      726D5F74 
- 2317      00
- 2318              	.LASF62:
- 2319 00e2 616C6967 		.ascii	"align\000"
- 2319      6E00
- 2320              	.LASF0:
- 2321 00e8 756E7369 		.ascii	"unsigned int\000"
- 2321      676E6564 
- 2321      20696E74 
- 2321      00
- 2322              	.LASF10:
- 2323 00f5 6C6F6E67 		.ascii	"long unsigned int\000"
- 2323      20756E73 
- 2323      69676E65 
- 2323      6420696E 
- 2323      7400
- 2324              	.LASF48:
- 2325 0107 636F6E74 		.ascii	"context\000"
- 2325      65787400 
- 2326              	.LASF63:
- 2327 010f 73697A65 		.ascii	"size\000"
- 2327      00
- 2328              	.LASF6:
- 2329 0114 73686F72 		.ascii	"short unsigned int\000"
- 2329      7420756E 
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 43
+ 2316              	.LASF81:
+ 2317 00d9 433A5C55 		.ascii	"C:\\Users\\D\341niel\\git\\Modulux\\modulux\\firmwa"
+ 2317      73657273 
+ 2317      5C44E16E 
+ 2317      69656C5C 
+ 2317      6769745C 
+ 2318 0103 726500   		.ascii	"re\000"
+ 2319              	.LASF45:
+ 2320 0106 72656761 		.ascii	"regarm_t\000"
+ 2320      726D5F74 
+ 2320      00
+ 2321              	.LASF62:
+ 2322 010f 616C6967 		.ascii	"align\000"
+ 2322      6E00
+ 2323              	.LASF0:
+ 2324 0115 756E7369 		.ascii	"unsigned int\000"
+ 2324      676E6564 
+ 2324      20696E74 
+ 2324      00
+ 2325              	.LASF10:
+ 2326 0122 6C6F6E67 		.ascii	"long unsigned int\000"
+ 2326      20756E73 
+ 2326      69676E65 
+ 2326      6420696E 
+ 2326      7400
+ 2327              	.LASF48:
+ 2328 0134 636F6E74 		.ascii	"context\000"
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccjOZ2xx.s 			page 43
 
 
- 2329      7369676E 
- 2329      65642069 
- 2329      6E7400
- 2330              	.LASF20:
- 2331 0127 6D73675F 		.ascii	"msg_t\000"
- 2331      7400
- 2332              	.LASF15:
- 2333 012d 746D6F64 		.ascii	"tmode_t\000"
- 2333      655F7400 
- 2334              	.LASF44:
- 2335 0135 54687265 		.ascii	"ThreadsList\000"
- 2335      6164734C 
- 2335      69737400 
- 2336              	.LASF21:
- 2337 0141 6576656E 		.ascii	"eventmask_t\000"
- 2337      746D6173 
- 2337      6B5F7400 
- 2338              	.LASF50:
- 2339 014d 4D757465 		.ascii	"Mutex\000"
- 2339      7800
- 2340              	.LASF46:
- 2341 0153 73746B61 		.ascii	"stkalign_t\000"
- 2341      6C69676E 
- 2341      5F7400
- 2342              	.LASF49:
- 2343 015e 73697A65 		.ascii	"sizetype\000"
- 2343      74797065 
- 2343      00
- 2344              	.LASF78:
- 2345 0167 63684D74 		.ascii	"chMtxLock\000"
- 2345      784C6F63 
- 2345      6B00
- 2346              	.LASF79:
- 2347 0171 474E5520 		.ascii	"GNU C 4.7.4 20140401 (release) [ARM/embedded-4_7-br"
- 2347      4320342E 
- 2347      372E3420 
- 2347      32303134 
- 2347      30343031 
- 2348 01a4 616E6368 		.ascii	"anch revision 209195]\000"
- 2348      20726576 
- 2348      6973696F 
- 2348      6E203230 
- 2348      39313935 
- 2349              	.LASF29:
- 2350 01ba 705F6F6C 		.ascii	"p_older\000"
- 2350      64657200 
- 2351              	.LASF43:
- 2352 01c2 54687265 		.ascii	"ThreadsQueue\000"
- 2352      61647351 
- 2352      75657565 
- 2352      00
- 2353              	.LASF55:
- 2354 01cf 4D656D6F 		.ascii	"MemoryHeap\000"
- 2354      72794865 
- 2354      617000
- 2355              	.LASF17:
- 2356 01da 74726566 		.ascii	"trefs_t\000"
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 44
+ 2328      65787400 
+ 2329              	.LASF63:
+ 2330 013c 73697A65 		.ascii	"size\000"
+ 2330      00
+ 2331              	.LASF6:
+ 2332 0141 73686F72 		.ascii	"short unsigned int\000"
+ 2332      7420756E 
+ 2332      7369676E 
+ 2332      65642069 
+ 2332      6E7400
+ 2333              	.LASF20:
+ 2334 0154 6D73675F 		.ascii	"msg_t\000"
+ 2334      7400
+ 2335              	.LASF15:
+ 2336 015a 746D6F64 		.ascii	"tmode_t\000"
+ 2336      655F7400 
+ 2337              	.LASF44:
+ 2338 0162 54687265 		.ascii	"ThreadsList\000"
+ 2338      6164734C 
+ 2338      69737400 
+ 2339              	.LASF21:
+ 2340 016e 6576656E 		.ascii	"eventmask_t\000"
+ 2340      746D6173 
+ 2340      6B5F7400 
+ 2341              	.LASF50:
+ 2342 017a 4D757465 		.ascii	"Mutex\000"
+ 2342      7800
+ 2343              	.LASF46:
+ 2344 0180 73746B61 		.ascii	"stkalign_t\000"
+ 2344      6C69676E 
+ 2344      5F7400
+ 2345              	.LASF49:
+ 2346 018b 73697A65 		.ascii	"sizetype\000"
+ 2346      74797065 
+ 2346      00
+ 2347              	.LASF78:
+ 2348 0194 63684D74 		.ascii	"chMtxLock\000"
+ 2348      784C6F63 
+ 2348      6B00
+ 2349              	.LASF79:
+ 2350 019e 474E5520 		.ascii	"GNU C 4.7.4 20140401 (release) [ARM/embedded-4_7-br"
+ 2350      4320342E 
+ 2350      372E3420 
+ 2350      32303134 
+ 2350      30343031 
+ 2351 01d1 616E6368 		.ascii	"anch revision 209195]\000"
+ 2351      20726576 
+ 2351      6973696F 
+ 2351      6E203230 
+ 2351      39313935 
+ 2352              	.LASF29:
+ 2353 01e7 705F6F6C 		.ascii	"p_older\000"
+ 2353      64657200 
+ 2354              	.LASF43:
+ 2355 01ef 54687265 		.ascii	"ThreadsQueue\000"
+ 2355      61647351 
+ 2355      75657565 
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccjOZ2xx.s 			page 44
 
 
- 2356      735F7400 
- 2357              	.LASF25:
- 2358 01e2 705F7072 		.ascii	"p_prev\000"
- 2358      657600
- 2359              	.LASF19:
- 2360 01e9 74707269 		.ascii	"tprio_t\000"
- 2360      6F5F7400 
- 2361              	.LASF14:
- 2362 01f1 5F426F6F 		.ascii	"_Bool\000"
- 2362      6C00
- 2363              	.LASF7:
- 2364 01f7 696E7433 		.ascii	"int32_t\000"
- 2364      325F7400 
- 2365              	.LASF4:
- 2366 01ff 756E7369 		.ascii	"unsigned char\000"
- 2366      676E6564 
- 2366      20636861 
- 2366      7200
- 2367              	.LASF57:
- 2368 020d 685F7072 		.ascii	"h_provider\000"
- 2368      6F766964 
- 2368      657200
- 2369              	.LASF40:
- 2370 0218 705F6D74 		.ascii	"p_mtxlist\000"
- 2370      786C6973 
- 2370      7400
- 2371              	.LASF5:
- 2372 0222 73686F72 		.ascii	"short int\000"
- 2372      7420696E 
- 2372      7400
- 2373              	.LASF31:
- 2374 022c 705F7374 		.ascii	"p_state\000"
- 2374      61746500 
- 2375              	.LASF34:
- 2376 0234 705F7072 		.ascii	"p_preempt\000"
- 2376      65656D70 
- 2376      7400
- 2377              	.LASF82:
- 2378 023e 68656170 		.ascii	"heap_header\000"
- 2378      5F686561 
- 2378      64657200 
- 2379              	.LASF67:
- 2380 024a 65776D61 		.ascii	"ewmask\000"
- 2380      736B00
- 2381              	.LASF24:
- 2382 0251 705F6E65 		.ascii	"p_next\000"
- 2382      787400
- 2383              	.LASF32:
- 2384 0258 705F666C 		.ascii	"p_flags\000"
- 2384      61677300 
- 2385              	.LASF23:
- 2386 0260 54687265 		.ascii	"Thread\000"
- 2386      616400
- 2387              	.LASF73:
- 2388 0267 63684865 		.ascii	"chHeapAlloc\000"
- 2388      6170416C 
- 2388      6C6F6300 
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 45
+ 2355      00
+ 2356              	.LASF55:
+ 2357 01fc 4D656D6F 		.ascii	"MemoryHeap\000"
+ 2357      72794865 
+ 2357      617000
+ 2358              	.LASF17:
+ 2359 0207 74726566 		.ascii	"trefs_t\000"
+ 2359      735F7400 
+ 2360              	.LASF25:
+ 2361 020f 705F7072 		.ascii	"p_prev\000"
+ 2361      657600
+ 2362              	.LASF19:
+ 2363 0216 74707269 		.ascii	"tprio_t\000"
+ 2363      6F5F7400 
+ 2364              	.LASF14:
+ 2365 021e 5F426F6F 		.ascii	"_Bool\000"
+ 2365      6C00
+ 2366              	.LASF7:
+ 2367 0224 696E7433 		.ascii	"int32_t\000"
+ 2367      325F7400 
+ 2368              	.LASF4:
+ 2369 022c 756E7369 		.ascii	"unsigned char\000"
+ 2369      676E6564 
+ 2369      20636861 
+ 2369      7200
+ 2370              	.LASF57:
+ 2371 023a 685F7072 		.ascii	"h_provider\000"
+ 2371      6F766964 
+ 2371      657200
+ 2372              	.LASF40:
+ 2373 0245 705F6D74 		.ascii	"p_mtxlist\000"
+ 2373      786C6973 
+ 2373      7400
+ 2374              	.LASF5:
+ 2375 024f 73686F72 		.ascii	"short int\000"
+ 2375      7420696E 
+ 2375      7400
+ 2376              	.LASF31:
+ 2377 0259 705F7374 		.ascii	"p_state\000"
+ 2377      61746500 
+ 2378              	.LASF34:
+ 2379 0261 705F7072 		.ascii	"p_preempt\000"
+ 2379      65656D70 
+ 2379      7400
+ 2380              	.LASF82:
+ 2381 026b 68656170 		.ascii	"heap_header\000"
+ 2381      5F686561 
+ 2381      64657200 
+ 2382              	.LASF67:
+ 2383 0277 65776D61 		.ascii	"ewmask\000"
+ 2383      736B00
+ 2384              	.LASF24:
+ 2385 027e 705F6E65 		.ascii	"p_next\000"
+ 2385      787400
+ 2386              	.LASF32:
+ 2387 0285 705F666C 		.ascii	"p_flags\000"
+ 2387      61677300 
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccjOZ2xx.s 			page 45
 
 
- 2389              	.LASF39:
- 2390 0273 705F6570 		.ascii	"p_epending\000"
- 2390      656E6469 
- 2390      6E6700
- 2391              	.LASF9:
- 2392 027e 75696E74 		.ascii	"uint32_t\000"
- 2392      33325F74 
- 2392      00
- 2393              	.LASF61:
- 2394 0287 68656170 		.ascii	"heap\000"
- 2394      00
- 2395              	.LASF76:
- 2396 028c 64656661 		.ascii	"default_heap\000"
- 2396      756C745F 
- 2396      68656170 
- 2396      00
- 2397              	.LASF68:
- 2398 0299 63686172 		.ascii	"char\000"
- 2398      00
- 2399              	.LASF74:
- 2400 029e 63684865 		.ascii	"chHeapStatus\000"
- 2400      61705374 
- 2400      61747573 
- 2400      00
- 2401              	.LASF53:
- 2402 02ab 6D5F6E65 		.ascii	"m_next\000"
- 2402      787400
- 2403              	.LASF22:
- 2404 02b2 73797374 		.ascii	"systime_t\000"
- 2404      696D655F 
- 2404      7400
- 2405              	.LASF41:
- 2406 02bc 705F7265 		.ascii	"p_realprio\000"
- 2406      616C7072 
- 2406      696F00
- 2407              	.LASF35:
- 2408 02c7 705F7469 		.ascii	"p_time\000"
- 2408      6D6500
- 2409              	.LASF47:
- 2410 02ce 696E7463 		.ascii	"intctx\000"
- 2410      747800
- 2411              	.LASF37:
- 2412 02d5 705F6D73 		.ascii	"p_msgqueue\000"
- 2412      67717565 
- 2412      756500
- 2413              	.LASF77:
- 2414 02e0 63684D74 		.ascii	"chMtxInit\000"
- 2414      78496E69 
- 2414      7400
- 2415              	.LASF33:
- 2416 02ea 705F7265 		.ascii	"p_refs\000"
- 2416      667300
- 2417              	.LASF3:
- 2418 02f1 75696E74 		.ascii	"uint8_t\000"
- 2418      385F7400 
- 2419              	.LASF80:
- 2420 02f9 2E2E2F2E 		.ascii	"../../Chibios/os/kernel/src/chheap.c\000"
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 46
+ 2388              	.LASF23:
+ 2389 028d 54687265 		.ascii	"Thread\000"
+ 2389      616400
+ 2390              	.LASF73:
+ 2391 0294 63684865 		.ascii	"chHeapAlloc\000"
+ 2391      6170416C 
+ 2391      6C6F6300 
+ 2392              	.LASF39:
+ 2393 02a0 705F6570 		.ascii	"p_epending\000"
+ 2393      656E6469 
+ 2393      6E6700
+ 2394              	.LASF9:
+ 2395 02ab 75696E74 		.ascii	"uint32_t\000"
+ 2395      33325F74 
+ 2395      00
+ 2396              	.LASF61:
+ 2397 02b4 68656170 		.ascii	"heap\000"
+ 2397      00
+ 2398              	.LASF76:
+ 2399 02b9 64656661 		.ascii	"default_heap\000"
+ 2399      756C745F 
+ 2399      68656170 
+ 2399      00
+ 2400              	.LASF68:
+ 2401 02c6 63686172 		.ascii	"char\000"
+ 2401      00
+ 2402              	.LASF74:
+ 2403 02cb 63684865 		.ascii	"chHeapStatus\000"
+ 2403      61705374 
+ 2403      61747573 
+ 2403      00
+ 2404              	.LASF53:
+ 2405 02d8 6D5F6E65 		.ascii	"m_next\000"
+ 2405      787400
+ 2406              	.LASF22:
+ 2407 02df 73797374 		.ascii	"systime_t\000"
+ 2407      696D655F 
+ 2407      7400
+ 2408              	.LASF41:
+ 2409 02e9 705F7265 		.ascii	"p_realprio\000"
+ 2409      616C7072 
+ 2409      696F00
+ 2410              	.LASF35:
+ 2411 02f4 705F7469 		.ascii	"p_time\000"
+ 2411      6D6500
+ 2412              	.LASF47:
+ 2413 02fb 696E7463 		.ascii	"intctx\000"
+ 2413      747800
+ 2414              	.LASF37:
+ 2415 0302 705F6D73 		.ascii	"p_msgqueue\000"
+ 2415      67717565 
+ 2415      756500
+ 2416              	.LASF77:
+ 2417 030d 63684D74 		.ascii	"chMtxInit\000"
+ 2417      78496E69 
+ 2417      7400
+ 2418              	.LASF80:
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccjOZ2xx.s 			page 46
 
 
- 2420      2E2F4368 
- 2420      6962696F 
- 2420      732F6F73 
- 2420      2F6B6572 
- 2421              	.LASF66:
- 2422 031e 77746F62 		.ascii	"wtobjp\000"
- 2422      6A7000
- 2423              	.LASF75:
- 2424 0325 73697A65 		.ascii	"sizep\000"
- 2424      7000
- 2425              	.LASF30:
- 2426 032b 705F6E61 		.ascii	"p_name\000"
- 2426      6D6500
- 2427              	.LASF69:
- 2428 0332 5F686561 		.ascii	"_heap_init\000"
- 2428      705F696E 
- 2428      697400
- 2429              	.LASF52:
- 2430 033d 6D5F6F77 		.ascii	"m_owner\000"
- 2430      6E657200 
- 2431              	.LASF81:
- 2432 0345 433A5C55 		.ascii	"C:\\Users\\Rich\341rd\\git\\Modulux\\modulux\\firmw"
- 2432      73657273 
- 2432      5C526963 
- 2432      68E17264 
- 2432      5C676974 
- 2433 036f 61726500 		.ascii	"are\000"
+ 2419 0317 2E2E2F2E 		.ascii	"../../../Chibios/os/kernel/src/chheap.c\000"
+ 2419      2E2F2E2E 
+ 2419      2F436869 
+ 2419      62696F73 
+ 2419      2F6F732F 
+ 2420              	.LASF33:
+ 2421 033f 705F7265 		.ascii	"p_refs\000"
+ 2421      667300
+ 2422              	.LASF3:
+ 2423 0346 75696E74 		.ascii	"uint8_t\000"
+ 2423      385F7400 
+ 2424              	.LASF66:
+ 2425 034e 77746F62 		.ascii	"wtobjp\000"
+ 2425      6A7000
+ 2426              	.LASF75:
+ 2427 0355 73697A65 		.ascii	"sizep\000"
+ 2427      7000
+ 2428              	.LASF30:
+ 2429 035b 705F6E61 		.ascii	"p_name\000"
+ 2429      6D6500
+ 2430              	.LASF69:
+ 2431 0362 5F686561 		.ascii	"_heap_init\000"
+ 2431      705F696E 
+ 2431      697400
+ 2432              	.LASF52:
+ 2433 036d 6D5F6F77 		.ascii	"m_owner\000"
+ 2433      6E657200 
  2434              	.LASF27:
- 2435 0373 705F6374 		.ascii	"p_ctx\000"
+ 2435 0375 705F6374 		.ascii	"p_ctx\000"
  2435      7800
  2436              	.LASF36:
- 2437 0379 705F7761 		.ascii	"p_waiting\000"
+ 2437 037b 705F7761 		.ascii	"p_waiting\000"
  2437      6974696E 
  2437      6700
  2438              	.LASF56:
- 2439 0383 6D656D6F 		.ascii	"memory_heap\000"
+ 2439 0385 6D656D6F 		.ascii	"memory_heap\000"
  2439      72795F68 
  2439      65617000 
  2440              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.7.4 20140401 (release) [ARM/embedded-4_7-br
-ARM GAS  C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s 			page 47
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccjOZ2xx.s 			page 47
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 chheap.c
-C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s:19     .text._heap_init:00000000 $t
-C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s:25     .text._heap_init:00000000 _heap_init
-C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s:436    .bss.default_heap:00000000 .LANCHOR0
-C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s:57     .text.chHeapInit:00000000 $t
-C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s:63     .text.chHeapInit:00000000 chHeapInit
-C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s:97     .text.chHeapAlloc:00000000 $t
-C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s:103    .text.chHeapAlloc:00000000 chHeapAlloc
-C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s:230    .text.chHeapAlloc:00000084 $d
-C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s:235    .text.chHeapFree:00000000 $t
-C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s:241    .text.chHeapFree:00000000 chHeapFree
-C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s:355    .text.chHeapStatus:00000000 $t
-C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s:361    .text.chHeapStatus:00000000 chHeapStatus
-C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s:430    .text.chHeapStatus:0000003c $d
-C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s:435    .bss.default_heap:00000000 $d
-C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s:439    .bss.default_heap:00000000 default_heap
+C:\Users\DNIEL~1\AppData\Local\Temp\ccjOZ2xx.s:19     .text._heap_init:00000000 $t
+C:\Users\DNIEL~1\AppData\Local\Temp\ccjOZ2xx.s:25     .text._heap_init:00000000 _heap_init
+C:\Users\DNIEL~1\AppData\Local\Temp\ccjOZ2xx.s:436    .bss.default_heap:00000000 .LANCHOR0
+C:\Users\DNIEL~1\AppData\Local\Temp\ccjOZ2xx.s:57     .text.chHeapInit:00000000 $t
+C:\Users\DNIEL~1\AppData\Local\Temp\ccjOZ2xx.s:63     .text.chHeapInit:00000000 chHeapInit
+C:\Users\DNIEL~1\AppData\Local\Temp\ccjOZ2xx.s:97     .text.chHeapAlloc:00000000 $t
+C:\Users\DNIEL~1\AppData\Local\Temp\ccjOZ2xx.s:103    .text.chHeapAlloc:00000000 chHeapAlloc
+C:\Users\DNIEL~1\AppData\Local\Temp\ccjOZ2xx.s:230    .text.chHeapAlloc:00000084 $d
+C:\Users\DNIEL~1\AppData\Local\Temp\ccjOZ2xx.s:235    .text.chHeapFree:00000000 $t
+C:\Users\DNIEL~1\AppData\Local\Temp\ccjOZ2xx.s:241    .text.chHeapFree:00000000 chHeapFree
+C:\Users\DNIEL~1\AppData\Local\Temp\ccjOZ2xx.s:355    .text.chHeapStatus:00000000 $t
+C:\Users\DNIEL~1\AppData\Local\Temp\ccjOZ2xx.s:361    .text.chHeapStatus:00000000 chHeapStatus
+C:\Users\DNIEL~1\AppData\Local\Temp\ccjOZ2xx.s:430    .text.chHeapStatus:0000003c $d
+C:\Users\DNIEL~1\AppData\Local\Temp\ccjOZ2xx.s:435    .bss.default_heap:00000000 $d
+C:\Users\DNIEL~1\AppData\Local\Temp\ccjOZ2xx.s:439    .bss.default_heap:00000000 default_heap
                      .debug_frame:00000010 $d
-C:\Users\RICHRD~1\AppData\Local\Temp\ccbYabDn.s:234    .text.chHeapAlloc:00000088 $t
+C:\Users\DNIEL~1\AppData\Local\Temp\ccjOZ2xx.s:234    .text.chHeapAlloc:00000088 $t
 
 UNDEFINED SYMBOLS
 chCoreAlloc
