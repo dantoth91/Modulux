@@ -21,6 +21,13 @@ enum canState
   CAN_NUM_CH
 }canstate;
 
+enum canMessage
+{
+  CAN_JINDEX= 0x01234567,
+  CAN_BINDEX= 0x01111111,
+  CAN_MSG_NUM
+  } canuzenet;
+
 static CANTxFrame txmsg;
 static CANRxFrame rxmsg;
 
@@ -66,12 +73,7 @@ static msg_t can_rx(void *p) {
     while (canReceive(&CAND1, CAN_ANY_MAILBOX, &rxmsg, TIME_IMMEDIATE) == RDY_OK) {
 
       //villan();
-    if(rxmsg.EID == 0x01234567)
-      {
-
-       allapot=LIGHT_JOBBINDEX;
-      }
-    else allapot=LIGHT_BALINDEX;
+      Light_state(rxmsg.EID);
 
     }
   }

@@ -94,7 +94,7 @@ static msg_t task20ms(void *arg) {
   chRegSetThreadName("task20ms");
   time = chTimeNow();
   while (TRUE) {
-    time += MS2ST(200);
+    time += MS2ST(20);
 
     lightCalc();
 

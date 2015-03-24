@@ -7,51 +7,51 @@ start address 0x08000751
 
 Program Header:
     LOAD off    0x00008000 vaddr 0x08000000 paddr 0x08000000 align 2**15
-         filesz 0x00003494 memsz 0x00003498 flags rwx
-    LOAD off    0x00010800 vaddr 0x20000800 paddr 0x08003498 align 2**15
+         filesz 0x00003584 memsz 0x00003588 flags rwx
+    LOAD off    0x00010800 vaddr 0x20000800 paddr 0x08003588 align 2**15
          filesz 0x00000040 memsz 0x00000040 flags rw-
     LOAD off    0x00018000 vaddr 0x20000000 paddr 0x20000000 align 2**15
-         filesz 0x00000000 memsz 0x0000146c flags rw-
+         filesz 0x00000000 memsz 0x00001474 flags rw-
 private flags = 5000002: [Version5 EABI] [has entry point]
 
 Sections:
 Idx Name          Size      VMA       LMA       File off  Algn
   0 startup       000001ac  08000000  08000000  00008000  2**4
                   CONTENTS, ALLOC, LOAD, DATA
-  1 .text         000032e4  080001b0  080001b0  000081b0  2**4
+  1 .text         000033d4  080001b0  080001b0  000081b0  2**4
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
-  2 .textalign    00000004  08003494  08003494  0000b494  2**0
+  2 .textalign    00000004  08003584  08003584  0000b584  2**0
                   ALLOC
   3 .stacks       00000800  20000000  20000000  00018000  2**0
                   ALLOC
-  4 .data         00000040  20000800  08003498  00010800  2**2
+  4 .data         00000040  20000800  08003588  00010800  2**2
                   CONTENTS, ALLOC, LOAD, DATA
-  5 .bss          00000c2c  20000840  20000840  00018000  2**3
+  5 .bss          00000c34  20000840  20000840  00018000  2**3
                   ALLOC
-  6 .debug_info   000161c5  00000000  00000000  00010840  2**0
+  6 .debug_info   00016222  00000000  00000000  00010840  2**0
                   CONTENTS, READONLY, DEBUGGING
-  7 .debug_abbrev 00004f47  00000000  00000000  00026a05  2**0
+  7 .debug_abbrev 00004f4c  00000000  00000000  00026a62  2**0
                   CONTENTS, READONLY, DEBUGGING
-  8 .debug_aranges 00000b98  00000000  00000000  0002b94c  2**0
+  8 .debug_aranges 00000b90  00000000  00000000  0002b9ae  2**0
                   CONTENTS, READONLY, DEBUGGING
-  9 .debug_ranges 000014c0  00000000  00000000  0002c4e4  2**0
+  9 .debug_ranges 000014b8  00000000  00000000  0002c53e  2**0
                   CONTENTS, READONLY, DEBUGGING
- 10 .debug_line   0000682b  00000000  00000000  0002d9a4  2**0
+ 10 .debug_line   00006818  00000000  00000000  0002d9f6  2**0
                   CONTENTS, READONLY, DEBUGGING
- 11 .debug_str    00002d48  00000000  00000000  000341cf  2**0
+ 11 .debug_str    00002d8c  00000000  00000000  0003420e  2**0
                   CONTENTS, READONLY, DEBUGGING
- 12 .comment      00000070  00000000  00000000  00036f17  2**0
+ 12 .comment      00000070  00000000  00000000  00036f9a  2**0
                   CONTENTS, READONLY
- 13 .ARM.attributes 00000033  00000000  00000000  00036f87  2**0
+ 13 .ARM.attributes 00000033  00000000  00000000  0003700a  2**0
                   CONTENTS, READONLY
- 14 .debug_frame  00001d20  00000000  00000000  00036fbc  2**2
+ 14 .debug_frame  00001d2c  00000000  00000000  00037040  2**2
                   CONTENTS, READONLY, DEBUGGING
- 15 .debug_loc    00007507  00000000  00000000  00038cdc  2**0
+ 15 .debug_loc    00007547  00000000  00000000  00038d6c  2**0
                   CONTENTS, READONLY, DEBUGGING
 SYMBOL TABLE:
 08000000 l    d  startup	00000000 startup
 080001b0 l    d  .text	00000000 .text
-08003494 l    d  .textalign	00000000 .textalign
+08003584 l    d  .textalign	00000000 .textalign
 20000000 l    d  .stacks	00000000 .stacks
 20000800 l    d  .data	00000000 .data
 20000840 l    d  .bss	00000000 .bss
@@ -67,9 +67,9 @@ SYMBOL TABLE:
 00000000 l    d  .debug_loc	00000000 .debug_loc
 00000000 l    df *ABS*	00000000 vectors.c
 00000000 l    df *ABS*	00000000 main.c
-08003100 l     F .text	00000034 ds18b20_polling_thread
-08003140 l     F .text	00000028 task20ms
-080031c0 l     F .text	00000038 Thread1
+08003140 l     F .text	00000034 ds18b20_polling_thread
+08003180 l     F .text	00000028 task20ms
+08003200 l     F .text	00000038 Thread1
 20000e70 l     O .bss	00000150 waThread1
 20000fc8 l     O .bss	000001d0 watask20ms
 20000800 l     O .data	0000000c uartCfg
@@ -99,15 +99,15 @@ SYMBOL TABLE:
 00000000 l    df *ABS*	00000000 can.c
 00000000 l    df *ABS*	00000000 pwm.c
 00000000 l    df *ABS*	00000000 serial.c
-08001670 l     F .text	00000006 readt
-08001680 l     F .text	0000000a read
-08001690 l     F .text	00000006 writet
-080016a0 l     F .text	0000000a write
-080016b0 l     F .text	00000006 gett
-080016c0 l     F .text	0000000a get
-080016d0 l     F .text	00000006 putt
-080016e0 l     F .text	0000000a put
-08003270 l     O .text	00000020 vmt
+08001690 l     F .text	00000006 readt
+080016a0 l     F .text	0000000a read
+080016b0 l     F .text	00000006 writet
+080016c0 l     F .text	0000000a write
+080016d0 l     F .text	00000006 gett
+080016e0 l     F .text	0000000a get
+080016f0 l     F .text	00000006 putt
+08001700 l     F .text	0000000a put
+08003360 l     O .text	00000020 vmt
 00000000 l    df *ABS*	00000000 spi.c
 00000000 l    df *ABS*	00000000 stm32_dma.c
 200009c0 l     O .bss	00000080 dma_isr_redir
@@ -115,36 +115,37 @@ SYMBOL TABLE:
 00000000 l    df *ABS*	00000000 hal_lld.c
 00000000 l    df *ABS*	00000000 adc_lld.c
 00000000 l    df *ABS*	00000000 can_lld.c
-08001ec0 l     F .text	000002aa can_lld_set_filters
+08001ee0 l     F .text	000002aa can_lld_set_filters
 00000000 l    df *ABS*	00000000 pal_lld.c
 00000000 l    df *ABS*	00000000 spi_lld.c
 20000ab0 l     O .bss	00000002 dummytx
 00000000 l    df *ABS*	00000000 pwm_lld.c
 00000000 l    df *ABS*	00000000 serial_lld.c
-080029a0 l     F .text	00000014 notify1
-080029c0 l     F .text	00000014 notify2
-080029e0 l     F .text	00000014 notify6
-08002a00 l     F .text	0000012a serve_interrupt
-08003350 l     O .text	0000000c default_config
+080029f0 l     F .text	00000014 notify1
+08002a10 l     F .text	00000014 notify2
+08002a30 l     F .text	00000014 notify6
+08002a50 l     F .text	0000012a serve_interrupt
+08003440 l     O .text	0000000c default_config
 00000000 l    df *ABS*	00000000 board.c
 00000000 l    df *ABS*	00000000 can_comm.c
-08002d10 l     F .text	00000090 can_rx
-08003460 l     O .text	00000008 cancfg
-20000c60 l     O .bss	00000001 allapot
-20000c64 l     O .bss	00000014 rxmsg
+08002d60 l     F .text	00000074 can_rx
+08003550 l     O .text	00000008 cancfg
+20000c60 l     O .bss	00000014 rxmsg
 20000c78 l     O .bss	000001d0 can_rx_wa
 00000000 l    df *ABS*	00000000 ds18b20.c
-08002de0 l     F .text	00000030 Delay_us
+08002e20 l     F .text	00000030 Delay_us
 00000000 l    df *ABS*	00000000 light.c
 20001468 l     O .bss	00000004 tim_db
 2000080c l     O .data	00000034 pwmcfg
+2000146c l     O .bss	00000004 allapot
+20001470 l     O .bss	00000004 can_msg
 00000000 l    df *ABS*	00000000 chregistry.c
-08003360 g     O .text	000000fc pal_default_config
+08003450 g     O .text	000000fc pal_default_config
 08000920  w    F .text	00000002 Vector58
 08000920  w    F .text	00000002 VectorE8
 08000920  w    F .text	00000002 Vector9C
 08000a50 g     F .text	00000048 nvicEnableVector
-080027e0 g     F .text	0000006c VectorAC
+08002800 g     F .text	0000006c VectorAC
 08000fe0 g     F .text	0000000a chThdExit
 08000b60 g     F .text	00000058 chSysTimerHandlerI
 08001100 g     F .text	00000020 chEvtBroadcastFlagsI
@@ -153,33 +154,34 @@ SYMBOL TABLE:
 08000920  w    F .text	00000002 Vector5C
 08000920  w    F .text	00000002 NMIVector
 08000920  w    F .text	00000002 Vector11C
-08001ad0 g     F .text	00000136 dmaInit
+08001af0 g     F .text	00000136 dmaInit
 08000920  w    F .text	00000002 Vector19C
 080005f8 g     F .text	00000136 __divsf3
-08002170 g     F .text	0000004c Vector8C
+08002190 g     F .text	0000004c Vector8C
 080010a0 g     F .text	00000022 chEvtUnregister
 08001650 g     F .text	00000020 pwmStart
 08000920  w    F .text	00000002 VectorDC
 08000920  w    F .text	00000002 Vector168
 08000000 g     O startup	000001ac _vectors
+08003240 g     F .text	0000000c Light_state
 08000cf0 g     F .text	00000028 chSchGoSleepS
 08000920  w    F .text	00000002 Vector110
-08002870 g     F .text	00000124 pwm_lld_start
-2000146c g       *ABS*	00000000 __heap_base__
-08003498 g       *ABS*	00000000 _etext
-08001950 g     F .text	00000028 Vector120
+08002890 g     F .text	00000124 pwm_lld_start
+20001474 g       *ABS*	00000000 __heap_base__
+08003588 g       *ABS*	00000000 _etext
+08001970 g     F .text	00000028 Vector120
 08000eb0 g     F .text	0000006c chThdCreateI
 00000000         *UND*	00000000 msObjectInit
 08000920  w    F .text	00000002 VectorC8
 0800027c g     F .text	00000160 __aeabi_fadd
 08000278 g     F .text	00000164 __subsf3
-08002e70 g     F .text	0000004a OneWire_WriteBit
+08002eb0 g     F .text	0000004a OneWire_WriteBit
 08000d60 g     F .text	00000058 chSchWakeupS
-08001770 g     F .text	0000003c sdIncomingDataI
+08001790 g     F .text	0000003c sdIncomingDataI
 08001350 g     F .text	00000046 chOQGetI
 08000cb0 g     F .text	00000016 _scheduler_init
 08000f20 g     F .text	0000002a chThdCreateStatic
-08002230 g     F .text	00000070 Vector94
+08002250 g     F .text	00000070 Vector94
 08000920  w    F .text	00000002 VectorA8
 08000920  w    F .text	00000002 VectorB4
 20000b70 g     O .bss	00000078 SD2
@@ -187,10 +189,10 @@ SYMBOL TABLE:
 080001ac g       startup	00000000 __fini_array_end
 20000800 g       .stacks	00000000 __main_thread_stack_end__
 08000bc0 g     F .text	00000018 _vt_init
-08002da0 g     F .text	0000003a can_commInit
+08002de0 g     F .text	0000003a can_commInit
 08001490 g     F .text	00000020 _heap_init
 080003e4 g     F .text	0000001c __aeabi_i2f
-08001830 g     F .text	0000002c Vector74
+08001850 g     F .text	0000002c Vector74
 20000a78 g     O .bss	00000038 CAND1
 080014b0 g     F .text	0000002e halInit
 08001540 g     F .text	00000004 canInit
@@ -201,7 +203,7 @@ SYMBOL TABLE:
 08000920  w    F .text	00000002 UsageFaultVector
 2001c000 g       *ABS*	00000000 __heap_end__
 08000920  w    F .text	00000002 DebugMonitorVector
-08002410 g     F .text	000000c8 can_lld_receive
+08002430 g     F .text	000000c8 can_lld_receive
 08000920  w    F .text	00000002 Vector40
 08000920  w    F .text	00000002 VectorF8
 08000920  w    F .text	00000002 Vector108
@@ -209,14 +211,14 @@ SYMBOL TABLE:
 08001260 g     F .text	00000072 chIQReadTimeout
 08000920  w    F .text	00000002 VectorBC
 08000920  w    F .text	00000002 Vector190
-08001a40 g     F .text	0000002c Vector150
-08001980 g     F .text	0000002c Vector124
+08001a60 g     F .text	0000002c Vector150
+080019a0 g     F .text	0000002c Vector124
 08000960 g     F .text	00000034 _port_init
-08001c10 g     F .text	000000a6 hal_lld_init
-08002760 g     F .text	00000048 spi_lld_init
+08001c30 g     F .text	000000a6 hal_lld_init
+08002780 g     F .text	00000048 spi_lld_init
 08000fa0 g     F .text	00000040 chThdExitS
 08000920  w    F .text	00000002 Vector148
-080023d0 g     F .text	00000038 can_lld_is_rx_nonempty
+080023f0 g     F .text	00000038 can_lld_is_rx_nonempty
 08000920  w    F .text	00000002 Vector188
 08001510 g     F .text	00000004 adcInit
 00000000         *UND*	00000000 _sbrk
@@ -226,22 +228,22 @@ SYMBOL TABLE:
 08000920  w    F .text	00000002 Vector118
 08000be0 g     F .text	00000038 chVTSetI
 08000920  w    F .text	00000002 Vector64
-2000146c g       .bss	00000000 _bss_end
+20001474 g       .bss	00000000 _bss_end
 08000278 g     F .text	00000164 __aeabi_fsub
 08000740  w    F .text	00000002 _default_exit
-08002690 g     F .text	000000c8 _pal_lld_setgroupmode
-08001dd0 g     F .text	00000038 adc_lld_init
+080026b0 g     F .text	000000c8 _pal_lld_setgroupmode
+08001df0 g     F .text	00000038 adc_lld_init
 08000920  w    F .text	00000002 VectorCC
-08002b90 g     F .text	0000006a sd_lld_init
+08002be0 g     F .text	0000006a sd_lld_init
 08000ff0 g     F .text	00000008 chSemInit
 08000920  w    F .text	00000002 Vector54
 08000410 g     F .text	0000007c __floatdisf
-08002fa0 g     F .text	00000040 OneWire_Reset
-080022a0 g     F .text	00000078 Vector98
+08002fe0 g     F .text	00000040 OneWire_Reset
+080022c0 g     F .text	00000078 Vector98
 20000a44 g     O .bss	00000034 ADCD1
-08002fe0 g     F .text	0000001e DS18B20_Init
-08002b50 g     F .text	00000016 VectorD8
-08003000 g     F .text	00000064 DS18B20_StartConversion
+08003020 g     F .text	0000001e DS18B20_Init
+08002ba0 g     F .text	00000016 VectorD8
+08003040 g     F .text	00000064 DS18B20_StartConversion
 08000920  w    F .text	00000002 Vector138
 08000920  w    F .text	00000002 Vector24
 08000e40 g     F .text	00000014 chSchDoReschedule
@@ -249,27 +251,28 @@ SYMBOL TABLE:
 08000920  w    F .text	00000002 Vector178
 08000f50 g     F .text	00000018 chThdSleep
 080011a0 g     F .text	0000001e chIQInit
-08003290 g     O .text	000000c0 _stm32_dma_streams
-080018f0 g     F .text	0000002c Vector84
+08003380 g     O .text	000000c0 _stm32_dma_streams
+08001910 g     F .text	0000002c Vector84
 20000e48 g     O .bss	00000028 DS18B20_SERIAL_NUMBER
 08000a10 g     F .text	0000001a SysTickVector
-080017c0 g     F .text	00000010 spiObjectInit
-08002ec0 g     F .text	00000052 OneWire_WriteByte
-08001cc0 g     F .text	00000104 stm32_clock_init
+080017e0 g     F .text	00000010 spiObjectInit
+08002f00 g     F .text	00000052 OneWire_WriteByte
+08001ce0 g     F .text	00000104 stm32_clock_init
 08000920  w    F .text	00000002 Vector1A4
-080024e0 g     F .text	000001a2 _pal_lld_init
-080016f0 g     F .text	00000004 sdInit
+08002500 g     F .text	000001a2 _pal_lld_init
+08001710 g     F .text	00000004 sdInit
 08000920  w    F .text	00000002 BusFaultVector
 08000920  w    F .text	00000002 VectorD0
 08001420 g     F .text	0000002c _core_init
-08002850 g     F .text	0000001a pwm_lld_init
-08001750 g     F .text	0000001a sdStart
+08002870 g     F .text	0000001a pwm_lld_init
+08001770 g     F .text	0000001a sdStart
 080003e4 g     F .text	0000001c __floatsisf
 08000920  w    F .text	00000002 Vector140
 08000920  w    F .text	00000002 VectorE4
+08001670 g     F .text	00000014 pwmEnableChannel
 08000920  w    F .text	00000002 VectorC0
-08001aa0 g     F .text	0000002c Vector158
-08001a10 g     F .text	00000028 Vector130
+08001ac0 g     F .text	0000002c Vector158
+08001a30 g     F .text	00000028 Vector130
 08000a30 g     F .text	00000010 _port_switch
 0001c000 g       *ABS*	00000000 __ram_size__
 08000940 g     F .text	00000012 SVCallVector
@@ -281,36 +284,37 @@ SYMBOL TABLE:
 08001450 g     F .text	00000034 chCoreAlloc
 080005f8 g     F .text	00000136 __aeabi_fdiv
 00000000         *UND*	00000000 shellCreate
-08002350 g     F .text	00000078 can_lld_start
+08002370 g     F .text	00000078 can_lld_start
 08000920  w    F .text	00000002 VectorF0
-080019e0 g     F .text	0000002c Vector12C
+08001a00 g     F .text	0000002c Vector12C
 20000ab4 g     O .bss	00000030 SPID2
 08001630 g     F .text	00000004 pwmInit
 08000400 g     F .text	0000008c __floatundisf
 08000920  w    F .text	00000002 Vector13C
-08002e20 g     F .text	00000010 OneWire_DataPinOutput
+08002e60 g     F .text	00000010 OneWire_DataPinOutput
 080003dc g     F .text	00000024 __aeabi_ui2f
 08000920  w    F .text	00000002 Vector100
-08003498 g       *ABS*	00000000 _textdata
+08003588 g       *ABS*	00000000 _textdata
 08000920  w    F .text	00000002 VectorE0
 00000000 g       *ABS*	00000000 _text
 08000920  w    F .text	00000002 VectorF4
 08000920  w    F .text	00000002 MemManageVector
 08001550 g     F .text	00000040 canObjectInit
 080001ac g       startup	00000000 __fini_array_start
-08002e10 g     F .text	00000010 OneWire_DataPinInput
+08002e50 g     F .text	00000010 OneWire_DataPinInput
 08000f70 g     F .text	00000024 chThdSleepUntil
 080001b0 g     F .text	000000b8 main
-080017d0 g     F .text	00000028 Vector6C
+080017f0 g     F .text	00000028 Vector6C
 08000410 g     F .text	0000007c __aeabi_l2f
 20000978 g     O .bss	0000001c rlist
 08000920  w    F .text	00000002 VectorA0
-080017b0 g     F .text	00000004 spiInit
+080017d0 g     F .text	00000004 spiInit
 08001520 g     F .text	00000016 adcObjectInit
 080001ac g       startup	00000000 __init_array_end
+080029c0 g     F .text	00000030 pwm_lld_enable_channel
 20000ae4 g     O .bss	00000014 PWMD1
 08000920  w    F .text	00000002 VectorC4
-08001890 g     F .text	00000028 Vector7C
+080018b0 g     F .text	00000028 Vector7C
 08000920  w    F .text	00000002 Vector180
 08001060 g     F .text	0000000a chMtxInit
 08000400 g     F .text	0000008c __aeabi_ul2f
@@ -318,19 +322,19 @@ SYMBOL TABLE:
 080013a0 g     F .text	00000074 chOQWriteTimeout
 08001640 g     F .text	0000000a pwmObjectInit
 08000920  w    F .text	00000002 VectorB0
-08003250 g     O .text	00000016 ch_debug
-08003200 g     F .text	00000020 lightCalc
+08003340 g     O .text	00000016 ch_debug
+08003250 g     F .text	000000ac lightCalc
 08000490 g     F .text	00000168 __mulsf3
-080021c0 g     F .text	00000070 Vector90
+080021e0 g     F .text	00000070 Vector90
 080010d0 g     F .text	0000002e chEvtSignalI
 08000920  w    F .text	00000002 Vector114
 20000000 g       *ABS*	00000000 __ram_start__
-08003170 g     F .text	0000003e serial_init
+080031b0 g     F .text	0000003e serial_init
 08000a40 g     F .text	00000010 _port_thread_start
 08000920  w    F .text	00000002 Vector164
 08000920  w    F .text	00000002 Vector60
 08000920  w    F .text	00000002 Vector1C
-08003070 g     F .text	0000008c DS18B20_GetTemp
+080030b0 g     F .text	0000008c DS18B20_GetTemp
 08000e00 g     F .text	0000003c chSchDoRescheduleAhead
 08000920  w    F .text	00000002 Vector17C
 08000920  w    F .text	00000002 Vector48
@@ -338,11 +342,11 @@ SYMBOL TABLE:
 20000400 g       .stacks	00000000 __process_stack_base__
 08000920  w    F .text	00000002 Vector1A8
 08000920  w    F .text	00000002 Vector16C
-08002320 g     F .text	00000028 can_lld_init
+08002340 g     F .text	00000028 can_lld_init
 08000270 g     F .text	0000016c __aeabi_frsub
 20000fc0 g     O .bss	00000004 currentTemp
-08001800 g     F .text	0000002c Vector70
-08002b30 g     F .text	00000016 VectorD4
+08001820 g     F .text	0000002c Vector70
+08002b80 g     F .text	00000016 VectorD4
 08000aa0 g     F .text	00000030 nvicSetSystemHandlerPriority
 08000490 g     F .text	00000168 __aeabi_fmul
 20000888 g     O .bss	000000e0 _idle_thread_wa
@@ -350,26 +354,26 @@ SYMBOL TABLE:
 08001210 g     F .text	00000048 chIQGetTimeout
 20000800 g       .data	00000000 _data
 08000920  w    F .text	00000002 Vector4C
-08002e30 g     F .text	00000036 OneWire_ReadBit
+08002e70 g     F .text	00000036 OneWire_ReadBit
 08000920  w    F .text	00000002 Vector144
-080018c0 g     F .text	0000002c Vector80
+080018e0 g     F .text	0000002c Vector80
 080011c0 g     F .text	0000004e chIQPutI
 08000930 g     F .text	00000006 _port_switch_from_isr
-08002b70 g     F .text	00000016 Vector15C
+08002bc0 g     F .text	00000016 Vector15C
 08000920  w    F .text	00000002 Vector68
 08001120 g     F .text	00000048 chEvtWaitAnyTimeout
 20000400 g       .stacks	00000000 __main_stack_end__
-08001860 g     F .text	0000002c Vector78
-080031b0 g     F .text	00000010 serial_send
+08001880 g     F .text	0000002c Vector78
+080031f0 g     F .text	00000010 serial_send
 2001c000 g       *ABS*	00000000 __ram_end__
 20000840 g       .data	00000000 _edata
-2000146c g       *ABS*	00000000 _end
+20001474 g       *ABS*	00000000 _end
 08001590 g     F .text	0000003a canStart
 08000c20 g     F .text	00000024 chVTResetI
 08000920 g     F .text	00000002 _unhandled_exception
 08000920  w    F .text	00000002 Vector170
-08001700 g     F .text	00000044 sdObjectInit
-08001e40 g     F .text	00000074 Vector88
+08001720 g     F .text	00000044 sdObjectInit
+08001e60 g     F .text	00000074 Vector88
 08001070 g     F .text	0000002a chEvtRegisterMask
 20000400 g       .stacks	00000000 __main_thread_stack_base__
 080003dc g     F .text	00000024 __floatunsisf
@@ -377,34 +381,34 @@ SYMBOL TABLE:
 08000920  w    F .text	00000002 Vector104
 08000920  w    F .text	00000002 Vector184
 08000920  w    F .text	00000002 Vector10C
-08003220 g     F .text	00000014 lightInit
+08003300 g     F .text	0000002a lightInit
 080001ac g       startup	00000000 __init_array_start
 20000af8 g     O .bss	00000078 SD1
 08000920  w    F .text	00000002 Vector14C
 08000e60 g     F .text	00000046 _thread_init
 08000920  w    F .text	00000002 Vector50
-08001e10 g     F .text	00000030 adc_lld_stop_conversion
+08001e30 g     F .text	00000030 adc_lld_stop_conversion
 08000920  w    F .text	00000002 Vector194
-08001a70 g     F .text	0000002c Vector154
+08001a90 g     F .text	0000002c Vector154
 08001300 g     F .text	00000050 chOQPutTimeout
 20000000 g       .stacks	00000000 __main_stack_base__
 08000920  w    F .text	00000002 Vector44
 08000920  w    F .text	00000002 Vector28
-08002d00 g     F .text	00000002 boardInit
+08002d50 g     F .text	00000002 boardInit
 08000920  w    F .text	00000002 VectorB8
-08002c00 g     F .text	000000ec sd_lld_start
+08002c50 g     F .text	000000ec sd_lld_start
 00000400 g       *ABS*	00000000 __main_stack_size__
-08001920 g     F .text	0000002c VectorFC
+08001940 g     F .text	0000002c VectorFC
 20000800 g       .stacks	00000000 __process_stack_end__
 08000920  w    F .text	00000002 Vector34
-08002cf0 g     F .text	00000004 __early_init
+08002d40 g     F .text	00000004 __early_init
 08001040 g     F .text	00000020 chSemSignalI
-080019b0 g     F .text	0000002c Vector128
+080019d0 g     F .text	0000002c Vector128
 0800027c g     F .text	00000160 __addsf3
-080027b0 g     F .text	00000024 VectorA4
+080027d0 g     F .text	00000024 VectorA4
 00000400 g       *ABS*	00000000 __process_stack_size__
 080014e0 g     F .text	00000028 halIsCounterWithin
-08002f20 g     F .text	00000072 OneWire_ReadByte
+08002f60 g     F .text	00000072 OneWire_ReadByte
 08000920  w    F .text	00000002 Vector20
 08000920  w    F .text	00000002 Vector18C
 08001000 g     F .text	0000003c chSemWaitTimeoutS

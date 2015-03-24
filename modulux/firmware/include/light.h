@@ -13,18 +13,8 @@
 
 void lightInit(void);
 void lightCalc(void);
-int indexEnable();
-
-
+void Light_state(uint32_t can_Id);
 static int indexTrue= 0 ;
-
-static enum canMessages
-{
-  LIGHT_JOBBINDEX,
-  LIGHT_BALINDEX,
-  LIGHT_FEK,
-  LIGHT_TOLATO
-}allapot;
 
 void cmd_lightvalues(BaseSequentialStream *chp, int argc, char *argv[]);
 #endif
