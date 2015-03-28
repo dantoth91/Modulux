@@ -1,48 +1,16 @@
 /*
-    ChibiOS/RT - Copyright (C) 2006-2013 Giovanni Di Sirio
-
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
-
-        http://www.apache.org/licenses/LICENSE-2.0
-
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
+    Modulux - Copyright (C) 2014
+    GAMF MegaLux Team              
 */
 
 #include "ch.h"
 #include "hal.h"
 #include "test.h"
+
+#include "console.h"
 #include "ds18b20.h"
 #include "can_comm.h"
 #include "light.h"
-
-static SerialConfig uartCfg =
-{
-115200, // bit rate
-0,
-0,
-0
-};
-
-void serial_init(void)
-{
-  palSetPadMode(GPIOB, 6, PAL_MODE_ALTERNATE(7));
-  palSetPadMode(GPIOB, 7, PAL_MODE_ALTERNATE(7));
-  sdInit();
-  sdStart(&SD1, &uartCfg);
-}
-static uint8_t txbuf = 0x01;
-void serial_send(void)
-{
-  //txbuf++;
-  //sdWrite(&SD6, (uint8_t *) txbuf, 1);
-  sdPut(&SD1, txbuf);
-}
 
 static WORKING_AREA(wa_ds18b20_polling, 512);
 
@@ -72,17 +40,10 @@ static msg_t Thread1(void *arg) {
   (void)arg;
   chRegSetThreadName("blinker");
   while (TRUE) {
-   // palSetPad(GPIOE, 2);       /* Orange.  */
-
-    palClearPad(GPIOD, 12);     //LS1
+    palTogglePad(GPIOE, GPIOE_LD1);
     chThdSleepMilliseconds(100);
-    //palClearPad(GPIOE, 2);     /* Orange.  */
-
-    palSetPad(GPIOD, 12);     //LS1
-    chThdSleepMilliseconds(100);
-    serial_send();
-
   }
+  return 0; /* Never executed.*/
 }
 
 
@@ -111,7 +72,6 @@ int main(void) {
 
   halInit();
   chSysInit();
-  palSetPad(GPIOD, GPIOD_X_5V_EN);
 
   palClearPad(GPIOE, GPIOE_PO1);     //PO1
   palClearPad(GPIOE, GPIOE_PO2);     //PO2
@@ -125,23 +85,43 @@ int main(void) {
   palSetPad(GPIOD, GPIOD_LS_3);     //LS3
   palSetPad(GPIOD, GPIOD_LS_4);     //LS4
 
+  /*
+   * 5V Enable
+   */
+  palSetPad(GPIOD, GPIOD_X_5V_EN);
 
+  /*
+   * Shell manager initialization.
+   */
+  consoleInit();
 
-  serial_init();
-
+  /*
+   * CAN bus initialization.
+   */
   can_commInit();
 
+  /*
+   * Light control initialization.
+   */
   lightInit();
 
   /*
-   * Creates the example thread.
+   * Creates the 20ms Task.
    */
   chThdCreateStatic(watask20ms, sizeof(watask20ms), NORMALPRIO, task20ms, NULL);
 
+  /*
+   * Creates the blinker thread.
+   */
   chThdCreateStatic(waThread1, sizeof(waThread1), NORMALPRIO, Thread1, NULL);
+  
+  /*
+   * Creates the dsp18b20 (OneWire bus) thread.
+   */
   chThdCreateStatic(wa_ds18b20_polling, sizeof(wa_ds18b20_polling), NORMALPRIO, ds18b20_polling_thread, NULL);
 
   while (TRUE) {
-    chThdSleepMilliseconds(500);
+    consoleStart();
+    chThdSleepMilliseconds(1000);
   }
 }

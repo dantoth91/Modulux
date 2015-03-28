@@ -13,8 +13,10 @@
 
 void lightInit(void);
 void lightCalc(void);
-void Light_state(uint32_t can_Id);
-static int indexTrue= 0 ;
+
+void lightRight(void);
+void lightLeft(void);
+void lightWarning(void);
 
 void cmd_lightvalues(BaseSequentialStream *chp, int argc, char *argv[]);
 #endif

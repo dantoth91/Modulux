@@ -141,14 +141,18 @@
 /*
  * Port A setup.
  * All input with pull-up except:
+ * PA11 - USB DM     (alternate 10).
+ * PA12 - USB DP     (alternate 10).
  */
-#define VAL_GPIOA_MODER             0x00000000
+#define VAL_GPIOA_MODER             (PIN_MODE_ALTERNATE(GPIOA_USB_DM) | \
+                                     PIN_MODE_ALTERNATE(GPIOA_USB_DP))
 #define VAL_GPIOA_OTYPER            0x00000000
 #define VAL_GPIOA_OSPEEDR           0xFFFFFFFF
 #define VAL_GPIOA_PUPDR             0xFFFFFFFF
 #define VAL_GPIOA_ODR               0xFFFFFFFF
 #define VAL_GPIOA_AFRL              0x00000000
-#define VAL_GPIOA_AFRH              0x00000000
+#define VAL_GPIOA_AFRH              (PIN_AFIO_AF(GPIOA_USB_DM, 10)    | \
+                                     PIN_AFIO_AF(GPIOA_USB_DP, 10))
 
 /*
  * Port B setup.
@@ -169,8 +173,8 @@
 /*
  * Port C setup.
  * All input with pull-up except:
- * PB6 - Serial1 TX     (alternate 7)
- * PB7 - Serial1 RX     (alternate 7)
+ * PC6 - Serial6 TX     (alternate 8)
+ * PC7 - Serial6 RX     (alternate 8)
  * 
  */
 #define VAL_GPIOC_MODER             (PIN_MODE_ALTERNATE(GPIOC_TXD6)       | \
@@ -186,6 +190,9 @@
 /*
  * Port D setup.
  * All input with pull-up except:
+ * PD6 - CAN RX     (alternate 9)
+ * PD7 - CAN TX     (alternate 9)
+ * PD7 - X_5V_EN    (output)
  */
 #define VAL_GPIOD_MODER             (PIN_MODE_ALTERNATE(GPIOD_CAN_RX)     | \
                                      PIN_MODE_ALTERNATE(GPIOD_CAN_TX)      | \
@@ -201,19 +208,25 @@
 /*
  * Port E setup.
  * All input with pull-up except:
+ * PE2  - LD1     (output)
+ * PE3  - LD2     (output)
+ * PE9  - PO1     (alternate 1)
+ * PE11 - PO2     (alternate 1)
+ * PE13 - PO3     (alternate 1)
  */
 #define VAL_GPIOE_MODER             (PIN_MODE_OUTPUT(GPIOE_LD1)             | \
                                      PIN_MODE_OUTPUT(GPIOE_LD2)             | \
-                                     PIN_MODE_OUTPUT(GPIOE_PO1)             | \
-                                     PIN_MODE_ALTERNATE(GPIOE_PO2)             | \
-                                     PIN_MODE_OUTPUT(GPIOE_PO3)             | \
-                                     PIN_MODE_OUTPUT(GPIOE_PO4))
+                                     PIN_MODE_ALTERNATE(GPIOE_PO1)          | \
+                                     PIN_MODE_ALTERNATE(GPIOE_PO2)          | \
+                                     PIN_MODE_ALTERNATE(GPIOE_PO3))
 #define VAL_GPIOE_OTYPER            0x00000000
 #define VAL_GPIOE_OSPEEDR           0xFFFFFFFF
 #define VAL_GPIOE_PUPDR             0xFFFFFFFF
 #define VAL_GPIOE_ODR               0xFFFFFFFF
 #define VAL_GPIOE_AFRL              0x00000000
-#define VAL_GPIOE_AFRH             (PIN_AFIO_AF(GPIOE_PO2, 1 ))
+#define VAL_GPIOE_AFRH             (PIN_AFIO_AF(GPIOE_PO1, 1)              | \
+                                    PIN_AFIO_AF(GPIOE_PO2, 1)              | \
+                                    PIN_AFIO_AF(GPIOE_PO3, 1))
 
 /*
  * Port F setup.

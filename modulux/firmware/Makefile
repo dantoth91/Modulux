@@ -89,6 +89,7 @@ CSRC = $(PORTSRC) \
        $(PLATFORMSRC) \
        $(BOARDSRC) \
        $(CHIBIOS)/os/various/chprintf.c \
+       $(CHIBIOS)/os/various/shell.c \
 	   src/console.c \
 	   src/can_comm.c \
 	   src/ds18b20.c \

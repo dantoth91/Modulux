@@ -14,6 +14,7 @@
 #include "chprintf.h"
 
 #include "console.h"
+#include "can_comm.h"
 
 /* libc stub */
 int _getpid(void) {return 1;}
@@ -50,6 +51,7 @@ static const ShellCommand commands[] = {
   {"mem", cmd_mem},
   {"threads", cmd_threads},
   {"test", cmd_test},
+  {"canvalues", cmd_can_commvalues},
   {NULL, NULL}
 };
 

@@ -8,11 +8,8 @@
 #ifndef CAN_COMM_H_
 #define CAN_COMM_H_
 
-static msg_t can_tx(void * p);
-static msg_t can_rx(void *p);
-//static msg_t Villog();
 void can_commInit(void);
 
-
+void cmd_can_commvalues(BaseSequentialStream *chp, int argc, char *argv[]);
 
 #endif /* CAN_COMM_H_ */
