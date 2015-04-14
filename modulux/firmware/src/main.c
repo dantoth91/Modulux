@@ -8,31 +8,8 @@
 #include "test.h"
 
 #include "console.h"
-#include "ds18b20.h"
 #include "can_comm.h"
 #include "light.h"
-
-static WORKING_AREA(wa_ds18b20_polling, 512);
-
-volatile float currentTemp;
-static msg_t ds18b20_polling_thread(void *p)
-{
-    chThdSleep(1000);
-    DS18B20_Init();
-
-    int seconds = 0;
-    systime_t time = chTimeNow();
-    while (true)
-    {
-        time += MS2ST(500);
-
-        currentTemp = DS18B20_GetTemp(0);
-
-        chThdSleepUntil(time);
-    }
-}
-
-
 
 static WORKING_AREA(waThread1, 128);
 static msg_t Thread1(void *arg) {
@@ -106,6 +83,11 @@ int main(void) {
   lightInit();
 
   /*
+   * DS18B20 sensor initialization.
+   */
+  one_vireInit();
+
+  /*
    * Creates the 20ms Task.
    */
   chThdCreateStatic(watask20ms, sizeof(watask20ms), NORMALPRIO, task20ms, NULL);
@@ -115,11 +97,6 @@ int main(void) {
    */
   chThdCreateStatic(waThread1, sizeof(waThread1), NORMALPRIO, Thread1, NULL);
   
-  /*
-   * Creates the dsp18b20 (OneWire bus) thread.
-   */
-  chThdCreateStatic(wa_ds18b20_polling, sizeof(wa_ds18b20_polling), NORMALPRIO, ds18b20_polling_thread, NULL);
-
   while (TRUE) {
     consoleStart();
     chThdSleepMilliseconds(1000);

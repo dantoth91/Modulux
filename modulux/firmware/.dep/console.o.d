@@ -91,7 +91,8 @@ build/obj/console.o: src/console.c \
  ../../../Chibios/test/test.h ../../../Chibios/os/various/shell.h \
  ../../../Chibios/os/various/chprintf.h \
  c:\program\ files\ (x86)\codesourcery\sourcery\ g++\ lite\bin\../lib/gcc/arm-none-eabi/4.5.2/include/stdarg.h \
- include/console.h include/can_comm.h \
+ include/console.h include/can_comm.h include/one_vire_comm.h \
+ include/ds18b20.h \
  c:\program\ files\ (x86)\codesourcery\sourcery\ g++\ lite\bin\../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/include/errno.h \
  c:\program\ files\ (x86)\codesourcery\sourcery\ g++\ lite\bin\../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/include/sys/errno.h
 
@@ -292,6 +293,10 @@ c:\program\ files\ (x86)\codesourcery\sourcery\ g++\ lite\bin\../lib/gcc/arm-non
 include/console.h:
 
 include/can_comm.h:
+
+include/one_vire_comm.h:
+
+include/ds18b20.h:
 
 c:\program\ files\ (x86)\codesourcery\sourcery\ g++\ lite\bin\../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/include/errno.h:
 

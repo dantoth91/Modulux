@@ -29,4 +29,6 @@ uint8_t DS18B20_ScanBus(void);
 
 float DS18B20_GetTemp(uint8_t SensorNum);
 
+void cmd_ds18b20_values(BaseSequentialStream *chp, int argc, char *argv[]);
+
 #endif

@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccTdv93k.s 			page 1
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccD5xrl4.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccTdv93k.s 			page 1
   51              		.loc 1 100 0
   52 0014 FFF7FEFF 		bl	pwmInit
   53              		.loc 1 103 0
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccTdv93k.s 			page 2
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccD5xrl4.s 			page 2
 
 
   54 0018 FFF7FEFF 		bl	sdInit
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccTdv93k.s 			page 1
  106 0014 7047     		bx	lr
  107              	.LVL3:
  108              	.L5:
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccTdv93k.s 			page 3
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccD5xrl4.s 			page 3
 
 
  109              		.loc 1 177 0 discriminator 2
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccTdv93k.s 			page 1
  162              		.loc 1 177 0 is_stmt 0
  163 000c 8B42     		cmp	r3, r1
  164 000e 02D9     		bls	.L26
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccTdv93k.s 			page 4
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccD5xrl4.s 			page 4
 
 
  165 0010 7047     		bx	lr
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccTdv93k.s 			page 1
  218 0041 00000000 		.4byte	0x0
  219 0045 00000000 		.4byte	0x0
  220              	.LLST2:
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccTdv93k.s 			page 5
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccD5xrl4.s 			page 5
 
 
  221 0049 00000000 		.4byte	.LVL7
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccTdv93k.s 			page 1
  275 004d 02       		.byte	0x2
  276 004e 07       		.byte	0x7
  277 004f 32000000 		.4byte	.LASF4
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccTdv93k.s 			page 6
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccD5xrl4.s 			page 6
 
 
  278 0053 04       		.uleb128 0x4
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccTdv93k.s 			page 1
  332 00bc 97000000 		.4byte	0x97
  333 00c0 02       		.byte	0x2
  334 00c1 23       		.byte	0x23
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccTdv93k.s 			page 7
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccD5xrl4.s 			page 7
 
 
  335 00c2 04       		.uleb128 0x4
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccTdv93k.s 			page 1
  389 0126 9C000000 		.4byte	0x9c
  390 012a 03       		.uleb128 0x3
  391 012b 01       		.byte	0x1
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccTdv93k.s 			page 8
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccD5xrl4.s 			page 8
 
 
  392 012c 08       		.byte	0x8
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccTdv93k.s 			page 1
  446 0190 0A       		.uleb128 0xa
  447 0191 71010000 		.4byte	.LASF28
  448 0195 06       		.byte	0x6
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccTdv93k.s 			page 9
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccD5xrl4.s 			page 9
 
 
  449 0196 AF       		.byte	0xaf
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccTdv93k.s 			page 1
  503 01f6 23       		.byte	0x23
  504 01f7 54       		.uleb128 0x54
  505 01f8 0A       		.uleb128 0xa
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccTdv93k.s 			page 10
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccD5xrl4.s 			page 10
 
 
  506 01f9 7F000000 		.4byte	.LASF35
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccTdv93k.s 			page 1
  560 0260 0D       		.uleb128 0xd
  561 0261 2C000000 		.4byte	.LASF41
  562 0265 01       		.byte	0x1
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccTdv93k.s 			page 11
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccD5xrl4.s 			page 11
 
 
  563 0266 AE       		.byte	0xae
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccTdv93k.s 			page 1
  617 02db 16       		.uleb128 0x16
  618 02dc 0E000000 		.4byte	.LASF51
  619 02e0 01       		.byte	0x1
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccTdv93k.s 			page 12
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccD5xrl4.s 			page 12
 
 
  620 02e1 C1       		.byte	0xc1
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccTdv93k.s 			page 1
  674 0352 1C       		.uleb128 0x1c
  675 0353 43020000 		.4byte	0x243
  676 0357 1B       		.uleb128 0x1b
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccTdv93k.s 			page 13
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccD5xrl4.s 			page 13
 
 
  677 0358 1F010000 		.4byte	.LASF43
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccTdv93k.s 			page 1
  731 0027 03       		.uleb128 0x3
  732 0028 0E       		.uleb128 0xe
  733 0029 00       		.byte	0x0
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccTdv93k.s 			page 14
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccD5xrl4.s 			page 14
 
 
  734 002a 00       		.byte	0x0
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccTdv93k.s 			page 1
  788 0060 3A       		.uleb128 0x3a
  789 0061 0B       		.uleb128 0xb
  790 0062 3B       		.uleb128 0x3b
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccTdv93k.s 			page 15
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccD5xrl4.s 			page 15
 
 
  791 0063 05       		.uleb128 0x5
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccTdv93k.s 			page 1
  845 0099 0E       		.uleb128 0xe
  846 009a 3A       		.uleb128 0x3a
  847 009b 0B       		.uleb128 0xb
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccTdv93k.s 			page 16
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccD5xrl4.s 			page 16
 
 
  848 009c 3B       		.uleb128 0x3b
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccTdv93k.s 			page 1
  902 00d2 3F       		.uleb128 0x3f
  903 00d3 0C       		.uleb128 0xc
  904 00d4 03       		.uleb128 0x3
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccTdv93k.s 			page 17
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccD5xrl4.s 			page 17
 
 
  905 00d5 0E       		.uleb128 0xe
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccTdv93k.s 			page 1
  959 010b 0A       		.uleb128 0xa
  960 010c 00       		.byte	0x0
  961 010d 00       		.byte	0x0
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccTdv93k.s 			page 18
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccD5xrl4.s 			page 18
 
 
  962 010e 15       		.uleb128 0x15
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccTdv93k.s 			page 1
  1016 0144 1D       		.uleb128 0x1d
  1017 0145 01       		.byte	0x1
  1018 0146 31       		.uleb128 0x31
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccTdv93k.s 			page 19
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccD5xrl4.s 			page 19
 
 
  1019 0147 13       		.uleb128 0x13
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccTdv93k.s 			page 1
  1073              		.section	.debug_pubnames,"",%progbits
  1074 0000 44000000 		.4byte	0x44
  1075 0004 0200     		.2byte	0x2
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccTdv93k.s 			page 20
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccD5xrl4.s 			page 20
 
 
  1076 0006 00000000 		.4byte	.Ldebug_info0
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccTdv93k.s 			page 1
  1109 000a 04       		.byte	0x4
  1110 000b 00       		.byte	0x0
  1111 000c 0000     		.2byte	0x0
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccTdv93k.s 			page 21
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccD5xrl4.s 			page 21
 
 
  1112 000e 0000     		.2byte	0x0
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccTdv93k.s 			page 1
  1149      00
  1150              	.LASF25:
  1151 005a 6F747970 		.ascii	"otyper\000"
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccTdv93k.s 			page 22
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccD5xrl4.s 			page 22
 
 
  1151      657200
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccTdv93k.s 			page 1
  1176      4E5400
  1177              	.LASF43:
  1178 011f 49544D5F 		.ascii	"ITM_RxBuffer\000"
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccTdv93k.s 			page 23
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccD5xrl4.s 			page 23
 
 
  1178      52784275 
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccTdv93k.s 			page 1
  1208 01a5 696E7433 		.ascii	"int32_t\000"
  1208      325F7400 
  1209              	.LASF14:
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccTdv93k.s 			page 24
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccD5xrl4.s 			page 24
 
 
  1210 01ad 43594343 		.ascii	"CYCCNT\000"
@@ -1432,24 +1432,24 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccTdv93k.s 			page 1
  1236      7369676E 
  1236      65642069 
  1237              		.ident	"GCC: (Sourcery G++ Lite 2011.03-42) 4.5.2"
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccTdv93k.s 			page 25
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccD5xrl4.s 			page 25
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 hal.c
-C:\Users\DNIEL~1\AppData\Local\Temp\ccTdv93k.s:24     .text.halInit:00000000 $t
-C:\Users\DNIEL~1\AppData\Local\Temp\ccTdv93k.s:30     .text.halInit:00000000 halInit
-C:\Users\DNIEL~1\AppData\Local\Temp\ccTdv93k.s:68     .text.halInit:00000030 $d
-C:\Users\DNIEL~1\AppData\Local\Temp\ccTdv93k.s:73     .text.halIsCounterWithin:00000000 $t
-C:\Users\DNIEL~1\AppData\Local\Temp\ccTdv93k.s:79     .text.halIsCounterWithin:00000000 halIsCounterWithin
-C:\Users\DNIEL~1\AppData\Local\Temp\ccTdv93k.s:126    .text.halIsCounterWithin:00000024 $d
-C:\Users\DNIEL~1\AppData\Local\Temp\ccTdv93k.s:131    .text.halPolledDelay:00000000 $t
-C:\Users\DNIEL~1\AppData\Local\Temp\ccTdv93k.s:137    .text.halPolledDelay:00000000 halPolledDelay
-C:\Users\DNIEL~1\AppData\Local\Temp\ccTdv93k.s:184    .text.halPolledDelay:00000024 $d
+C:\Users\DNIEL~1\AppData\Local\Temp\ccD5xrl4.s:24     .text.halInit:00000000 $t
+C:\Users\DNIEL~1\AppData\Local\Temp\ccD5xrl4.s:30     .text.halInit:00000000 halInit
+C:\Users\DNIEL~1\AppData\Local\Temp\ccD5xrl4.s:68     .text.halInit:00000030 $d
+C:\Users\DNIEL~1\AppData\Local\Temp\ccD5xrl4.s:73     .text.halIsCounterWithin:00000000 $t
+C:\Users\DNIEL~1\AppData\Local\Temp\ccD5xrl4.s:79     .text.halIsCounterWithin:00000000 halIsCounterWithin
+C:\Users\DNIEL~1\AppData\Local\Temp\ccD5xrl4.s:126    .text.halIsCounterWithin:00000024 $d
+C:\Users\DNIEL~1\AppData\Local\Temp\ccD5xrl4.s:131    .text.halPolledDelay:00000000 $t
+C:\Users\DNIEL~1\AppData\Local\Temp\ccD5xrl4.s:137    .text.halPolledDelay:00000000 halPolledDelay
+C:\Users\DNIEL~1\AppData\Local\Temp\ccD5xrl4.s:184    .text.halPolledDelay:00000024 $d
                      .debug_frame:00000010 $d
-C:\Users\DNIEL~1\AppData\Local\Temp\ccTdv93k.s:72     .text.halInit:00000034 $t
-C:\Users\DNIEL~1\AppData\Local\Temp\ccTdv93k.s:130    .text.halIsCounterWithin:00000028 $t
-C:\Users\DNIEL~1\AppData\Local\Temp\ccTdv93k.s:188    .text.halPolledDelay:00000028 $t
+C:\Users\DNIEL~1\AppData\Local\Temp\ccD5xrl4.s:72     .text.halInit:00000034 $t
+C:\Users\DNIEL~1\AppData\Local\Temp\ccD5xrl4.s:130    .text.halIsCounterWithin:00000028 $t
+C:\Users\DNIEL~1\AppData\Local\Temp\ccD5xrl4.s:188    .text.halPolledDelay:00000028 $t
 
 UNDEFINED SYMBOLS
 hal_lld_init

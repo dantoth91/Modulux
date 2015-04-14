@@ -1,6 +1,7 @@
 #include "ds18b20.h"
+#include "chprintf.h"
 
-uint8_t DS18B20_SERIAL_NUMBER[MAX_SENSORS][8];
+static uint8_t DS18B20_SERIAL_NUMBER[MAX_SENSORS][8];
 volatile uint8_t SensorCount;
 
 void OneWire_DataPinInput(void)
@@ -258,4 +259,29 @@ uint8_t DS18B20_ScanBus(void)
 		SensorCount++;
 	}
 	return SensorCount;
+}
+
+void cmd_ds18b20_values(BaseSequentialStream *chp, int argc, char *argv[]) {
+  
+  int i, j;
+
+  (void)argc;
+  (void)argv;
+  chprintf(chp, "\x1B\x63");
+  chprintf(chp, "\x1B[2J");
+  while (chnGetTimeout((BaseChannel *)chp, TIME_IMMEDIATE) == Q_TIMEOUT) {
+    chprintf(chp, "\x1B[%d;%dH", 0, 0);
+    chprintf(chp,"One vire bus %d id", SensorCount);
+    for(i = 0; i < SensorCount; i++)
+    {
+    	chprintf(chp,"-------- One-vire bus %d. Sensor --------\r\n", SensorCount);
+    	for(j = 0; j < 8; j++)
+    	{
+    		chprintf(chp,"ID : %d ", DS18B20_SERIAL_NUMBER[i][j]);
+    	}
+    	chprintf(chp,"\r\n");
+    }
+
+    chThdSleepMilliseconds(1000);
+  }
 }

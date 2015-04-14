@@ -71,8 +71,8 @@ build/obj/main.o: src/main.c ../../../Chibios/os/kernel/include/ch.h \
  ../../../Chibios/os/hal/platforms/STM32/OTGv1/stm32_otg.h \
  ../../../Chibios/os/hal/include/mmc_spi.h \
  ../../../Chibios/os/hal/include/serial_usb.h \
- ../../../Chibios/test/test.h include/console.h include/ds18b20.h \
- include/can_comm.h include/light.h \
+ ../../../Chibios/test/test.h include/console.h include/can_comm.h \
+ include/light.h \
  c:\program\ files\ (x86)\codesourcery\sourcery\ g++\ lite\bin\../lib/gcc/arm-none-eabi/4.5.2/include-fixed/math.h \
  c:\program\ files\ (x86)\codesourcery\sourcery\ g++\ lite\bin\../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/include/sys/reent.h \
  c:\program\ files\ (x86)\codesourcery\sourcery\ g++\ lite\bin\../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/include/_ansi.h \
@@ -242,8 +242,6 @@ os/mcuconf.h:
 ../../../Chibios/test/test.h:
 
 include/console.h:
-
-include/ds18b20.h:
 
 include/can_comm.h:
 

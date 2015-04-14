@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 1
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 1
   51              		.cfi_offset 1, -12
   52 0008 53F8041B 		ldr	r1, [r3], #4
   53              		.loc 1 73 0
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 2
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s 			page 2
 
 
   54 000c 1A46     		mov	r2, r3
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 1
  108              	.LVL7:
  109 0010 DA68     		ldr	r2, [r3, #12]
  110              	.LVL8:
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 3
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s 			page 3
 
 
  111              		.loc 2 107 0
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 1
  164 000e 02B0     		add	sp, sp, #8
  165 0010 BDE81040 		pop	{r4, lr}
  166              	.LBB17:
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 4
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s 			page 4
 
 
  167              	.LBB16:
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 1
  221              	.L10:
  222              		.align	2
  223              	.L9:
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 5
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s 			page 5
 
 
  224 0070 00000000 		.word	.LC0
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 1
  278 000a 2846     		mov	r0, r5
  279 000c 0349     		ldr	r1, .L15
  280 000e FFF7FEFF 		bl	chprintf
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 6
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s 			page 6
 
 
  281              		.loc 2 61 0
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 1
  335              	.L20:
  336              		.loc 2 122 0
  337 001a 3146     		mov	r1, r6
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 7
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s 			page 7
 
 
  338 001c FFF7FEFF 		bl	strcasecmp
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 1
  389              		.loc 2 39 0
  390 0006 A8B1     		cbz	r0, .L25
  391              		.loc 2 40 0
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 8
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s 			page 8
 
 
  392 0008 0860     		str	r0, [r1, #0]
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 1
  444              		.p2align 4,,15
  445              		.global	shellInit
  446              		.thumb
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 9
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s 			page 9
 
 
  447              		.thumb_func
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 1
  501              	.LBE19:
  502              		.loc 2 223 0
  503 000a 0448     		ldr	r0, .L36
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 10
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s 			page 10
 
 
  504              	.LVL38:
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 1
  558              		.size	shellCreate, .-shellCreate
  559 0018 AFF30080 		.section	.text.shellCreateStatic,"ax",%progbits
  559      AFF30080 
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 11
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s 			page 11
 
 
  560              		.align	2
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 1
  614              		@ frame_needed = 0, uses_anonymous_args = 0
  615              	.LVL49:
  616 0000 F0B5     		push	{r4, r5, r6, r7, lr}
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 12
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s 			page 12
 
 
  617              	.LCFI13:
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 1
  671 0038 E9D2     		bcs	.L55
  672              		.loc 2 304 0
  673 003a 2368     		ldr	r3, [r4, #0]
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 13
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s 			page 13
 
 
  674 003c 2046     		mov	r0, r4
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 1
  728              		.loc 2 284 0
  729 0088 2046     		mov	r0, r4
  730 008a 0649     		ldr	r1, .L59
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 14
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s 			page 14
 
 
  731 008c FFF7FEFF 		bl	chprintf
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 1
  785 000c D0F80480 		ldr	r8, [r0, #4]
  786              	.LVL60:
  787              		.loc 2 149 0
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 15
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s 			page 15
 
 
  788 0010 5F49     		ldr	r1, .L83+8
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 1
  842 0058 0346     		mov	r3, r0
  843 005a 0028     		cmp	r0, #0
  844 005c 55D0     		beq	.L75
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 16
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s 			page 16
 
 
  845 005e 3046     		mov	r0, r6
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 1
  899 00aa 0028     		cmp	r0, #0
  900 00ac C3D0     		beq	.L64
  901              	.LVL80:
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 17
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s 			page 17
 
 
  902              	.L82:
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 1
  956              		.loc 2 177 0
  957 00fa 002E     		cmp	r6, #0
  958 00fc 30D0     		beq	.L71
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 18
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s 			page 18
 
 
  959              	.LVL86:
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 1
  1013 0148 3FF469AF 		beq	.L81
  1014              	.L73:
  1015              		.loc 2 189 0
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 19
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s 			page 19
 
 
  1016 014c 2046     		mov	r0, r4
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 1
  1070              		.set	.LANCHOR1,. + 0
  1071              		.type	local_commands, %object
  1072              		.size	local_commands, 24
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 20
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s 			page 20
 
 
  1073              	local_commands:
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 1
  1107              	.LC9:
  1108 0074 41524D76 		.ascii	"ARMv7-ME\000"
  1108      372D4D45 
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 21
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s 			page 21
 
 
  1108      00
@@ -1258,20 +1258,20 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 1
  1134      64207469 
  1134      6D653A20 
  1134      20202573 
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 22
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s 			page 22
 
 
  1134      25732573 
  1135 0147 00       		.space	1
  1136              	.LC19:
- 1137 0148 4D617220 		.ascii	"Mar 27 2015\000"
- 1137      32372032 
+ 1137 0148 41707220 		.ascii	"Apr  3 2015\000"
+ 1137      20332032 
  1137      30313500 
  1138              	.LC20:
  1139 0154 202D2000 		.ascii	" - \000"
  1140              	.LC21:
- 1141 0158 31373A31 		.ascii	"17:10:26\000"
- 1141      303A3236 
+ 1141 0158 31373A34 		.ascii	"17:49:17\000"
+ 1141      393A3137 
  1141      00
  1142 0161 000000   		.space	3
  1143              	.LC22:
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 1
  1171 01c5 000000   		.space	3
  1172              	.LC32:
  1173 01c8 68656C70 		.ascii	"help\000"
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 23
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s 			page 23
 
 
  1173      00
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 1
  1222 0043 00000000 		.4byte	0x0
  1223 0047 00000000 		.4byte	0x0
  1224              	.LLST2:
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 24
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s 			page 24
 
 
  1225 004b 00000000 		.4byte	.LVL2
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 1
  1279 00dd 0200     		.2byte	0x2
  1280 00df 7D       		.byte	0x7d
  1281 00e0 10       		.sleb128 16
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 25
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s 			page 25
 
 
  1282 00e1 00000000 		.4byte	0x0
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 1
  1336 0172 10       		.sleb128 16
  1337 0173 00000000 		.4byte	0x0
  1338 0177 00000000 		.4byte	0x0
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 26
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s 			page 26
 
 
  1339              	.LLST12:
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 1
  1393 0205 3C000000 		.4byte	.LVL26
  1394 0209 42000000 		.4byte	.LFE124
  1395 020d 0100     		.2byte	0x1
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 27
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s 			page 27
 
 
  1396 020f 55       		.byte	0x55
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 1
  1450 029d 00000000 		.4byte	.LVL27
  1451 02a1 0E000000 		.4byte	.LVL30
  1452 02a5 0100     		.2byte	0x1
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 28
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s 			page 28
 
 
  1453 02a7 50       		.byte	0x50
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 1
  1507 0336 0100     		.2byte	0x1
  1508 0338 54       		.byte	0x54
  1509 0339 00000000 		.4byte	0x0
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 29
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s 			page 29
 
 
  1510 033d 00000000 		.4byte	0x0
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 1
  1564 03c9 02000000 		.4byte	.LCFI11
  1565 03cd 0200     		.2byte	0x2
  1566 03cf 7D       		.byte	0x7d
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 30
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s 			page 30
 
 
  1567 03d0 00       		.sleb128 0
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 1
  1621 045f 0100     		.2byte	0x1
  1622 0461 52       		.byte	0x52
  1623 0462 00000000 		.4byte	0x0
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 31
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s 			page 31
 
 
  1624 0466 00000000 		.4byte	0x0
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 1
  1678              	.LLST39:
  1679 04f2 08000000 		.4byte	.LVL51
  1680 04f6 0E000000 		.4byte	.LVL52
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 32
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s 			page 32
 
 
  1681 04fa 0100     		.2byte	0x1
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 1
  1735 0586 0100     		.2byte	0x1
  1736 0588 50       		.byte	0x50
  1737 0589 00000000 		.4byte	0x0
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 33
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s 			page 33
 
 
  1738 058d 00000000 		.4byte	0x0
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 1
  1792              	.LLST44:
  1793 0611 08000000 		.4byte	.LVL59
  1794 0615 18000000 		.4byte	.LVL61
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 34
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s 			page 34
 
 
  1795 0619 0200     		.2byte	0x2
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 1
  1849 06a7 70000000 		.4byte	.LVL72
  1850 06ab 77000000 		.4byte	.LVL74-1
  1851 06af 0100     		.2byte	0x1
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 35
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s 			page 35
 
 
  1852 06b1 53       		.byte	0x53
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 1
  1906 0742 F0000000 		.4byte	.LVL85
  1907 0746 0100     		.2byte	0x1
  1908 0748 54       		.byte	0x54
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 36
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s 			page 36
 
 
  1909 0749 00000000 		.4byte	0x0
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 1
  1963 0033 D3020000 		.4byte	.LASF1
  1964 0037 02       		.uleb128 0x2
  1965 0038 02       		.byte	0x2
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 37
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s 			page 37
 
 
  1966 0039 05       		.byte	0x5
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 1
  2020 009f 07       		.uleb128 0x7
  2021 00a0 CB020000 		.4byte	.LASF12
  2022 00a4 04       		.byte	0x4
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 38
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s 			page 38
 
 
  2023 00a5 4F       		.byte	0x4f
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 1
  2077 011a 34       		.byte	0x34
  2078 011b AA000000 		.4byte	0xaa
  2079 011f 07       		.uleb128 0x7
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 39
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s 			page 39
 
 
  2080 0120 01040000 		.4byte	.LASF24
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 1
  2134 0186 10       		.uleb128 0x10
  2135 0187 09       		.uleb128 0x9
  2136 0188 56020000 		.4byte	.LASF31
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 40
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s 			page 40
 
 
  2137 018c 07       		.byte	0x7
@@ -2398,7 +2398,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 1
  2191 01e9 0A       		.uleb128 0xa
  2192 01ea 705F7500 		.ascii	"p_u\000"
  2193 01ee 07       		.byte	0x7
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 41
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s 			page 41
 
 
  2194 01ef B4       		.byte	0xb4
@@ -2458,7 +2458,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 1
  2248 024c AD000000 		.4byte	.LASF44
  2249 0250 07       		.byte	0x7
  2250 0251 DA       		.byte	0xda
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 42
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s 			page 42
 
 
  2251 0252 68000000 		.4byte	0x68
@@ -2518,7 +2518,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 1
  2305 02b2 07       		.uleb128 0x7
  2306 02b3 2E010000 		.4byte	.LASF47
  2307 02b7 08       		.byte	0x8
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 43
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s 			page 43
 
 
  2308 02b8 E5       		.byte	0xe5
@@ -2578,7 +2578,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 1
  2362 031c 23       		.byte	0x23
  2363 031d 14       		.uleb128 0x14
  2364 031e 0D       		.uleb128 0xd
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 44
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s 			page 44
 
 
  2365 031f 72313000 		.ascii	"r10\000"
@@ -2638,7 +2638,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 1
  2419 0386 68000000 		.4byte	0x68
  2420 038a 00       		.byte	0x0
  2421 038b 07       		.uleb128 0x7
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 45
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s 			page 45
 
 
  2422 038c A6010000 		.4byte	.LASF51
@@ -2698,7 +2698,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 1
  2476 03ef 0B       		.uleb128 0xb
  2477 03f0 10       		.byte	0x10
  2478 03f1 09       		.byte	0x9
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 46
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s 			page 46
 
 
  2479 03f2 76       		.byte	0x76
@@ -2758,7 +2758,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 1
  2533 0455 00       		.uleb128 0x0
  2534 0456 09       		.uleb128 0x9
  2535 0457 2C030000 		.4byte	.LASF60
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 47
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s 			page 47
 
 
  2536 045b 0A       		.byte	0xa
@@ -2818,7 +2818,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 1
  2590 04bb 85020000 		.4byte	0x285
  2591 04bf 02       		.byte	0x2
  2592 04c0 23       		.byte	0x23
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 48
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s 			page 48
 
 
  2593 04c1 00       		.uleb128 0x0
@@ -2878,7 +2878,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 1
  2647 0524 4E020000 		.4byte	.LASF73
  2648 0528 0C       		.byte	0xc
  2649 0529 37       		.byte	0x37
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 49
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s 			page 49
 
 
  2650 052a 09010000 		.4byte	0x109
@@ -2938,7 +2938,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 1
  2704 0590 AB       		.byte	0xab
  2705 0591 68000000 		.4byte	0x68
  2706 0595 12       		.uleb128 0x12
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 50
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s 			page 50
 
 
  2707 0596 33030000 		.4byte	.LASF80
@@ -2998,7 +2998,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 1
  2761 05ff 49       		.byte	0x49
  2762 0600 A7050000 		.4byte	0x5a7
  2763 0604 02       		.byte	0x2
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 51
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s 			page 51
 
 
  2764 0605 23       		.byte	0x23
@@ -3058,7 +3058,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 1
  2818 0677 766D7400 		.ascii	"vmt\000"
  2819 067b 0D       		.byte	0xd
  2820 067c 53       		.byte	0x53
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 52
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s 			page 52
 
 
  2821 067d 85060000 		.4byte	0x685
@@ -3118,7 +3118,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 1
  2875 06e9 09       		.uleb128 0x9
  2876 06ea 95040000 		.4byte	.LASF87
  2877 06ee 0E       		.byte	0xe
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 53
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s 			page 53
 
 
  2878 06ef 34       		.byte	0x34
@@ -3178,7 +3178,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 1
  2932 0755 14       		.uleb128 0x14
  2933 0756 32040000 		.4byte	.LASF94
  2934 075a 68000000 		.4byte	0x68
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 54
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s 			page 54
 
 
  2935 075e 02       		.byte	0x2
@@ -3238,7 +3238,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 1
  2989 07c8 26       		.byte	0x26
  2990 07c9 71000000 		.4byte	0x71
  2991 07cd 00       		.byte	0x0
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 55
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s 			page 55
 
 
  2992 07ce 1A       		.uleb128 0x1a
@@ -3298,7 +3298,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 1
  3046 083f 45000000 		.4byte	0x45
  3047 0843 69000000 		.4byte	.LLST3
  3048 0847 20       		.uleb128 0x20
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 56
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s 			page 56
 
 
  3049 0848 DB040000 		.4byte	.LASF101
@@ -3358,7 +3358,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 1
  3103 08d2 23       		.uleb128 0x23
  3104 08d3 7B070000 		.4byte	0x77b
  3105 08d7 00       		.byte	0x0
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 57
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s 			page 57
 
 
  3106 08d8 00       		.byte	0x0
@@ -3418,7 +3418,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 1
  3160 095f 77       		.byte	0x77
  3161 0960 45000000 		.4byte	0x45
  3162 0964 5F020000 		.4byte	.LLST18
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 58
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s 			page 58
 
 
  3163 0968 25       		.uleb128 0x25
@@ -3478,7 +3478,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 1
  3217 09e6 02       		.byte	0x2
  3218 09e7 DA       		.byte	0xda
  3219 09e8 FE000000 		.4byte	0xfe
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 59
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s 			page 59
 
 
  3220 09ec 23030000 		.4byte	.LLST24
@@ -3538,7 +3538,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 1
  3274 0a6e 1C000000 		.4byte	.LFE129
  3275 0a72 C5030000 		.4byte	.LLST30
  3276 0a76 BB0A0000 		.4byte	0xabb
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 60
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s 			page 60
 
 
  3277 0a7a 2F       		.uleb128 0x2f
@@ -3598,7 +3598,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 1
  3331 0b09 31       		.uleb128 0x31
  3332 0b0a 7000     		.ascii	"p\000"
  3333 0b0c 02       		.byte	0x2
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 61
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s 			page 61
 
 
  3334 0b0d 1401     		.2byte	0x114
@@ -3658,7 +3658,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 1
  3388 0b8f 636D6400 		.ascii	"cmd\000"
  3389 0b93 02       		.byte	0x2
  3390 0b94 91       		.byte	0x91
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 62
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s 			page 62
 
 
  3391 0b95 71000000 		.4byte	0x71
@@ -3718,7 +3718,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 1
  3445 0c11 35       		.uleb128 0x35
  3446 0c12 77000000 		.4byte	0x77
  3447 0c16 210C0000 		.4byte	0xc21
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 63
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s 			page 63
 
 
  3448 0c1a 36       		.uleb128 0x36
@@ -3778,7 +3778,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 1
  3502 0c87 37       		.uleb128 0x37
  3503 0c88 0F000000 		.4byte	.LASF115
  3504 0c8c 09       		.byte	0x9
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 64
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s 			page 64
 
 
  3505 0c8d F5       		.byte	0xf5
@@ -3838,7 +3838,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 1
  3559 0019 0B       		.uleb128 0xb
  3560 001a 3E       		.uleb128 0x3e
  3561 001b 0B       		.uleb128 0xb
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 65
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s 			page 65
 
 
  3562 001c 03       		.uleb128 0x3
@@ -3898,7 +3898,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 1
  3616 0052 03       		.uleb128 0x3
  3617 0053 0E       		.uleb128 0xe
  3618 0054 0B       		.uleb128 0xb
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 66
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s 			page 66
 
 
  3619 0055 0B       		.uleb128 0xb
@@ -3958,7 +3958,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 1
  3673 008b 01       		.byte	0x1
  3674 008c 03       		.uleb128 0x3
  3675 008d 0E       		.uleb128 0xe
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 67
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s 			page 67
 
 
  3676 008e 0B       		.uleb128 0xb
@@ -4018,7 +4018,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 1
  3730 00c4 0B       		.uleb128 0xb
  3731 00c5 3B       		.uleb128 0x3b
  3732 00c6 0B       		.uleb128 0xb
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 68
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s 			page 68
 
 
  3733 00c7 01       		.uleb128 0x1
@@ -4078,7 +4078,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 1
  3787 00fd 01       		.uleb128 0x1
  3788 00fe 13       		.uleb128 0x13
  3789 00ff 00       		.byte	0x0
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 69
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s 			page 69
 
 
  3790 0100 00       		.byte	0x0
@@ -4138,7 +4138,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 1
  3844 0136 0B       		.uleb128 0xb
  3845 0137 49       		.uleb128 0x49
  3846 0138 13       		.uleb128 0x13
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 70
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s 			page 70
 
 
  3847 0139 00       		.byte	0x0
@@ -4198,7 +4198,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 1
  3901 016f 18       		.uleb128 0x18
  3902 0170 00       		.byte	0x0
  3903 0171 00       		.byte	0x0
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 71
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s 			page 71
 
 
  3904 0172 00       		.byte	0x0
@@ -4258,7 +4258,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 1
  3958 01a8 01       		.byte	0x1
  3959 01a9 31       		.uleb128 0x31
  3960 01aa 13       		.uleb128 0x13
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 72
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s 			page 72
 
 
  3961 01ab 52       		.uleb128 0x52
@@ -4318,7 +4318,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 1
  4015 01e1 3A       		.uleb128 0x3a
  4016 01e2 0B       		.uleb128 0xb
  4017 01e3 3B       		.uleb128 0x3b
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 73
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s 			page 73
 
 
  4018 01e4 0B       		.uleb128 0xb
@@ -4378,7 +4378,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 1
  4072 021a 01       		.uleb128 0x1
  4073 021b 12       		.uleb128 0x12
  4074 021c 01       		.uleb128 0x1
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 74
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s 			page 74
 
 
  4075 021d 40       		.uleb128 0x40
@@ -4438,7 +4438,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 1
  4129 0253 03       		.uleb128 0x3
  4130 0254 0E       		.uleb128 0xe
  4131 0255 3A       		.uleb128 0x3a
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 75
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s 			page 75
 
 
  4132 0256 0B       		.uleb128 0xb
@@ -4498,7 +4498,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 1
  4186 028c 06       		.uleb128 0x6
  4187 028d 00       		.byte	0x0
  4188 028e 00       		.byte	0x0
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 76
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s 			page 76
 
 
  4189 028f 30       		.uleb128 0x30
@@ -4558,7 +4558,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 1
  4243 02c5 58       		.uleb128 0x58
  4244 02c6 0B       		.uleb128 0xb
  4245 02c7 59       		.uleb128 0x59
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 77
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s 			page 77
 
 
  4246 02c8 0B       		.uleb128 0xb
@@ -4618,7 +4618,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 1
  4300 02fe 00       		.byte	0x0
  4301 02ff 38       		.uleb128 0x38
  4302 0300 34       		.uleb128 0x34
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 78
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s 			page 78
 
 
  4303 0301 00       		.byte	0x0
@@ -4678,7 +4678,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 1
  4348      74617469 
  4348      6300
  4349 0050 BB0A0000 		.4byte	0xabb
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 79
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s 			page 79
 
 
  4350 0054 7368656C 		.ascii	"shellGetLine\000"
@@ -4738,7 +4738,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 1
  4382      746D6173 
  4382      6B5F7400 
  4383 00a2 14010000 		.4byte	0x114
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 80
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s 			page 80
 
 
  4384 00a6 666C6167 		.ascii	"flagsmask_t\000"
@@ -4798,7 +4798,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 1
  4412 0166 4D757465 		.ascii	"Mutex\000"
  4412      7800
  4413 016c F0040000 		.4byte	0x4f0
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 81
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s 			page 81
 
 
  4414 0170 4576656E 		.ascii	"EventListener\000"
@@ -4858,7 +4858,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 1
  4437 0241 63070000 		.4byte	0x763
  4438 0245 76615F6C 		.ascii	"va_list\000"
  4438      69737400 
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 82
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s 			page 82
 
 
  4439 024d 00000000 		.4byte	0x0
@@ -4918,7 +4918,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 1
  4493 0044 00000000 		.4byte	0x0
  4494 0048 02000000 		.4byte	.LBB20
  4495 004c 04000000 		.4byte	.LBE20
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 83
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s 			page 83
 
 
  4496 0050 62000000 		.4byte	.LBB22
@@ -4978,7 +4978,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 1
  4540      636F6465 
  4540      00
  4541              	.LASF117:
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 84
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s 			page 84
 
 
  4542 0040 49544D5F 		.ascii	"ITM_RxBuffer\000"
@@ -5038,7 +5038,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 1
  4567      6D616E64 
  4567      00
  4568              	.LASF17:
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 85
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s 			page 85
 
 
  4569 00f3 74737461 		.ascii	"tstate_t\000"
@@ -5098,7 +5098,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 1
  4597      00
  4598              	.LASF52:
  4599 0182 76745F6E 		.ascii	"vt_next\000"
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 86
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s 			page 86
 
 
  4599      65787400 
@@ -5158,7 +5158,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 1
  4627 0215 6576656E 		.ascii	"eventmask_t\000"
  4627      746D6173 
  4627      6B5F7400 
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 87
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s 			page 87
 
 
  4628              	.LASF82:
@@ -5218,7 +5218,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 1
  4659 02a6 73617665 		.ascii	"saveptr\000"
  4659      70747200 
  4660              	.LASF27:
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 88
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s 			page 88
 
 
  4661 02ae 705F7072 		.ascii	"p_prev\000"
@@ -5278,7 +5278,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 1
  4692              	.LASF26:
  4693 033a 705F6E65 		.ascii	"p_next\000"
  4693      787400
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 89
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s 			page 89
 
 
  4694              	.LASF96:
@@ -5338,7 +5338,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 1
  4721      6C5F7465 
  4721      726D696E 
  4721      61746564 
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 90
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s 			page 90
 
 
  4721      00
@@ -5398,7 +5398,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 1
  4753 0472 65735F6E 		.ascii	"es_next\000"
  4753      65787400 
  4754              	.LASF112:
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 91
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s 			page 91
 
 
  4755 047a 7368656C 		.ascii	"shell_thread\000"
@@ -5457,57 +5457,57 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 1
  4785      696E7466 
  4785      00
  4786              		.ident	"GCC: (Sourcery G++ Lite 2011.03-42) 4.5.2"
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 92
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s 			page 92
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 shell.c
-C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s:24     .text.chprintf:00000000 $t
-C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s:29     .text.chprintf:00000000 chprintf
-C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s:69     .text.cmd_systime:00000000 $t
-C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s:74     .text.cmd_systime:00000000 cmd_systime
-C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s:118    .text.cmd_systime:00000018 $d
-C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s:126    .text.cmd_info:00000000 $t
-C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s:131    .text.cmd_info:00000000 cmd_info
-C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s:224    .text.cmd_info:00000070 $d
-C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s:248    .text.list_commands:00000000 $t
-C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s:253    .text.list_commands:00000000 list_commands
-C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s:290    .text.list_commands:0000001c $d
-C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s:295    .text.cmdexec:00000000 $t
-C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s:300    .text.cmdexec:00000000 cmdexec
-C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s:366    .text._strtok.clone.0:00000000 $t
-C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s:371    .text._strtok.clone.0:00000000 _strtok.clone.0
-C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s:438    .text._strtok.clone.0:00000040 $d
-C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s:443    .text.shellInit:00000000 $t
-C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s:449    .text.shellInit:00000000 shellInit
-C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s:464    .text.shellInit:00000008 $d
-C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s:469    .text.shellExit:00000000 $t
-C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s:475    .text.shellExit:00000000 shellExit
-C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s:517    .text.shellExit:0000001c $d
-C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s:522    .text.shellCreate:00000000 $t
-C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s:528    .text.shellCreate:00000000 shellCreate
-C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s:555    .text.shellCreate:00000014 $d
-C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s:760    .text.shell_thread:00000000 shell_thread
-C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s:560    .text.shellCreateStatic:00000000 $t
-C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s:566    .text.shellCreateStatic:00000000 shellCreateStatic
-C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s:598    .text.shellCreateStatic:00000018 $d
-C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s:603    .text.shellGetLine:00000000 $t
-C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s:609    .text.shellGetLine:00000000 shellGetLine
-C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s:748    .text.shellGetLine:000000a4 $d
-C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s:755    .text.shell_thread:00000000 $t
-C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s:1050   .text.shell_thread:00000188 $d
-C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s:1188   .bss.shell_terminated:00000000 shell_terminated
-C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s:1069   .data.local_commands:00000000 $d
-C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s:1073   .data.local_commands:00000000 local_commands
-C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s:1081   .rodata.str1.4:00000000 $d
-C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s:1184   .bss.shell_terminated:00000000 $d
+C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s:24     .text.chprintf:00000000 $t
+C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s:29     .text.chprintf:00000000 chprintf
+C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s:69     .text.cmd_systime:00000000 $t
+C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s:74     .text.cmd_systime:00000000 cmd_systime
+C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s:118    .text.cmd_systime:00000018 $d
+C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s:126    .text.cmd_info:00000000 $t
+C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s:131    .text.cmd_info:00000000 cmd_info
+C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s:224    .text.cmd_info:00000070 $d
+C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s:248    .text.list_commands:00000000 $t
+C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s:253    .text.list_commands:00000000 list_commands
+C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s:290    .text.list_commands:0000001c $d
+C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s:295    .text.cmdexec:00000000 $t
+C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s:300    .text.cmdexec:00000000 cmdexec
+C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s:366    .text._strtok.clone.0:00000000 $t
+C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s:371    .text._strtok.clone.0:00000000 _strtok.clone.0
+C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s:438    .text._strtok.clone.0:00000040 $d
+C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s:443    .text.shellInit:00000000 $t
+C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s:449    .text.shellInit:00000000 shellInit
+C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s:464    .text.shellInit:00000008 $d
+C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s:469    .text.shellExit:00000000 $t
+C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s:475    .text.shellExit:00000000 shellExit
+C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s:517    .text.shellExit:0000001c $d
+C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s:522    .text.shellCreate:00000000 $t
+C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s:528    .text.shellCreate:00000000 shellCreate
+C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s:555    .text.shellCreate:00000014 $d
+C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s:760    .text.shell_thread:00000000 shell_thread
+C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s:560    .text.shellCreateStatic:00000000 $t
+C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s:566    .text.shellCreateStatic:00000000 shellCreateStatic
+C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s:598    .text.shellCreateStatic:00000018 $d
+C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s:603    .text.shellGetLine:00000000 $t
+C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s:609    .text.shellGetLine:00000000 shellGetLine
+C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s:748    .text.shellGetLine:000000a4 $d
+C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s:755    .text.shell_thread:00000000 $t
+C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s:1050   .text.shell_thread:00000188 $d
+C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s:1188   .bss.shell_terminated:00000000 shell_terminated
+C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s:1069   .data.local_commands:00000000 $d
+C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s:1073   .data.local_commands:00000000 local_commands
+C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s:1081   .rodata.str1.4:00000000 $d
+C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s:1184   .bss.shell_terminated:00000000 $d
                      .debug_frame:00000010 $d
-C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s:125    .text.cmd_systime:00000028 $t
-C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s:442    .text._strtok.clone.0:00000044 $t
-C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s:468    .text.shellInit:0000000c $t
-C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s:559    .text.shellCreate:00000018 $t
-C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s:602    .text.shellCreateStatic:0000001c $t
-C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s:4786   .text.shellGetLine:000000ac $t
+C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s:125    .text.cmd_systime:00000028 $t
+C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s:442    .text._strtok.clone.0:00000044 $t
+C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s:468    .text.shellInit:0000000c $t
+C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s:559    .text.shellCreate:00000018 $t
+C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s:602    .text.shellCreateStatic:0000001c $t
+C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s:4786   .text.shellGetLine:000000ac $t
 
 UNDEFINED SYMBOLS
 chvprintf
@@ -5517,7 +5517,7 @@ strspn
 strpbrk
 chEvtBroadcastFlagsI
 chThdExitS
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccAMqTA9.s 			page 93
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccpPC1kh.s 			page 93
 
 
 chThdCreateFromHeap

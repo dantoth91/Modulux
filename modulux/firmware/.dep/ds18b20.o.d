@@ -71,7 +71,9 @@ build/obj/ds18b20.o: src/ds18b20.c include/ds18b20.h \
  ../../../Chibios/os/hal/platforms/STM32/OTGv1/usb_lld.h \
  ../../../Chibios/os/hal/platforms/STM32/OTGv1/stm32_otg.h \
  ../../../Chibios/os/hal/include/mmc_spi.h \
- ../../../Chibios/os/hal/include/serial_usb.h
+ ../../../Chibios/os/hal/include/serial_usb.h \
+ ../../../Chibios/os/various/chprintf.h \
+ c:\program\ files\ (x86)\codesourcery\sourcery\ g++\ lite\bin\../lib/gcc/arm-none-eabi/4.5.2/include/stdarg.h
 
 include/ds18b20.h:
 
@@ -228,3 +230,7 @@ os/mcuconf.h:
 ../../../Chibios/os/hal/include/mmc_spi.h:
 
 ../../../Chibios/os/hal/include/serial_usb.h:
+
+../../../Chibios/os/various/chprintf.h:
+
+c:\program\ files\ (x86)\codesourcery\sourcery\ g++\ lite\bin\../lib/gcc/arm-none-eabi/4.5.2/include/stdarg.h:
