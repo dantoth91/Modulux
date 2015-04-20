@@ -124,7 +124,7 @@ void DS18B20_Init(void)
 
 float DS18B20_GetTemp(uint8_t SensorNum)
 {
-	uint8_t TL, TH;
+	uint8_t lsb, msb;
 	float Temp = 0;
 
 	OneWire_Reset();
@@ -143,12 +143,12 @@ float DS18B20_GetTemp(uint8_t SensorNum)
 	}
 	OneWire_WriteByte(0xBE);
 
-	TL = OneWire_ReadByte();
-	TH = OneWire_ReadByte();
+	lsb = OneWire_ReadByte();
+	msb = OneWire_ReadByte();
 
-	if(TL==0 && TH==0) return 0;
+	if(lsb==0 && msb==0) return 0;
 
-	Temp = (int16_t)(TL)|((int16_t)TH<<8);
+	Temp = (int16_t)(lsb)|((int16_t)msb<<8);
 	Temp*= 0.0625;
 
 	DS18B20_StartConversion(SensorNum);
@@ -271,13 +271,12 @@ void cmd_ds18b20_values(BaseSequentialStream *chp, int argc, char *argv[]) {
   chprintf(chp, "\x1B[2J");
   while (chnGetTimeout((BaseChannel *)chp, TIME_IMMEDIATE) == Q_TIMEOUT) {
     chprintf(chp, "\x1B[%d;%dH", 0, 0);
-    chprintf(chp,"One vire bus %d id", SensorCount);
     for(i = 0; i < SensorCount; i++)
     {
-    	chprintf(chp,"-------- One-vire bus %d. Sensor --------\r\n", SensorCount);
+    	chprintf(chp,"One-vire bus %d. sensor id\r\n", SensorCount);
     	for(j = 0; j < 8; j++)
     	{
-    		chprintf(chp,"ID : %d ", DS18B20_SERIAL_NUMBER[i][j]);
+    		chprintf(chp,"%x ", DS18B20_SERIAL_NUMBER[i][j]);
     	}
     	chprintf(chp,"\r\n");
     }

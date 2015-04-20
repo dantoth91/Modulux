@@ -644,7 +644,7 @@ destructors     0x080001ac        0x0
  *(SORT(.fini_array.*))
                 0x080001ac                PROVIDE (__fini_array_end, .)
 
-.text           0x080001b0     0xbc74
+.text           0x080001b0     0xbc44
  *(.text.startup.*)
  *(.text)
  .text          0x080001b0      0x370 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2\libgcc.a(_arm_addsubdf3.o)
@@ -1769,353 +1769,353 @@ destructors     0x080001ac        0x0
                 0x0800a280      0x110 build/obj/ds18b20.o
                 0x0800a280                DS18B20_ScanBus
  .text.cmd_ds18b20_values
-                0x0800a390       0xf0 build/obj/ds18b20.o
+                0x0800a390       0xe0 build/obj/ds18b20.o
                 0x0800a390                cmd_ds18b20_values
  .text.chprintf
-                0x0800a480       0x20 build/obj/one_vire_comm.o
+                0x0800a470       0x20 build/obj/one_vire_comm.o
  .text.ds18b20_polling_thread
-                0x0800a4a0       0x60 build/obj/one_vire_comm.o
+                0x0800a490       0x60 build/obj/one_vire_comm.o
  .text.one_vireInit
-                0x0800a500       0x40 build/obj/one_vire_comm.o
-                0x0800a500                one_vireInit
+                0x0800a4f0       0x40 build/obj/one_vire_comm.o
+                0x0800a4f0                one_vireInit
  .text.one_vireGetValue
-                0x0800a540       0x50 build/obj/one_vire_comm.o
-                0x0800a540                one_vireGetValue
+                0x0800a530       0x50 build/obj/one_vire_comm.o
+                0x0800a530                one_vireGetValue
  .text.cmd_one_virevalues
-                0x0800a590       0x90 build/obj/one_vire_comm.o
-                0x0800a590                cmd_one_virevalues
- .text.Thread1  0x0800a620       0x30 build/obj/main.o
+                0x0800a580       0x90 build/obj/one_vire_comm.o
+                0x0800a580                cmd_one_virevalues
+ .text.Thread1  0x0800a610       0x30 build/obj/main.o
  .text.task20ms
-                0x0800a650       0x30 build/obj/main.o
- .text.main     0x0800a680       0xb0 build/obj/main.o
-                0x0800a680                main
+                0x0800a640       0x30 build/obj/main.o
+ .text.main     0x0800a670       0xb0 build/obj/main.o
+                0x0800a670                main
  .text.lightCalc
-                0x0800a730       0xd0 build/obj/light.o
-                0x0800a730                lightCalc
+                0x0800a720       0xd0 build/obj/light.o
+                0x0800a720                lightCalc
  .text.lightRight
-                0x0800a800       0x20 build/obj/light.o
-                0x0800a800                lightRight
+                0x0800a7f0       0x20 build/obj/light.o
+                0x0800a7f0                lightRight
  .text.lightLeft
-                0x0800a820       0x20 build/obj/light.o
-                0x0800a820                lightLeft
+                0x0800a810       0x20 build/obj/light.o
+                0x0800a810                lightLeft
  .text.lightWarning
-                0x0800a840       0x20 build/obj/light.o
-                0x0800a840                lightWarning
+                0x0800a830       0x20 build/obj/light.o
+                0x0800a830                lightWarning
  .text.lightInit
-                0x0800a860       0x30 build/obj/light.o
-                0x0800a860                lightInit
+                0x0800a850       0x30 build/obj/light.o
+                0x0800a850                lightInit
  *(.rodata)
- .rodata        0x0800a890      0x104 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-ctype_.o)
-                0x0800a890                _ctype_
+ .rodata        0x0800a880      0x104 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-ctype_.o)
+                0x0800a880                _ctype_
  *(.rodata.*)
- *fill*         0x0800a994        0xc 00
+ *fill*         0x0800a984        0xc 00
  .rodata.str1.4
-                0x0800a9a0        0x5 build/obj/chsys.o
+                0x0800a990        0x5 build/obj/chsys.o
                                   0x8 (size before relaxing)
- *fill*         0x0800a9a5        0xb 00
+ *fill*         0x0800a995        0xb 00
  .rodata.ch_debug
-                0x0800a9b0       0x18 build/obj/chregistry.o
-                0x0800a9b0                ch_debug
- *fill*         0x0800a9c8        0x8 00
- .rodata.wa     0x0800a9d0       0x14 build/obj/test.o
-                0x0800a9d0                wa
- *fill*         0x0800a9e4        0xc 00
+                0x0800a9a0       0x18 build/obj/chregistry.o
+                0x0800a9a0                ch_debug
+ *fill*         0x0800a9b8        0x8 00
+ .rodata.wa     0x0800a9c0       0x14 build/obj/test.o
+                0x0800a9c0                wa
+ *fill*         0x0800a9d4        0xc 00
  .rodata.str1.4
-                0x0800a9f0      0x1c0 build/obj/test.o
+                0x0800a9e0      0x1c0 build/obj/test.o
                                 0x1d0 (size before relaxing)
  .rodata.patterns
-                0x0800abb0       0x30 build/obj/test.o
+                0x0800aba0       0x30 build/obj/test.o
  .rodata.testthd1
-                0x0800abe0       0x10 build/obj/testthd.o
-                0x0800abe0                testthd1
+                0x0800abd0       0x10 build/obj/testthd.o
+                0x0800abd0                testthd1
  .rodata.testthd2
-                0x0800abf0       0x10 build/obj/testthd.o
-                0x0800abf0                testthd2
+                0x0800abe0       0x10 build/obj/testthd.o
+                0x0800abe0                testthd2
  .rodata.testthd3
-                0x0800ac00       0x10 build/obj/testthd.o
-                0x0800ac00                testthd3
+                0x0800abf0       0x10 build/obj/testthd.o
+                0x0800abf0                testthd3
  .rodata.testthd4
-                0x0800ac10       0x10 build/obj/testthd.o
-                0x0800ac10                testthd4
+                0x0800ac00       0x10 build/obj/testthd.o
+                0x0800ac00                testthd4
  .rodata.patternthd
-                0x0800ac20       0x14 build/obj/testthd.o
-                0x0800ac20                patternthd
- *fill*         0x0800ac34        0xc 00
+                0x0800ac10       0x14 build/obj/testthd.o
+                0x0800ac10                patternthd
+ *fill*         0x0800ac24        0xc 00
  .rodata.str1.4
-                0x0800ac40       0x78 build/obj/testthd.o
+                0x0800ac30       0x78 build/obj/testthd.o
                                  0x80 (size before relaxing)
- *fill*         0x0800acb8        0x8 00
+ *fill*         0x0800aca8        0x8 00
  .rodata.testsem1
-                0x0800acc0       0x10 build/obj/testsem.o
-                0x0800acc0                testsem1
+                0x0800acb0       0x10 build/obj/testsem.o
+                0x0800acb0                testsem1
  .rodata.testsem2
-                0x0800acd0       0x10 build/obj/testsem.o
-                0x0800acd0                testsem2
+                0x0800acc0       0x10 build/obj/testsem.o
+                0x0800acc0                testsem2
  .rodata.testsem3
-                0x0800ace0       0x10 build/obj/testsem.o
-                0x0800ace0                testsem3
+                0x0800acd0       0x10 build/obj/testsem.o
+                0x0800acd0                testsem3
  .rodata.testsem4
-                0x0800acf0       0x10 build/obj/testsem.o
-                0x0800acf0                testsem4
+                0x0800ace0       0x10 build/obj/testsem.o
+                0x0800ace0                testsem4
  .rodata.patternsem
-                0x0800ad00       0x14 build/obj/testsem.o
-                0x0800ad00                patternsem
- *fill*         0x0800ad14        0xc 00
+                0x0800acf0       0x14 build/obj/testsem.o
+                0x0800acf0                patternsem
+ *fill*         0x0800ad04        0xc 00
  .rodata.str1.4
-                0x0800ad20       0x6d build/obj/testsem.o
+                0x0800ad10       0x6d build/obj/testsem.o
                                  0x8c (size before relaxing)
- *fill*         0x0800ad8d        0x3 00
+ *fill*         0x0800ad7d        0x3 00
  .rodata.testmtx5
-                0x0800ad90       0x10 build/obj/testmtx.o
-                0x0800ad90                testmtx5
+                0x0800ad80       0x10 build/obj/testmtx.o
+                0x0800ad80                testmtx5
  .rodata.testmtx6
-                0x0800ada0       0x10 build/obj/testmtx.o
-                0x0800ada0                testmtx6
+                0x0800ad90       0x10 build/obj/testmtx.o
+                0x0800ad90                testmtx6
  .rodata.testmtx7
-                0x0800adb0       0x10 build/obj/testmtx.o
-                0x0800adb0                testmtx7
+                0x0800ada0       0x10 build/obj/testmtx.o
+                0x0800ada0                testmtx7
  .rodata.testmtx8
-                0x0800adc0       0x10 build/obj/testmtx.o
-                0x0800adc0                testmtx8
+                0x0800adb0       0x10 build/obj/testmtx.o
+                0x0800adb0                testmtx8
  .rodata.str1.4
-                0x0800add0       0xf0 build/obj/testmtx.o
+                0x0800adc0       0xf0 build/obj/testmtx.o
                                 0x10c (size before relaxing)
  .rodata.patternmtx
-                0x0800aec0       0x24 build/obj/testmtx.o
-                0x0800aec0                patternmtx
- *fill*         0x0800aee4        0xc 00
+                0x0800aeb0       0x24 build/obj/testmtx.o
+                0x0800aeb0                patternmtx
+ *fill*         0x0800aed4        0xc 00
  .rodata.testmtx1
-                0x0800aef0       0x10 build/obj/testmtx.o
-                0x0800aef0                testmtx1
+                0x0800aee0       0x10 build/obj/testmtx.o
+                0x0800aee0                testmtx1
  .rodata.testmtx2
-                0x0800af00       0x10 build/obj/testmtx.o
-                0x0800af00                testmtx2
+                0x0800aef0       0x10 build/obj/testmtx.o
+                0x0800aef0                testmtx2
  .rodata.testmtx3
-                0x0800af10       0x10 build/obj/testmtx.o
-                0x0800af10                testmtx3
+                0x0800af00       0x10 build/obj/testmtx.o
+                0x0800af00                testmtx3
  .rodata.testmtx4
-                0x0800af20       0x10 build/obj/testmtx.o
-                0x0800af20                testmtx4
+                0x0800af10       0x10 build/obj/testmtx.o
+                0x0800af10                testmtx4
  .rodata.testmsg1
-                0x0800af30       0x10 build/obj/testmsg.o
-                0x0800af30                testmsg1
+                0x0800af20       0x10 build/obj/testmsg.o
+                0x0800af20                testmsg1
  .rodata.str1.4
-                0x0800af40        0xf build/obj/testmsg.o
+                0x0800af30        0xf build/obj/testmsg.o
                                  0x14 (size before relaxing)
- *fill*         0x0800af4f        0x1 00
+ *fill*         0x0800af3f        0x1 00
  .rodata.patternmsg
-                0x0800af50        0x8 build/obj/testmsg.o
-                0x0800af50                patternmsg
- *fill*         0x0800af58        0x8 00
+                0x0800af40        0x8 build/obj/testmsg.o
+                0x0800af40                patternmsg
+ *fill*         0x0800af48        0x8 00
  .rodata.patternmbox
-                0x0800af60        0x8 build/obj/testmbox.o
-                0x0800af60                patternmbox
- *fill*         0x0800af68        0x8 00
+                0x0800af50        0x8 build/obj/testmbox.o
+                0x0800af50                patternmbox
+ *fill*         0x0800af58        0x8 00
  .rodata.str1.4
-                0x0800af70       0x20 build/obj/testmbox.o
+                0x0800af60       0x20 build/obj/testmbox.o
                                  0x28 (size before relaxing)
  .rodata.testmbox1
-                0x0800af90       0x10 build/obj/testmbox.o
-                0x0800af90                testmbox1
+                0x0800af80       0x10 build/obj/testmbox.o
+                0x0800af80                testmbox1
  .rodata.patternevt
-                0x0800afa0       0x10 build/obj/testevt.o
-                0x0800afa0                patternevt
+                0x0800af90       0x10 build/obj/testevt.o
+                0x0800af90                patternevt
  .rodata.testevt2
-                0x0800afb0       0x10 build/obj/testevt.o
-                0x0800afb0                testevt2
+                0x0800afa0       0x10 build/obj/testevt.o
+                0x0800afa0                testevt2
  .rodata.str1.4
-                0x0800afc0       0x51 build/obj/testevt.o
+                0x0800afb0       0x51 build/obj/testevt.o
                                  0x5c (size before relaxing)
- *fill*         0x0800b011        0xf 00
+ *fill*         0x0800b001        0xf 00
  .rodata.testevt1
-                0x0800b020       0x10 build/obj/testevt.o
-                0x0800b020                testevt1
+                0x0800b010       0x10 build/obj/testevt.o
+                0x0800b010                testevt1
  .rodata.evhndl
-                0x0800b030        0xc build/obj/testevt.o
- *fill*         0x0800b03c        0x4 00
+                0x0800b020        0xc build/obj/testevt.o
+ *fill*         0x0800b02c        0x4 00
  .rodata.testevt3
-                0x0800b040       0x10 build/obj/testevt.o
-                0x0800b040                testevt3
+                0x0800b030       0x10 build/obj/testevt.o
+                0x0800b030                testevt3
  .rodata.patternheap
-                0x0800b050        0x8 build/obj/testheap.o
-                0x0800b050                patternheap
- *fill*         0x0800b058        0x8 00
+                0x0800b040        0x8 build/obj/testheap.o
+                0x0800b040                patternheap
+ *fill*         0x0800b048        0x8 00
  .rodata.str1.4
-                0x0800b060       0x28 build/obj/testheap.o
- *fill*         0x0800b088        0x8 00
+                0x0800b050       0x28 build/obj/testheap.o
+ *fill*         0x0800b078        0x8 00
  .rodata.testheap1
-                0x0800b090       0x10 build/obj/testheap.o
-                0x0800b090                testheap1
+                0x0800b080       0x10 build/obj/testheap.o
+                0x0800b080                testheap1
  .rodata.str1.4
-                0x0800b0a0       0x1c build/obj/testpools.o
- *fill*         0x0800b0bc        0x4 00
+                0x0800b090       0x1c build/obj/testpools.o
+ *fill*         0x0800b0ac        0x4 00
  .rodata.patternpools
-                0x0800b0c0        0x8 build/obj/testpools.o
-                0x0800b0c0                patternpools
- *fill*         0x0800b0c8        0x8 00
+                0x0800b0b0        0x8 build/obj/testpools.o
+                0x0800b0b0                patternpools
+ *fill*         0x0800b0b8        0x8 00
  .rodata.testpools1
-                0x0800b0d0       0x10 build/obj/testpools.o
-                0x0800b0d0                testpools1
+                0x0800b0c0       0x10 build/obj/testpools.o
+                0x0800b0c0                testpools1
  .rodata.testdyn1
-                0x0800b0e0       0x10 build/obj/testdyn.o
-                0x0800b0e0                testdyn1
+                0x0800b0d0       0x10 build/obj/testdyn.o
+                0x0800b0d0                testdyn1
  .rodata.testdyn2
-                0x0800b0f0       0x10 build/obj/testdyn.o
-                0x0800b0f0                testdyn2
+                0x0800b0e0       0x10 build/obj/testdyn.o
+                0x0800b0e0                testdyn2
  .rodata.testdyn3
-                0x0800b100       0x10 build/obj/testdyn.o
-                0x0800b100                testdyn3
+                0x0800b0f0       0x10 build/obj/testdyn.o
+                0x0800b0f0                testdyn3
  .rodata.str1.4
-                0x0800b110       0x8e build/obj/testdyn.o
+                0x0800b100       0x8e build/obj/testdyn.o
                                  0xa4 (size before relaxing)
- *fill*         0x0800b19e        0x2 00
+ *fill*         0x0800b18e        0x2 00
  .rodata.patterndyn
-                0x0800b1a0       0x10 build/obj/testdyn.o
-                0x0800b1a0                patterndyn
+                0x0800b190       0x10 build/obj/testdyn.o
+                0x0800b190                patterndyn
  .rodata.testqueues1
-                0x0800b1b0       0x10 build/obj/testqueues.o
-                0x0800b1b0                testqueues1
+                0x0800b1a0       0x10 build/obj/testqueues.o
+                0x0800b1a0                testqueues1
  .rodata.testqueues2
-                0x0800b1c0       0x10 build/obj/testqueues.o
-                0x0800b1c0                testqueues2
+                0x0800b1b0       0x10 build/obj/testqueues.o
+                0x0800b1b0                testqueues2
  .rodata.str1.4
-                0x0800b1d0       0x2e build/obj/testqueues.o
+                0x0800b1c0       0x2e build/obj/testqueues.o
                                  0x38 (size before relaxing)
- *fill*         0x0800b1fe        0x2 00
+ *fill*         0x0800b1ee        0x2 00
  .rodata.patternqueues
-                0x0800b200        0xc build/obj/testqueues.o
-                0x0800b200                patternqueues
- *fill*         0x0800b20c        0x4 00
+                0x0800b1f0        0xc build/obj/testqueues.o
+                0x0800b1f0                patternqueues
+ *fill*         0x0800b1fc        0x4 00
  .rodata.testbmk8
-                0x0800b210       0x10 build/obj/testbmk.o
-                0x0800b210                testbmk8
+                0x0800b200       0x10 build/obj/testbmk.o
+                0x0800b200                testbmk8
  .rodata.testbmk9
-                0x0800b220       0x10 build/obj/testbmk.o
-                0x0800b220                testbmk9
+                0x0800b210       0x10 build/obj/testbmk.o
+                0x0800b210                testbmk9
  .rodata.testbmk10
-                0x0800b230       0x10 build/obj/testbmk.o
-                0x0800b230                testbmk10
+                0x0800b220       0x10 build/obj/testbmk.o
+                0x0800b220                testbmk10
  .rodata.testbmk11
-                0x0800b240       0x10 build/obj/testbmk.o
-                0x0800b240                testbmk11
+                0x0800b230       0x10 build/obj/testbmk.o
+                0x0800b230                testbmk11
  .rodata.testbmk12
-                0x0800b250       0x10 build/obj/testbmk.o
-                0x0800b250                testbmk12
+                0x0800b240       0x10 build/obj/testbmk.o
+                0x0800b240                testbmk12
  .rodata.testbmk13
-                0x0800b260       0x10 build/obj/testbmk.o
-                0x0800b260                testbmk13
+                0x0800b250       0x10 build/obj/testbmk.o
+                0x0800b250                testbmk13
  .rodata.str1.4
-                0x0800b270      0x2c5 build/obj/testbmk.o
+                0x0800b260      0x2c5 build/obj/testbmk.o
                                 0x2c8 (size before relaxing)
- *fill*         0x0800b535        0xb 00
+ *fill*         0x0800b525        0xb 00
  .rodata.patternbmk
-                0x0800b540       0x38 build/obj/testbmk.o
-                0x0800b540                patternbmk
- *fill*         0x0800b578        0x8 00
+                0x0800b530       0x38 build/obj/testbmk.o
+                0x0800b530                patternbmk
+ *fill*         0x0800b568        0x8 00
  .rodata.testbmk1
-                0x0800b580       0x10 build/obj/testbmk.o
-                0x0800b580                testbmk1
+                0x0800b570       0x10 build/obj/testbmk.o
+                0x0800b570                testbmk1
  .rodata.testbmk2
-                0x0800b590       0x10 build/obj/testbmk.o
-                0x0800b590                testbmk2
+                0x0800b580       0x10 build/obj/testbmk.o
+                0x0800b580                testbmk2
  .rodata.testbmk3
-                0x0800b5a0       0x10 build/obj/testbmk.o
-                0x0800b5a0                testbmk3
+                0x0800b590       0x10 build/obj/testbmk.o
+                0x0800b590                testbmk3
  .rodata.testbmk4
-                0x0800b5b0       0x10 build/obj/testbmk.o
-                0x0800b5b0                testbmk4
+                0x0800b5a0       0x10 build/obj/testbmk.o
+                0x0800b5a0                testbmk4
  .rodata.testbmk5
-                0x0800b5c0       0x10 build/obj/testbmk.o
-                0x0800b5c0                testbmk5
+                0x0800b5b0       0x10 build/obj/testbmk.o
+                0x0800b5b0                testbmk5
  .rodata.testbmk6
-                0x0800b5d0       0x10 build/obj/testbmk.o
-                0x0800b5d0                testbmk6
+                0x0800b5c0       0x10 build/obj/testbmk.o
+                0x0800b5c0                testbmk6
  .rodata.testbmk7
-                0x0800b5e0       0x10 build/obj/testbmk.o
-                0x0800b5e0                testbmk7
- .rodata.vmt    0x0800b5f0       0x20 build/obj/serial.o
+                0x0800b5d0       0x10 build/obj/testbmk.o
+                0x0800b5d0                testbmk7
+ .rodata.vmt    0x0800b5e0       0x20 build/obj/serial.o
  .rodata.zero_status
+                0x0800b600        0x4 build/obj/usb.o
+ *fill*         0x0800b604        0xc 00
+ .rodata.active_status
                 0x0800b610        0x4 build/obj/usb.o
  *fill*         0x0800b614        0xc 00
- .rodata.active_status
+ .rodata.halted_status
                 0x0800b620        0x4 build/obj/usb.o
  *fill*         0x0800b624        0xc 00
- .rodata.halted_status
-                0x0800b630        0x4 build/obj/usb.o
- *fill*         0x0800b634        0xc 00
  .rodata._stm32_dma_streams
-                0x0800b640       0xc0 build/obj/stm32_dma.o
-                0x0800b640                _stm32_dma_streams
+                0x0800b630       0xc0 build/obj/stm32_dma.o
+                0x0800b630                _stm32_dma_streams
  .rodata.fsparams
-                0x0800b700        0xc build/obj/usb_lld.o
- *fill*         0x0800b70c        0x4 00
+                0x0800b6f0        0xc build/obj/usb_lld.o
+ *fill*         0x0800b6fc        0x4 00
  .rodata.ep0config
-                0x0800b710       0x24 build/obj/usb_lld.o
- *fill*         0x0800b734        0xc 00
+                0x0800b700       0x24 build/obj/usb_lld.o
+ *fill*         0x0800b724        0xc 00
  .rodata.default_config
-                0x0800b740        0xc build/obj/serial_lld.o
- *fill*         0x0800b74c        0x4 00
+                0x0800b730        0xc build/obj/serial_lld.o
+ *fill*         0x0800b73c        0x4 00
  .rodata.pal_default_config
-                0x0800b750       0xfc build/obj/board.o
-                0x0800b750                pal_default_config
- *fill*         0x0800b84c        0x4 00
+                0x0800b740       0xfc build/obj/board.o
+                0x0800b740                pal_default_config
+ *fill*         0x0800b83c        0x4 00
  .rodata.str1.4
-                0x0800b850        0x7 build/obj/chprintf.o
+                0x0800b840        0x7 build/obj/chprintf.o
                                   0x8 (size before relaxing)
- *fill*         0x0800b857        0x9 00
+ *fill*         0x0800b847        0x9 00
  .rodata.str1.4
-                0x0800b860      0x16d build/obj/shell.o
+                0x0800b850      0x16d build/obj/shell.o
                                 0x1f4 (size before relaxing)
- *fill*         0x0800b9cd        0x3 00
+ *fill*         0x0800b9bd        0x3 00
  .rodata.commands
-                0x0800b9d0       0x38 build/obj/console.o
- *fill*         0x0800ba08        0x8 00
+                0x0800b9c0       0x38 build/obj/console.o
+ *fill*         0x0800b9f8        0x8 00
  .rodata.states.8065
-                0x0800ba10       0x3c build/obj/console.o
- *fill*         0x0800ba4c        0x4 00
+                0x0800ba00       0x3c build/obj/console.o
+ *fill*         0x0800ba3c        0x4 00
  .rodata.str1.4
-                0x0800ba50      0x19c build/obj/console.o
+                0x0800ba40      0x19c build/obj/console.o
                                 0x1a4 (size before relaxing)
- *fill*         0x0800bbec        0x4 00
+ *fill*         0x0800bbdc        0x4 00
  .rodata.shell_cfg1
-                0x0800bbf0        0x8 build/obj/console.o
- *fill*         0x0800bbf8        0x8 00
+                0x0800bbe0        0x8 build/obj/console.o
+ *fill*         0x0800bbe8        0x8 00
  .rodata.str1.4
-                0x0800bc00      0x159 build/obj/can_comm.o
+                0x0800bbf0      0x159 build/obj/can_comm.o
                                 0x160 (size before relaxing)
- *fill*         0x0800bd59        0x7 00
+ *fill*         0x0800bd49        0x7 00
  .rodata.cancfg
-                0x0800bd60        0x8 build/obj/can_comm.o
- *fill*         0x0800bd68        0x8 00
+                0x0800bd50        0x8 build/obj/can_comm.o
+ *fill*         0x0800bd58        0x8 00
  .rodata.str1.4
-                0x0800bd70       0x49 build/obj/ds18b20.o
-                                 0x68 (size before relaxing)
- *fill*         0x0800bdb9        0x7 00
+                0x0800bd60       0x24 build/obj/ds18b20.o
+                                 0x40 (size before relaxing)
+ *fill*         0x0800bd84        0xc 00
  .rodata.str1.4
-                0x0800bdc0       0x47 build/obj/one_vire_comm.o
+                0x0800bd90       0x47 build/obj/one_vire_comm.o
                                  0x60 (size before relaxing)
- *fill*         0x0800be07        0x9 00
+ *fill*         0x0800bdd7        0x9 00
  .rodata.str1.4
-                0x0800be10       0x14 build/obj/main.o
+                0x0800bde0       0x14 build/obj/main.o
  *(.glue_7t)
  .glue_7t       0x00000000        0x0 linker stubs
  *(.glue_7)
  .glue_7        0x00000000        0x0 linker stubs
  *(.gcc*)
 
-.vfp11_veneer   0x0800be24        0x0
+.vfp11_veneer   0x0800bdf4        0x0
  .vfp11_veneer  0x00000000        0x0 linker stubs
 
-.v4_bx          0x0800be24        0x0
+.v4_bx          0x0800bdf4        0x0
  .v4_bx         0x00000000        0x0 linker stubs
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
 
-.ARM.exidx      0x0800be24        0x0
-                0x0800be24                PROVIDE (__exidx_start, .)
+.ARM.exidx      0x0800bdf4        0x0
+                0x0800bdf4                PROVIDE (__exidx_start, .)
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x0800be24                PROVIDE (__exidx_end, .)
+                0x0800bdf4                PROVIDE (__exidx_end, .)
 
 .eh_frame_hdr
  *(.eh_frame_hdr)
@@ -2123,12 +2123,12 @@ destructors     0x080001ac        0x0
 .eh_frame
  *(.eh_frame)
 
-.textalign      0x0800be24        0x4
-                0x0800be28                . = ALIGN (0x8)
- *fill*         0x0800be24        0x4 00
-                0x0800be28                . = ALIGN (0x4)
-                0x0800be28                _etext = .
-                0x0800be28                _textdata = _etext
+.textalign      0x0800bdf4        0x4
+                0x0800bdf8                . = ALIGN (0x8)
+ *fill*         0x0800bdf4        0x4 00
+                0x0800bdf8                . = ALIGN (0x4)
+                0x0800bdf8                _etext = .
+                0x0800bdf8                _textdata = _etext
 
 .stacks         0x20000000      0x800
                 0x20000000                . = ALIGN (0x8)
@@ -2145,7 +2145,7 @@ destructors     0x080001ac        0x0
                 0x20000800                __process_stack_end__ = .
                 0x20000800                __main_thread_stack_end__ = .
 
-.data           0x20000800      0x118 load address 0x0800be28
+.data           0x20000800      0x118 load address 0x0800bdf8
                 0x20000800                . = ALIGN (0x4)
                 0x20000800                PROVIDE (_data, .)
  *(.data)
@@ -2171,7 +2171,7 @@ destructors     0x080001ac        0x0
                 0x20000918                . = ALIGN (0x4)
                 0x20000918                PROVIDE (_edata, .)
 
-.bss            0x20000918     0x1738 load address 0x0800bf40
+.bss            0x20000918     0x1738 load address 0x0800bf10
                 0x20000918                . = ALIGN (0x4)
                 0x20000918                PROVIDE (_bss_start, .)
  *(.bss)
@@ -2385,7 +2385,7 @@ OUTPUT(build/modulux_lights.elf elf32-littlearm)
  .debug_abbrev  0x00007bba      0x18d build/obj/main.o
  .debug_abbrev  0x00007d47      0x16d build/obj/light.o
 
-.debug_info     0x00000000    0x25be4
+.debug_info     0x00000000    0x25be6
  .debug_info    0x00000000      0x342 build/obj/crt0.o
  .debug_info    0x00000342      0x1f5 build/obj/vectors.o
  .debug_info    0x00000537       0x92 build/obj/chcore.o
@@ -2464,12 +2464,12 @@ OUTPUT(build/modulux_lights.elf elf32-littlearm)
  .debug_info    0x0002150e      0xcc2 build/obj/shell.o
  .debug_info    0x000221d0      0xd57 build/obj/console.o
  .debug_info    0x00022f27      0xff1 build/obj/can_comm.o
- .debug_info    0x00023f18      0x9fb build/obj/ds18b20.o
- .debug_info    0x00024913      0x5de build/obj/one_vire_comm.o
- .debug_info    0x00024ef1      0x75b build/obj/main.o
- .debug_info    0x0002564c      0x598 build/obj/light.o
+ .debug_info    0x00023f18      0x9fd build/obj/ds18b20.o
+ .debug_info    0x00024915      0x5de build/obj/one_vire_comm.o
+ .debug_info    0x00024ef3      0x75b build/obj/main.o
+ .debug_info    0x0002564e      0x598 build/obj/light.o
 
-.debug_line     0x00000000     0xcec3
+.debug_line     0x00000000     0xcebb
  .debug_line    0x00000000      0x17f build/obj/crt0.o
  .debug_line    0x0000017f       0xf0 build/obj/vectors.o
  .debug_line    0x0000026f       0x5e build/obj/chcore.o
@@ -2547,11 +2547,11 @@ OUTPUT(build/modulux_lights.elf elf32-littlearm)
  .debug_line    0x0000b13c      0x35b build/obj/chprintf.o
  .debug_line    0x0000b497      0x438 build/obj/shell.o
  .debug_line    0x0000b8cf      0x41b build/obj/console.o
- .debug_line    0x0000bcea      0x43e build/obj/can_comm.o
- .debug_line    0x0000c128      0x613 build/obj/ds18b20.o
- .debug_line    0x0000c73b      0x2fb build/obj/one_vire_comm.o
- .debug_line    0x0000ca36      0x25f build/obj/main.o
- .debug_line    0x0000cc95      0x22e build/obj/light.o
+ .debug_line    0x0000bcea      0x43a build/obj/can_comm.o
+ .debug_line    0x0000c124      0x60f build/obj/ds18b20.o
+ .debug_line    0x0000c733      0x2fb build/obj/one_vire_comm.o
+ .debug_line    0x0000ca2e      0x25f build/obj/main.o
+ .debug_line    0x0000cc8d      0x22e build/obj/light.o
 
 .debug_loc      0x00000000     0xdb6f
  .debug_loc     0x00000000       0x72 build/obj/crt0.o
@@ -3532,7 +3532,7 @@ OUTPUT(build/modulux_lights.elf elf32-littlearm)
  .ARM.attributes
                 0x0000118f       0x29 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-sbrkr.o)
 
-.debug_frame    0x00000000     0x3bb8
+.debug_frame    0x00000000     0x3bb4
  .debug_frame   0x00000000       0x50 build/obj/crt0.o
  .debug_frame   0x00000050       0x20 build/obj/vectors.o
  .debug_frame   0x00000070       0x20 build/obj/chcore.o
@@ -3588,19 +3588,19 @@ OUTPUT(build/modulux_lights.elf elf32-littlearm)
  .debug_frame   0x00003220       0x90 build/obj/chprintf.o
  .debug_frame   0x000032b0      0x180 build/obj/shell.o
  .debug_frame   0x00003430      0x104 build/obj/console.o
- .debug_frame   0x00003534       0xcc build/obj/can_comm.o
- .debug_frame   0x00003600      0x24c build/obj/ds18b20.o
- .debug_frame   0x0000384c       0xb8 build/obj/one_vire_comm.o
- .debug_frame   0x00003904       0x64 build/obj/main.o
- .debug_frame   0x00003968       0x7c build/obj/light.o
- .debug_frame   0x000039e4       0x68 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-reent.o)
- .debug_frame   0x00003a4c       0x2c c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-strcasecmp.o)
- .debug_frame   0x00003a78       0x2c c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-strpbrk.o)
- .debug_frame   0x00003aa4       0x2c c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-strspn.o)
- .debug_frame   0x00003ad0       0x50 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-freer.o)
- .debug_frame   0x00003b20       0x3c c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-mallocr.o)
- .debug_frame   0x00003b5c       0x30 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-mlock.o)
- .debug_frame   0x00003b8c       0x2c c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-sbrkr.o)
+ .debug_frame   0x00003534       0xc8 build/obj/can_comm.o
+ .debug_frame   0x000035fc      0x24c build/obj/ds18b20.o
+ .debug_frame   0x00003848       0xb8 build/obj/one_vire_comm.o
+ .debug_frame   0x00003900       0x64 build/obj/main.o
+ .debug_frame   0x00003964       0x7c build/obj/light.o
+ .debug_frame   0x000039e0       0x68 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-reent.o)
+ .debug_frame   0x00003a48       0x2c c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-strcasecmp.o)
+ .debug_frame   0x00003a74       0x2c c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-strpbrk.o)
+ .debug_frame   0x00003aa0       0x2c c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-strspn.o)
+ .debug_frame   0x00003acc       0x50 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-freer.o)
+ .debug_frame   0x00003b1c       0x3c c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-mallocr.o)
+ .debug_frame   0x00003b58       0x30 c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-mlock.o)
+ .debug_frame   0x00003b88       0x2c c:/program files (x86)/codesourcery/sourcery g++ lite/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-sbrkr.o)
 
 Cross Reference Table
 
