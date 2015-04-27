@@ -14,6 +14,10 @@
 #include "chprintf.h"
 
 #include "console.h"
+#include "can_comm.h"
+#include "one_vire_comm.h"
+#include "ds18b20.h"
+#include "light.h"
 
 /* libc stub */
 int _getpid(void) {return 1;}
@@ -50,6 +54,10 @@ static const ShellCommand commands[] = {
   {"mem", cmd_mem},
   {"threads", cmd_threads},
   {"test", cmd_test},
+  {"canvalues", cmd_can_commvalues},
+  {"one_vire", cmd_one_virevalues},
+  {"ds18b20", cmd_ds18b20_values},
+  {"light", cmd_lightblink},
   {NULL, NULL}
 };
 
