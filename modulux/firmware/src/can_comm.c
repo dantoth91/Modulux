@@ -14,26 +14,40 @@
 #include "light.h"
 #include "one_vire_comm.h"
 
+/* Modulux ID */
 #define CAN_EID                 0x20
 
+/* CAN sent messages */
 #define CAN_ONE_VIRE_MESSAGE    0x01
+#define CAN_ANS_BRAKE_ON        0x02
+#define CAN_ANS_BRAKE_OFF       0x03
+#define CAN_ANS_LIGHT_ON        0x04
+#define CAN_ANS_LIGHT_OFF       0x05
 
+/* CAN Min-Max ID */
 #define CAN_MIN_EID             0x10
 #define CAN_MAX_EID             0x1FFFFFF
 
+/* CAN Smarty messages */
 #define CAN_SM_MIN              0x10
 #define CAN_SM_MAX              0x1F
 #define CAN_SM_RIGHT            0x01
 #define CAN_SM_LEFT             0x02
-#define CAN_SM_W_LIGHTS         0x03
+#define CAN_SM_W_LIGHT          0x03
+#define CAN_SM_BRAKE_ON         0x04
+#define CAN_SM_BRAKE_OFF        0x05
+#define CAN_SM_POS_LAMP_ON      0x06
+#define CAN_SM_POS_LAMP_OFF     0x07
 
+/* CAN other Modulux messages */
 #define CAN_ML_MIN              0x20
 #define CAN_ML_MAX              0x2F
 
-
+/* CAN Raspberry Pi messages */
 #define CAN_RPY_MIN             0x30
 #define CAN_RPY_MAX             0x3F
 
+/* CAN LuxControl messages */
 #define CAN_LC_MIN              0x40
 #define CAN_LC_MAX              0x5F
 
@@ -64,10 +78,14 @@ static const CANConfig cancfg = {
 
 static uint16_t id;
 static uint16_t messages;
+static uint16_t tx_chanel;
+static uint16_t tx_ans;
 
 static WORKING_AREA(can_rx_wa, 256);
 static msg_t can_rx(void *p) {
   EventListener el;
+
+  int asist;
 
   (void)p;
   chRegSetThreadName("receiver");
@@ -80,6 +98,7 @@ static msg_t can_rx(void *p) {
 
       id = rxmsg.EID >> 8;
       messages = (uint8_t)rxmsg.EID;
+      asist = 0;
 
       if (id < CAN_MIN_EID && id > CAN_MAX_EID )
       {
@@ -110,11 +129,67 @@ static msg_t can_rx(void *p) {
           if(messages == CAN_SM_RIGHT){
             lightRight();
           }
-          if(messages == CAN_SM_LEFT){
+          else if(messages == CAN_SM_LEFT){
             lightLeft();
           }
-          if(messages == CAN_SM_W_LIGHTS){
+          else if(messages == CAN_SM_W_LIGHT){
             lightWarning();
+          }
+          else if(messages == CAN_SM_BRAKE_ON){
+            asist = lightBrakeON();
+
+            if(asist > 0){
+              txmsg.EID = CAN_ANS_BRAKE_ON;
+              txmsg.EID += CAN_EID << 8;
+
+              /* blah-blah */
+              txmsg.data32[0] = 0x55555555;
+              txmsg.data32[1] = 0xAAAAAAAA;
+     
+              canTransmit(&CAND1, CAN_ANY_MAILBOX ,&txmsg, MS2ST(100));
+            }
+          }
+          else if(messages == CAN_SM_BRAKE_OFF){    
+            asist = lightBrakeOFF();
+
+            if(asist > 0){
+              txmsg.EID = CAN_ANS_BRAKE_OFF;
+              txmsg.EID += CAN_EID << 8;
+
+              /* blah-blah */
+              txmsg.data32[0] = 0x55555555;
+              txmsg.data32[1] = 0xAAAAAAAA;
+     
+              canTransmit(&CAND1, CAN_ANY_MAILBOX ,&txmsg, MS2ST(100));
+            }
+          }
+          else if(messages == CAN_SM_POS_LAMP_ON){
+            asist = lightPosLampON();
+
+            if(asist > 0){
+              txmsg.EID = CAN_ANS_LIGHT_ON;
+              txmsg.EID += CAN_EID << 8;
+
+              /* blah-blah */
+              txmsg.data32[0] = 0x55555555;
+              txmsg.data32[1] = 0xAAAAAAAA;
+     
+              canTransmit(&CAND1, CAN_ANY_MAILBOX ,&txmsg, MS2ST(100));
+            }
+          }
+          else if(messages == CAN_SM_POS_LAMP_OFF){
+            asist = lightPosLampOFF();
+
+            if(asist > 0){
+              txmsg.EID = CAN_ANS_LIGHT_OFF;
+              txmsg.EID += CAN_EID << 8;
+
+              /* blah-blah */
+              txmsg.data32[0] = 0x55555555;
+              txmsg.data32[1] = 0xAAAAAAAA;
+     
+              canTransmit(&CAND1, CAN_ANY_MAILBOX ,&txmsg, MS2ST(100));
+            }
           }
           can_rxstate = CAN_RX_WAIT;
           break;
@@ -146,31 +221,30 @@ static msg_t can_rx(void *p) {
 
 static WORKING_AREA(can_tx_wa, 256);
 static msg_t can_tx(void * p) {
-
+  
   (void)p;
   chRegSetThreadName("transmitter");
   
-  while (!chThdShouldTerminate()) {
-    int tx_status;
+  int tx_status;
 
-    for(tx_status = 0; tx_status < CAN_TX_NUM_CH; tx_status ++)
+  while (!chThdShouldTerminate()) {  
+    for(tx_status = 0; tx_status < CAN_TX_NUM_CH; tx_status ++){
       switch(tx_status){
         case CAN_TX_ONE_VIRE:      
-
           txmsg.EID = CAN_ONE_VIRE_MESSAGE;
           txmsg.EID += CAN_EID << 8;
 
-          /* Only one sensor works  */
           txmsg.data16[0] = one_vireGetValue(0);
           txmsg.data16[1] = one_vireGetValue(1);
           txmsg.data16[2] = one_vireGetValue(2);
           txmsg.data16[3] = one_vireGetValue(3);
- 
+     
           canTransmit(&CAND1, CAN_ANY_MAILBOX ,&txmsg, MS2ST(100));
           break;
 
         default:
           break;
+      }
     }
     chThdSleepMilliseconds(1000);
   }

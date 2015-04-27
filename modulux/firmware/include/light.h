@@ -18,5 +18,10 @@ void lightRight(void);
 void lightLeft(void);
 void lightWarning(void);
 
-void cmd_lightvalues(BaseSequentialStream *chp, int argc, char *argv[]);
+uint8_t lightBrakeON(void);
+uint8_t lightBrakeOFF(void);
+uint8_t lightPosLampON(void);
+uint8_t lightPosLampOFF(void);
+
+void cmd_lightblink(BaseSequentialStream *chp, int argc, char *argv[]);
 #endif

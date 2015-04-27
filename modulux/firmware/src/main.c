@@ -36,8 +36,6 @@ static msg_t task20ms(void *arg) {
 
     lightCalc();
 
-
-
     chThdSleepUntil(time);
   }
   return 0; /* Never executed.*/

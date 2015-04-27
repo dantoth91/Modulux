@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceKoOpg.s 			page 1
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccro26Q1.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceKoOpg.s 			page 1
   51 000a 9A61     		str	r2, [r3, #24]
   52              	.L2:
   53              		.loc 1 20 0 discriminator 1
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceKoOpg.s 			page 2
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccro26Q1.s 			page 2
 
 
   54 000c 6269     		ldr	r2, [r4, #20]
@@ -118,10 +118,10 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceKoOpg.s 			page 1
  107              	.LVL5:
  108              		.loc 1 37 0 discriminator 1
  109 0010 FFF7FEFF 		bl	lightCalc
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceKoOpg.s 			page 3
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccro26Q1.s 			page 3
 
 
- 110              		.loc 1 41 0 discriminator 1
+ 110              		.loc 1 39 0 discriminator 1
  111 0014 2046     		mov	r0, r4
  112 0016 FFF7FEFF 		bl	chThdSleepUntil
  113 001a F8E7     		b	.L7
@@ -144,7 +144,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceKoOpg.s 			page 1
  129              		.type	main, %function
  130              	main:
  131              	.LFB120:
- 132              		.loc 1 48 0
+ 132              		.loc 1 46 0
  133              		.cfi_startproc
  134              		@ args = 0, pretend = 0, frame = 0
  135              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -154,82 +154,82 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceKoOpg.s 			page 1
  139 0002 82B0     		sub	sp, sp, #8
  140              	.LCFI3:
  141              		.cfi_def_cfa_offset 16
- 142              		.loc 1 50 0
+ 142              		.loc 1 48 0
  143              		.cfi_offset 14, -4
  144              		.cfi_offset 4, -8
  145 0004 FFF7FEFF 		bl	halInit
- 146              		.loc 1 51 0
+ 146              		.loc 1 49 0
  147 0008 FFF7FEFF 		bl	chSysInit
- 148              		.loc 1 53 0
+ 148              		.loc 1 51 0
  149 000c 214A     		ldr	r2, .L12
- 150              		.loc 1 57 0
+ 150              		.loc 1 55 0
  151 000e 2249     		ldr	r1, .L12+4
- 152              		.loc 1 60 0
+ 152              		.loc 1 58 0
  153 0010 224B     		ldr	r3, .L12+8
- 154              		.loc 1 53 0
+ 154              		.loc 1 51 0
  155 0012 4FF40074 		mov	r4, #512	@ movhi
- 156              		.loc 1 54 0
+ 156              		.loc 1 52 0
  157 0016 4FF4006C 		mov	ip, #2048	@ movhi
- 158              		.loc 1 53 0
+ 158              		.loc 1 51 0
  159 001a 5483     		strh	r4, [r2, #26]	@ movhi
- 160              		.loc 1 55 0
+ 160              		.loc 1 53 0
  161 001c 4FF40050 		mov	r0, #8192	@ movhi
- 162              		.loc 1 54 0
+ 162              		.loc 1 52 0
  163 0020 A2F81AC0 		strh	ip, [r2, #26]	@ movhi
- 164              		.loc 1 56 0
+ 164              		.loc 1 54 0
  165 0024 4FF4804C 		mov	ip, #16384	@ movhi
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceKoOpg.s 			page 4
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccro26Q1.s 			page 4
 
 
- 166              		.loc 1 55 0
+ 166              		.loc 1 53 0
  167 0028 5083     		strh	r0, [r2, #26]	@ movhi
- 168              		.loc 1 56 0
+ 168              		.loc 1 54 0
  169 002a A2F81AC0 		strh	ip, [r2, #26]	@ movhi
- 170              		.loc 1 57 0
+ 170              		.loc 1 55 0
  171 002e 4022     		movs	r2, #64
  172 0030 4A83     		strh	r2, [r1, #26]	@ movhi
- 173              		.loc 1 58 0
+ 173              		.loc 1 56 0
  174 0032 8020     		movs	r0, #128
- 175              		.loc 1 60 0
+ 175              		.loc 1 58 0
  176 0034 4FF48052 		mov	r2, #4096	@ movhi
- 177              		.loc 1 58 0
+ 177              		.loc 1 56 0
  178 0038 4883     		strh	r0, [r1, #26]	@ movhi
- 179              		.loc 1 61 0
+ 179              		.loc 1 59 0
  180 003a 4FF4005C 		mov	ip, #8192	@ movhi
- 181              		.loc 1 60 0
+ 181              		.loc 1 58 0
  182 003e 1A83     		strh	r2, [r3, #24]	@ movhi
- 183              		.loc 1 62 0
+ 183              		.loc 1 60 0
  184 0040 4FF48041 		mov	r1, #16384	@ movhi
- 185              		.loc 1 68 0
+ 185              		.loc 1 66 0
  186 0044 1022     		movs	r2, #16
- 187              		.loc 1 63 0
+ 187              		.loc 1 61 0
  188 0046 48F20000 		movw	r0, 32768	@ movhi
- 189              		.loc 1 61 0
+ 189              		.loc 1 59 0
  190 004a A3F818C0 		strh	ip, [r3, #24]	@ movhi
- 191              		.loc 1 62 0
+ 191              		.loc 1 60 0
  192 004e 1983     		strh	r1, [r3, #24]	@ movhi
- 193              		.loc 1 63 0
+ 193              		.loc 1 61 0
  194 0050 1883     		strh	r0, [r3, #24]	@ movhi
- 195              		.loc 1 68 0
+ 195              		.loc 1 66 0
  196 0052 1A83     		strh	r2, [r3, #24]	@ movhi
- 197              		.loc 1 73 0
+ 197              		.loc 1 71 0
  198 0054 FFF7FEFF 		bl	consoleInit
- 199              		.loc 1 93 0
+ 199              		.loc 1 91 0
  200 0058 0024     		movs	r4, #0
- 201              		.loc 1 78 0
+ 201              		.loc 1 76 0
  202 005a FFF7FEFF 		bl	can_commInit
- 203              		.loc 1 83 0
+ 203              		.loc 1 81 0
  204 005e FFF7FEFF 		bl	lightInit
- 205              		.loc 1 88 0
+ 205              		.loc 1 86 0
  206 0062 FFF7FEFF 		bl	one_vireInit
- 207              		.loc 1 93 0
+ 207              		.loc 1 91 0
  208 0066 4FF4E871 		mov	r1, #464
  209 006a 4022     		movs	r2, #64
  210 006c 0C4B     		ldr	r3, .L12+12
  211 006e 0D48     		ldr	r0, .L12+16
  212 0070 0094     		str	r4, [sp, #0]
  213 0072 FFF7FEFF 		bl	chThdCreateStatic
- 214              		.loc 1 98 0
+ 214              		.loc 1 96 0
  215 0076 0C48     		ldr	r0, .L12+20
  216 0078 0C4B     		ldr	r3, .L12+24
  217 007a 0094     		str	r4, [sp, #0]
@@ -237,12 +237,12 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceKoOpg.s 			page 1
  219 0080 4022     		movs	r2, #64
  220 0082 FFF7FEFF 		bl	chThdCreateStatic
  221              	.L11:
- 222              		.loc 1 101 0 discriminator 1
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceKoOpg.s 			page 5
+ 222              		.loc 1 99 0 discriminator 1
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccro26Q1.s 			page 5
 
 
  223 0086 FFF7FEFF 		bl	consoleStart
- 224              		.loc 1 102 0 discriminator 1
+ 224              		.loc 1 100 0 discriminator 1
  225 008a 4FF47A70 		mov	r0, #1000
  226 008e FFF7FEFF 		bl	chThdSleep
  227 0092 F8E7     		b	.L11
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceKoOpg.s 			page 1
  266 0000 00000000 		.4byte	.LFB118
  267 0004 08000000 		.4byte	.LCFI0
  268 0008 0200     		.2byte	0x2
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceKoOpg.s 			page 6
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccro26Q1.s 			page 6
 
 
  269 000a 7D       		.byte	0x7d
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceKoOpg.s 			page 1
  323 0094 04000000 		.4byte	.LCFI3
  324 0098 0200     		.2byte	0x2
  325 009a 7D       		.byte	0x7d
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceKoOpg.s 			page 7
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccro26Q1.s 			page 7
 
 
  326 009b 08       		.sleb128 8
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceKoOpg.s 			page 1
  380 0051 02       		.byte	0x2
  381 0052 05       		.byte	0x5
  382 0053 30000000 		.4byte	.LASF3
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceKoOpg.s 			page 8
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccro26Q1.s 			page 8
 
 
  383 0057 04       		.uleb128 0x4
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceKoOpg.s 			page 1
  437 00c3 04       		.uleb128 0x4
  438 00c4 0D000000 		.4byte	.LASF17
  439 00c8 03       		.byte	0x3
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceKoOpg.s 			page 9
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccro26Q1.s 			page 9
 
 
  440 00c9 2E       		.byte	0x2e
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceKoOpg.s 			page 1
  494 0138 06       		.uleb128 0x6
  495 0139 87000000 		.4byte	.LASF26
  496 013d 05       		.byte	0x5
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceKoOpg.s 			page 10
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccro26Q1.s 			page 10
 
 
  497 013e 63       		.byte	0x63
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceKoOpg.s 			page 1
  551 019b 27030000 		.4byte	.LASF33
  552 019f 05       		.byte	0x5
  553 01a0 82       		.byte	0x82
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceKoOpg.s 			page 11
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccro26Q1.s 			page 11
 
 
  554 01a1 C3000000 		.4byte	0xc3
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceKoOpg.s 			page 1
  608 0201 05       		.byte	0x5
  609 0202 C9       		.byte	0xc9
  610 0203 EF000000 		.4byte	0xef
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceKoOpg.s 			page 12
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccro26Q1.s 			page 12
 
 
  611 0207 02       		.byte	0x2
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceKoOpg.s 			page 1
  665 0261 62020000 		.4byte	.LASF43
  666 0265 04       		.byte	0x4
  667 0266 66       		.byte	0x66
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceKoOpg.s 			page 13
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccro26Q1.s 			page 13
 
 
  668 0267 35020000 		.4byte	0x235
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceKoOpg.s 			page 1
  722 02ce 0C       		.uleb128 0xc
  723 02cf 723600   		.ascii	"r6\000"
  724 02d2 06       		.byte	0x6
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceKoOpg.s 			page 14
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccro26Q1.s 			page 14
 
 
  725 02d3 2101     		.2byte	0x121
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceKoOpg.s 			page 1
  779 0333 0B       		.uleb128 0xb
  780 0334 45010000 		.4byte	.LASF48
  781 0338 04       		.byte	0x4
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceKoOpg.s 			page 15
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccro26Q1.s 			page 15
 
 
  782 0339 06       		.byte	0x6
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceKoOpg.s 			page 1
  836 03a4 D6030000 		.4byte	0x3d6
  837 03a8 02       		.byte	0x2
  838 03a9 23       		.byte	0x23
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceKoOpg.s 			page 16
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccro26Q1.s 			page 16
 
 
  839 03aa 04       		.uleb128 0x4
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceKoOpg.s 			page 1
  893 0407 FA000000 		.4byte	0xfa
  894 040b 02       		.byte	0x2
  895 040c 23       		.byte	0x23
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceKoOpg.s 			page 17
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccro26Q1.s 			page 17
 
 
  896 040d 08       		.uleb128 0x8
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceKoOpg.s 			page 1
  950 046d 06       		.uleb128 0x6
  951 046e 9E030000 		.4byte	.LASF62
  952 0472 08       		.byte	0x8
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceKoOpg.s 			page 18
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccro26Q1.s 			page 18
 
 
  953 0473 66       		.byte	0x66
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceKoOpg.s 			page 1
  1007 04d3 37010000 		.4byte	.LASF65
  1008 04d7 09       		.byte	0x9
  1009 04d8 33       		.byte	0x33
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceKoOpg.s 			page 19
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccro26Q1.s 			page 19
 
 
  1010 04d9 95040000 		.4byte	0x495
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceKoOpg.s 			page 1
  1064 0545 06       		.uleb128 0x6
  1065 0546 15000000 		.4byte	.LASF74
  1066 054a 0A       		.byte	0xa
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceKoOpg.s 			page 20
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccro26Q1.s 			page 20
 
 
  1067 054b 98       		.byte	0x98
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceKoOpg.s 			page 1
  1121 05a7 91       		.byte	0x91
  1122 05a8 56030000 		.4byte	0x356
  1123 05ac 02       		.byte	0x2
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceKoOpg.s 			page 21
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccro26Q1.s 			page 21
 
 
  1124 05ad 23       		.byte	0x23
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceKoOpg.s 			page 1
  1178 060a 00000000 		.4byte	.LASF83
  1179 060e 0A       		.byte	0xa
  1180 060f 9E       		.byte	0x9e
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceKoOpg.s 			page 22
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccro26Q1.s 			page 22
 
 
  1181 0610 6F050000 		.4byte	0x56f
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceKoOpg.s 			page 1
  1235 0691 01       		.byte	0x1
  1236 0692 1C       		.byte	0x1c
  1237 0693 98020000 		.4byte	0x298
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceKoOpg.s 			page 23
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccro26Q1.s 			page 23
 
 
  1238 0697 53000000 		.4byte	.LLST3
@@ -1333,7 +1333,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceKoOpg.s 			page 1
  1247 06ac 01       		.byte	0x1
  1248 06ad 6B000000 		.4byte	.LASF99
  1249 06b1 01       		.byte	0x1
- 1250 06b2 30       		.byte	0x30
+ 1250 06b2 2E       		.byte	0x2e
  1251 06b3 01       		.byte	0x1
  1252 06b4 29000000 		.4byte	0x29
  1253 06b8 00000000 		.4byte	.LFB120
@@ -1344,7 +1344,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceKoOpg.s 			page 1
  1258 06c9 01       		.byte	0x1
  1259 06ca F0000000 		.4byte	.LASF100
  1260 06ce 01       		.byte	0x1
- 1261 06cf 58       		.byte	0x58
+ 1261 06cf 56       		.byte	0x56
  1262 06d0 29000000 		.4byte	0x29
  1263 06d4 01       		.byte	0x1
  1264 06d5 1B       		.uleb128 0x1b
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceKoOpg.s 			page 1
  1292 0707 1F060000 		.4byte	0x61f
  1293 070b 05       		.byte	0x5
  1294 070c 03       		.byte	0x3
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceKoOpg.s 			page 24
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccro26Q1.s 			page 24
 
 
  1295 070d 00000000 		.4byte	waThread1
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceKoOpg.s 			page 1
  1349 000f 55       		.uleb128 0x55
  1350 0010 06       		.uleb128 0x6
  1351 0011 10       		.uleb128 0x10
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceKoOpg.s 			page 25
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccro26Q1.s 			page 25
 
 
  1352 0012 06       		.uleb128 0x6
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceKoOpg.s 			page 1
  1406 0048 0D       		.uleb128 0xd
  1407 0049 00       		.byte	0x0
  1408 004a 03       		.uleb128 0x3
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceKoOpg.s 			page 26
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccro26Q1.s 			page 26
 
 
  1409 004b 0E       		.uleb128 0xe
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceKoOpg.s 			page 1
  1463 0081 00       		.byte	0x0
  1464 0082 0B       		.uleb128 0xb
  1465 0083 13       		.uleb128 0x13
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceKoOpg.s 			page 27
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccro26Q1.s 			page 27
 
 
  1466 0084 01       		.byte	0x1
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceKoOpg.s 			page 1
  1520 00ba 0B       		.uleb128 0xb
  1521 00bb 0B       		.uleb128 0xb
  1522 00bc 3A       		.uleb128 0x3a
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceKoOpg.s 			page 28
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccro26Q1.s 			page 28
 
 
  1523 00bd 0B       		.uleb128 0xb
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceKoOpg.s 			page 1
  1577 00f3 2F       		.uleb128 0x2f
  1578 00f4 0B       		.uleb128 0xb
  1579 00f5 00       		.byte	0x0
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceKoOpg.s 			page 29
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccro26Q1.s 			page 29
 
 
  1580 00f6 00       		.byte	0x0
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceKoOpg.s 			page 1
  1634 012c 19       		.uleb128 0x19
  1635 012d 2E       		.uleb128 0x2e
  1636 012e 01       		.byte	0x1
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceKoOpg.s 			page 30
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccro26Q1.s 			page 30
 
 
  1637 012f 3F       		.uleb128 0x3f
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceKoOpg.s 			page 1
  1691 0165 13       		.uleb128 0x13
  1692 0166 3F       		.uleb128 0x3f
  1693 0167 0C       		.uleb128 0xc
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceKoOpg.s 			page 31
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccro26Q1.s 			page 31
 
 
  1694 0168 3C       		.uleb128 0x3c
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceKoOpg.s 			page 1
  1746 001a 57000000 		.4byte	0x57
  1747 001e 75696E74 		.ascii	"uint16_t\000"
  1747      31365F74 
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceKoOpg.s 			page 32
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccro26Q1.s 			page 32
 
 
  1747      00
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceKoOpg.s 			page 1
  1777      726D5F74 
  1777      00
  1778 00ed 9A020000 		.4byte	0x29a
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceKoOpg.s 			page 33
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccro26Q1.s 			page 33
 
 
  1779 00f1 73746B61 		.ascii	"stkalign_t\000"
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceKoOpg.s 			page 1
  1809 000a 04       		.byte	0x4
  1810 000b 00       		.byte	0x0
  1811 000c 0000     		.2byte	0x0
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceKoOpg.s 			page 34
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccro26Q1.s 			page 34
 
 
  1812 000e 0000     		.2byte	0x0
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceKoOpg.s 			page 1
  1851 0054 52656164 		.ascii	"ReadyList\000"
  1851      794C6973 
  1851      7400
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceKoOpg.s 			page 35
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccro26Q1.s 			page 35
 
 
  1852              	.LASF25:
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceKoOpg.s 			page 1
  1883      00
  1884              	.LASF75:
  1885 00e3 4D4F4445 		.ascii	"MODER\000"
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceKoOpg.s 			page 36
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccro26Q1.s 			page 36
 
 
  1885      5200
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceKoOpg.s 			page 1
  1917 0167 6C6F6E67 		.ascii	"long double\000"
  1917      20646F75 
  1917      626C6500 
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceKoOpg.s 			page 37
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccro26Q1.s 			page 37
 
 
  1918              	.LASF20:
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceKoOpg.s 			page 1
  1947      77657200 
  1948              	.LASF32:
  1949 01ff 705F666C 		.ascii	"p_flags\000"
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceKoOpg.s 			page 38
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccro26Q1.s 			page 38
 
 
  1949      61677300 
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceKoOpg.s 			page 1
  1979      786C6973 
  1979      7400
  1980              	.LASF47:
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceKoOpg.s 			page 39
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccro26Q1.s 			page 39
 
 
  1981 0292 696E7463 		.ascii	"intctx\000"
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceKoOpg.s 			page 1
  2009      00
  2010              	.LASF57:
  2011 0320 56544C69 		.ascii	"VTList\000"
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceKoOpg.s 			page 40
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccro26Q1.s 			page 40
 
 
  2011      737400
@@ -2386,28 +2386,28 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceKoOpg.s 			page 1
  2034      72656164 
  2034      3100
  2035              		.ident	"GCC: (Sourcery G++ Lite 2011.03-42) 4.5.2"
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceKoOpg.s 			page 41
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccro26Q1.s 			page 41
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 main.c
-C:\Users\DNIEL~1\AppData\Local\Temp\cceKoOpg.s:24     .text.Thread1:00000000 $t
-C:\Users\DNIEL~1\AppData\Local\Temp\cceKoOpg.s:29     .text.Thread1:00000000 Thread1
-C:\Users\DNIEL~1\AppData\Local\Temp\cceKoOpg.s:66     .text.Thread1:0000001c $d
-C:\Users\DNIEL~1\AppData\Local\Temp\cceKoOpg.s:73     .text.task20ms:00000000 $t
-C:\Users\DNIEL~1\AppData\Local\Temp\cceKoOpg.s:78     .text.task20ms:00000000 task20ms
-C:\Users\DNIEL~1\AppData\Local\Temp\cceKoOpg.s:117    .text.task20ms:0000001c $d
-C:\Users\DNIEL~1\AppData\Local\Temp\cceKoOpg.s:124    .text.main:00000000 $t
-C:\Users\DNIEL~1\AppData\Local\Temp\cceKoOpg.s:130    .text.main:00000000 main
-C:\Users\DNIEL~1\AppData\Local\Temp\cceKoOpg.s:231    .text.main:00000094 $d
-C:\Users\DNIEL~1\AppData\Local\Temp\cceKoOpg.s:242    .bss.waThread1:00000000 $d
-C:\Users\DNIEL~1\AppData\Local\Temp\cceKoOpg.s:246    .bss.waThread1:00000000 waThread1
-C:\Users\DNIEL~1\AppData\Local\Temp\cceKoOpg.s:249    .bss.watask20ms:00000000 $d
-C:\Users\DNIEL~1\AppData\Local\Temp\cceKoOpg.s:253    .bss.watask20ms:00000000 watask20ms
-C:\Users\DNIEL~1\AppData\Local\Temp\cceKoOpg.s:256    .rodata.str1.4:00000000 $d
+C:\Users\DNIEL~1\AppData\Local\Temp\ccro26Q1.s:24     .text.Thread1:00000000 $t
+C:\Users\DNIEL~1\AppData\Local\Temp\ccro26Q1.s:29     .text.Thread1:00000000 Thread1
+C:\Users\DNIEL~1\AppData\Local\Temp\ccro26Q1.s:66     .text.Thread1:0000001c $d
+C:\Users\DNIEL~1\AppData\Local\Temp\ccro26Q1.s:73     .text.task20ms:00000000 $t
+C:\Users\DNIEL~1\AppData\Local\Temp\ccro26Q1.s:78     .text.task20ms:00000000 task20ms
+C:\Users\DNIEL~1\AppData\Local\Temp\ccro26Q1.s:117    .text.task20ms:0000001c $d
+C:\Users\DNIEL~1\AppData\Local\Temp\ccro26Q1.s:124    .text.main:00000000 $t
+C:\Users\DNIEL~1\AppData\Local\Temp\ccro26Q1.s:130    .text.main:00000000 main
+C:\Users\DNIEL~1\AppData\Local\Temp\ccro26Q1.s:231    .text.main:00000094 $d
+C:\Users\DNIEL~1\AppData\Local\Temp\ccro26Q1.s:242    .bss.waThread1:00000000 $d
+C:\Users\DNIEL~1\AppData\Local\Temp\ccro26Q1.s:246    .bss.waThread1:00000000 waThread1
+C:\Users\DNIEL~1\AppData\Local\Temp\ccro26Q1.s:249    .bss.watask20ms:00000000 $d
+C:\Users\DNIEL~1\AppData\Local\Temp\ccro26Q1.s:253    .bss.watask20ms:00000000 watask20ms
+C:\Users\DNIEL~1\AppData\Local\Temp\ccro26Q1.s:256    .rodata.str1.4:00000000 $d
                      .debug_frame:00000010 $d
-C:\Users\DNIEL~1\AppData\Local\Temp\cceKoOpg.s:72     .text.Thread1:00000028 $t
-C:\Users\DNIEL~1\AppData\Local\Temp\cceKoOpg.s:123    .text.task20ms:00000028 $t
+C:\Users\DNIEL~1\AppData\Local\Temp\ccro26Q1.s:72     .text.Thread1:00000028 $t
+C:\Users\DNIEL~1\AppData\Local\Temp\ccro26Q1.s:123    .text.task20ms:00000028 $t
 
 UNDEFINED SYMBOLS
 chThdSleep
