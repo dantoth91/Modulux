@@ -1,5 +1,5 @@
 /*
-    Smarty - Copyright (C) 2015
+    Modulux - Copyright (C) 2015
     GAMF MegaLux Team
 */
 

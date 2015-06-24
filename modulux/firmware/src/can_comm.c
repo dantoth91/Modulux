@@ -1,10 +1,8 @@
 /*
- * can_comm.c
-
- *
- *  Created on: 2015 márc. 10
- *      Author: Richárd
+    Modulux - Copyright (C) 2015
+    GAMF MegaLux Team
  */
+    
 #include <stdlib.h>
 #include "ch.h"
 #include "hal.h"

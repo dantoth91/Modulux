@@ -1,8 +1,6 @@
 /*
- * can_comm.h
- *
- *  Created on: 2015 márc. 10
- *      Author: Richárd
+	Modulux - Copyright (C) 2015
+    GAMF MegaLux Team
  */
 
 #ifndef CAN_COMM_H_
