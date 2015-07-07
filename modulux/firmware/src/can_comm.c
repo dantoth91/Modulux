@@ -93,7 +93,6 @@ static msg_t can_rx(void *p) {
       continue;
     while (canReceive(&CAND1, CAN_ANY_MAILBOX, &rxmsg, TIME_IMMEDIATE) == RDY_OK) {
 
-
       id = rxmsg.EID >> 8;
       messages = (uint8_t)rxmsg.EID;
       asist = 0;
@@ -104,24 +103,36 @@ static msg_t can_rx(void *p) {
         messages = 0;
       }
       
+      if(id >= CAN_BMS_MIN && id <= CAN_BMS_MAX){
+        can_rxstate = CAN_RX_BMS;
+        rxmsg.EID = 0;
+      }
       else if(id >= CAN_SM_MIN && id <= CAN_SM_MAX){
         can_rxstate = CAN_RX_SM;
+        rxmsg.EID = 0;
       }
       else if(id >= CAN_ML_MIN && id <= CAN_ML_MAX){
         can_rxstate = CAN_RX_ML;
+        rxmsg.EID = 0;
       }
       else if(id >= CAN_RPY_MIN && id <= CAN_RPY_MAX){
         can_rxstate = CAN_RX_RPY;
+        rxmsg.EID = 0;
       }
       else if(id >= CAN_LC_MIN && id <= CAN_LC_MAX){
         can_rxstate = CAN_RX_LC;
+        rxmsg.EID = 0;
       }
       else{
-        
         can_rxstate = CAN_RX_WAIT;
+        rxmsg.EID = 0;
       }
 
       switch(can_rxstate){
+        case CAN_BMS:
+          can_rxstate = CAN_RX_WAIT;
+          break;
+
         case CAN_RX_SM:
           
           if(messages == CAN_SM_RIGHT){
