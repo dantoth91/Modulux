@@ -17,25 +17,18 @@
 
 /* CAN sent messages */
 #define CAN_ONE_VIRE_MESSAGE    0x01
-#define CAN_ANS_BRAKE_ON        0x02
-#define CAN_ANS_BRAKE_OFF       0x03
-#define CAN_ANS_LIGHT_ON        0x04
-#define CAN_ANS_LIGHT_OFF       0x05
 
 /* CAN Min-Max ID */
 #define CAN_MIN_EID             0x10
 #define CAN_MAX_EID             0x1FFFFFF
 
+/* CAN BMS messages */
+#define CAN_BMS_MIN             0x00
+#define CAN_BMS_MAX             0x0F
+
 /* CAN Smarty messages */
 #define CAN_SM_MIN              0x10
 #define CAN_SM_MAX              0x1F
-#define CAN_SM_RIGHT            0x01
-#define CAN_SM_LEFT             0x02
-#define CAN_SM_W_LIGHT          0x03
-#define CAN_SM_BRAKE_ON         0x04
-#define CAN_SM_BRAKE_OFF        0x05
-#define CAN_SM_POS_LAMP_ON      0x06
-#define CAN_SM_POS_LAMP_OFF     0x07
 
 /* CAN other Modulux messages */
 #define CAN_ML_MIN              0x20
@@ -51,6 +44,7 @@
 
 enum can_rxState
 {
+  CAN_RX_BMS,
   CAN_RX_SM,
   CAN_RX_ML,
   CAN_RX_RPY,
@@ -129,77 +123,11 @@ static msg_t can_rx(void *p) {
       }
 
       switch(can_rxstate){
-        case CAN_BMS:
+        case CAN_RX_BMS:
           can_rxstate = CAN_RX_WAIT;
           break;
 
         case CAN_RX_SM:
-          
-          if(messages == CAN_SM_RIGHT){
-            lightRight();
-          }
-          else if(messages == CAN_SM_LEFT){
-            lightLeft();
-          }
-          else if(messages == CAN_SM_W_LIGHT){
-            lightWarning();
-          }
-          else if(messages == CAN_SM_BRAKE_ON){
-            asist = lightBrakeON();
-
-            if(asist > 0){
-              txmsg.EID = CAN_ANS_BRAKE_ON;
-              txmsg.EID += CAN_EID << 8;
-
-              /* blah-blah */
-              txmsg.data32[0] = 0x55555555;
-              txmsg.data32[1] = 0xAAAAAAAA;
-     
-              canTransmit(&CAND1, CAN_ANY_MAILBOX ,&txmsg, MS2ST(100));
-            }
-          }
-          else if(messages == CAN_SM_BRAKE_OFF){    
-            asist = lightBrakeOFF();
-
-            if(asist > 0){
-              txmsg.EID = CAN_ANS_BRAKE_OFF;
-              txmsg.EID += CAN_EID << 8;
-
-              /* blah-blah */
-              txmsg.data32[0] = 0x55555555;
-              txmsg.data32[1] = 0xAAAAAAAA;
-     
-              canTransmit(&CAND1, CAN_ANY_MAILBOX ,&txmsg, MS2ST(100));
-            }
-          }
-          else if(messages == CAN_SM_POS_LAMP_ON){
-            asist = lightPosLampON();
-
-            if(asist > 0){
-              txmsg.EID = CAN_ANS_LIGHT_ON;
-              txmsg.EID += CAN_EID << 8;
-
-              /* blah-blah */
-              txmsg.data32[0] = 0x55555555;
-              txmsg.data32[1] = 0xAAAAAAAA;
-     
-              canTransmit(&CAND1, CAN_ANY_MAILBOX ,&txmsg, MS2ST(100));
-            }
-          }
-          else if(messages == CAN_SM_POS_LAMP_OFF){
-            asist = lightPosLampOFF();
-
-            if(asist > 0){
-              txmsg.EID = CAN_ANS_LIGHT_OFF;
-              txmsg.EID += CAN_EID << 8;
-
-              /* blah-blah */
-              txmsg.data32[0] = 0x55555555;
-              txmsg.data32[1] = 0xAAAAAAAA;
-     
-              canTransmit(&CAND1, CAN_ANY_MAILBOX ,&txmsg, MS2ST(100));
-            }
-          }
           can_rxstate = CAN_RX_WAIT;
           break;
 
@@ -214,6 +142,7 @@ static msg_t can_rx(void *p) {
         case CAN_RX_LC:
           can_rxstate = CAN_RX_WAIT;
           break;
+
         case CAN_RX_WAIT:
           break;
 

@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 1
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 1
   51              		.cfi_offset 1, -12
   52 0008 53F8041B 		ldr	r1, [r3], #4
   53              		.loc 1 73 0
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 2
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s 			page 2
 
 
   54 000c 1A46     		mov	r2, r3
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 1
  108 001a 0023     		movs	r3, #0
  109 001c 0B60     		str	r3, [r1, #0]
  110              		.loc 2 51 0
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 3
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s 			page 3
 
 
  111 001e 0370     		strb	r3, [r0, #0]
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 1
  165              		.loc 2 72 0
  166 0026 A178     		ldrb	r1, [r4, #2]	@ zero_extendqisi2
  167 0028 0029     		cmp	r1, #0
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 4
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s 			page 4
 
 
  168 002a 37D1     		bne	.L15
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 1
  222              		.loc 2 96 0
  223 0080 BDE81040 		pop	{r4, lr}
  224              		.loc 2 87 0
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 5
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s 			page 5
 
 
  225 0084 FFF7FEBF 		b	pwmEnableChannel
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 1
  279 00dc 00000000 		.word	.LANCHOR3
  280 00e0 00000000 		.word	PWMD1
  281 00e4 67666666 		.word	1717986919
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 6
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s 			page 6
 
 
  282              		.cfi_endproc
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 1
  333              		.thumb
  334              		.thumb_func
  335              		.type	lightLeft, %function
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 7
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s 			page 7
 
 
  336              	lightLeft:
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 1
  388 0000 0648     		ldr	r0, .L28
  389              		.loc 2 119 0
  390 0002 074B     		ldr	r3, .L28+4
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 8
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s 			page 8
 
 
  391              		.loc 2 116 0
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 1
  443              		.size	lightBrakeON, .-lightBrakeON
  444 000c AFF30080 		.section	.text.lightBrakeOFF,"ax",%progbits
  445              		.align	2
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 9
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s 			page 9
 
 
  446              		.p2align 4,,15
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 1
  500              		.align	2
  501              		.p2align 4,,15
  502              		.global	lightPosLampOFF
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 10
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s 			page 10
 
 
  503              		.thumb
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 1
  557 000a 1646     		mov	r6, r2
  558              		.loc 2 144 0
  559 000c FFF7FEFF 		bl	chprintf
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 11
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s 			page 11
 
 
  560              	.LVL4:
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 1
  614 006c FFF7FEFF 		bl	chprintf
  615              		.loc 2 148 0
  616 0070 012D     		cmp	r5, #1
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 12
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s 			page 12
 
 
  617 0072 D9D1     		bne	.L43
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 1
  671              	.LBB19:
  672              		.loc 2 136 0
  673 00d8 3448     		ldr	r0, .L59+72
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 13
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s 			page 13
 
 
  674 00da 0570     		strb	r5, [r0, #0]
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 1
  728              		.loc 2 111 0
  729 0114 0020     		movs	r0, #0
  730 0116 0021     		movs	r1, #0
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 14
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s 			page 14
 
 
  731 0118 C2E90001 		strd	r0, [r2]
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 1
  785              		.loc 2 123 0
  786 015a 1649     		ldr	r1, .L59+80
  787 015c 0D70     		strb	r5, [r1, #0]
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 15
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s 			page 15
 
 
  788 015e BDE8F081 		pop	{r4, r5, r6, r7, r8, pc}
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 1
  840 0014 01000000 		.word	1
  841 0018 00000000 		.word	0
  842 001c 01000000 		.word	1
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 16
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s 			page 16
 
 
  843 0020 00000000 		.word	0
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 1
  882              	.LC8:
  883 00a0 2D2D2D2D 		.ascii	"-------------- Blinking warning enabled -----------"
  883      2D2D2D2D 
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 17
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s 			page 17
 
 
  883      2D2D2D2D 
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 1
  912      653A206C 
  912      69676874 
  912      20726967 
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 18
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s 			page 18
 
 
  912      68740D0A 
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 1
  941      0000
  942 0006 0000     		.section	.bss.brakeOn,"aw",%nobits
  943              		.set	.LANCHOR4,. + 0
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 19
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s 			page 19
 
 
  944              		.type	brakeOn, %object
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 1
  998 0061 7D       		.byte	0x7d
  999 0062 10       		.sleb128 16
  1000 0063 00000000 		.4byte	0x0
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 20
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s 			page 20
 
 
  1001 0067 00000000 		.4byte	0x0
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 1
  1055 00f4 55       		.byte	0x55
  1056 00f5 00000000 		.4byte	0x0
  1057 00f9 00000000 		.4byte	0x0
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 21
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s 			page 21
 
 
  1058              	.LLST7:
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 1
  1112 0043 01       		.byte	0x1
  1113 0044 06       		.byte	0x6
  1114 0045 88010000 		.4byte	.LASF1
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 22
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s 			page 22
 
 
  1115 0049 03       		.uleb128 0x3
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 1
  1169 00b2 5E020000 		.4byte	.LASF15
  1170 00b6 05       		.byte	0x5
  1171 00b7 2B       		.byte	0x2b
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 23
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s 			page 23
 
 
  1172 00b8 BC000000 		.4byte	0xbc
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 1
  1226 0127 00       		.uleb128 0x0
  1227 0128 0C       		.uleb128 0xc
  1228 0129 E4000000 		.4byte	.LASF21
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 24
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s 			page 24
 
 
  1229 012d 06       		.byte	0x6
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 1
  1283 0199 04       		.byte	0x4
  1284 019a 7E010000 		.4byte	0x17e
  1285 019e 09       		.uleb128 0x9
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 25
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s 			page 25
 
 
  1286 019f 01       		.byte	0x1
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 1
  1340 020e 78010000 		.4byte	0x178
  1341 0212 02       		.byte	0x2
  1342 0213 23       		.byte	0x23
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 26
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s 			page 26
 
 
  1343 0214 00       		.uleb128 0x0
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 1
  1397 0274 02       		.byte	0x2
  1398 0275 23       		.byte	0x23
  1399 0276 1C       		.uleb128 0x1c
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 27
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s 			page 27
 
 
  1400 0277 00       		.byte	0x0
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 1
  1454 02f2 CE000000 		.4byte	0xce
  1455 02f6 00       		.byte	0x0
  1456 02f7 07       		.uleb128 0x7
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 28
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s 			page 28
 
 
  1457 02f8 04       		.byte	0x4
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 1
  1511 0361 09       		.byte	0x9
  1512 0362 6F01     		.2byte	0x16f
  1513 0364 B4030000 		.4byte	0x3b4
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 29
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s 			page 29
 
 
  1514 0368 14       		.uleb128 0x14
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 1
  1568 03d0 00       		.byte	0x0
  1569 03d1 07       		.uleb128 0x7
  1570 03d2 04       		.byte	0x4
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 30
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s 			page 30
 
 
  1571 03d3 50030000 		.4byte	0x350
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 1
  1625 0439 14       		.uleb128 0x14
  1626 043a 27010000 		.4byte	.LASF42
  1627 043e 0A       		.byte	0xa
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 31
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s 			page 31
 
 
  1628 043f A501     		.2byte	0x1a5
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 1
  1682 04a3 43435200 		.ascii	"CCR\000"
  1683 04a7 0A       		.byte	0xa
  1684 04a8 AC01     		.2byte	0x1ac
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 32
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s 			page 32
 
 
  1685 04aa 1A050000 		.4byte	0x51a
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 1
  1739 050f 0A       		.byte	0xa
  1740 0510 B301     		.2byte	0x1b3
  1741 0512 DB000000 		.4byte	0xdb
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 33
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s 			page 33
 
 
  1742 0516 02       		.byte	0x2
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 1
  1796 0581 8A020000 		.4byte	.LASF56
  1797 0585 09       		.byte	0x9
  1798 0586 4601     		.2byte	0x146
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 34
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s 			page 34
 
 
  1799 0588 86000000 		.4byte	0x86
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 1
  1853 05f0 09       		.byte	0x9
  1854 05f1 6A01     		.2byte	0x16a
  1855 05f3 77050000 		.4byte	0x577
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 35
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s 			page 35
 
 
  1856 05f7 07       		.uleb128 0x7
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 1
  1910 0660 AC000000 		.4byte	.LASF67
  1911 0664 02       		.byte	0x2
  1912 0665 12       		.byte	0x12
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 36
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s 			page 36
 
 
  1913 0666 BC000000 		.4byte	0xbc
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 1
  1967 06c0 D0020000 		.4byte	.LASF74
  1968 06c4 02       		.byte	0x2
  1969 06c5 6A       		.byte	0x6a
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 37
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s 			page 37
 
 
  1970 06c6 01       		.byte	0x1
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 1
  2024 0729 4E070000 		.4byte	0x74e
  2025 072d 38000000 		.4byte	.LLST1
  2026 0731 1E       		.uleb128 0x1e
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 38
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s 			page 38
 
 
  2027 0732 666D7400 		.ascii	"fmt\000"
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 1
  2081 07a3 00000000 		.4byte	.LFB123
  2082 07a7 24000000 		.4byte	.LFE123
  2083 07ab 02       		.byte	0x2
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 39
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s 			page 39
 
 
  2084 07ac 7D       		.byte	0x7d
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 1
  2138 082a 02       		.byte	0x2
  2139 082b 8C       		.byte	0x8c
  2140 082c C6080000 		.4byte	0x8c6
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 40
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s 			page 40
 
 
  2141 0830 FD000000 		.4byte	.LLST7
@@ -2398,7 +2398,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 1
  2195 08b4 A5       		.byte	0xa5
  2196 08b5 28       		.uleb128 0x28
  2197 08b6 D2060000 		.4byte	0x6d2
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 41
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s 			page 41
 
 
  2198 08ba 5A010000 		.4byte	.LBB32
@@ -2458,7 +2458,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 1
  2252 0928 2C       		.uleb128 0x2c
  2253 0929 DA030000 		.4byte	.LASF90
  2254 092d 02       		.byte	0x2
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 42
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s 			page 42
 
 
  2255 092e 2A       		.byte	0x2a
@@ -2518,7 +2518,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 1
  2309 0008 0E       		.uleb128 0xe
  2310 0009 1B       		.uleb128 0x1b
  2311 000a 0E       		.uleb128 0xe
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 43
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s 			page 43
 
 
  2312 000b 11       		.uleb128 0x11
@@ -2578,7 +2578,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 1
  2366 0041 00       		.byte	0x0
  2367 0042 49       		.uleb128 0x49
  2368 0043 13       		.uleb128 0x13
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 44
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s 			page 44
 
 
  2369 0044 00       		.byte	0x0
@@ -2638,7 +2638,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 1
  2423 007a 03       		.uleb128 0x3
  2424 007b 0E       		.uleb128 0xe
  2425 007c 3A       		.uleb128 0x3a
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 45
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s 			page 45
 
 
  2426 007d 0B       		.uleb128 0xb
@@ -2698,7 +2698,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 1
  2480 00b3 00       		.byte	0x0
  2481 00b4 11       		.uleb128 0x11
  2482 00b5 04       		.uleb128 0x4
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 46
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s 			page 46
 
 
  2483 00b6 01       		.byte	0x1
@@ -2758,7 +2758,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 1
  2537 00ec 08       		.uleb128 0x8
  2538 00ed 3A       		.uleb128 0x3a
  2539 00ee 0B       		.uleb128 0xb
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 47
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s 			page 47
 
 
  2540 00ef 3B       		.uleb128 0x3b
@@ -2818,7 +2818,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 1
  2594 0125 00       		.byte	0x0
  2595 0126 00       		.byte	0x0
  2596 0127 1A       		.uleb128 0x1a
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 48
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s 			page 48
 
 
  2597 0128 2E       		.uleb128 0x2e
@@ -2878,7 +2878,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 1
  2651 015e 00       		.byte	0x0
  2652 015f 00       		.byte	0x0
  2653 0160 1D       		.uleb128 0x1d
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 49
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s 			page 49
 
 
  2654 0161 05       		.uleb128 0x5
@@ -2938,7 +2938,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 1
  2708 0197 03       		.uleb128 0x3
  2709 0198 0E       		.uleb128 0xe
  2710 0199 3A       		.uleb128 0x3a
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 50
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s 			page 50
 
 
  2711 019a 0B       		.uleb128 0xb
@@ -2998,7 +2998,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 1
  2765 01d0 3A       		.uleb128 0x3a
  2766 01d1 0B       		.uleb128 0xb
  2767 01d2 3B       		.uleb128 0x3b
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 51
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s 			page 51
 
 
  2768 01d3 0B       		.uleb128 0xb
@@ -3058,7 +3058,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 1
  2822 0209 01       		.uleb128 0x1
  2823 020a 12       		.uleb128 0x12
  2824 020b 01       		.uleb128 0x1
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 52
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s 			page 52
 
 
  2825 020c 58       		.uleb128 0x58
@@ -3118,7 +3118,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 1
  2879 0242 34       		.uleb128 0x34
  2880 0243 00       		.byte	0x0
  2881 0244 03       		.uleb128 0x3
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 53
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s 			page 53
 
 
  2882 0245 0E       		.uleb128 0xe
@@ -3178,7 +3178,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 1
  2927      74576172 
  2927      6E696E67 
  2927      00
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 54
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s 			page 54
 
 
  2928 0058 AE070000 		.4byte	0x7ae
@@ -3238,7 +3238,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 1
  2957      00
  2958 004b 9F000000 		.4byte	0x9f
  2959 004f 75696E74 		.ascii	"uint64_t\000"
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 55
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s 			page 55
 
 
  2959      36345F74 
@@ -3298,7 +3298,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 1
  2984 0120 37050000 		.4byte	0x537
  2985 0124 70776D63 		.ascii	"pwmcnt_t\000"
  2985      6E745F74 
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 56
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s 			page 56
 
 
  2985      00
@@ -3358,7 +3358,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 1
  3022 0044 0C000000 		.4byte	.LFE124-.LFB124
  3023 0048 00000000 		.4byte	.LFB125
  3024 004c 10000000 		.4byte	.LFE125-.LFB125
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 57
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s 			page 57
 
 
  3025 0050 00000000 		.4byte	.LFB126
@@ -3418,7 +3418,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 1
  3073      4F4E00
  3074              	.LASF46:
  3075 0020 444D4152 		.ascii	"DMAR\000"
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 58
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s 			page 58
 
 
  3075      00
@@ -3478,7 +3478,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 1
  3105      4D5400
  3106              	.LASF67:
  3107 00ac 6C696768 		.ascii	"lights_disabled\000"
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 59
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s 			page 59
 
 
  3107      74735F64 
@@ -3538,7 +3538,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 1
  3134              	.LASF83:
  3135 013a 61726776 		.ascii	"argv\000"
  3135      00
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 60
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s 			page 60
 
 
  3136              	.LASF75:
@@ -3598,7 +3598,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 1
  3163 01cd 756E7369 		.ascii	"unsigned int\000"
  3163      676E6564 
  3163      20696E74 
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 61
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s 			page 61
 
 
  3163      00
@@ -3658,7 +3658,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 1
  3192              	.LASF8:
  3193 0256 696E7433 		.ascii	"int32_t\000"
  3193      325F7400 
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 62
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s 			page 62
 
 
  3194              	.LASF15:
@@ -3718,7 +3718,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 1
  3223 02e6 6C696768 		.ascii	"lightBrakeON\000"
  3223      74427261 
  3223      6B654F4E 
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 63
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s 			page 63
 
 
  3223      00
@@ -3778,7 +3778,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 1
  3251      66666572 
  3251      00
  3252              	.LASF93:
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 64
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s 			page 64
 
 
  3253 037c 433A5C44 		.ascii	"C:\\Dani\\MegaLux\\Repo\\Modulux\\Modulux\\modulux\\"
@@ -3809,67 +3809,67 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 1
  3264 03da 6272616B 		.ascii	"brakeOn\000"
  3264      654F6E00 
  3265              		.ident	"GCC: (Sourcery G++ Lite 2011.03-42) 4.5.2"
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 65
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s 			page 65
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 light.c
-C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s:24     .text.chprintf:00000000 $t
-C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s:29     .text.chprintf:00000000 chprintf
-C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s:69     .text.lightInit:00000000 $t
-C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s:75     .text.lightInit:00000000 lightInit
-C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s:119    .text.lightInit:00000024 $d
-C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s:129    .text.lightCalc:00000000 $t
-C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s:135    .text.lightCalc:00000000 lightCalc
-C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s:276    .text.lightCalc:000000d0 $d
-C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s:286    .text.lightRight:00000000 $t
-C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s:292    .text.lightRight:00000000 lightRight
-C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s:324    .text.lightRight:0000001c $d
-C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s:330    .text.lightLeft:00000000 $t
-C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s:336    .text.lightLeft:00000000 lightLeft
-C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s:368    .text.lightLeft:0000001c $d
-C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s:374    .text.lightWarning:00000000 $t
-C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s:380    .text.lightWarning:00000000 lightWarning
-C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s:412    .text.lightWarning:0000001c $d
-C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s:418    .text.lightBrakeON:00000000 $t
-C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s:424    .text.lightBrakeON:00000000 lightBrakeON
-C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s:440    .text.lightBrakeON:00000008 $d
-C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s:445    .text.lightBrakeOFF:00000000 $t
-C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s:451    .text.lightBrakeOFF:00000000 lightBrakeOFF
-C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s:468    .text.lightBrakeOFF:0000000c $d
-C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s:473    .text.lightPosLampON:00000000 $t
-C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s:479    .text.lightPosLampON:00000000 lightPosLampON
-C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s:495    .text.lightPosLampON:00000008 $d
-C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s:500    .text.lightPosLampOFF:00000000 $t
-C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s:506    .text.lightPosLampOFF:00000000 lightPosLampOFF
-C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s:523    .text.lightPosLampOFF:0000000c $d
-C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s:528    .text.cmd_lightblink:00000000 $t
-C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s:534    .text.cmd_lightblink:00000000 cmd_lightblink
-C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s:792    .text.cmd_lightblink:00000164 $d
-C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s:933    .bss.lightsOn:00000000 lightsOn
-C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s:946    .bss.brakeOn:00000000 brakeOn
-C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s:829    .data.pwmcfg:00000000 $d
-C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s:833    .data.pwmcfg:00000000 pwmcfg
-C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s:849    .bss.period:00000000 $d
-C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s:853    .bss.period:00000000 period
-C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s:856    .rodata.str1.4:00000000 $d
-C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s:934    .bss.lightsOn:00000000 $d
-C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s:936    .bss.lightchanels:00000000 $d
-C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s:940    .bss.lightchanels:00000000 lightchanels
-C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s:947    .bss.brakeOn:00000000 $d
-C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s:949    .bss.period_num:00000000 $d
-C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s:953    .bss.period_num:00000000 period_num
+C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s:24     .text.chprintf:00000000 $t
+C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s:29     .text.chprintf:00000000 chprintf
+C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s:69     .text.lightInit:00000000 $t
+C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s:75     .text.lightInit:00000000 lightInit
+C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s:119    .text.lightInit:00000024 $d
+C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s:129    .text.lightCalc:00000000 $t
+C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s:135    .text.lightCalc:00000000 lightCalc
+C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s:276    .text.lightCalc:000000d0 $d
+C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s:286    .text.lightRight:00000000 $t
+C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s:292    .text.lightRight:00000000 lightRight
+C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s:324    .text.lightRight:0000001c $d
+C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s:330    .text.lightLeft:00000000 $t
+C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s:336    .text.lightLeft:00000000 lightLeft
+C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s:368    .text.lightLeft:0000001c $d
+C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s:374    .text.lightWarning:00000000 $t
+C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s:380    .text.lightWarning:00000000 lightWarning
+C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s:412    .text.lightWarning:0000001c $d
+C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s:418    .text.lightBrakeON:00000000 $t
+C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s:424    .text.lightBrakeON:00000000 lightBrakeON
+C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s:440    .text.lightBrakeON:00000008 $d
+C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s:445    .text.lightBrakeOFF:00000000 $t
+C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s:451    .text.lightBrakeOFF:00000000 lightBrakeOFF
+C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s:468    .text.lightBrakeOFF:0000000c $d
+C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s:473    .text.lightPosLampON:00000000 $t
+C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s:479    .text.lightPosLampON:00000000 lightPosLampON
+C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s:495    .text.lightPosLampON:00000008 $d
+C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s:500    .text.lightPosLampOFF:00000000 $t
+C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s:506    .text.lightPosLampOFF:00000000 lightPosLampOFF
+C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s:523    .text.lightPosLampOFF:0000000c $d
+C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s:528    .text.cmd_lightblink:00000000 $t
+C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s:534    .text.cmd_lightblink:00000000 cmd_lightblink
+C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s:792    .text.cmd_lightblink:00000164 $d
+C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s:933    .bss.lightsOn:00000000 lightsOn
+C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s:946    .bss.brakeOn:00000000 brakeOn
+C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s:829    .data.pwmcfg:00000000 $d
+C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s:833    .data.pwmcfg:00000000 pwmcfg
+C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s:849    .bss.period:00000000 $d
+C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s:853    .bss.period:00000000 period
+C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s:856    .rodata.str1.4:00000000 $d
+C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s:934    .bss.lightsOn:00000000 $d
+C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s:936    .bss.lightchanels:00000000 $d
+C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s:940    .bss.lightchanels:00000000 lightchanels
+C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s:947    .bss.brakeOn:00000000 $d
+C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s:949    .bss.period_num:00000000 $d
+C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s:953    .bss.period_num:00000000 period_num
                      .debug_frame:00000010 $d
-C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s:128    .text.lightInit:0000003c $t
-C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s:285    .text.lightCalc:000000e8 $t
-C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s:329    .text.lightRight:00000024 $t
-C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s:373    .text.lightLeft:00000024 $t
-C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s:417    .text.lightWarning:00000024 $t
-C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s:444    .text.lightBrakeON:0000000c $t
-C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s:499    .text.lightPosLampON:0000000c $t
-C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s:828    .text.cmd_lightblink:000001d4 $t
+C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s:128    .text.lightInit:0000003c $t
+C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s:285    .text.lightCalc:000000e8 $t
+C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s:329    .text.lightRight:00000024 $t
+C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s:373    .text.lightLeft:00000024 $t
+C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s:417    .text.lightWarning:00000024 $t
+C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s:444    .text.lightBrakeON:0000000c $t
+C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s:499    .text.lightPosLampON:0000000c $t
+C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s:828    .text.cmd_lightblink:000001d4 $t
 
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc2ev96Y.s 			page 66
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cceZPiI7.s 			page 66
 
 
 UNDEFINED SYMBOLS

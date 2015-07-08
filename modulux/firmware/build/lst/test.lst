@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 1
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 1
   51 000c AFF30080 		.section	.text.print_line,"ax",%progbits
   52              		.align	2
   53              		.p2align 4,,15
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 2
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s 			page 2
 
 
   54              		.thumb
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 1
  108              		.size	print_line, .-print_line
  109 0038 AFF30080 		.section	.text.test_printn,"ax",%progbits
  109      AFF30080 
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 3
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s 			page 3
 
 
  110              		.align	2
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 1
  164              	.LVL6:
  165 0032 3C46     		mov	r4, r7
  166 0034 0268     		ldr	r2, [r0, #0]
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 4
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s 			page 4
 
 
  167 0036 14F8011D 		ldrb	r1, [r4, #-1]!	@ zero_extendqisi2
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 1
  219              		.global	test_print
  220              		.thumb
  221              		.thumb_func
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 5
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s 			page 5
 
 
  222              		.type	test_print, %function
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 1
  276 0000 08B5     		push	{r3, lr}
  277              	.LCFI4:
  278              		.cfi_def_cfa_offset 8
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 6
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s 			page 6
 
 
  279              		.loc 1 123 0
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 1
  333 000e 0023     		movs	r3, #0
  334              	.LVL16:
  335              	.LBE23:
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 7
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s 			page 7
 
 
  336              		.loc 1 150 0
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 1
  390 0018 00000000 		.word	.LANCHOR4
  391 001c 00000000 		.word	.LANCHOR3
  392              		.cfi_endproc
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 8
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s 			page 8
 
 
  393              	.LFE124:
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 1
  447 0020 00000000 		.word	.LANCHOR5
  448              		.cfi_endproc
  449              	.LFE125:
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 9
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s 			page 9
 
 
  450              		.size	_test_assert, .-_test_assert
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 1
  502 0030 15F801CB 		ldrb	ip, [r5], #1	@ zero_extendqisi2
  503              	.LVL30:
  504 0034 E045     		cmp	r8, ip
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 10
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s 			page 10
 
 
  505 0036 0ED1     		bne	.L62
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 1
  559              	.L63:
  560 006c 00000000 		.word	.LANCHOR2
  561 0070 00000000 		.word	.LANCHOR6
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 11
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s 			page 11
 
 
  562 0074 00000000 		.word	.LANCHOR3
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 1
  616              	.L67:
  617              	.LBE34:
  618              	.LBE33:
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 12
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s 			page 12
 
 
  619              		.loc 1 169 0
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 1
  671 0014 A068     		ldr	r0, [r4, #8]
  672 0016 08B1     		cbz	r0, .L73
  673              		.loc 1 201 0
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 13
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s 			page 13
 
 
  674 0018 FFF7FEFF 		bl	chThdTerminate
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 1
  727 000e 2360     		str	r3, [r4, #0]
  728              	.L79:
  729              	.LVL48:
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 14
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s 			page 14
 
 
  730              		.loc 1 211 0
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 1
  784              		.p2align 4,,15
  785              		.global	test_cpu_pulse
  786              		.thumb
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 15
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s 			page 15
 
 
  787              		.thumb_func
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 1
  841              	.L97:
  842              		.loc 1 235 0 is_stmt 0
  843 0030 8842     		cmp	r0, r1
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 16
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s 			page 16
 
 
  844 0032 94BF     		ite	ls
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 1
  895              		.p2align 4,,15
  896              		.global	test_start_timer
  897              		.thumb
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 17
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s 			page 17
 
 
  898              		.thumb_func
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 1
  952              	.LVL68:
  953              		.thumb
  954              	.LBE36:
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 18
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s 			page 18
 
 
  955              		.loc 1 277 0
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 1
  1007 000e DFF830B2 		ldr	fp, .L123+144
  1008              	.LBB37:
  1009              	.LBB38:
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 19
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s 			page 19
 
 
  1010              	.LBB39:
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 1
  1064 006e FFF7FEFF 		bl	test_print
  1065              		.loc 1 337 0
  1066 0072 6048     		ldr	r0, .L123+68
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 20
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s 			page 20
 
 
  1067 0074 FFF7FEFF 		bl	test_println
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 1
  1121              		.loc 1 358 0
  1122 00ca 3046     		mov	r0, r6
  1123 00cc FFF7FEFF 		bl	test_printn
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 21
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s 			page 21
 
 
  1124              		.loc 1 359 0
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 1
  1178              		.loc 1 295 0
  1179 011c 9847     		blx	r3
  1180              	.L109:
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 22
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s 			page 22
 
 
  1181              		.loc 1 297 0
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 1
  1235 0166 B300     		lsls	r3, r6, #2
  1236 0168 0028     		cmp	r0, #0
  1237 016a A1D1     		bne	.L114
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 23
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s 			page 23
 
 
  1238              	.LVL91:
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 1
  1292 01d8 70000000 		.word	.LC8
  1293 01dc 84000000 		.word	.LC9
  1294 01e0 90000000 		.word	.LC10
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 24
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s 			page 24
 
 
  1295 01e4 A4000000 		.word	.LC11
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 1
  1345              	local_fail:
  1346 0000 00       		.space	1
  1347              		.section	.bss.test_timer_done,"aw",%nobits
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 25
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s 			page 25
 
 
  1348              		.set	.LANCHOR0,. + 0
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 1
  1393      3700
  1394 0042 0000     		.space	2
  1395              	.LC6:
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 26
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s 			page 26
 
 
  1396 0044 2A2A2A20 		.ascii	"*** Compiled:     \000"
@@ -1508,11 +1508,11 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 1
  1396      202000
  1397 0057 00       		.space	1
  1398              	.LC7:
- 1399 0058 41707220 		.ascii	"Apr  3 2015 - 17:48:54\000"
- 1399      20332032 
+ 1399 0058 4A756C20 		.ascii	"Jul  8 2015 - 13:14:14\000"
+ 1399      20382032 
  1399      30313520 
- 1399      2D203137 
- 1399      3A34383A 
+ 1399      2D203133 
+ 1399      3A31343A 
  1400 006f 00       		.space	1
  1401              	.LC8:
  1402 0070 2A2A2A20 		.ascii	"*** Compiler:     \000"
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 1
  1420      202000
  1421 00e3 00       		.space	1
  1422              	.LC15:
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 27
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s 			page 27
 
 
  1423 00e4 41647661 		.ascii	"Advanced kernel mode\000"
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 1
  1453 0197 00       		.space	1
  1454              	.LC26:
  1455 0198 5D2900   		.ascii	"])\000"
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 28
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s 			page 28
 
 
  1456 019b 00       		.space	1
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 1
  1493 001c 00000000 		.word	patternpools
  1494 0020 00000000 		.word	patterndyn
  1495 0024 00000000 		.word	patternqueues
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 29
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s 			page 29
 
 
  1496 0028 00000000 		.word	patternbmk
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 1
  1547 004b 14       		.sleb128 20
  1548 004c 04000000 		.4byte	.LCFI2
  1549 0050 84000000 		.4byte	.LFE118
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 30
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s 			page 30
 
 
  1550 0054 0200     		.2byte	0x2
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 1
  1604 00dc 00000000 		.4byte	0x0
  1605 00e0 00000000 		.4byte	0x0
  1606              	.LLST8:
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 31
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s 			page 31
 
 
  1607 00e4 00000000 		.4byte	.LVL11
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 1
  1661 017b 24000000 		.4byte	.LFE125
  1662 017f 0100     		.2byte	0x1
  1663 0181 51       		.byte	0x51
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 32
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s 			page 32
 
 
  1664 0182 00000000 		.4byte	0x0
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 1
  1718 0213 00000000 		.4byte	.LVL26
  1719 0217 14000000 		.4byte	.LVL27
  1720 021b 0600     		.2byte	0x6
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 33
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s 			page 33
 
 
  1721 021d 03       		.byte	0x3
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 1
  1775 02b1 03       		.byte	0x3
  1776 02b2 00000000 		.4byte	failpoint
  1777 02b6 1E000000 		.4byte	.LVL40
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 34
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s 			page 34
 
 
  1778 02ba 20000000 		.4byte	.LVL41
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 1
  1832 0345 34       		.byte	0x34
  1833 0346 9F       		.byte	0x9f
  1834 0347 00000000 		.4byte	0x0
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 35
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s 			page 35
 
 
  1835 034b 00000000 		.4byte	0x0
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 1
  1889 03cf 00000000 		.4byte	0x0
  1890              	.LLST30:
  1891 03d3 00000000 		.4byte	.LVL53
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 36
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s 			page 36
 
 
  1892 03d7 18000000 		.4byte	.LVL55
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 1
  1946 0462 00000000 		.4byte	0x0
  1947 0466 00000000 		.4byte	0x0
  1948              	.LLST36:
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 37
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s 			page 37
 
 
  1949 046a 32000000 		.4byte	.LVL68
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 1
  2003              	.LLST40:
  2004 04f7 A6000000 		.4byte	.LVL74
  2005 04fb B0000000 		.4byte	.LVL75
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 38
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s 			page 38
 
 
  2006 04ff 0200     		.2byte	0x2
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 1
  2060 0585 0200     		.2byte	0x2
  2061 0587 33       		.byte	0x33
  2062 0588 9F       		.byte	0x9f
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 39
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s 			page 39
 
 
  2063 0589 0C010000 		.4byte	.LVL82
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 1
  2117              		.file 16 "../../../Chibios/test/testmtx.h"
  2118              		.file 17 "../../../Chibios/test/testmsg.h"
  2119              		.file 18 "../../../Chibios/test/testmbox.h"
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 40
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s 			page 40
 
 
  2120              		.file 19 "../../../Chibios/test/testevt.h"
@@ -2398,7 +2398,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 1
  2174 0069 03       		.uleb128 0x3
  2175 006a 9D030000 		.4byte	.LASF7
  2176 006e 03       		.byte	0x3
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 41
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s 			page 41
 
 
  2177 006f 4F       		.byte	0x4f
@@ -2458,7 +2458,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 1
  2231 00de 04       		.byte	0x4
  2232 00df 2F       		.byte	0x2f
  2233 00e0 49000000 		.4byte	0x49
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 42
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s 			page 42
 
 
  2234 00e4 03       		.uleb128 0x3
@@ -2518,7 +2518,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 1
  2288 0150 08       		.uleb128 0x8
  2289 0151 06       		.uleb128 0x6
  2290 0152 23030000 		.4byte	.LASF28
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 43
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s 			page 43
 
 
  2291 0156 06       		.byte	0x6
@@ -2578,7 +2578,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 1
  2345 01b3 06       		.uleb128 0x6
  2346 01b4 EA030000 		.4byte	.LASF35
  2347 01b8 06       		.byte	0x6
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 44
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s 			page 44
 
 
  2348 01b9 88       		.byte	0x88
@@ -2638,7 +2638,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 1
  2402 0216 8A020000 		.4byte	.LASF41
  2403 021a 06       		.byte	0x6
  2404 021b D0       		.byte	0xd0
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 45
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s 			page 45
 
 
  2405 021c 2A050000 		.4byte	0x52a
@@ -2698,7 +2698,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 1
  2459 0279 6B       		.byte	0x6b
  2460 027a 8D020000 		.4byte	0x28d
  2461 027e 06       		.uleb128 0x6
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 46
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s 			page 46
 
 
  2462 027f 1B040000 		.4byte	.LASF25
@@ -2758,7 +2758,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 1
  2516 02e6 08       		.uleb128 0x8
  2517 02e7 0C       		.uleb128 0xc
  2518 02e8 723700   		.ascii	"r7\000"
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 47
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s 			page 47
 
 
  2519 02eb 07       		.byte	0x7
@@ -2818,7 +2818,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 1
  2573 034c 72313300 		.ascii	"r13\000"
  2574 0350 07       		.byte	0x7
  2575 0351 3201     		.2byte	0x132
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 48
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s 			page 48
 
 
  2576 0353 5B030000 		.4byte	0x35b
@@ -2878,7 +2878,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 1
  2630 03bc 02       		.byte	0x2
  2631 03bd 23       		.byte	0x23
  2632 03be 08       		.uleb128 0x8
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 49
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s 			page 49
 
 
  2633 03bf 06       		.uleb128 0x6
@@ -2938,7 +2938,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 1
  2687 041f 02       		.byte	0x2
  2688 0420 23       		.byte	0x23
  2689 0421 0C       		.uleb128 0xc
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 50
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s 			page 50
 
 
  2690 0422 00       		.byte	0x0
@@ -2998,7 +2998,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 1
  2744 0482 45030000 		.4byte	.LASF64
  2745 0486 09       		.byte	0x9
  2746 0487 69       		.byte	0x69
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 51
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s 			page 51
 
 
  2747 0488 65020000 		.4byte	0x265
@@ -3058,7 +3058,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 1
  2801 04eb 11       		.uleb128 0x11
  2802 04ec 16000000 		.4byte	.LASF70
  2803 04f0 06       		.byte	0x6
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 52
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s 			page 52
 
 
  2804 04f1 9D       		.byte	0x9d
@@ -3118,7 +3118,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 1
  2858 0563 02       		.byte	0x2
  2859 0564 23       		.byte	0x23
  2860 0565 00       		.uleb128 0x0
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 53
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s 			page 53
 
 
  2861 0566 06       		.uleb128 0x6
@@ -3178,7 +3178,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 1
  2915 05d5 00       		.byte	0x0
  2916 05d6 09       		.uleb128 0x9
  2917 05d7 04       		.byte	0x4
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 54
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s 			page 54
 
 
  2918 05d8 BC050000 		.4byte	0x5bc
@@ -3238,7 +3238,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 1
  2972 064a 0C       		.byte	0xc
  2973 064b 3C       		.byte	0x3c
  2974 064c 18050000 		.4byte	0x518
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 55
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s 			page 55
 
 
  2975 0650 02       		.byte	0x2
@@ -3298,7 +3298,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 1
  3029 06aa 07       		.uleb128 0x7
  3030 06ab 543200   		.ascii	"T2\000"
  3031 06ae 0C       		.byte	0xc
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 56
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s 			page 56
 
 
  3032 06af 47       		.byte	0x47
@@ -3358,7 +3358,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 1
  3086 0717 27070000 		.4byte	0x727
  3087 071b 1C       		.uleb128 0x1c
  3088 071c 1B020000 		.4byte	.LASF87
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 57
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s 			page 57
 
 
  3089 0720 01       		.byte	0x1
@@ -3418,7 +3418,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 1
  3143 078a F9010000 		.4byte	.LASF90
  3144 078e 01       		.byte	0x1
  3145 078f 87       		.byte	0x87
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 58
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s 			page 58
 
 
  3146 0790 01       		.byte	0x1
@@ -3478,7 +3478,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 1
  3200 0801 84000000 		.4byte	.LFE118
  3201 0805 34000000 		.4byte	.LLST2
  3202 0809 36080000 		.4byte	0x836
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 59
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s 			page 59
 
 
  3203 080d 28       		.uleb128 0x28
@@ -3538,7 +3538,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 1
  3257 0884 98080000 		.4byte	0x898
  3258 0888 2B       		.uleb128 0x2b
  3259 0889 A0020000 		.4byte	.LASF94
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 60
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s 			page 60
 
 
  3260 088d 01       		.byte	0x1
@@ -3598,7 +3598,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 1
  3314 0905 1B070000 		.4byte	0x71b
  3315 0909 1D010000 		.4byte	.LLST11
  3316 090d 00       		.byte	0x0
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 61
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s 			page 61
 
 
  3317 090e 30       		.uleb128 0x30
@@ -3658,7 +3658,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 1
  3371 0997 34       		.uleb128 0x34
  3372 0998 27070000 		.4byte	0x727
  3373 099c 50000000 		.4byte	.LBB27
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 62
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s 			page 62
 
 
  3374 09a0 52000000 		.4byte	.LBE27
@@ -3718,7 +3718,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 1
  3428 0a1e 42070000 		.4byte	0x742
  3429 0a22 9C020000 		.4byte	.LLST23
  3430 0a26 32       		.uleb128 0x32
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 63
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s 			page 63
 
 
  3431 0a27 09070000 		.4byte	0x709
@@ -3778,7 +3778,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 1
  3485 0aa4 E10A0000 		.4byte	0xae1
  3486 0aa8 2B       		.uleb128 0x2b
  3487 0aa9 DB010000 		.4byte	.LASF105
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 64
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s 			page 64
 
 
  3488 0aad 01       		.byte	0x1
@@ -3838,7 +3838,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 1
  3542 0b29 1201     		.2byte	0x112
  3543 0b2b 05010000 		.4byte	0x105
  3544 0b2f 2E       		.uleb128 0x2e
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 65
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s 			page 65
 
 
  3545 0b30 08000000 		.4byte	.LBB35
@@ -3898,7 +3898,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 1
  3599 0bbd 01       		.byte	0x1
  3600 0bbe 6D01     		.2byte	0x16d
  3601 0bc0 ED0B0000 		.4byte	0xbed
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 66
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s 			page 66
 
 
  3602 0bc4 31       		.uleb128 0x31
@@ -3958,7 +3958,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 1
  3656 0c3f 4A0C0000 		.4byte	0xc4a
  3657 0c43 15       		.uleb128 0x15
  3658 0c44 3B000000 		.4byte	0x3b
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 67
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s 			page 67
 
 
  3659 0c48 04       		.byte	0x4
@@ -4018,7 +4018,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 1
  3713 0cae 710C0000 		.4byte	0xc71
  3714 0cb2 42       		.uleb128 0x42
  3715 0cb3 DA020000 		.4byte	.LASF117
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 68
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s 			page 68
 
 
  3716 0cb7 11       		.byte	0x11
@@ -4078,7 +4078,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 1
  3770 0d23 17       		.byte	0x17
  3771 0d24 14       		.byte	0x14
  3772 0d25 2B0D0000 		.4byte	0xd2b
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 69
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s 			page 69
 
 
  3773 0d29 01       		.byte	0x1
@@ -4138,7 +4138,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 1
  3827 0d9b 3C       		.byte	0x3c
  3828 0d9c 3B000000 		.4byte	0x3b
  3829 0da0 05       		.byte	0x5
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 70
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s 			page 70
 
 
  3830 0da1 03       		.byte	0x3
@@ -4198,7 +4198,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 1
  3884 0e10 9806     		.2byte	0x698
  3885 0e12 24060000 		.4byte	0x624
  3886 0e16 01       		.byte	0x1
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 71
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s 			page 71
 
 
  3887 0e17 01       		.byte	0x1
@@ -4258,7 +4258,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 1
  3941 0e83 710C0000 		.4byte	0xc71
  3942 0e87 42       		.uleb128 0x42
  3943 0e88 57030000 		.4byte	.LASF115
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 72
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s 			page 72
 
 
  3944 0e8c 0F       		.byte	0xf
@@ -4318,7 +4318,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 1
  3998 0ef8 15       		.byte	0x15
  3999 0ef9 14       		.byte	0x14
  4000 0efa 000F0000 		.4byte	0xf00
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 73
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s 			page 73
 
 
  4001 0efe 01       		.byte	0x1
@@ -4378,7 +4378,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 1
  4055 0015 02       		.uleb128 0x2
  4056 0016 24       		.uleb128 0x24
  4057 0017 00       		.byte	0x0
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 74
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s 			page 74
 
 
  4058 0018 0B       		.uleb128 0xb
@@ -4438,7 +4438,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 1
  4112 004e 3B       		.uleb128 0x3b
  4113 004f 0B       		.uleb128 0xb
  4114 0050 49       		.uleb128 0x49
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 75
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s 			page 75
 
 
  4115 0051 13       		.uleb128 0x13
@@ -4498,7 +4498,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 1
  4169 0087 0B       		.uleb128 0xb
  4170 0088 0B       		.uleb128 0xb
  4171 0089 3A       		.uleb128 0x3a
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 76
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s 			page 76
 
 
  4172 008a 0B       		.uleb128 0xb
@@ -4558,7 +4558,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 1
  4226 00c0 01       		.uleb128 0x1
  4227 00c1 13       		.uleb128 0x13
  4228 00c2 00       		.byte	0x0
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 77
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s 			page 77
 
 
  4229 00c3 00       		.byte	0x0
@@ -4618,7 +4618,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 1
  4283 00f9 0C       		.uleb128 0xc
  4284 00fa 00       		.byte	0x0
  4285 00fb 00       		.byte	0x0
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 78
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s 			page 78
 
 
  4286 00fc 17       		.uleb128 0x17
@@ -4678,7 +4678,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 1
  4340 0132 0C       		.uleb128 0xc
  4341 0133 03       		.uleb128 0x3
  4342 0134 0E       		.uleb128 0xe
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 79
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s 			page 79
 
 
  4343 0135 3A       		.uleb128 0x3a
@@ -4738,7 +4738,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 1
  4397 016b 0B       		.uleb128 0xb
  4398 016c 01       		.uleb128 0x1
  4399 016d 13       		.uleb128 0x13
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 80
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s 			page 80
 
 
  4400 016e 00       		.byte	0x0
@@ -4798,7 +4798,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 1
  4454 01a4 49       		.uleb128 0x49
  4455 01a5 13       		.uleb128 0x13
  4456 01a6 00       		.byte	0x0
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 81
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s 			page 81
 
 
  4457 01a7 00       		.byte	0x0
@@ -4858,7 +4858,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 1
  4511 01dd 01       		.uleb128 0x1
  4512 01de 13       		.uleb128 0x13
  4513 01df 00       		.byte	0x0
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 82
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s 			page 82
 
 
  4514 01e0 00       		.byte	0x0
@@ -4918,7 +4918,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 1
  4568 0216 29       		.uleb128 0x29
  4569 0217 34       		.uleb128 0x34
  4570 0218 00       		.byte	0x0
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 83
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s 			page 83
 
 
  4571 0219 03       		.uleb128 0x3
@@ -4978,7 +4978,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 1
  4625 024f 0C       		.uleb128 0xc
  4626 0250 11       		.uleb128 0x11
  4627 0251 01       		.uleb128 0x1
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 84
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s 			page 84
 
 
  4628 0252 12       		.uleb128 0x12
@@ -5038,7 +5038,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 1
  4682 0288 00       		.byte	0x0
  4683 0289 00       		.byte	0x0
  4684 028a 31       		.uleb128 0x31
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 85
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s 			page 85
 
 
  4685 028b 05       		.uleb128 0x5
@@ -5098,7 +5098,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 1
  4739 02c1 01       		.uleb128 0x1
  4740 02c2 12       		.uleb128 0x12
  4741 02c3 01       		.uleb128 0x1
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 86
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s 			page 86
 
 
  4742 02c4 58       		.uleb128 0x58
@@ -5158,7 +5158,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 1
  4796 02fa 2E       		.uleb128 0x2e
  4797 02fb 00       		.byte	0x0
  4798 02fc 3F       		.uleb128 0x3f
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 87
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s 			page 87
 
 
  4799 02fd 0C       		.uleb128 0xc
@@ -5218,7 +5218,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 1
  4853 0333 06       		.uleb128 0x6
  4854 0334 00       		.byte	0x0
  4855 0335 00       		.byte	0x0
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 88
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s 			page 88
 
 
  4856 0336 3B       		.uleb128 0x3b
@@ -5278,7 +5278,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 1
  4910 036c 55       		.uleb128 0x55
  4911 036d 06       		.uleb128 0x6
  4912 036e 58       		.uleb128 0x58
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 89
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s 			page 89
 
 
  4913 036f 0B       		.uleb128 0xb
@@ -5338,7 +5338,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 1
  4967 03a5 0B       		.uleb128 0xb
  4968 03a6 49       		.uleb128 0x49
  4969 03a7 13       		.uleb128 0x13
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 90
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s 			page 90
 
 
  4970 03a8 3F       		.uleb128 0x3f
@@ -5398,7 +5398,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 1
  5024 03de 3F       		.uleb128 0x3f
  5025 03df 0C       		.uleb128 0xc
  5026 03e0 02       		.uleb128 0x2
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 91
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s 			page 91
 
 
  5027 03e1 0A       		.uleb128 0xa
@@ -5458,7 +5458,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 1
  5075      6E746C6E 
  5075      00
  5076 003e 98080000 		.4byte	0x898
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 92
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s 			page 92
 
 
  5077 0042 74657374 		.ascii	"test_emit_token\000"
@@ -5518,7 +5518,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 1
  5097 0119 54657374 		.ascii	"TestThread\000"
  5097      54687265 
  5097      616400
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 93
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s 			page 93
 
 
  5098 0124 180E0000 		.4byte	0xe18
@@ -5578,7 +5578,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 1
  5133 008d 74707269 		.ascii	"tprio_t\000"
  5133      6F5F7400 
  5134 0095 EF000000 		.4byte	0xef
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 94
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s 			page 94
 
 
  5135 0099 6D73675F 		.ascii	"msg_t\000"
@@ -5638,7 +5638,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 1
  5163 015a 52656164 		.ascii	"ReadyList\000"
  5163      794C6973 
  5163      7400
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 95
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s 			page 95
 
 
  5164 0164 9B040000 		.4byte	0x49b
@@ -5698,7 +5698,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 1
  5202 004c 24000000 		.4byte	.LFE125-.LFB125
  5203 0050 00000000 		.4byte	.LFB126
  5204 0054 80000000 		.4byte	.LFE126-.LFB126
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 96
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s 			page 96
 
 
  5205 0058 00000000 		.4byte	.LFB127
@@ -5758,7 +5758,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 1
  5259 0090 00000000 		.4byte	.LFB124
  5260 0094 20000000 		.4byte	.LFE124
  5261 0098 00000000 		.4byte	.LFB125
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 97
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s 			page 97
 
 
  5262 009c 24000000 		.4byte	.LFE125
@@ -5818,7 +5818,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 1
  5298              	.LASF88:
  5299 005f 636F6E64 		.ascii	"condition\000"
  5299      6974696F 
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 98
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s 			page 98
 
 
  5299      6E00
@@ -5878,7 +5878,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 1
  5326 010d 6D5F7175 		.ascii	"m_queue\000"
  5326      65756500 
  5327              	.LASF96:
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 99
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s 			page 99
 
 
  5328 0115 74657374 		.ascii	"test_emit_token\000"
@@ -5938,7 +5938,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 1
  5354 01b1 74657374 		.ascii	"test_start_timer\000"
  5354      5F737461 
  5354      72745F74 
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 100
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s 			page 100
 
 
  5354      696D6572 
@@ -5998,7 +5998,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 1
  5382 0245 56697274 		.ascii	"VirtualTimer\000"
  5382      75616C54 
  5382      696D6572 
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 101
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s 			page 101
 
 
  5382      00
@@ -6058,7 +6058,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 1
  5412 02da 70617474 		.ascii	"patternmsg\000"
  5412      65726E6D 
  5412      736700
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 102
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s 			page 102
 
 
  5413              	.LASF55:
@@ -6118,7 +6118,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 1
  5441              	.LASF97:
  5442 0372 746F6B65 		.ascii	"token\000"
  5442      6E00
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 103
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s 			page 103
 
 
  5443              	.LASF18:
@@ -6178,7 +6178,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 1
  5474 0404 74657374 		.ascii	"test_timer_done\000"
  5474      5F74696D 
  5474      65725F64 
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 104
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s 			page 104
 
 
  5474      6F6E6500 
@@ -6238,7 +6238,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 1
  5502      00
  5503              	.LASF114:
  5504 04a5 70617474 		.ascii	"patternthd\000"
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 105
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s 			page 105
 
 
  5504      65726E74 
@@ -6298,7 +6298,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 1
  5532      74657374 
  5532      00
  5533              	.LASF109:
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 106
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s 			page 106
 
 
  5534 0545 726C6973 		.ascii	"rlist\000"
@@ -6344,99 +6344,99 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 1
  5556      65726E6D 
  5556      626F7800 
  5557              		.ident	"GCC: (Sourcery G++ Lite 2011.03-42) 4.5.2"
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 107
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s 			page 107
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 test.c
-C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s:24     .text.tmr:00000000 $t
-C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s:29     .text.tmr:00000000 tmr
-C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s:47     .text.tmr:00000008 $d
-C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s:52     .text.print_line:00000000 $t
-C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s:57     .text.print_line:00000000 print_line
-C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s:104    .text.print_line:00000030 $d
-C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s:110    .text.test_printn:00000000 $t
-C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s:116    .text.test_printn:00000000 test_printn
-C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s:211    .text.test_printn:0000007c $d
-C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s:217    .text.test_print:00000000 $t
-C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s:223    .text.test_print:00000000 test_print
-C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s:258    .text.test_print:0000001c $d
-C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s:263    .text.test_println:00000000 $t
-C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s:269    .text.test_println:00000000 test_println
-C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s:297    .text.test_println:00000018 $d
-C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s:303    .text.test_emit_token:00000000 $t
-C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s:309    .text.test_emit_token:00000000 test_emit_token
-C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s:351    .text.test_emit_token:00000018 $d
-C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s:356    .text._test_fail:00000000 $t
-C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s:362    .text._test_fail:00000000 _test_fail
-C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s:389    .text._test_fail:00000014 $d
-C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s:396    .text._test_assert:00000000 $t
-C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s:402    .text._test_assert:00000000 _test_assert
-C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s:445    .text._test_assert:00000018 $d
-C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s:452    .text._test_assert_sequence:00000000 $t
-C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s:458    .text._test_assert_sequence:00000000 _test_assert_sequence
-C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s:560    .text._test_assert_sequence:0000006c $d
-C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s:569    .text._test_assert_time_window:00000000 $t
-C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s:575    .text._test_assert_time_window:00000000 _test_assert_time_window
-C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s:629    .text._test_assert_time_window:00000024 $d
-C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s:637    .text.test_terminate_threads:00000000 $t
-C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s:643    .text.test_terminate_threads:00000000 test_terminate_threads
-C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s:696    .text.test_terminate_threads:00000034 $d
-C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s:701    .text.test_wait_threads:00000000 $t
-C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s:707    .text.test_wait_threads:00000000 test_wait_threads
-C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s:778    .text.test_wait_threads:0000004c $d
-C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s:783    .text.test_cpu_pulse:00000000 $t
-C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s:789    .text.test_cpu_pulse:00000000 test_cpu_pulse
-C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s:855    .text.test_cpu_pulse:00000040 $d
-C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s:861    .text.test_wait_tick:00000000 $t
-C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s:867    .text.test_wait_tick:00000000 test_wait_tick
-C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s:889    .text.test_wait_tick:00000010 $d
-C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s:894    .text.test_start_timer:00000000 $t
-C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s:900    .text.test_start_timer:00000000 test_start_timer
-C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s:960    .text.test_start_timer:00000034 $d
-C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s:968    .text.TestThread:00000000 $t
-C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s:974    .text.TestThread:00000000 TestThread
-C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s:1282   .text.TestThread:000001b0 $d
-C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s:1357   .rodata.wa:00000000 wa
-C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s:1478   .bss.threads:00000000 threads
-C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s:1332   .bss.test:00000000 test
-C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s:1351   .bss.test_timer_done:00000000 test_timer_done
-C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s:1329   .bss.test:00000000 $d
-C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s:1335   .bss.failpoint:00000000 $d
-C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s:1339   .bss.failpoint:00000000 failpoint
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s 			page 108
+C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s:24     .text.tmr:00000000 $t
+C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s:29     .text.tmr:00000000 tmr
+C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s:47     .text.tmr:00000008 $d
+C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s:52     .text.print_line:00000000 $t
+C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s:57     .text.print_line:00000000 print_line
+C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s:104    .text.print_line:00000030 $d
+C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s:110    .text.test_printn:00000000 $t
+C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s:116    .text.test_printn:00000000 test_printn
+C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s:211    .text.test_printn:0000007c $d
+C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s:217    .text.test_print:00000000 $t
+C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s:223    .text.test_print:00000000 test_print
+C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s:258    .text.test_print:0000001c $d
+C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s:263    .text.test_println:00000000 $t
+C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s:269    .text.test_println:00000000 test_println
+C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s:297    .text.test_println:00000018 $d
+C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s:303    .text.test_emit_token:00000000 $t
+C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s:309    .text.test_emit_token:00000000 test_emit_token
+C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s:351    .text.test_emit_token:00000018 $d
+C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s:356    .text._test_fail:00000000 $t
+C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s:362    .text._test_fail:00000000 _test_fail
+C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s:389    .text._test_fail:00000014 $d
+C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s:396    .text._test_assert:00000000 $t
+C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s:402    .text._test_assert:00000000 _test_assert
+C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s:445    .text._test_assert:00000018 $d
+C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s:452    .text._test_assert_sequence:00000000 $t
+C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s:458    .text._test_assert_sequence:00000000 _test_assert_sequence
+C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s:560    .text._test_assert_sequence:0000006c $d
+C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s:569    .text._test_assert_time_window:00000000 $t
+C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s:575    .text._test_assert_time_window:00000000 _test_assert_time_window
+C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s:629    .text._test_assert_time_window:00000024 $d
+C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s:637    .text.test_terminate_threads:00000000 $t
+C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s:643    .text.test_terminate_threads:00000000 test_terminate_threads
+C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s:696    .text.test_terminate_threads:00000034 $d
+C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s:701    .text.test_wait_threads:00000000 $t
+C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s:707    .text.test_wait_threads:00000000 test_wait_threads
+C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s:778    .text.test_wait_threads:0000004c $d
+C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s:783    .text.test_cpu_pulse:00000000 $t
+C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s:789    .text.test_cpu_pulse:00000000 test_cpu_pulse
+C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s:855    .text.test_cpu_pulse:00000040 $d
+C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s:861    .text.test_wait_tick:00000000 $t
+C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s:867    .text.test_wait_tick:00000000 test_wait_tick
+C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s:889    .text.test_wait_tick:00000010 $d
+C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s:894    .text.test_start_timer:00000000 $t
+C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s:900    .text.test_start_timer:00000000 test_start_timer
+C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s:960    .text.test_start_timer:00000034 $d
+C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s:968    .text.TestThread:00000000 $t
+C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s:974    .text.TestThread:00000000 TestThread
+C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s:1282   .text.TestThread:000001b0 $d
+C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s:1357   .rodata.wa:00000000 wa
+C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s:1478   .bss.threads:00000000 threads
+C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s:1332   .bss.test:00000000 test
+C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s:1351   .bss.test_timer_done:00000000 test_timer_done
+C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s:1329   .bss.test:00000000 $d
+C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s:1335   .bss.failpoint:00000000 $d
+C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s:1339   .bss.failpoint:00000000 failpoint
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s 			page 108
 
 
-C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s:1345   .bss.local_fail:00000000 local_fail
-C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s:1346   .bss.local_fail:00000000 $d
-C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s:1352   .bss.test_timer_done:00000000 $d
-C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s:1354   .rodata.wa:00000000 $d
-C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s:1364   .bss.tokp:00000000 $d
-C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s:1368   .bss.tokp:00000000 tokp
-C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s:1374   .bss.global_fail:00000000 global_fail
-C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s:1375   .bss.global_fail:00000000 $d
-C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s:1377   .rodata.str1.4:00000000 $d
-C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s:1467   .bss.vt:00000000 $d
-C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s:1471   .bss.vt:00000000 vt
-C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s:1474   .bss.threads:00000000 $d
-C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s:1481   .rodata.patterns:00000000 $d
-C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s:1485   .rodata.patterns:00000000 patterns
-C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s:1499   .bss.chp:00000000 $d
-C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s:1503   .bss.chp:00000000 chp
-C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s:1506   .bss.tokens_buffer:00000000 $d
-C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s:1510   .bss.tokens_buffer:00000000 tokens_buffer
+C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s:1345   .bss.local_fail:00000000 local_fail
+C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s:1346   .bss.local_fail:00000000 $d
+C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s:1352   .bss.test_timer_done:00000000 $d
+C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s:1354   .rodata.wa:00000000 $d
+C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s:1364   .bss.tokp:00000000 $d
+C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s:1368   .bss.tokp:00000000 tokp
+C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s:1374   .bss.global_fail:00000000 global_fail
+C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s:1375   .bss.global_fail:00000000 $d
+C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s:1377   .rodata.str1.4:00000000 $d
+C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s:1467   .bss.vt:00000000 $d
+C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s:1471   .bss.vt:00000000 vt
+C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s:1474   .bss.threads:00000000 $d
+C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s:1481   .rodata.patterns:00000000 $d
+C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s:1485   .rodata.patterns:00000000 patterns
+C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s:1499   .bss.chp:00000000 $d
+C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s:1503   .bss.chp:00000000 chp
+C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s:1506   .bss.tokens_buffer:00000000 $d
+C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s:1510   .bss.tokens_buffer:00000000 tokens_buffer
                      .debug_frame:00000010 $d
-C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s:51     .text.tmr:0000000c $t
-C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s:109    .text.print_line:00000038 $t
-C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s:216    .text.test_printn:00000084 $t
-C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s:355    .text.test_emit_token:0000001c $t
-C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s:451    .text._test_assert:00000024 $t
-C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s:636    .text._test_assert_time_window:00000034 $t
-C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s:700    .text.test_terminate_threads:00000038 $t
-C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s:860    .text.test_cpu_pulse:00000048 $t
-C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s:893    .text.test_wait_tick:00000014 $t
-C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s:967    .text.test_start_timer:00000044 $t
-C:\Users\DNIEL~1\AppData\Local\Temp\ccL8TXWP.s:1328   .text.TestThread:0000024c $t
+C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s:51     .text.tmr:0000000c $t
+C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s:109    .text.print_line:00000038 $t
+C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s:216    .text.test_printn:00000084 $t
+C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s:355    .text.test_emit_token:0000001c $t
+C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s:451    .text._test_assert:00000024 $t
+C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s:636    .text._test_assert_time_window:00000034 $t
+C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s:700    .text.test_terminate_threads:00000038 $t
+C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s:860    .text.test_cpu_pulse:00000048 $t
+C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s:893    .text.test_wait_tick:00000014 $t
+C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s:967    .text.test_start_timer:00000044 $t
+C:\Users\DNIEL~1\AppData\Local\Temp\ccIFJYZe.s:1328   .text.TestThread:0000024c $t
 
 UNDEFINED SYMBOLS
 vtlist

@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccwPiY81.s 			page 1
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccy1xIFg.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccwPiY81.s 			page 1
   51 000e 1861     		str	r0, [r3, #16]
   52 0010 1A61     		str	r2, [r3, #16]
   53              		.loc 1 116 0
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccwPiY81.s 			page 2
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccy1xIFg.s 			page 2
 
 
   54 0012 5F69     		ldr	r7, [r3, #20]
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccwPiY81.s 			page 1
  108 0052 40F48071 		orr	r1, r0, #256
  109 0056 2160     		str	r1, [r4, #0]
  110              		.loc 1 57 0
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccwPiY81.s 			page 3
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccy1xIFg.s 			page 3
 
 
  111 0058 186F     		ldr	r0, [r3, #112]
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccwPiY81.s 			page 1
  163 0004 4FF08050 		mov	r0, #268435456
  164              		.loc 1 162 0
  165 0008 4FF44042 		mov	r2, #49152
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccwPiY81.s 			page 4
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccy1xIFg.s 			page 4
 
 
  166              		.loc 1 158 0
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccwPiY81.s 			page 1
  220 0062 13F0020F 		tst	r3, #2
  221 0066 FAD0     		beq	.L10
  222              		.loc 1 207 0
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccwPiY81.s 			page 5
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccy1xIFg.s 			page 5
 
 
  223 0068 1A48     		ldr	r0, .L22+8
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccwPiY81.s 			page 1
  277              	.L23:
  278              		.align	2
  279              	.L22:
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccwPiY81.s 			page 6
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccy1xIFg.s 			page 6
 
 
  280 00cc 00380240 		.word	1073887232
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccwPiY81.s 			page 1
  334 003e 03       		.uleb128 0x3
  335 003f 01       		.byte	0x1
  336 0040 08       		.byte	0x8
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccwPiY81.s 			page 7
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccy1xIFg.s 			page 7
 
 
  337 0041 55010000 		.4byte	.LASF2
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccwPiY81.s 			page 1
  391 00aa 23       		.byte	0x23
  392 00ab 00       		.uleb128 0x0
  393 00ac 07       		.uleb128 0x7
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccwPiY81.s 			page 8
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccy1xIFg.s 			page 8
 
 
  394 00ad B3000000 		.4byte	.LASF13
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccwPiY81.s 			page 1
  448 0111 91000000 		.4byte	0x91
  449 0115 02       		.byte	0x2
  450 0116 23       		.byte	0x23
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccwPiY81.s 			page 9
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccy1xIFg.s 			page 9
 
 
  451 0117 08       		.uleb128 0x8
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccwPiY81.s 			page 1
  505 017d 65000000 		.4byte	0x65
  506 0181 8C010000 		.4byte	0x18c
  507 0185 0D       		.uleb128 0xd
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccwPiY81.s 			page 10
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccy1xIFg.s 			page 10
 
 
  508 0186 30000000 		.4byte	0x30
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccwPiY81.s 			page 1
  562 01ed 41435200 		.ascii	"ACR\000"
  563 01f1 05       		.byte	0x5
  564 01f2 4003     		.2byte	0x340
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccwPiY81.s 			page 11
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccy1xIFg.s 			page 11
 
 
  565 01f4 8C000000 		.4byte	0x8c
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccwPiY81.s 			page 1
  619 0255 98020000 		.4byte	.LASF34
  620 0259 05       		.byte	0x5
  621 025a 4703     		.2byte	0x347
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccwPiY81.s 			page 12
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccy1xIFg.s 			page 12
 
 
  622 025c E3010000 		.4byte	0x1e3
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccwPiY81.s 			page 1
  676 02c5 02       		.byte	0x2
  677 02c6 23       		.byte	0x23
  678 02c7 08       		.uleb128 0x8
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccwPiY81.s 			page 13
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccy1xIFg.s 			page 13
 
 
  679 02c8 0E       		.uleb128 0xe
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccwPiY81.s 			page 1
  733 032f 23       		.byte	0x23
  734 0330 24       		.uleb128 0x24
  735 0331 09       		.uleb128 0x9
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccwPiY81.s 			page 14
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccy1xIFg.s 			page 14
 
 
  736 0332 35020000 		.4byte	.LASF44
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccwPiY81.s 			page 1
  790 0399 44       		.uleb128 0x44
  791 039a 09       		.uleb128 0x9
  792 039b 49020000 		.4byte	.LASF51
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccwPiY81.s 			page 15
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccy1xIFg.s 			page 15
 
 
  793 039f 05       		.byte	0x5
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccwPiY81.s 			page 1
  847 0403 09       		.uleb128 0x9
  848 0404 5D020000 		.4byte	.LASF58
  849 0408 05       		.byte	0x5
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccwPiY81.s 			page 16
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccy1xIFg.s 			page 16
 
 
  850 0409 7204     		.2byte	0x472
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccwPiY81.s 			page 1
  904 0470 DA000000 		.4byte	.LASF64
  905 0474 05       		.byte	0x5
  906 0475 7904     		.2byte	0x479
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccwPiY81.s 			page 17
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccy1xIFg.s 			page 17
 
 
  907 0477 8C000000 		.4byte	0x8c
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccwPiY81.s 			page 1
  961 04e6 9806     		.2byte	0x698
  962 04e8 DE010000 		.4byte	0x1de
  963 04ec 01       		.byte	0x1
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccwPiY81.s 			page 18
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccy1xIFg.s 			page 18
 
 
  964 04ed 01       		.byte	0x1
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccwPiY81.s 			page 1
  1018 0033 0B       		.uleb128 0xb
  1019 0034 49       		.uleb128 0x49
  1020 0035 13       		.uleb128 0x13
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccwPiY81.s 			page 19
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccy1xIFg.s 			page 19
 
 
  1021 0036 00       		.byte	0x0
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccwPiY81.s 			page 1
  1075 006c 0E       		.uleb128 0xe
  1076 006d 3A       		.uleb128 0x3a
  1077 006e 0B       		.uleb128 0xb
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccwPiY81.s 			page 20
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccy1xIFg.s 			page 20
 
 
  1078 006f 3B       		.uleb128 0x3b
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccwPiY81.s 			page 1
  1132 00a5 05       		.uleb128 0x5
  1133 00a6 49       		.uleb128 0x49
  1134 00a7 13       		.uleb128 0x13
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccwPiY81.s 			page 21
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccy1xIFg.s 			page 21
 
 
  1135 00a8 38       		.uleb128 0x38
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccwPiY81.s 			page 1
  1189 00de 0B       		.uleb128 0xb
  1190 00df 00       		.byte	0x0
  1191 00e0 00       		.byte	0x0
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccwPiY81.s 			page 22
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccy1xIFg.s 			page 22
 
 
  1192 00e1 12       		.uleb128 0x12
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccwPiY81.s 			page 1
  1239      00
  1240 0034 00000000 		.4byte	0x0
  1241              		.section	.debug_pubtypes,"",%progbits
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccwPiY81.s 			page 23
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccy1xIFg.s 			page 23
 
 
  1242 0000 82000000 		.4byte	0x82
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccwPiY81.s 			page 1
  1281 0008 50000000 		.4byte	.LBB7
  1282 000c 76000000 		.4byte	.LBE7
  1283 0010 00000000 		.4byte	0x0
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccwPiY81.s 			page 24
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccy1xIFg.s 			page 24
 
 
  1284 0014 00000000 		.4byte	0x0
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccwPiY81.s 			page 1
  1318 0090 4354524C 		.ascii	"CTRL\000"
  1318      00
  1319              	.LASF54:
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccwPiY81.s 			page 25
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccy1xIFg.s 			page 25
 
 
  1320 0095 41484233 		.ascii	"AHB3LPENR\000"
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccwPiY81.s 			page 1
  1350      44656600 
  1351              	.LASF43:
  1352 0128 41504232 		.ascii	"APB2RSTR\000"
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccwPiY81.s 			page 26
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccy1xIFg.s 			page 26
 
 
  1352      52535452 
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccwPiY81.s 			page 1
  1377              	.LASF71:
  1378 01bf 68616C5F 		.ascii	"hal_lld_init\000"
  1378      6C6C645F 
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccwPiY81.s 			page 27
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccy1xIFg.s 			page 27
 
 
  1378      696E6974 
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccwPiY81.s 			page 1
  1406      3300
  1407              	.LASF55:
  1408 0253 52455345 		.ascii	"RESERVED4\000"
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccwPiY81.s 			page 28
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccy1xIFg.s 			page 28
 
 
  1408      52564544 
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccwPiY81.s 			page 1
  1433      5200
  1434              	.LASF32:
  1435 02fe 4F505443 		.ascii	"OPTCR\000"
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccwPiY81.s 			page 29
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccy1xIFg.s 			page 29
 
 
  1435      5200
@@ -1690,20 +1690,20 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccwPiY81.s 			page 1
  1439 0310 464F4C44 		.ascii	"FOLDCNT\000"
  1439      434E5400 
  1440              		.ident	"GCC: (Sourcery G++ Lite 2011.03-42) 4.5.2"
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccwPiY81.s 			page 30
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccy1xIFg.s 			page 30
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 hal_lld.c
-C:\Users\DNIEL~1\AppData\Local\Temp\ccwPiY81.s:24     .text.hal_lld_init:00000000 $t
-C:\Users\DNIEL~1\AppData\Local\Temp\ccwPiY81.s:30     .text.hal_lld_init:00000000 hal_lld_init
-C:\Users\DNIEL~1\AppData\Local\Temp\ccwPiY81.s:135    .text.hal_lld_init:0000007c $d
-C:\Users\DNIEL~1\AppData\Local\Temp\ccwPiY81.s:145    .text.stm32_clock_init:00000000 $t
-C:\Users\DNIEL~1\AppData\Local\Temp\ccwPiY81.s:151    .text.stm32_clock_init:00000000 stm32_clock_init
-C:\Users\DNIEL~1\AppData\Local\Temp\ccwPiY81.s:280    .text.stm32_clock_init:000000cc $d
+C:\Users\DNIEL~1\AppData\Local\Temp\ccy1xIFg.s:24     .text.hal_lld_init:00000000 $t
+C:\Users\DNIEL~1\AppData\Local\Temp\ccy1xIFg.s:30     .text.hal_lld_init:00000000 hal_lld_init
+C:\Users\DNIEL~1\AppData\Local\Temp\ccy1xIFg.s:135    .text.hal_lld_init:0000007c $d
+C:\Users\DNIEL~1\AppData\Local\Temp\ccy1xIFg.s:145    .text.stm32_clock_init:00000000 $t
+C:\Users\DNIEL~1\AppData\Local\Temp\ccy1xIFg.s:151    .text.stm32_clock_init:00000000 stm32_clock_init
+C:\Users\DNIEL~1\AppData\Local\Temp\ccy1xIFg.s:280    .text.stm32_clock_init:000000cc $d
                      .debug_frame:00000010 $d
-C:\Users\DNIEL~1\AppData\Local\Temp\ccwPiY81.s:144    .text.hal_lld_init:00000094 $t
-C:\Users\DNIEL~1\AppData\Local\Temp\ccwPiY81.s:287    .text.stm32_clock_init:000000dc $t
+C:\Users\DNIEL~1\AppData\Local\Temp\ccy1xIFg.s:144    .text.hal_lld_init:00000094 $t
+C:\Users\DNIEL~1\AppData\Local\Temp\ccy1xIFg.s:287    .text.stm32_clock_init:000000dc $t
 
 UNDEFINED SYMBOLS
 dmaInit

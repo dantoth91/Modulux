@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 1
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 1
   51              		.cfi_offset 1, -12
   52 0008 53F8041B 		ldr	r1, [r3], #4
   53              		.loc 1 73 0
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 2
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s 			page 2
 
 
   54 000c 1A46     		mov	r2, r3
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 1
  108              		.loc 2 42 0
  109 0012 00E0     		b	.L3
  110              	.LVL8:
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 3
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s 			page 3
 
 
  111              	.L4:
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 1
  165 000a 00BF     		.align	2
  166              	.L9:
  167 000c 00100240 		.word	1073876992
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 4
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s 			page 4
 
 
  168              		.cfi_endproc
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 1
  222              	.LVL12:
  223              		.loc 2 27 0
  224 0008 0549     		ldr	r1, .L18
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 5
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s 			page 5
 
 
  225 000a 4FF40030 		mov	r0, #131072
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 1
  277              		.thumb_func
  278              		.type	OneWire_ReadBit, %function
  279              	OneWire_ReadBit:
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 6
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s 			page 6
 
 
  280              	.LFB124:
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 1
  334              		.cfi_startproc
  335              		@ args = 0, pretend = 0, frame = 0
  336              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 7
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s 			page 7
 
 
  337              	.LVL17:
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 1
  389              		@ frame_needed = 0, uses_anonymous_args = 0
  390              	.LVL19:
  391 0000 0146     		mov	r1, r0
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 8
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s 			page 8
 
 
  392              	.LVL20:
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 1
  446              		.size	OneWire_WriteByte, .-OneWire_WriteByte
  447 0052 00BFAFF3 		.section	.text.OneWire_ReadByte,"ax",%progbits
  447      0080AFF3 
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 9
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s 			page 9
 
 
  447      0080AFF3 
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 1
  500 002e 10B1     		cbz	r0, .L35
  501              		.loc 2 94 0
  502 0030 64F07F01 		orn	r1, r4, #127
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 10
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s 			page 10
 
 
  503 0034 CCB2     		uxtb	r4, r1
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 1
  556      0080AFF3 
  556      0080
  557              		.align	2
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 11
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s 			page 11
 
 
  558              		.p2align 4,,15
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 1
  612              	.LFE128:
  613              		.size	OneWire_Reset, .-OneWire_Reset
  614 003c AFF30080 		.section	.text.DS18B20_Init,"ax",%progbits
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 12
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s 			page 12
 
 
  615              		.align	2
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 1
  669              		.cfi_offset 14, -4
  670              		.cfi_offset 6, -8
  671              		.cfi_offset 5, -12
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 13
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s 			page 13
 
 
  672              		.cfi_offset 4, -16
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 1
  726 0058 FFF7FEFF 		bl	OneWire_WriteByte
  727 005c F6E7     		b	.L52
  728              	.L55:
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 14
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s 			page 14
 
 
  729 005e 00BF     		.align	2
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 1
  781              		.loc 2 149 0
  782 0020 05B9     		cbnz	r5, .L59
  783              		.loc 2 149 0 is_stmt 0 discriminator 1
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 15
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s 			page 15
 
 
  784 0022 70B3     		cbz	r0, .L61
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 1
  838 007a E879     		ldrb	r0, [r5, #7]	@ zero_extendqisi2
  839 007c FFF7FEFF 		bl	OneWire_WriteByte
  840              	.LVL74:
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 16
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s 			page 16
 
 
  841 0080 C6E7     		b	.L58
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 1
  895              		.loc 2 222 0
  896 0010 3846     		mov	r0, r7
  897 0012 BDE8F087 		pop	{r4, r5, r6, r7, r8, r9, sl, pc}
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 17
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s 			page 17
 
 
  898              	.LVL81:
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 1
  952              	.L72:
  953              		.loc 2 197 0
  954 0066 B8F1000F 		cmp	r8, #0
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 18
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s 			page 18
 
 
  955 006a 40F0CF81 		bne	.L135
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 1
  1009              	.L84:
  1010              		.loc 2 197 0
  1011 00c6 B8F1000F 		cmp	r8, #0
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 19
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s 			page 19
 
 
  1012 00ca 40F09F81 		bne	.L135
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 1
  1066              	.L96:
  1067              		.loc 2 197 0
  1068 0126 B8F1000F 		cmp	r8, #0
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 20
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s 			page 20
 
 
  1069 012a 40F06F81 		bne	.L135
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 1
  1123              	.L109:
  1124              	.LVL123:
  1125              		.loc 2 211 0
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 21
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s 			page 21
 
 
  1126 0186 0020     		movs	r0, #0
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 1
  1180 01e8 62F07F01 		orn	r1, r2, #127
  1181 01ec 05F8011C 		strb	r1, [r5, #-1]
  1182              		.loc 2 194 0
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 22
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s 			page 22
 
 
  1183 01f0 FFF7FEFF 		bl	OneWire_ReadBit
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 1
  1237              	.LVL140:
  1238 0250 0028     		cmp	r0, #0
  1239 0252 7FF420AF 		bne	.L78
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 23
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s 			page 23
 
 
  1240              	.LVL141:
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 1
  1294 02bc 3FF407AF 		beq	.L89
  1295              	.L124:
  1296              		.loc 2 215 0
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 24
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s 			page 24
 
 
  1297 02c0 5746     		mov	r7, sl
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 1
  1351 031e 5A08     		lsrs	r2, r3, #1
  1352              		.loc 2 214 0
  1353 0320 62F07F08 		orn	r8, r2, #127
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 25
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s 			page 25
 
 
  1354              	.LVL154:
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 1
  1408              	.LVL162:
  1409 0388 0028     		cmp	r0, #0
  1410 038a 7FF4E4AE 		bne	.L102
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 26
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s 			page 26
 
 
  1411              	.LVL163:
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 1
  1465              		.loc 2 204 0
  1466 03f0 4F46     		mov	r7, r9
  1467              		.loc 2 206 0 is_stmt 1
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 27
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s 			page 27
 
 
  1468 03f2 4FF00108 		mov	r8, #1
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 1
  1520              		.cfi_endproc
  1521              	.LFE133:
  1522              		.size	OneWire_FindROM, .-OneWire_FindROM
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 28
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s 			page 28
 
 
  1523 000e 00BF     		.section	.text.DS18B20_GetROM,"ax",%progbits
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 1
  1577              	.L160:
  1578              		.align	2
  1579              	.L159:
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 29
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s 			page 29
 
 
  1580 0044 00000000 		.word	.LANCHOR1
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 1
  1634 002c 9DF82FB0 		ldrb	fp, [sp, #47]	@ zero_extendqisi2
  1635 0030 9DF83090 		ldrb	r9, [sp, #48]	@ zero_extendqisi2
  1636 0034 94F80080 		ldrb	r8, [r4, #0]	@ zero_extendqisi2
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 30
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s 			page 30
 
 
  1637 0038 94F800C0 		ldrb	ip, [r4, #0]	@ zero_extendqisi2
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 1
  1691              	.LVL189:
  1692 00ca 80F80580 		strb	r8, [r0, #5]
  1693              	.LVL190:
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 31
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s 			page 31
 
 
  1694 00ce 81F80690 		strb	r9, [r1, #6]
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 1
  1748              		.loc 2 270 0
  1749 0002 2F49     		ldr	r1, .L175
  1750              	.LVL195:
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 32
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s 			page 32
 
 
  1751              		.loc 2 274 0
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 1
  1805 0050 2149     		ldr	r1, .L175+24
  1806 0052 2046     		mov	r0, r4
  1807 0054 FFF7FEFF 		bl	chprintf
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 33
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s 			page 33
 
 
  1808              	.LVL201:
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 1
  1862 00bc B2D0     		beq	.L172
  1863              	.L174:
  1864              		.loc 2 286 0
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 34
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s 			page 34
 
 
  1865 00be F8BD     		pop	{r3, r4, r5, r6, r7, pc}
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 1
  1911      00000000 
  1911      00000000 
  1911      00000000 
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 35
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s 			page 35
 
 
  1911      00000000 
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 1
  1965 007a 00000000 		.4byte	0x0
  1966              	.LLST4:
  1967 007e 08000000 		.4byte	.LVL4
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 36
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s 			page 36
 
 
  1968 0082 0A000000 		.4byte	.LVL5
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 1
  2022 010d 9F       		.byte	0x9f
  2023 010e 1E000000 		.4byte	.LVL16
  2024 0112 30000000 		.4byte	.LFE124
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 37
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s 			page 37
 
 
  2025 0116 0700     		.2byte	0x7
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 1
  2079 0197 50       		.byte	0x50
  2080 0198 08000000 		.4byte	.LVL21
  2081 019c 0F000000 		.4byte	.LVL22-1
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 38
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s 			page 38
 
 
  2082 01a0 0100     		.2byte	0x1
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 1
  2136 0228 0200     		.2byte	0x2
  2137 022a 33       		.byte	0x33
  2138 022b 9F       		.byte	0x9f
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 39
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s 			page 39
 
 
  2139 022c 2C000000 		.4byte	.LVL25
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 1
  2193 02b8 0100     		.2byte	0x1
  2194 02ba 54       		.byte	0x54
  2195 02bb 36000000 		.4byte	.LVL37
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 40
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s 			page 40
 
 
  2196 02bf 38000000 		.4byte	.LVL38
@@ -2398,7 +2398,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 1
  2250 034e 38000000 		.4byte	.LVL38
  2251 0352 0200     		.2byte	0x2
  2252 0354 33       		.byte	0x33
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 41
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s 			page 41
 
 
  2253 0355 9F       		.byte	0x9f
@@ -2458,7 +2458,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 1
  2307 03d9 00       		.sleb128 0
  2308 03da 02000000 		.4byte	.LCFI11
  2309 03de 64000000 		.4byte	.LFE131
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 42
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s 			page 42
 
 
  2310 03e2 0200     		.2byte	0x2
@@ -2518,7 +2518,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 1
  2364 0465 00000000 		.4byte	0x0
  2365              	.LLST24:
  2366 0469 00000000 		.4byte	.LFB130
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 43
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s 			page 43
 
 
  2367 046d 02000000 		.4byte	.LCFI12
@@ -2578,7 +2578,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 1
  2421 04fd 50       		.byte	0x50
  2422 04fe 38000000 		.4byte	.LVL64
  2423 0502 40000000 		.4byte	.LVL65
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 44
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s 			page 44
 
 
  2424 0506 0100     		.2byte	0x1
@@ -2638,7 +2638,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 1
  2478 058b 38       		.byte	0x38
  2479 058c 9F       		.byte	0x9f
  2480 058d 00000000 		.4byte	0x0
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 45
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s 			page 45
 
 
  2481 0591 00000000 		.4byte	0x0
@@ -2698,7 +2698,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 1
  2535 061a 66000000 		.4byte	.LVL92
  2536 061e 0100     		.2byte	0x1
  2537 0620 5A       		.byte	0x5a
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 46
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s 			page 46
 
 
  2538 0621 8A000000 		.4byte	.LVL94
@@ -2758,7 +2758,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 1
  2592 06b1 0100     		.2byte	0x1
  2593 06b3 5A       		.byte	0x5a
  2594 06b4 30030000 		.4byte	.LVL155
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 47
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s 			page 47
 
 
  2595 06b8 40030000 		.4byte	.LVL158
@@ -2818,7 +2818,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 1
  2649 073d 4A020000 		.4byte	.LVL138
  2650 0741 56020000 		.4byte	.LVL141
  2651 0745 0200     		.2byte	0x2
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 48
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s 			page 48
 
 
  2652 0747 36       		.byte	0x36
@@ -2878,7 +2878,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 1
  2706 07d0 96000000 		.4byte	.LVL97
  2707 07d4 0100     		.2byte	0x1
  2708 07d6 58       		.byte	0x58
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 49
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s 			page 49
 
 
  2709 07d7 9E000000 		.4byte	.LVL98
@@ -2938,7 +2938,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 1
  2763 0867 0200     		.2byte	0x2
  2764 0869 30       		.byte	0x30
  2765 086a 9F       		.byte	0x9f
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 50
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s 			page 50
 
 
  2766 086b 74010000 		.4byte	.LVL120
@@ -2998,7 +2998,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 1
  2820 08ff A4020000 		.4byte	.LVL146
  2821 0903 0100     		.2byte	0x1
  2822 0905 58       		.byte	0x58
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 51
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s 			page 51
 
 
  2823 0906 C6020000 		.4byte	.LVL147
@@ -3058,7 +3058,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 1
  2877              	.LLST37:
  2878 099d 00000000 		.4byte	.LFB133
  2879 09a1 02000000 		.4byte	.LCFI14
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 52
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s 			page 52
 
 
  2880 09a5 0200     		.2byte	0x2
@@ -3118,7 +3118,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 1
  2934 0a2f 34       		.byte	0x34
  2935 0a30 9F       		.byte	0x9f
  2936 0a31 30000000 		.4byte	.LVL180
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 53
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s 			page 53
 
 
  2937 0a35 36000000 		.4byte	.LVL181
@@ -3178,7 +3178,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 1
  2991 0ab9 9F       		.byte	0x9f
  2992 0aba CA000000 		.4byte	.LVL189
  2993 0abe CE000000 		.4byte	.LVL190
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 54
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s 			page 54
 
 
  2994 0ac2 0200     		.2byte	0x2
@@ -3238,7 +3238,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 1
  3048 0b4b 0100     		.2byte	0x1
  3049 0b4d 52       		.byte	0x52
  3050 0b4e 00000000 		.4byte	0x0
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 55
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s 			page 55
 
 
  3051 0b52 00000000 		.4byte	0x0
@@ -3298,7 +3298,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 1
  3105 0bd5 00000000 		.4byte	0x0
  3106 0bd9 00000000 		.4byte	0x0
  3107              		.file 3 "c:\\program files (x86)\\codesourcery\\sourcery g++ lite\\bin\\../lib/gcc/arm-none-eabi/4
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 56
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s 			page 56
 
 
  3108              		.file 4 "c:\\program files (x86)\\codesourcery\\sourcery g++ lite\\bin\\../lib/gcc/arm-none-eabi/4
@@ -3358,7 +3358,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 1
  3162 0062 66000000 		.4byte	0x66
  3163 0066 04       		.uleb128 0x4
  3164 0067 02       		.byte	0x2
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 57
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s 			page 57
 
 
  3165 0068 05       		.byte	0x5
@@ -3418,7 +3418,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 1
  3219 00d1 49000000 		.4byte	0x49
  3220 00d5 06       		.uleb128 0x6
  3221 00d6 91000000 		.4byte	0x91
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 58
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s 			page 58
 
 
  3222 00da 06       		.uleb128 0x6
@@ -3478,7 +3478,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 1
  3276 0141 14       		.uleb128 0x14
  3277 0142 08       		.uleb128 0x8
  3278 0143 64000000 		.4byte	.LASF24
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 59
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s 			page 59
 
 
  3279 0147 06       		.byte	0x6
@@ -3538,7 +3538,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 1
  3333 01b3 23       		.byte	0x23
  3334 01b4 00       		.uleb128 0x0
  3335 01b5 0F       		.uleb128 0xf
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 60
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s 			page 60
 
 
  3336 01b6 00010000 		.4byte	.LASF29
@@ -3598,7 +3598,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 1
  3390 0225 0A       		.uleb128 0xa
  3391 0226 04       		.byte	0x4
  3392 0227 0B020000 		.4byte	0x20b
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 61
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s 			page 61
 
 
  3393 022b 0C       		.uleb128 0xc
@@ -3658,7 +3658,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 1
  3447 029b 02       		.byte	0x2
  3448 029c 23       		.byte	0x23
  3449 029d 00       		.uleb128 0x0
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 62
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s 			page 62
 
 
  3450 029e 0F       		.uleb128 0xf
@@ -3718,7 +3718,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 1
  3504 02fe 23       		.byte	0x23
  3505 02ff 1C       		.uleb128 0x1c
  3506 0300 00       		.byte	0x0
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 63
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s 			page 63
 
 
  3507 0301 0C       		.uleb128 0xc
@@ -3778,7 +3778,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 1
  3561 037f 00       		.byte	0x0
  3562 0380 0A       		.uleb128 0xa
  3563 0381 04       		.byte	0x4
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 64
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s 			page 64
 
 
  3564 0382 61030000 		.4byte	0x361
@@ -3838,7 +3838,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 1
  3618 03e3 0A       		.byte	0xa
  3619 03e4 95       		.byte	0x95
  3620 03e5 91000000 		.4byte	0x91
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 65
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s 			page 65
 
 
  3621 03e9 13       		.uleb128 0x13
@@ -3898,7 +3898,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 1
  3675 0447 93       		.byte	0x93
  3676 0448 D5000000 		.4byte	0xd5
  3677 044c 02       		.byte	0x2
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 66
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s 			page 66
 
 
  3678 044d 23       		.byte	0x23
@@ -3958,7 +3958,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 1
  3732 04b3 03       		.uleb128 0x3
  3733 04b4 59030000 		.4byte	.LASF50
  3734 04b8 0B       		.byte	0xb
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 67
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s 			page 67
 
 
  3735 04b9 28       		.byte	0x28
@@ -4018,7 +4018,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 1
  3789 0528 617000   		.ascii	"ap\000"
  3790 052b 01       		.byte	0x1
  3791 052c 46       		.byte	0x46
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 68
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s 			page 68
 
 
  3792 052d D8040000 		.4byte	0x4d8
@@ -4078,7 +4078,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 1
  3846 05a7 2D       		.byte	0x2d
  3847 05a8 91000000 		.4byte	0x91
  3848 05ac 91000000 		.4byte	.LLST5
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 69
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s 			page 69
 
 
  3849 05b0 00       		.byte	0x0
@@ -4138,7 +4138,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 1
  3903 061c 49000000 		.4byte	0x49
  3904 0620 00000000 		.4byte	.LFB124
  3905 0624 30000000 		.4byte	.LFE124
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 70
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s 			page 70
 
 
  3906 0628 E2000000 		.4byte	.LLST8
@@ -4198,7 +4198,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 1
  3960 06af 1F       		.uleb128 0x1f
  3961 06b0 6900     		.ascii	"i\000"
  3962 06b2 02       		.byte	0x2
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 71
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s 			page 71
 
 
  3963 06b3 4F       		.byte	0x4f
@@ -4258,7 +4258,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 1
  4017 0735 AE030000 		.4byte	.LLST20
  4018 0739 22       		.uleb128 0x22
  4019 073a 01       		.byte	0x1
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 72
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s 			page 72
 
 
  4020 073b 68030000 		.4byte	.LASF70
@@ -4318,7 +4318,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 1
  4074 07c3 27       		.uleb128 0x27
  4075 07c4 F1000000 		.4byte	.LASF73
  4076 07c8 02       		.byte	0x2
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 73
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s 			page 73
 
 
  4077 07c9 80       		.byte	0x80
@@ -4378,7 +4378,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 1
  4131 084a 2C030000 		.4byte	.LASF79
  4132 084e 02       		.byte	0x2
  4133 084f B4       		.byte	0xb4
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 74
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s 			page 74
 
 
  4134 0850 49000000 		.4byte	0x49
@@ -4438,7 +4438,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 1
  4188 08cd 95010000 		.4byte	0x195
  4189 08d1 01       		.byte	0x1
  4190 08d2 51       		.byte	0x51
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 75
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s 			page 75
 
 
  4191 08d3 1F       		.uleb128 0x1f
@@ -4498,7 +4498,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 1
  4245 0947 0801     		.2byte	0x108
  4246 0949 35050000 		.4byte	0x535
  4247 094d 120B0000 		.4byte	.LLST45
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 76
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s 			page 76
 
 
  4248 0951 2D       		.uleb128 0x2d
@@ -4558,7 +4558,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 1
  4302 09ca 03       		.byte	0x3
  4303 09cb 00000000 		.4byte	DS18B20_SERIAL_NUMBER
  4304 09cf 30       		.uleb128 0x30
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 77
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s 			page 77
 
 
  4305 09d0 7F010000 		.4byte	.LASF89
@@ -4618,7 +4618,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 1
  4359 001e 00       		.byte	0x0
  4360 001f 00       		.byte	0x0
  4361 0020 03       		.uleb128 0x3
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 78
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s 			page 78
 
 
  4362 0021 16       		.uleb128 0x16
@@ -4678,7 +4678,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 1
  4416 0057 0E       		.uleb128 0xe
  4417 0058 3A       		.uleb128 0x3a
  4418 0059 0B       		.uleb128 0xb
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 79
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s 			page 79
 
 
  4419 005a 3B       		.uleb128 0x3b
@@ -4738,7 +4738,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 1
  4473 0090 00       		.byte	0x0
  4474 0091 0E       		.uleb128 0xe
  4475 0092 13       		.uleb128 0x13
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 80
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s 			page 80
 
 
  4476 0093 01       		.byte	0x1
@@ -4798,7 +4798,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 1
  4530 00c9 00       		.byte	0x0
  4531 00ca 00       		.byte	0x0
  4532 00cb 12       		.uleb128 0x12
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 81
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s 			page 81
 
 
  4533 00cc 17       		.uleb128 0x17
@@ -4858,7 +4858,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 1
  4587 0102 00       		.byte	0x0
  4588 0103 00       		.byte	0x0
  4589 0104 17       		.uleb128 0x17
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 82
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s 			page 82
 
 
  4590 0105 2E       		.uleb128 0x2e
@@ -4918,7 +4918,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 1
  4644 013b 1A       		.uleb128 0x1a
  4645 013c 05       		.uleb128 0x5
  4646 013d 00       		.byte	0x0
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 83
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s 			page 83
 
 
  4647 013e 03       		.uleb128 0x3
@@ -4978,7 +4978,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 1
  4701 0174 01       		.uleb128 0x1
  4702 0175 13       		.uleb128 0x13
  4703 0176 00       		.byte	0x0
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 84
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s 			page 84
 
 
  4704 0177 00       		.byte	0x0
@@ -5038,7 +5038,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 1
  4758 01ad 0B       		.uleb128 0xb
  4759 01ae 3B       		.uleb128 0x3b
  4760 01af 0B       		.uleb128 0xb
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 85
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s 			page 85
 
 
  4761 01b0 27       		.uleb128 0x27
@@ -5098,7 +5098,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 1
  4815 01e6 13       		.uleb128 0x13
  4816 01e7 11       		.uleb128 0x11
  4817 01e8 01       		.uleb128 0x1
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 86
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s 			page 86
 
 
  4818 01e9 12       		.uleb128 0x12
@@ -5158,7 +5158,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 1
  4872 021f 01       		.uleb128 0x1
  4873 0220 40       		.uleb128 0x40
  4874 0221 06       		.uleb128 0x6
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 87
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s 			page 87
 
 
  4875 0222 00       		.byte	0x0
@@ -5218,7 +5218,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 1
  4929 0258 01       		.uleb128 0x1
  4930 0259 12       		.uleb128 0x12
  4931 025a 01       		.uleb128 0x1
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 88
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s 			page 88
 
 
  4932 025b 40       		.uleb128 0x40
@@ -5278,7 +5278,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 1
  4986 0291 03       		.uleb128 0x3
  4987 0292 0E       		.uleb128 0xe
  4988 0293 3A       		.uleb128 0x3a
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 89
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s 			page 89
 
 
  4989 0294 0B       		.uleb128 0xb
@@ -5338,7 +5338,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 1
  5041      44617461 
  5041      50696E49 
  5041      6E707574 
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 90
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s 			page 90
 
 
  5042 0027 C6050000 		.4byte	0x5c6
@@ -5398,7 +5398,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 1
  5061      53746172 
  5061      74436F6E 
  5061      76657273 
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 91
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s 			page 91
 
 
  5062 0102 79070000 		.4byte	0x779
@@ -5458,7 +5458,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 1
  5089      00
  5090 003e 7F000000 		.4byte	0x7f
  5091 0042 696E7433 		.ascii	"int32_t\000"
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 92
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s 			page 92
 
 
  5091      325F7400 
@@ -5518,7 +5518,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 1
  5116 0112 B3040000 		.4byte	0x4b3
  5117 0116 5F5F676E 		.ascii	"__gnuc_va_list\000"
  5117      75635F76 
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 93
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s 			page 93
 
 
  5117      615F6C69 
@@ -5578,7 +5578,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 1
  5169              		.section	.debug_ranges,"",%progbits
  5170              	.Ldebug_ranges0:
  5171 0000 00000000 		.4byte	.LFB118
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 94
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s 			page 94
 
 
  5172 0004 1E000000 		.4byte	.LFE118
@@ -5638,7 +5638,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 1
  5218              	.LASF84:
  5219 0025 636D645F 		.ascii	"cmd_ds18b20_values\000"
  5219      64733138 
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 95
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s 			page 95
 
 
  5219      6232305F 
@@ -5698,7 +5698,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 1
  5249 00b1 76615F6C 		.ascii	"va_list\000"
  5249      69737400 
  5250              	.LASF33:
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 96
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s 			page 96
 
 
  5251 00b9 42617365 		.ascii	"BaseChannelVMT\000"
@@ -5758,7 +5758,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 1
  5277      4F4D00
  5278              	.LASF61:
  5279 0149 4F6E6557 		.ascii	"OneWire_SetBusLine\000"
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 97
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s 			page 97
 
 
  5279      6972655F 
@@ -5818,7 +5818,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 1
  5307      68617200 
  5308              	.LASF14:
  5309 01d4 6C6F6E67 		.ascii	"long long unsigned int\000"
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 98
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s 			page 98
 
 
  5309      206C6F6E 
@@ -5878,7 +5878,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 1
  5333      52656164 
  5333      42797465 
  5333      00
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 99
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s 			page 99
 
 
  5334              	.LASF9:
@@ -5938,7 +5938,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 1
  5363 0306 4F6E6557 		.ascii	"OneWire_WriteByte\000"
  5363      6972655F 
  5363      57726974 
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 100
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s 			page 100
 
 
  5363      65427974 
@@ -5998,7 +5998,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 1
  5387      00
  5388              	.LASF92:
  5389 03b1 433A5C44 		.ascii	"C:\\Dani\\MegaLux\\Repo\\Modulux\\Modulux\\modulux\\"
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 101
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s 			page 101
 
 
  5389      616E695C 
@@ -6028,78 +6028,78 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 1
  5400 0416 42535252 		.ascii	"BSRR\000"
  5400      00
  5401              		.ident	"GCC: (Sourcery G++ Lite 2011.03-42) 4.5.2"
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 102
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s 			page 102
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 ds18b20.c
-C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s:24     .text.chprintf:00000000 $t
-C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s:29     .text.chprintf:00000000 chprintf
-C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s:69     .text.Delay_us:00000000 $t
-C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s:74     .text.Delay_us:00000000 Delay_us
-C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s:139    .text.Delay_us:0000002c $d
-C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s:144    .text.OneWire_DataPinInput:00000000 $t
-C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s:150    .text.OneWire_DataPinInput:00000000 OneWire_DataPinInput
-C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s:167    .text.OneWire_DataPinInput:0000000c $d
-C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s:172    .text.OneWire_DataPinOutput:00000000 $t
-C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s:178    .text.OneWire_DataPinOutput:00000000 OneWire_DataPinOutput
-C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s:195    .text.OneWire_DataPinOutput:0000000c $d
-C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s:200    .text.OneWire_SetBusLine:00000000 $t
-C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s:206    .text.OneWire_SetBusLine:00000000 OneWire_SetBusLine
-C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s:241    .text.OneWire_SetBusLine:00000020 $d
-C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s:246    .text.OneWire_GetBusLine:00000000 $t
-C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s:252    .text.OneWire_GetBusLine:00000000 OneWire_GetBusLine
-C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s:268    .text.OneWire_GetBusLine:0000000c $d
-C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s:273    .text.OneWire_ReadBit:00000000 $t
-C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s:279    .text.OneWire_ReadBit:00000000 OneWire_ReadBit
-C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s:320    .text.OneWire_ReadBit:0000002c $d
-C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s:325    .text.OneWire_WriteBit:00000000 $t
-C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s:331    .text.OneWire_WriteBit:00000000 OneWire_WriteBit
-C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s:378    .text.OneWire_WriteByte:00000000 $t
-C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s:384    .text.OneWire_WriteByte:00000000 OneWire_WriteByte
-C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s:448    .text.OneWire_ReadByte:00000000 $t
-C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s:454    .text.OneWire_ReadByte:00000000 OneWire_ReadByte
-C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s:557    .text.OneWire_Reset:00000000 $t
-C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s:563    .text.OneWire_Reset:00000000 OneWire_Reset
-C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s:610    .text.OneWire_Reset:00000038 $d
-C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s:615    .text.DS18B20_Init:00000000 $t
-C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s:621    .text.DS18B20_Init:00000000 DS18B20_Init
-C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s:646    .text.DS18B20_Init:00000018 $d
-C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s:651    .text.DS18B20_StartConversion:00000000 $t
-C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s:657    .text.DS18B20_StartConversion:00000000 DS18B20_StartConversion
-C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s:731    .text.DS18B20_StartConversion:00000060 $d
-C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s:738    .text.DS18B20_GetTemp:00000000 $t
-C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s:744    .text.DS18B20_GetTemp:00000000 DS18B20_GetTemp
-C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s:855    .text.DS18B20_GetTemp:00000088 $d
-C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s:860    .text.OneWire_SearchROM:00000000 $t
-C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s:866    .text.OneWire_SearchROM:00000000 OneWire_SearchROM
-C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s:1492   .text.OneWire_FindROM:00000000 $t
-C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s:1498   .text.OneWire_FindROM:00000000 OneWire_FindROM
-C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s:1524   .text.DS18B20_GetROM:00000000 $t
-C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s:1530   .text.DS18B20_GetROM:00000000 DS18B20_GetROM
-C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s:1580   .text.DS18B20_GetROM:00000044 $d
-C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s:1586   .text.DS18B20_ScanBus:00000000 $t
-C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s:1592   .text.DS18B20_ScanBus:00000000 DS18B20_ScanBus
-C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s:1726   .text.DS18B20_ScanBus:00000104 $d
-C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s:1732   .text.cmd_ds18b20_values:00000000 $t
-C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s:1738   .text.cmd_ds18b20_values:00000000 cmd_ds18b20_values
-C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s:1869   .text.cmd_ds18b20_values:000000c0 $d
-C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s:1885   .bss.SensorCount:00000000 SensorCount
-C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s:1886   .bss.SensorCount:00000000 $d
-C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s:1888   .rodata.str1.4:00000000 $d
-C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s:1906   .bss.DS18B20_SERIAL_NUMBER:00000000 $d
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s 			page 103
+C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s:24     .text.chprintf:00000000 $t
+C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s:29     .text.chprintf:00000000 chprintf
+C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s:69     .text.Delay_us:00000000 $t
+C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s:74     .text.Delay_us:00000000 Delay_us
+C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s:139    .text.Delay_us:0000002c $d
+C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s:144    .text.OneWire_DataPinInput:00000000 $t
+C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s:150    .text.OneWire_DataPinInput:00000000 OneWire_DataPinInput
+C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s:167    .text.OneWire_DataPinInput:0000000c $d
+C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s:172    .text.OneWire_DataPinOutput:00000000 $t
+C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s:178    .text.OneWire_DataPinOutput:00000000 OneWire_DataPinOutput
+C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s:195    .text.OneWire_DataPinOutput:0000000c $d
+C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s:200    .text.OneWire_SetBusLine:00000000 $t
+C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s:206    .text.OneWire_SetBusLine:00000000 OneWire_SetBusLine
+C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s:241    .text.OneWire_SetBusLine:00000020 $d
+C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s:246    .text.OneWire_GetBusLine:00000000 $t
+C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s:252    .text.OneWire_GetBusLine:00000000 OneWire_GetBusLine
+C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s:268    .text.OneWire_GetBusLine:0000000c $d
+C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s:273    .text.OneWire_ReadBit:00000000 $t
+C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s:279    .text.OneWire_ReadBit:00000000 OneWire_ReadBit
+C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s:320    .text.OneWire_ReadBit:0000002c $d
+C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s:325    .text.OneWire_WriteBit:00000000 $t
+C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s:331    .text.OneWire_WriteBit:00000000 OneWire_WriteBit
+C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s:378    .text.OneWire_WriteByte:00000000 $t
+C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s:384    .text.OneWire_WriteByte:00000000 OneWire_WriteByte
+C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s:448    .text.OneWire_ReadByte:00000000 $t
+C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s:454    .text.OneWire_ReadByte:00000000 OneWire_ReadByte
+C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s:557    .text.OneWire_Reset:00000000 $t
+C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s:563    .text.OneWire_Reset:00000000 OneWire_Reset
+C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s:610    .text.OneWire_Reset:00000038 $d
+C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s:615    .text.DS18B20_Init:00000000 $t
+C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s:621    .text.DS18B20_Init:00000000 DS18B20_Init
+C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s:646    .text.DS18B20_Init:00000018 $d
+C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s:651    .text.DS18B20_StartConversion:00000000 $t
+C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s:657    .text.DS18B20_StartConversion:00000000 DS18B20_StartConversion
+C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s:731    .text.DS18B20_StartConversion:00000060 $d
+C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s:738    .text.DS18B20_GetTemp:00000000 $t
+C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s:744    .text.DS18B20_GetTemp:00000000 DS18B20_GetTemp
+C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s:855    .text.DS18B20_GetTemp:00000088 $d
+C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s:860    .text.OneWire_SearchROM:00000000 $t
+C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s:866    .text.OneWire_SearchROM:00000000 OneWire_SearchROM
+C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s:1492   .text.OneWire_FindROM:00000000 $t
+C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s:1498   .text.OneWire_FindROM:00000000 OneWire_FindROM
+C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s:1524   .text.DS18B20_GetROM:00000000 $t
+C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s:1530   .text.DS18B20_GetROM:00000000 DS18B20_GetROM
+C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s:1580   .text.DS18B20_GetROM:00000044 $d
+C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s:1586   .text.DS18B20_ScanBus:00000000 $t
+C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s:1592   .text.DS18B20_ScanBus:00000000 DS18B20_ScanBus
+C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s:1726   .text.DS18B20_ScanBus:00000104 $d
+C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s:1732   .text.cmd_ds18b20_values:00000000 $t
+C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s:1738   .text.cmd_ds18b20_values:00000000 cmd_ds18b20_values
+C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s:1869   .text.cmd_ds18b20_values:000000c0 $d
+C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s:1885   .bss.SensorCount:00000000 SensorCount
+C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s:1886   .bss.SensorCount:00000000 $d
+C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s:1888   .rodata.str1.4:00000000 $d
+C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s:1906   .bss.DS18B20_SERIAL_NUMBER:00000000 $d
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s 			page 103
 
 
-C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s:1910   .bss.DS18B20_SERIAL_NUMBER:00000000 DS18B20_SERIAL_NUMBER
+C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s:1910   .bss.DS18B20_SERIAL_NUMBER:00000000 DS18B20_SERIAL_NUMBER
                      .debug_frame:00000010 $d
-C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s:245    .text.OneWire_SetBusLine:00000024 $t
-C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s:614    .text.OneWire_Reset:0000003c $t
-C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s:650    .text.DS18B20_Init:0000001c $t
-C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s:737    .text.DS18B20_StartConversion:00000064 $t
-C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s:859    .text.DS18B20_GetTemp:0000008c $t
-C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s:1585   .text.DS18B20_GetROM:0000004c $t
-C:\Users\DNIEL~1\AppData\Local\Temp\ccIXzFw6.s:1731   .text.DS18B20_ScanBus:0000010c $t
+C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s:245    .text.OneWire_SetBusLine:00000024 $t
+C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s:614    .text.OneWire_Reset:0000003c $t
+C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s:650    .text.DS18B20_Init:0000001c $t
+C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s:737    .text.DS18B20_StartConversion:00000064 $t
+C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s:859    .text.DS18B20_GetTemp:0000008c $t
+C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s:1585   .text.DS18B20_GetROM:0000004c $t
+C:\Users\DNIEL~1\AppData\Local\Temp\cc77hflR.s:1731   .text.DS18B20_ScanBus:0000010c $t
 
 UNDEFINED SYMBOLS
 chvprintf

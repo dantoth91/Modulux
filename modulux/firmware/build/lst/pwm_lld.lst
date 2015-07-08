@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s 			page 1
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccS9zMHb.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s 			page 1
   51 000e 9B68     		ldr	r3, [r3, #8]
   52              		.cfi_offset 14, -4
   53              		.cfi_offset 4, -8
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s 			page 2
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccS9zMHb.s 			page 2
 
 
   54 0010 9847     		blx	r3
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s 			page 1
  106              	.L6:
  107              		.loc 1 179 0
  108 001e 14F0080F 		tst	r4, #8
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s 			page 3
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccS9zMHb.s 			page 3
 
 
  109 0022 0AD1     		bne	.L12
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s 			page 1
  163              		.cfi_startproc
  164              		@ args = 0, pretend = 0, frame = 0
  165              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s 			page 4
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccS9zMHb.s 			page 4
 
 
  166 0000 10B5     		push	{r4, lr}
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s 			page 1
  219 000c 0025     		movs	r5, #0
  220 000e 1D60     		str	r5, [r3, #0]
  221              		.loc 1 492 0
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s 			page 5
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccS9zMHb.s 			page 5
 
 
  222 0010 5D63     		str	r5, [r3, #52]
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s 			page 1
  276 004e 0128     		cmp	r0, #1
  277 0050 25D0     		beq	.L26
  278 0052 0228     		cmp	r0, #2
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s 			page 6
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccS9zMHb.s 			page 6
 
 
  279 0054 21D0     		beq	.L37
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s 			page 1
  333              		.loc 1 520 0
  334 009a 41F02001 		orr	r1, r1, #32
  335              	.LVL9:
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s 			page 7
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccS9zMHb.s 			page 7
 
 
  336              	.L26:
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s 			page 1
  390 00e2 DA61     		str	r2, [r3, #28]
  391 00e4 99E7     		b	.L21
  392              	.L43:
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s 			page 8
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccS9zMHb.s 			page 8
 
 
  393              		.loc 1 407 0
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s 			page 1
  447              		.cfi_offset 3, -8
  448 0004 022B     		cmp	r3, #2
  449 0006 00D0     		beq	.L48
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s 			page 9
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccS9zMHb.s 			page 9
 
 
  450              	.LVL20:
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s 			page 1
  504              		@ args = 0, pretend = 0, frame = 0
  505              		@ frame_needed = 0, uses_anonymous_args = 0
  506              		@ link register save eliminated.
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s 			page 10
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccS9zMHb.s 			page 10
 
 
  507              	.LVL23:
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s 			page 1
  559              		.global	pwm_lld_disable_channel
  560              		.thumb
  561              		.thumb_func
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s 			page 11
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccS9zMHb.s 			page 11
 
 
  562              		.type	pwm_lld_disable_channel, %function
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s 			page 1
  612 0017 08       		.sleb128 8
  613 0018 00000000 		.4byte	0x0
  614 001c 00000000 		.4byte	0x0
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s 			page 12
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccS9zMHb.s 			page 12
 
 
  615              	.LLST1:
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s 			page 1
  669 00a9 0100     		.2byte	0x1
  670 00ab 54       		.byte	0x54
  671 00ac 00000000 		.4byte	0x0
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s 			page 13
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccS9zMHb.s 			page 13
 
 
  672 00b0 00000000 		.4byte	0x0
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s 			page 1
  726              	.LLST6:
  727 0142 00000000 		.4byte	.LFB122
  728 0146 02000000 		.4byte	.LCFI4
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s 			page 14
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccS9zMHb.s 			page 14
 
 
  729 014a 0200     		.2byte	0x2
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s 			page 1
  783 01d5 00000000 		.4byte	0x0
  784              	.LLST12:
  785 01d9 1E000000 		.4byte	.LVL25
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s 			page 15
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccS9zMHb.s 			page 15
 
 
  786 01dd 2A000000 		.4byte	.LVL27
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s 			page 1
  840 0044 2A       		.byte	0x2a
  841 0045 49000000 		.4byte	0x49
  842 0049 03       		.uleb128 0x3
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s 			page 16
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccS9zMHb.s 			page 16
 
 
  843 004a 01       		.byte	0x1
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s 			page 1
  897 00b3 BE000000 		.4byte	0xbe
  898 00b7 07       		.uleb128 0x7
  899 00b8 30000000 		.4byte	0x30
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s 			page 17
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccS9zMHb.s 			page 17
 
 
  900 00bc 01       		.byte	0x1
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s 			page 1
  954 0124 23       		.byte	0x23
  955 0125 10       		.uleb128 0x10
  956 0126 0A       		.uleb128 0xa
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s 			page 18
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccS9zMHb.s 			page 18
 
 
  957 0127 BE010000 		.4byte	.LASF18
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s 			page 1
  1011 018e 30       		.uleb128 0x30
  1012 018f 0A       		.uleb128 0xa
  1013 0190 24000000 		.4byte	.LASF25
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s 			page 19
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccS9zMHb.s 			page 19
 
 
  1014 0194 03       		.byte	0x3
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s 			page 1
  1068 01f8 0A       		.uleb128 0xa
  1069 01f9 82020000 		.4byte	.LASF32
  1070 01fd 03       		.byte	0x3
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s 			page 20
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccS9zMHb.s 			page 20
 
 
  1071 01fe 6D04     		.2byte	0x46d
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s 			page 1
  1125 0262 43535200 		.ascii	"CSR\000"
  1126 0266 03       		.byte	0x3
  1127 0267 7404     		.2byte	0x474
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s 			page 21
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccS9zMHb.s 			page 21
 
 
  1128 0269 A2000000 		.4byte	0xa2
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s 			page 1
  1182 02d0 E7020000 		.4byte	0x2e7
  1183 02d4 0D       		.uleb128 0xd
  1184 02d5 56010000 		.4byte	.LASF45
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s 			page 22
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccS9zMHb.s 			page 22
 
 
  1185 02d9 00       		.sleb128 0
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s 			page 1
  1239 0344 23       		.byte	0x23
  1240 0345 0C       		.uleb128 0xc
  1241 0346 09       		.uleb128 0x9
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s 			page 23
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccS9zMHb.s 			page 23
 
 
  1242 0347 74696D00 		.ascii	"tim\000"
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s 			page 1
  1296 03af 0A       		.uleb128 0xa
  1297 03b0 E2010000 		.4byte	.LASF56
  1298 03b4 06       		.byte	0x6
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s 			page 24
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccS9zMHb.s 			page 24
 
 
  1299 03b5 A201     		.2byte	0x1a2
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s 			page 1
  1353 0418 50534300 		.ascii	"PSC\000"
  1354 041c 06       		.byte	0x6
  1355 041d A901     		.2byte	0x1a9
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s 			page 25
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccS9zMHb.s 			page 25
 
 
  1356 041f A2000000 		.4byte	0xa2
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s 			page 1
  1410 0484 06       		.byte	0x6
  1411 0485 B001     		.2byte	0x1b0
  1412 0487 A2000000 		.4byte	0xa2
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s 			page 26
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccS9zMHb.s 			page 26
 
 
  1413 048b 02       		.byte	0x2
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s 			page 1
  1467 04f6 19050000 		.4byte	0x519
  1468 04fa 0A       		.uleb128 0xa
  1469 04fb 7E000000 		.4byte	.LASF69
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s 			page 27
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccS9zMHb.s 			page 27
 
 
  1470 04ff 05       		.byte	0x5
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s 			page 1
  1524 0567 02       		.byte	0x2
  1525 0568 23       		.byte	0x23
  1526 0569 0C       		.uleb128 0xc
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s 			page 28
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccS9zMHb.s 			page 28
 
 
  1527 056a 09       		.uleb128 0x9
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s 			page 1
  1581 05dc 20000000 		.4byte	.LLST1
  1582 05e0 F1050000 		.4byte	0x5f1
  1583 05e4 15       		.uleb128 0x15
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s 			page 29
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccS9zMHb.s 			page 29
 
 
  1584 05e5 737200   		.ascii	"sr\000"
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s 			page 1
  1638 0668 18       		.uleb128 0x18
  1639 0669 4C010000 		.4byte	.LASF82
  1640 066d 01       		.byte	0x1
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s 			page 30
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccS9zMHb.s 			page 30
 
 
  1641 066e 5B02     		.2byte	0x25b
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s 			page 1
  1695 06f3 18070000 		.4byte	0x718
  1696 06f7 18       		.uleb128 0x18
  1697 06f8 4C010000 		.4byte	.LASF82
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s 			page 31
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccS9zMHb.s 			page 31
 
 
  1698 06fc 01       		.byte	0x1
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s 			page 1
  1752 000b 11       		.uleb128 0x11
  1753 000c 01       		.uleb128 0x1
  1754 000d 52       		.uleb128 0x52
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s 			page 32
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccS9zMHb.s 			page 32
 
 
  1755 000e 01       		.uleb128 0x1
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s 			page 1
  1809 0044 01       		.uleb128 0x1
  1810 0045 13       		.uleb128 0x13
  1811 0046 00       		.byte	0x0
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s 			page 33
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccS9zMHb.s 			page 33
 
 
  1812 0047 00       		.byte	0x0
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s 			page 1
  1866 007d 16       		.uleb128 0x16
  1867 007e 00       		.byte	0x0
  1868 007f 03       		.uleb128 0x3
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s 			page 34
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccS9zMHb.s 			page 34
 
 
  1869 0080 0E       		.uleb128 0xe
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s 			page 1
  1923 00b6 00       		.byte	0x0
  1924 00b7 10       		.uleb128 0x10
  1925 00b8 15       		.uleb128 0x15
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s 			page 35
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccS9zMHb.s 			page 35
 
 
  1926 00b9 01       		.byte	0x1
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s 			page 1
  1980 00ef 0C       		.uleb128 0xc
  1981 00f0 11       		.uleb128 0x11
  1982 00f1 01       		.uleb128 0x1
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s 			page 36
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccS9zMHb.s 			page 36
 
 
  1983 00f2 12       		.uleb128 0x12
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s 			page 1
  2037 0128 05       		.uleb128 0x5
  2038 0129 27       		.uleb128 0x27
  2039 012a 0C       		.uleb128 0xc
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s 			page 37
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccS9zMHb.s 			page 37
 
 
  2040 012b 11       		.uleb128 0x11
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s 			page 1
  2094 0161 0B       		.uleb128 0xb
  2095 0162 01       		.byte	0x1
  2096 0163 11       		.uleb128 0x11
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s 			page 38
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccS9zMHb.s 			page 38
 
 
  2097 0164 01       		.uleb128 0x1
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s 			page 1
  2151 019a 49       		.uleb128 0x49
  2152 019b 13       		.uleb128 0x13
  2153 019c 3F       		.uleb128 0x3f
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s 			page 39
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccS9zMHb.s 			page 39
 
 
  2154 019d 0C       		.uleb128 0xc
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s 			page 1
  2186 000a 55070000 		.4byte	0x755
  2187 000e 3E000000 		.4byte	0x3e
  2188 0012 75696E74 		.ascii	"uint8_t\000"
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s 			page 40
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccS9zMHb.s 			page 40
 
 
  2188      385F7400 
@@ -2398,7 +2398,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s 			page 1
  2214      6F6E6669 
  2214      6700
  2215 00de FD020000 		.4byte	0x2fd
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s 			page 41
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccS9zMHb.s 			page 41
 
 
  2216 00e2 50574D44 		.ascii	"PWMDriver\000"
@@ -2458,7 +2458,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s 			page 1
  2265              	.LASF44:
  2266 000f 5243435F 		.ascii	"RCC_TypeDef\000"
  2266      54797065 
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s 			page 42
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccS9zMHb.s 			page 42
 
 
  2266      44656600 
@@ -2518,7 +2518,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s 			page 1
  2297              	.LASF51:
  2298 0093 636F6E66 		.ascii	"config\000"
  2298      696700
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s 			page 43
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccS9zMHb.s 			page 43
 
 
  2299              	.LASF16:
@@ -2578,7 +2578,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s 			page 1
  2329              	.LASF52:
  2330 0118 70657269 		.ascii	"period\000"
  2330      6F6400
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s 			page 44
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccS9zMHb.s 			page 44
 
 
  2331              	.LASF22:
@@ -2638,7 +2638,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s 			page 1
  2358 01b1 756E7369 		.ascii	"unsigned int\000"
  2358      676E6564 
  2358      20696E74 
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s 			page 45
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccS9zMHb.s 			page 45
 
 
  2358      00
@@ -2698,7 +2698,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s 			page 1
  2385 0262 50574D44 		.ascii	"PWMDriver\000"
  2385      72697665 
  2385      7200
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s 			page 46
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccS9zMHb.s 			page 46
 
 
  2386              	.LASF7:
@@ -2758,7 +2758,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s 			page 1
  2414              	.LASF73:
  2415 02fc 6368616E 		.ascii	"channels\000"
  2415      6E656C73 
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s 			page 47
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccS9zMHb.s 			page 47
 
 
  2415      00
@@ -2818,7 +2818,7 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s 			page 1
  2440      5F7400
  2441              	.LASF54:
  2442 03aa 70776D63 		.ascii	"pwmcallback_t\000"
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s 			page 48
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccS9zMHb.s 			page 48
 
 
  2442      616C6C62 
@@ -2833,36 +2833,36 @@ ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s 			page 1
  2446      6261636B 
  2446      00
  2447              		.ident	"GCC: (Sourcery G++ Lite 2011.03-42) 4.5.2"
-ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s 			page 49
+ARM GAS  C:\Users\DNIEL~1\AppData\Local\Temp\ccS9zMHb.s 			page 49
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 pwm_lld.c
-C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s:24     .text.VectorA4:00000000 $t
-C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s:30     .text.VectorA4:00000000 VectorA4
-C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s:62     .text.VectorA4:0000001c $d
-C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s:68     .text.VectorAC:00000000 $t
-C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s:74     .text.VectorAC:00000000 VectorAC
-C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s:148    .text.VectorAC:00000058 $d
-C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s:154    .text.pwm_lld_init:00000000 $t
-C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s:160    .text.pwm_lld_init:00000000 pwm_lld_init
-C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s:183    .text.pwm_lld_init:00000010 $d
-C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s:189    .text.pwm_lld_start:00000000 $t
-C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s:195    .text.pwm_lld_start:00000000 pwm_lld_start
-C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s:421    .text.pwm_lld_start:00000114 $d
-C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s:428    .text.pwm_lld_stop:00000000 $t
-C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s:434    .text.pwm_lld_stop:00000000 pwm_lld_stop
-C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s:488    .text.pwm_lld_stop:00000034 $d
-C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s:494    .text.pwm_lld_enable_channel:00000000 $t
-C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s:500    .text.pwm_lld_enable_channel:00000000 pwm_lld_enable_channel
-C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s:557    .text.pwm_lld_disable_channel:00000000 $t
-C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s:563    .text.pwm_lld_disable_channel:00000000 pwm_lld_disable_channel
-C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s:596    .bss.PWMD1:00000000 PWMD1
-C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s:592    .bss.PWMD1:00000000 $d
+C:\Users\DNIEL~1\AppData\Local\Temp\ccS9zMHb.s:24     .text.VectorA4:00000000 $t
+C:\Users\DNIEL~1\AppData\Local\Temp\ccS9zMHb.s:30     .text.VectorA4:00000000 VectorA4
+C:\Users\DNIEL~1\AppData\Local\Temp\ccS9zMHb.s:62     .text.VectorA4:0000001c $d
+C:\Users\DNIEL~1\AppData\Local\Temp\ccS9zMHb.s:68     .text.VectorAC:00000000 $t
+C:\Users\DNIEL~1\AppData\Local\Temp\ccS9zMHb.s:74     .text.VectorAC:00000000 VectorAC
+C:\Users\DNIEL~1\AppData\Local\Temp\ccS9zMHb.s:148    .text.VectorAC:00000058 $d
+C:\Users\DNIEL~1\AppData\Local\Temp\ccS9zMHb.s:154    .text.pwm_lld_init:00000000 $t
+C:\Users\DNIEL~1\AppData\Local\Temp\ccS9zMHb.s:160    .text.pwm_lld_init:00000000 pwm_lld_init
+C:\Users\DNIEL~1\AppData\Local\Temp\ccS9zMHb.s:183    .text.pwm_lld_init:00000010 $d
+C:\Users\DNIEL~1\AppData\Local\Temp\ccS9zMHb.s:189    .text.pwm_lld_start:00000000 $t
+C:\Users\DNIEL~1\AppData\Local\Temp\ccS9zMHb.s:195    .text.pwm_lld_start:00000000 pwm_lld_start
+C:\Users\DNIEL~1\AppData\Local\Temp\ccS9zMHb.s:421    .text.pwm_lld_start:00000114 $d
+C:\Users\DNIEL~1\AppData\Local\Temp\ccS9zMHb.s:428    .text.pwm_lld_stop:00000000 $t
+C:\Users\DNIEL~1\AppData\Local\Temp\ccS9zMHb.s:434    .text.pwm_lld_stop:00000000 pwm_lld_stop
+C:\Users\DNIEL~1\AppData\Local\Temp\ccS9zMHb.s:488    .text.pwm_lld_stop:00000034 $d
+C:\Users\DNIEL~1\AppData\Local\Temp\ccS9zMHb.s:494    .text.pwm_lld_enable_channel:00000000 $t
+C:\Users\DNIEL~1\AppData\Local\Temp\ccS9zMHb.s:500    .text.pwm_lld_enable_channel:00000000 pwm_lld_enable_channel
+C:\Users\DNIEL~1\AppData\Local\Temp\ccS9zMHb.s:557    .text.pwm_lld_disable_channel:00000000 $t
+C:\Users\DNIEL~1\AppData\Local\Temp\ccS9zMHb.s:563    .text.pwm_lld_disable_channel:00000000 pwm_lld_disable_channel
+C:\Users\DNIEL~1\AppData\Local\Temp\ccS9zMHb.s:596    .bss.PWMD1:00000000 PWMD1
+C:\Users\DNIEL~1\AppData\Local\Temp\ccS9zMHb.s:592    .bss.PWMD1:00000000 $d
                      .debug_frame:00000010 $d
-C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s:67     .text.VectorA4:00000024 $t
-C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s:188    .text.pwm_lld_init:00000018 $t
-C:\Users\DNIEL~1\AppData\Local\Temp\ccHR17Ka.s:493    .text.pwm_lld_stop:0000003c $t
+C:\Users\DNIEL~1\AppData\Local\Temp\ccS9zMHb.s:67     .text.VectorA4:00000024 $t
+C:\Users\DNIEL~1\AppData\Local\Temp\ccS9zMHb.s:188    .text.pwm_lld_init:00000018 $t
+C:\Users\DNIEL~1\AppData\Local\Temp\ccS9zMHb.s:493    .text.pwm_lld_stop:0000003c $t
 
 UNDEFINED SYMBOLS
 _port_irq_epilogue
