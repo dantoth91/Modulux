@@ -83,7 +83,7 @@ build/obj/can_comm.o: src/can_comm.c \
  c:\chibistudio\tools\gnu\ tools\ arm\ embedded\4.7\ 2014q2\bin\../lib/gcc/arm-none-eabi/4.7.4/include/stdarg.h \
  include/can_comm.h include/light.h \
  c:\chibistudio\tools\gnu\ tools\ arm\ embedded\4.7\ 2014q2\bin\../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/include/math.h \
- include/one_vire_comm.h
+ include/one_vire_comm.h include/measure.h
 
 c:\chibistudio\tools\gnu\ tools\ arm\ embedded\4.7\ 2014q2\bin\../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/include/stdlib.h:
 
@@ -278,3 +278,5 @@ include/light.h:
 c:\chibistudio\tools\gnu\ tools\ arm\ embedded\4.7\ 2014q2\bin\../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/include/math.h:
 
 include/one_vire_comm.h:
+
+include/measure.h:

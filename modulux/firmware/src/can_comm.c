@@ -11,12 +11,14 @@
 #include "can_comm.h"
 #include "light.h"
 #include "one_vire_comm.h"
+#include "measure.h"
 
 /* Modulux ID */
 #define CAN_EID                 0x20
 
 /* CAN sent messages */
-#define CAN_ONE_VIRE_MESSAGE    0x01
+#define CAN_ONE_VIRE_MESSAGE        0x01
+#define CAN_SOLARCURRENT_MESSAGE    0x02
 
 /* CAN Min-Max ID */
 #define CAN_MIN_EID             0x10
@@ -56,6 +58,7 @@ enum can_rxState
 enum can_txState
 {
   CAN_TX_ONE_VIRE,
+  CAN_TX_SOLARCURRENT,
   CAN_TX_NUM_CH
 }can_txstate;
 
@@ -177,6 +180,17 @@ static msg_t can_tx(void * p) {
           txmsg.data16[2] = one_vireGetValue(2);
           txmsg.data16[3] = one_vireGetValue(3);
      
+          canTransmit(&CAND1, CAN_ANY_MAILBOX ,&txmsg, MS2ST(100));
+          break;
+        case CAN_TX_SOLARCURRENT:
+          txmsg.EID = CAN_SOLARCURRENT_MESSAGE;
+          txmsg.EID += CAN_EID << 8;
+
+          txmsg.data16[0] = (int16_t)measGetValue(MEAS_SOLAR_CURRENT);
+          txmsg.data16[1] = (int16_t)measGetValue(MEAS_UBAT);
+          txmsg.data16[2] = 0x00;
+          txmsg.data16[3] = 0x00;
+
           canTransmit(&CAND1, CAN_ANY_MAILBOX ,&txmsg, MS2ST(100));
           break;
 
