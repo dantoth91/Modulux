@@ -18,6 +18,7 @@
 #include "one_vire_comm.h"
 #include "ds18b20.h"
 #include "light.h"
+#include "measure.h"
 
 /* libc stub */
 int _getpid(void) {return 1;}
@@ -58,6 +59,7 @@ static const ShellCommand commands[] = {
   {"one_vire", cmd_one_virevalues},
   {"ds18b20", cmd_ds18b20_values},
   {"light", cmd_lightblink},
+  {"adcvalues", cmd_getAdcValues},
   {NULL, NULL}
 };
 

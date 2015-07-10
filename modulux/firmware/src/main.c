@@ -10,6 +10,7 @@
 #include "console.h"
 #include "can_comm.h"
 #include "light.h"
+#include "measure.h"
 
 static WORKING_AREA(waThread1, 128);
 static msg_t Thread1(void *arg) {
@@ -35,6 +36,8 @@ static msg_t task20ms(void *arg) {
     time += MS2ST(20);
 
     lightCalc();
+
+    measCalc();
 
     chThdSleepUntil(time);
   }
@@ -84,6 +87,10 @@ int main(void) {
    * DS18B20 sensor initialization.
    */
   one_vireInit();
+  /*
+   * ADC init
+   */
+  init_measures();
 
   /*
    * Creates the 20ms Task.

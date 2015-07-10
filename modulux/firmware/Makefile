@@ -65,10 +65,10 @@ endif
 #
 
 # Define project name here
-PROJECT = modulux_lights
+PROJECT = modulux
 
 # Imported source files and paths
-CHIBIOS = ../../../Chibios
+CHIBIOS = ../../Chibios
 include os/board/board.mk
 include $(CHIBIOS)/os/hal/platforms/STM32F4xx/platform.mk
 include $(CHIBIOS)/os/hal/hal.mk
@@ -95,6 +95,7 @@ CSRC = $(PORTSRC) \
 	   src/ds18b20.c \
 	   src/one_vire_comm.c \
        src/main.c \
+       src/measure.c \
        src/light.c
 
 # C++ sources that can be compiled in ARM or THUMB mode depending on the global

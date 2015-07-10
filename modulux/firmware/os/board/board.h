@@ -145,7 +145,8 @@
  * PA12 - USB DP     (alternate 10).
  */
 #define VAL_GPIOA_MODER             (PIN_MODE_ALTERNATE(GPIOA_USB_DM) | \
-                                     PIN_MODE_ALTERNATE(GPIOA_USB_DP))
+                                     PIN_MODE_ALTERNATE(GPIOA_USB_DP) | \
+                                     PIN_MODE_ANALOG(GPIOA_UBAT_DIV) )
 #define VAL_GPIOA_OTYPER            0x00000000
 #define VAL_GPIOA_OSPEEDR           0xFFFFFFFF
 #define VAL_GPIOA_PUPDR             0xFFFFFFFF
@@ -178,7 +179,8 @@
  * 
  */
 #define VAL_GPIOC_MODER             (PIN_MODE_ALTERNATE(GPIOC_TXD6)       | \
-                                     PIN_MODE_ALTERNATE(GPIOC_RXD6))
+                                     PIN_MODE_ALTERNATE(GPIOC_RXD6)       | \
+                                     PIN_MODE_ANALOG(GPIOC_AIN1) )
 #define VAL_GPIOC_OTYPER            0x00000000
 #define VAL_GPIOC_OSPEEDR           0xFFFFFFFF
 #define VAL_GPIOC_PUPDR             0xFFFFFFFF
