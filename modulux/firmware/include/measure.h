@@ -15,8 +15,12 @@ enum measChannels
   MEAS_NUM_CH
 };
 
-#define NULL_AMPER_ADC   1370
-#define AMP_PER_ADC      10.814
+#define NULL_AMPER_ADC   910
+#define AMP_PER_ADC      13.6
+
+/*
+ * 5A @ 68
+ */
 
 void init_measures();
 void cmd_getAdcValues(BaseSequentialStream *chp, int argc, char *argv[]);

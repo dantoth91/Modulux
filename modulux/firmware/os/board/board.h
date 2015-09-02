@@ -178,9 +178,9 @@
  * PC7 - Serial6 RX     (alternate 8)
  * 
  */
-#define VAL_GPIOC_MODER             (PIN_MODE_ALTERNATE(GPIOC_TXD6)       | \
-                                     PIN_MODE_ALTERNATE(GPIOC_RXD6)       | \
-                                     PIN_MODE_ANALOG(GPIOC_AIN1) )
+#define VAL_GPIOC_MODER             (PIN_MODE_ANALOG(GPIOC_AIN1)          | \
+                                     PIN_MODE_ALTERNATE(GPIOC_TXD6)       | \
+                                     PIN_MODE_ALTERNATE(GPIOC_RXD6))
 #define VAL_GPIOC_OTYPER            0x00000000
 #define VAL_GPIOC_OSPEEDR           0xFFFFFFFF
 #define VAL_GPIOC_PUPDR             0xFFFFFFFF
@@ -198,7 +198,8 @@
  */
 #define VAL_GPIOD_MODER             (PIN_MODE_ALTERNATE(GPIOD_CAN_RX)     | \
                                      PIN_MODE_ALTERNATE(GPIOD_CAN_TX)      | \
-                                     PIN_MODE_OUTPUT(GPIOD_X_5V_EN))
+                                     PIN_MODE_OUTPUT(GPIOD_X_5V_EN)       | \
+                                     PIN_MODE_OUTPUT(GPIOD_LS_1))
 #define VAL_GPIOD_OTYPER            0x00000000
 #define VAL_GPIOD_OSPEEDR           0xFFFFFFFF
 #define VAL_GPIOD_PUPDR             0xFFFFFFFF
@@ -218,7 +219,7 @@
  */
 #define VAL_GPIOE_MODER             (PIN_MODE_OUTPUT(GPIOE_LD1)             | \
                                      PIN_MODE_OUTPUT(GPIOE_LD2)             | \
-                                     PIN_MODE_ALTERNATE(GPIOE_PO1)          | \
+                                     PIN_MODE_OUTPUT(GPIOE_PO1)          | \
                                      PIN_MODE_ALTERNATE(GPIOE_PO2)          | \
                                      PIN_MODE_ALTERNATE(GPIOE_PO3))
 #define VAL_GPIOE_OTYPER            0x00000000

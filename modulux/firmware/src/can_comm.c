@@ -57,8 +57,8 @@ enum can_rxState
 
 enum can_txState
 {
-  CAN_TX_ONE_VIRE,
   CAN_TX_SOLARCURRENT,
+  CAN_TX_ONE_VIRE,
   CAN_TX_NUM_CH
 }can_txstate;
 
@@ -68,7 +68,7 @@ static CANRxFrame rxmsg;
 static const CANConfig cancfg = {
   CAN_MCR_ABOM,
   CAN_BTR_SJW(0) | CAN_BTR_TS2(1) |
-  CAN_BTR_TS1(8) | CAN_BTR_BRP(6)
+  CAN_BTR_TS1(8) | CAN_BTR_BRP(13)
 };
 
 static uint16_t id;
@@ -169,26 +169,31 @@ static msg_t can_tx(void * p) {
   int tx_status;
 
   while (!chThdShouldTerminate()) {  
-    for(tx_status = 0; tx_status < CAN_TX_NUM_CH; tx_status ++){
+    for(tx_status = 0; tx_status < CAN_TX_NUM_CH; tx_status++){
       switch(tx_status){
-        case CAN_TX_ONE_VIRE:      
+        case CAN_TX_ONE_VIRE:
+          //MESSAGE 1
           txmsg.EID = CAN_ONE_VIRE_MESSAGE;
           txmsg.EID += CAN_EID << 8;
+
 
           txmsg.data16[0] = one_vireGetValue(0);
           txmsg.data16[1] = one_vireGetValue(1);
           txmsg.data16[2] = one_vireGetValue(2);
           txmsg.data16[3] = one_vireGetValue(3);
+
      
           canTransmit(&CAND1, CAN_ANY_MAILBOX ,&txmsg, MS2ST(100));
+
           break;
         case CAN_TX_SOLARCURRENT:
+          //MESSAGE 2
           txmsg.EID = CAN_SOLARCURRENT_MESSAGE;
           txmsg.EID += CAN_EID << 8;
 
           txmsg.data16[0] = (int16_t)measGetValue(MEAS_SOLAR_CURRENT);
           txmsg.data16[1] = (int16_t)measGetValue(MEAS_UBAT);
-          txmsg.data16[2] = 0x00;
+          txmsg.data16[2] = one_vireGetValue(4);
           txmsg.data16[3] = 0x00;
 
           canTransmit(&CAND1, CAN_ANY_MAILBOX ,&txmsg, MS2ST(100));
@@ -198,7 +203,7 @@ static msg_t can_tx(void * p) {
           break;
       }
     }
-    chThdSleepMilliseconds(1000);
+    chThdSleepMilliseconds(500);
   }
   return 0;
 }
@@ -240,6 +245,6 @@ void cmd_can_commvalues(BaseSequentialStream *chp, int argc, char *argv[]) {
     chprintf(chp,"TX.DATA3 : %d \r\n", txmsg.data16[2]);
     chprintf(chp,"TX.DATA4 : %d \r\n", txmsg.data16[3]);
 
-    chThdSleepMilliseconds(1000);
+    chThdSleepMilliseconds(100);
   }
 }

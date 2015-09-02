@@ -13,7 +13,7 @@
 #include "chprintf.h"
 #include "measure.h"
 
-#define ADC_GRP1_BUF_DEPTH      8
+#define ADC_GRP1_BUF_DEPTH      16
 int curr_adc;
 
 
@@ -60,6 +60,8 @@ void measCalc()
         curr_adc = avg;
         temp = avg / AMP_PER_ADC;
         avg = temp*1000;
+        if (avg < 0)
+          avg = 0;
       break;
     }
     chSysLock();

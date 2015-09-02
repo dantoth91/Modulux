@@ -35,7 +35,7 @@ static msg_t task20ms(void *arg) {
   while (TRUE) {
     time += MS2ST(20);
 
-    lightCalc();
+    //lightCalc();
 
     measCalc();
 
@@ -51,17 +51,18 @@ int main(void) {
   halInit();
   chSysInit();
 
-  palClearPad(GPIOE, GPIOE_PO1);     //PO1
+  palSetPad(GPIOE, GPIOE_PO1);     //PO1
   palClearPad(GPIOE, GPIOE_PO2);     //PO2
   palClearPad(GPIOE, GPIOE_PO3);     //PO3
   palClearPad(GPIOE, GPIOE_PO4);     //PO4
   palClearPad(GPIOA, GPIOA_PO5);     //PO5
   palClearPad(GPIOA, GPIOA_PO6);     //PO6
 
-  palSetPad(GPIOD, GPIOD_LS_1);     //LS1
+  palClearPad(GPIOD, GPIOD_LS_1);     //LS1
   palSetPad(GPIOD, GPIOD_LS_2);     //LS2
   palSetPad(GPIOD, GPIOD_LS_3);     //LS3
   palSetPad(GPIOD, GPIOD_LS_4);     //LS4
+
 
   /*
    * 5V Enable
@@ -72,11 +73,6 @@ int main(void) {
    * Shell manager initialization.
    */
   consoleInit();
-
-  /*
-   * CAN bus initialization.
-   */
-  can_commInit();
 
   /*
    * Light control initialization.
@@ -91,6 +87,11 @@ int main(void) {
    * ADC init
    */
   init_measures();
+
+  /*
+   * CAN bus initialization.
+   */
+  can_commInit();
 
   /*
    * Creates the 20ms Task.

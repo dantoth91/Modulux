@@ -43,7 +43,7 @@ void one_vireInit(void){
 
 	DS18B20_Init();
 
-  sensor_num = DS18B20_ScanBus();
+    sensor_num = DS18B20_ScanBus();
 
   /*
    * Creates the dsp18b20 (OneWire bus) thread.
@@ -79,9 +79,12 @@ void cmd_one_virevalues(BaseSequentialStream *chp, int argc, char *argv[]){
   while (chnGetTimeout((BaseChannel *)chp, TIME_IMMEDIATE) == Q_TIMEOUT) {
       chprintf(chp, "\x1B[%d;%dH", 0, 0);
 
-      chprintf(chp, "dsp18b20 temp0: %15d\r\n", currentTemp[0]);
-      chprintf(chp, "dsp18b20 temp1: %15d\r\n", currentTemp[1]);
-      chprintf(chp, "dsp18b20 temp2: %15d\r\n", currentTemp[2]);
+      chprintf(chp, "SOLAR CELL MODULE TEMPERATURES\r\n");
+      chprintf(chp, "Temp0 - MODULE 1 :%10d\r\n", one_vireGetValue(0));
+      chprintf(chp, "Temp1 - MODULE 8 :%10d\r\n", one_vireGetValue(1));
+      chprintf(chp, "Temp2 - MODULE 6 :%10d\r\n", one_vireGetValue(2));
+      chprintf(chp, "Temp3 - MODULE 12:%10d\r\n", one_vireGetValue(3));
+      chprintf(chp, "Temp4 - MODULE 2: %10d\r\n", one_vireGetValue(4));
 
       chThdSleepMilliseconds(1000);
   }
